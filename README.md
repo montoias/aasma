@@ -3,7 +3,7 @@ Aasma
 
 A repository for a bunch of, mac, pretty people!
 
-Keep track of labs ::
+Keep track of labs
   
   LAB 
   
