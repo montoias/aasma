@@ -1,5 +1,7 @@
-var mineflayer = require('mineflayer');
+var mineflayer = require('../');
 var vec3 = mineflayer.vec3;
+var mathjs = require('mathjs'),
+    math = mathjs();
 
 var bot = mineflayer.createBot({
   username: "GrupolindoAASMA",
@@ -9,10 +11,7 @@ var bot = mineflayer.createBot({
 bot.on('move', function() {
 	bot.clearControlStates();
 	var moves = ['forward', 'back', 'right', 'left'];
-	var rand = math.random()%3;
-	bot.setControlState(moves[rand], true);
-	if (true) {};
-
+	bot.setControlState(moves[randomIntInc(0,3)], true);
 });
 
 
@@ -25,4 +24,6 @@ bot.on('entityHurt', function(entity) {
 	bot.attack(entity);
 }); 
 
-
+function randomIntInc (low, high) {
+    return Math.floor(Math.random() * (high - low + 1) + low);
+}
