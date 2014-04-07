@@ -1,6 +1,6 @@
-var mineflayer = require('../');
+var mineflayer = require('mineflayer');
 var vec3 = mineflayer.vec3;
-var 
+
 var bot = mineflayer.createBot({
   username: "GrupolindoAASMA",
   viewDistance: "normal",
