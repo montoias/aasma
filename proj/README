@@ -1,9 +1,8 @@
 Setup:
 
 Node:
-  1. start by running npm install
   Npm will install a bad version of minecraft to work with bukkit server so,
-    make npm 
+    1. make npm -> will install everything.
   
   Note: Makefile in root directory.
   
