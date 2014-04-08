@@ -1,0 +1,22 @@
+Setup:
+
+Node:
+  1. start by running npm install
+  Npm will install a bad version of minecraft to work with bukkit server so,
+    cd node_modules
+    delete mineflayer.
+    git clone https://github.com/andrewrk/mineflayer
+    cd mineflayer
+    git checkout a35a2d83d37890c402cd8a3ba4bb17803a2f6807
+    
+  This will put the mineflayer in the correct version.
+
+Server:
+  1. server can be started by running java -Xms1G -Xmx1G -jar craftbukkit-1.6.4-R2.0.jar -o false
+
+Client:
+  1. First unzip deps/Nodus.zip into Library/Application\ Support/minecraft/versions
+
+  2. Start client using java -jar Minecraft\ Craked.jar
+  2.1 In first login choose 'edit profile' and after in the versions choose nodus!
+
