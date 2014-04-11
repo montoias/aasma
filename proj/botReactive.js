@@ -3,7 +3,7 @@ var vec3 = mineflayer.vec3;
 var EventEmitter = require('events').EventEmitter
 
 var bot = mineflayer.createBot({
-  username: "master"
+  username: "ritj"
 });
 
 
@@ -39,7 +39,13 @@ function isYawValid (yaw, pos) {
 	var n = freeNeighbors(pos);
 	if(n.length > 0){
 		var direction = getVecFromYaw(yaw);
-		return isValidDirection (n, direction);		
+		if(!isValidDirection (n, direction)){
+			bot.setControlState('jump',true);
+			bot.clearControlStates();
+			bot.setControlState('forward',true);
+			return false;
+		}
+		return true;		
 	}
 	return false;
 }
@@ -73,9 +79,7 @@ function getVecFromYaw (yaw) {
 }
 
 function checkYaw (yaw) {
-	console.log(yaw)
 	yaw = yaw % (2 * Math.PI)
-	console.log(yaw)
 	if(yaw < 0)
 		yaw = (2 * Math.PI) - Math.abs(yaw)
 	return yaw;
@@ -100,8 +104,14 @@ function freeNeighbors (pos) {
 
 function isEmpty (pos) {
 	return bot.blockAt(pos) && bot.blockAt(pos).boundingBox === 'empty' 
-
 }	
+
+function isBlockingElement(pos) {
+	if (bot.blockAt(pos)){
+		return  bot.blockAt(pos).name === 'vine'
+	}
+
+}
 
 function boundingBox (pos) {
 	var block = bot.blockAt(pos)
