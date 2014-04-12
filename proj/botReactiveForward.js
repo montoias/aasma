@@ -4,7 +4,7 @@ var mvc = require('./movementController');
 var vec3 = mineflayer.vec3;
 
 var bot = mineflayer.createBot({
-  username: "ritji"
+  username: "tit"
 });
 
 mvc.setBot(bot);
@@ -18,7 +18,7 @@ bot.on('entityMoved', function () {
 	var neighbors = mvc.freeNeighbors(botposition, bot);
 
 	console.log(neighbors)
-	if(neighbors.length > 0){
+	if(neighbors.length > 0 && !mvc.isYawValid(bot.entity.yaw, botposition) ){
 		var random = mvc.randomIntInc(0,(neighbors.length - 1));
 		var elem = neighbors[random];
 
@@ -32,5 +32,4 @@ bot.on('entityMoved', function () {
 bot.on('health', function() {
   bot.chat("I have " + bot.health + " health and " + bot.food + " food");
 });
-
 

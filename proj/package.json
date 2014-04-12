@@ -6,6 +6,7 @@
   "author": "Kent Karlsson",
   "license": "BSD",
   "dependencies": {
+    "mineflayer": "~0.1.1",
     "mineflayer-navigate": "*",
     "mineflayer-voxel": "*"
   }
