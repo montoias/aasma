@@ -34,11 +34,8 @@ bot.on('entityMoved', function () {
 		 	if(bot.canDigBlock(b)){
 		 	 	bot.dig(b,onDiggingCompleted);
 		 	 	bot.chat("diging");
-		 	 	return;
 		 	}
-		 })
-
-
+		 });
 
 		 return;
 	}
