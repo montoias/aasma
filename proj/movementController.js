@@ -105,7 +105,6 @@ var randomIntInc = function (low, high) {
 var treeNeighbor  = function (pos){
 	var neighbors = [];
 	unit.forEach(function (vec) {
-		console.log(bot.entity.height + pos.y)
 		var v = new vec3(vec.x, bot.entity.height, vec.z);
 		if (!isEmpty(pos.plus(v)) && bot.blockAt(pos.plus(v)) && bot.blockAt(pos.plus(v)).material === 'wood')
 			neighbors.push(pos.plus(v));

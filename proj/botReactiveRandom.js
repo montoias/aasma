@@ -5,7 +5,7 @@ var vec3 = mineflayer.vec3;
 
 var steps = 0;
 var bot = mineflayer.createBot({
-  username: "ritji"
+  username: "ritjii"
 });
 
 mvc.setBot(bot);
@@ -27,9 +27,7 @@ bot.on('entityMoved', function () {
 		 digging = true;
 		 bot.setControlState('forward', false);
 
-		 console.log('so pa ver se entras aqui mais do que uma vez');
 		 var digBlocks = mvc.treePossiblePositions(tree[0]);
-		 console.log(digBlocks)	
 		 digBlocks.forEach (function  (b) {
 		 	if(bot.canDigBlock(b)){
 		 	 	bot.dig(b,onDiggingCompleted);
@@ -77,4 +75,10 @@ bot.on('diggingCompleted', function(block){
 
 bot.on('diggingAborted', function(block){
 	bot.chat("ABORTEUi!" + block);
+});
+
+bot.on('entityHurt', function (ent) {
+	if(ent.type === 'EntityPlayer'){
+		bot.attack(ent,false);
+	}
 });

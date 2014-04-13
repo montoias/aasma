@@ -1,0 +1,2012 @@
+2014-04-13 02:54:04 [INFO] Starting minecraft server version 1.6.4
+2014-04-13 02:54:04 [INFO] Loading properties
+2014-04-13 02:54:04 [WARNING] server.properties does not exist
+2014-04-13 02:54:04 [INFO] Generating new properties file
+2014-04-13 02:54:04 [INFO] Default game type: SURVIVAL
+2014-04-13 02:54:04 [INFO] Generating keypair
+2014-04-13 02:54:05 [INFO] Starting Minecraft server on *:25565
+2014-04-13 02:54:05 [INFO] This server is running CraftBukkit version git-Bukkit-1.6.2-R1.0-2-g317b76b-b2882jnks (MC: 1.6.4) (Implementing API version 1.6.4-R0.1-SNAPSHOT)
+2014-04-13 02:54:05 [WARNING] Failed to load operators list: java.io.FileNotFoundException: ./ops.txt (No such file or directory)
+2014-04-13 02:54:05 [WARNING] Failed to load white-list: java.io.FileNotFoundException: ./white-list.txt (No such file or directory)
+2014-04-13 02:54:05 [WARNING] **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+2014-04-13 02:54:05 [WARNING] The server will make no attempt to authenticate usernames. Beware.
+2014-04-13 02:54:05 [WARNING] While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+2014-04-13 02:54:05 [WARNING] To change this, set "online-mode" to "true" in the server.properties file.
+2014-04-13 02:54:05 [INFO] Preparing level "world"
+2014-04-13 02:54:05 [INFO] Preparing start region for level 0 (Seed: -6264712660610705308)
+2014-04-13 02:54:06 [INFO] Preparing spawn area: 7%
+2014-04-13 02:54:07 [WARNING] ----- Bukkit Auto Updater -----
+2014-04-13 02:54:07 [WARNING] Your version of CraftBukkit is out of date. Version 1.6.4-R2.0 (build #2918) was released on Wed Oct 30 23:39:40 WET 2013.
+2014-04-13 02:54:07 [WARNING] Details: /downloads/craftbukkit/view/02389_1.6.4-R2.0/
+2014-04-13 02:54:07 [WARNING] Download: /downloads/craftbukkit/get/02389_1.6.4-R2.0/craftbukkit.jar
+2014-04-13 02:54:07 [WARNING] ----- ------------------- -----
+2014-04-13 02:54:07 [INFO] Preparing spawn area: 20%
+2014-04-13 02:54:08 [INFO] Preparing spawn area: 33%
+2014-04-13 02:54:09 [INFO] Preparing spawn area: 51%
+2014-04-13 02:54:10 [INFO] Preparing spawn area: 69%
+2014-04-13 02:54:11 [INFO] Preparing spawn area: 88%
+2014-04-13 02:54:12 [INFO] Preparing start region for level 1 (Seed: -6264712660610705308)
+2014-04-13 02:54:13 [INFO] Preparing spawn area: 21%
+2014-04-13 02:54:14 [INFO] Preparing spawn area: 42%
+2014-04-13 02:54:15 [INFO] Preparing spawn area: 53%
+2014-04-13 02:54:16 [INFO] Preparing spawn area: 71%
+2014-04-13 02:54:17 [INFO] Preparing spawn area: 86%
+2014-04-13 02:54:18 [INFO] Preparing spawn area: 93%
+2014-04-13 02:54:19 [INFO] Preparing start region for level 2 (Seed: -6264712660610705308)
+2014-04-13 02:54:20 [INFO] Preparing spawn area: 56%
+2014-04-13 02:54:21 [INFO] Done (16.190s)! For help, type "help" or "?"
+2014-04-13 02:55:02 [INFO] /127.0.0.1:64137 lost connection
+2014-04-13 02:55:05 [INFO] montoias[/127.0.0.1:64138] logged in with entity id 7639 at ([world] 46.5, 64.0, 90.5)
+2014-04-13 02:55:26 [INFO] digger[/127.0.0.1:64142] logged in with entity id 8501 at ([world] 42.5, 65.0, 87.5)
+2014-04-13 02:55:26 [INFO] <digger> game mode is survival[m
+2014-04-13 02:55:26 [INFO] <digger> game mode is survival[m
+2014-04-13 02:55:32 [INFO] <montoias> dig[m
+2014-04-13 02:55:32 [INFO] <digger> starting to dig grass[m
+2014-04-13 02:55:33 [INFO] <digger> finished digging grass[m
+2014-04-13 02:55:56 [INFO] digger lost connection: disconnect.endOfStream
+2014-04-13 02:55:57 [INFO] ¤edigger left the game.
+2014-04-13 02:56:16 [INFO] ritji[/127.0.0.1:64150] logged in with entity id 9199 at ([world] 43.5, 65.0, 93.5)
+2014-04-13 02:56:16 [INFO] <ritji> I have 20 health and 20 food[m
+2014-04-13 02:57:26 [INFO] [0;33;1m--------- [0;37;1mHelp: Index [0;33;1m---------------------------[m
+2014-04-13 02:57:26 [INFO] [0;37;22mUse /help [n] to get page n of help.[m
+2014-04-13 02:57:26 [INFO] [0;33;22mAliases: [0;37;1mLists command aliases[m
+2014-04-13 02:57:26 [INFO] [0;33;22mBukkit: [0;37;1mAll commands for Bukkit[m
+2014-04-13 02:57:26 [INFO] [0;33;22m/ban: [0;37;1mPrevents the specified player from using this server[m
+2014-04-13 02:57:26 [INFO] [0;33;22m/ban-ip: [0;37;1mPrevents the specified IP address from using this server[m
+2014-04-13 02:57:26 [INFO] [0;33;22m/banlist: [0;37;1mView all players banned from this server[m
+2014-04-13 02:57:26 [INFO] [0;33;22m/clear: [0;37;1mClears the player's inventory. Can specify item and data filters too.[m
+2014-04-13 02:57:26 [INFO] [0;33;22m/defaultgamemode: [0;37;1mSet the default gamemode[m
+2014-04-13 02:57:26 [INFO] [0;33;22m/deop: [0;37;1mTakes the specified player's operator status[m
+2014-04-13 02:57:26 [INFO] [0;33;22m/difficulty: [0;37;1mSets the game difficulty[m
+2014-04-13 02:57:26 [INFO] [0;33;22m/effect: [0;37;1mAdds/Removes effects on players[m
+2014-04-13 02:57:26 [INFO] [0;33;22m/enchant: [0;37;1mAdds enchantments to the item the player is currently holding. Specify 0 for the level to remove an enchantment. Specify force to ignore normal enchantment restrictions[m
+2014-04-13 02:57:26 [INFO] [0;33;22m/gamemode: [0;37;1mChanges the player to a specific game mode[m
+2014-04-13 02:57:26 [INFO] [0;33;22m/gamerule: [0;37;1mSets a server's game rules[m
+2014-04-13 02:57:26 [INFO] [0;33;22m/give: [0;37;1mGives the specified player a certain amount of items[m
+2014-04-13 02:57:26 [INFO] [0;33;22m/help: [0;37;1mShows the help menu[m
+2014-04-13 02:57:26 [INFO] [0;33;22m/kick: [0;37;1mRemoves the specified player from the server[m
+2014-04-13 02:57:26 [INFO] [0;33;22m/kill: [0;37;1mCommits suicide, only usable as a player[m
+2014-04-13 02:57:26 [INFO] [0;33;22m/list: [0;37;1mLists all online players[m
+2014-04-13 02:57:26 [INFO] [0;33;22m/me: [0;37;1mPerforms the specified action in chat[m
+2014-04-13 02:57:26 [INFO] [0;33;22m/op: [0;37;1mGives the specified player operator status[m
+2014-04-13 02:57:26 [INFO] [0;33;22m/pardon: [0;37;1mAllows the specified player to use this server[m
+2014-04-13 02:57:26 [INFO] [0;33;22m/pardon-ip: [0;37;1mAllows the specified IP address to use this server[m
+2014-04-13 02:57:26 [INFO] [0;33;22m/playsound: [0;37;1mPlays a sound to a given player[m
+2014-04-13 02:57:26 [INFO] [0;33;22m/plugins: [0;37;1mGets a list of plugins running on the server[m
+2014-04-13 02:57:26 [INFO] [0;33;22m/reload: [0;37;1mReloads the server configuration and plugins[m
+2014-04-13 02:57:26 [INFO] [0;33;22m/save-all: [0;37;1mSaves the server to disk[m
+2014-04-13 02:57:26 [INFO] [0;33;22m/save-off: [0;37;1mDisables server autosaving[m
+2014-04-13 02:57:26 [INFO] [0;33;22m/save-on: [0;37;1mEnables server autosaving[m
+2014-04-13 02:57:26 [INFO] [0;33;22m/say: [0;37;1mBroadcasts the given message as the console[m
+2014-04-13 02:57:26 [INFO] [0;33;22m/scoreboard: [0;37;1mScoreboard control[m
+2014-04-13 02:57:26 [INFO] [0;33;22m/seed: [0;37;1mShows the world seed[m
+2014-04-13 02:57:26 [INFO] [0;33;22m/spawnpoint: [0;37;1mSets a player's spawn point[m
+2014-04-13 02:57:26 [INFO] [0;33;22m/spreadplayers: [0;37;1mSpreads players around a point[m
+2014-04-13 02:57:26 [INFO] [0;33;22m/stop: [0;37;1mStops the server with optional reason[m
+2014-04-13 02:57:26 [INFO] [0;33;22m/tell: [0;37;1mSends a private message to the given player[m
+2014-04-13 02:57:26 [INFO] [0;33;22m/testfor: [0;37;1mTests whether a specifed player is online[m
+2014-04-13 02:57:26 [INFO] [0;33;22m/time: [0;37;1mChanges the time on each world[m
+2014-04-13 02:57:26 [INFO] [0;33;22m/timings: [0;37;1mRecords timings for all plugin events[m
+2014-04-13 02:57:26 [INFO] [0;33;22m/toggledownfall: [0;37;1mToggles rain on/off on a given world[m
+2014-04-13 02:57:26 [INFO] [0;33;22m/tp: [0;37;1mTeleports the given player (or yourself) to another player or coordinates[m
+2014-04-13 02:57:26 [INFO] [0;33;22m/version: [0;37;1mGets the version of this server including any plugins in use[m
+2014-04-13 02:57:26 [INFO] [0;33;22m/weather: [0;37;1mChanges the weather[m
+2014-04-13 02:57:26 [INFO] [0;33;22m/whitelist: [0;37;1mManages the list of players allowed to use this server[m
+2014-04-13 02:57:26 [INFO] [0;33;22m/xp: [0;37;1mGives the specified player a certain amount of experience. Specify <amount>L to give levels instead, with a negative amount resulting in taking levels.[m
+2014-04-13 02:57:41 [INFO] [0;31;1mUsage: /spreadplayers <x> <z> <spreadDistance> <maxRange> <respectTeams true|false> <player ...>[m
+2014-04-13 02:58:03 [INFO] [0;31;1mMax range is too small.[m
+2014-04-13 02:58:08 [INFO] [0;31;1mMax range is too small.[m
+2014-04-13 02:58:11 [INFO] [0;31;1mMax range is too small.[m
+2014-04-13 02:58:16 [INFO] [0;31;1mMax range is too small.[m
+2014-04-13 02:58:20 [INFO] [0;31;1mMax range is too small.[m
+2014-04-13 02:58:23 [INFO] [0;31;1mMax range is too small.[m
+2014-04-13 02:58:27 [INFO] [0;31;1mMax range is too small.[m
+2014-04-13 02:58:35 [INFO] [0;31;1mMax range is too small.[m
+2014-04-13 02:58:44 [INFO] Please provide a player![m
+2014-04-13 02:58:48 [INFO] CONSOLE: Set ritji's spawnpoint to 44.63980653276617, 64.001, 105.13090819257197[m
+2014-04-13 02:59:06 [INFO] CONSOLE: Set ritji's spawnpoint to -27, 65, 115[m
+2014-04-13 02:59:47 [INFO] <ritji> I have 19 health and 20 food[m
+2014-04-13 02:59:48 [INFO] <ritji> I have 18 health and 20 food[m
+2014-04-13 02:59:50 [INFO] <ritji> I have 17 health and 20 food[m
+2014-04-13 02:59:51 [INFO] <ritji> I have 16 health and 20 food[m
+2014-04-13 02:59:51 [INFO] <ritji> I have 17 health and 20 food[m
+2014-04-13 02:59:52 [INFO] <ritji> I have 16 health and 20 food[m
+2014-04-13 02:59:52 [INFO] <ritji> I have 15 health and 20 food[m
+2014-04-13 02:59:53 [INFO] <ritji> I have 14 health and 20 food[m
+2014-04-13 02:59:53 [INFO] <ritji> I have 13 health and 20 food[m
+2014-04-13 02:59:54 [INFO] <ritji> I have 12 health and 20 food[m
+2014-04-13 02:59:55 [INFO] <ritji> I have 13 health and 20 food[m
+2014-04-13 02:59:56 [INFO] <ritji> I have 12 health and 20 food[m
+2014-04-13 02:59:57 [INFO] <ritji> I have 11 health and 20 food[m
+2014-04-13 02:59:57 [INFO] <ritji> I have 10 health and 20 food[m
+2014-04-13 02:59:58 [INFO] <ritji> I have 9 health and 20 food[m
+2014-04-13 02:59:59 [INFO] <ritji> I have 8 health and 20 food[m
+2014-04-13 02:59:59 [INFO] <ritji> I have 9 health and 20 food[m
+2014-04-13 03:00:00 [INFO] <ritji> I have 8 health and 20 food[m
+2014-04-13 03:00:00 [INFO] <ritji> I have 7 health and 20 food[m
+2014-04-13 03:00:01 [INFO] <ritji> I have 6 health and 20 food[m
+2014-04-13 03:00:02 [INFO] <ritji> I have 5 health and 20 food[m
+2014-04-13 03:00:02 [INFO] <ritji> I have 4 health and 20 food[m
+2014-04-13 03:00:03 [INFO] <ritji> I have 3 health and 20 food[m
+2014-04-13 03:00:03 [INFO] <ritji> I have 4 health and 20 food[m
+2014-04-13 03:00:04 [INFO] <ritji> I have 3 health and 20 food[m
+2014-04-13 03:00:05 [INFO] <ritji> I have 2 health and 20 food[m
+2014-04-13 03:00:06 [INFO] <ritji> I have 1 health and 20 food[m
+2014-04-13 03:00:07 [INFO] ritji was slain by montoias
+2014-04-13 03:00:07 [INFO] <ritji> I have 0 health and 20 food[m
+2014-04-13 03:00:07 [INFO] <ritji> I have 20 health and 20 food[m
+2014-04-13 03:00:07 [INFO] <ritji> I have 20 health and 20 food[m
+2014-04-13 03:00:07 [INFO] ¤eritji left the game.
+2014-04-13 03:00:09 [INFO] Connection reset
+2014-04-13 03:00:15 [INFO] ritji[/127.0.0.1:64175] logged in with entity id 13118 at ([world] -26.5, 65.0, 115.5)
+2014-04-13 03:00:15 [INFO] <ritji> I have 20 health and 20 food[m
+2014-04-13 03:02:20 [INFO] ritji lost connection: disconnect.endOfStream
+2014-04-13 03:02:20 [INFO] ¤eritji left the game.
+2014-04-13 03:02:51 [INFO] ritji[/127.0.0.1:64188] logged in with entity id 15127 at ([world] -28.159947512703923, 64.001, 111.05970782209567)
+2014-04-13 03:02:51 [INFO] <ritji> I have 20 health and 20 food[m
+2014-04-13 03:03:15 [INFO] ritji lost connection: disconnect.endOfStream
+2014-04-13 03:03:15 [INFO] ¤eritji left the game.
+2014-04-13 03:03:30 [INFO] ritji[/127.0.0.1:64195] logged in with entity id 15724 at ([world] -28.208457512703923, 64.001, 111.05970782209567)
+2014-04-13 03:03:31 [INFO] <ritji> I have 20 health and 20 food[m
+2014-04-13 03:03:35 [INFO] <ritji> diging[m
+2014-04-13 03:03:35 [INFO] <ritji> ABORTEUi![object Object][m
+2014-04-13 03:03:35 [INFO] <ritji> diging[m
+2014-04-13 03:03:35 [INFO] <ritji> ABORTEUi![object Object][m
+2014-04-13 03:03:35 [INFO] <ritji> diging[m
+2014-04-13 03:03:38 [INFO] <ritji> chegamos ao complete[m
+2014-04-13 03:03:38 [INFO] <ritji> finished digging[m
+2014-04-13 03:03:38 [INFO] <ritji> diging[m
+2014-04-13 03:03:38 [INFO] <ritji> ABORTEUi![object Object][m
+2014-04-13 03:03:38 [INFO] <ritji> diging[m
+2014-04-13 03:03:39 [INFO] <ritji> chegamos ao complete[m
+2014-04-13 03:03:39 [INFO] <ritji> finished digging[m
+2014-04-13 03:03:39 [INFO] <ritji> diging[m
+2014-04-13 03:03:42 [INFO] <ritji> chegamos ao complete[m
+2014-04-13 03:03:42 [INFO] <ritji> finished digging[m
+2014-04-13 03:04:25 [INFO] CONSOLE: Set ritji's spawnpoint to -27, 65, 115[m
+2014-04-13 03:04:33 [INFO] CONSOLE: Set time to 1000[m
+2014-04-13 03:06:00 [INFO] <ritji> diging[m
+2014-04-13 03:06:01 [INFO] <ritji> ABORTEUi![object Object][m
+2014-04-13 03:06:01 [INFO] <ritji> diging[m
+2014-04-13 03:06:03 [INFO] <ritji> chegamos ao complete[m
+2014-04-13 03:06:04 [INFO] <ritji> finished digging[m
+2014-04-13 03:06:04 [INFO] <ritji> diging[m
+2014-04-13 03:06:07 [INFO] <ritji> chegamos ao complete[m
+2014-04-13 03:06:07 [INFO] <ritji> finished digging[m
+2014-04-13 03:06:15 [INFO] <ritji> I have 19 health and 20 food[m
+2014-04-13 03:06:19 [INFO] <ritji> I have 20 health and 20 food[m
+2014-04-13 03:06:48 [INFO] ritji lost connection: disconnect.endOfStream
+2014-04-13 03:06:49 [INFO] ¤eritji left the game.
+2014-04-13 03:12:07 [INFO] CONSOLE: Set time to 1000[m
+2014-04-13 03:12:10 [INFO] CONSOLE: Stopping the server..[m
+2014-04-13 03:12:10 [INFO] Stopping server
+2014-04-13 03:12:10 [INFO] Saving players
+2014-04-13 03:12:10 [WARNING] DSCT: Socket closed
+2014-04-13 03:12:10 [INFO] Closing listening thread
+2014-04-13 03:12:10 [INFO] ¤emontoias left the game.
+2014-04-13 03:12:10 [INFO] Saving worlds
+2014-04-13 03:12:10 [INFO] Saving chunks for level 'world'/Overworld
+2014-04-13 03:12:12 [INFO] Saving chunks for level 'world_nether'/Nether
+2014-04-13 03:12:12 [INFO] Saving chunks for level 'world_the_end'/The End
+2014-04-13 03:22:22 [INFO] Starting minecraft server version 1.6.4
+2014-04-13 03:22:22 [INFO] Loading properties
+2014-04-13 03:22:22 [INFO] Default game type: SURVIVAL
+2014-04-13 03:22:22 [INFO] Generating keypair
+2014-04-13 03:22:22 [INFO] Starting Minecraft server on *:25565
+2014-04-13 03:22:22 [INFO] This server is running CraftBukkit version git-Bukkit-1.6.2-R1.0-2-g317b76b-b2882jnks (MC: 1.6.4) (Implementing API version 1.6.4-R0.1-SNAPSHOT)
+2014-04-13 03:22:22 [INFO] [Spectate] Loading Spectate v2.0
+2014-04-13 03:22:22 [WARNING] **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+2014-04-13 03:22:22 [WARNING] The server will make no attempt to authenticate usernames. Beware.
+2014-04-13 03:22:22 [WARNING] While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+2014-04-13 03:22:22 [WARNING] To change this, set "online-mode" to "true" in the server.properties file.
+2014-04-13 03:22:22 [INFO] Preparing level "world"
+2014-04-13 03:22:22 [INFO] Preparing start region for level 0 (Seed: 4539697792417860999)
+2014-04-13 03:22:23 [WARNING] ----- Bukkit Auto Updater -----
+2014-04-13 03:22:23 [WARNING] Your version of CraftBukkit is out of date. Version 1.6.4-R2.0 (build #2918) was released on Wed Oct 30 23:39:40 WET 2013.
+2014-04-13 03:22:23 [WARNING] Details: /downloads/craftbukkit/view/02389_1.6.4-R2.0/
+2014-04-13 03:22:23 [WARNING] Download: /downloads/craftbukkit/get/02389_1.6.4-R2.0/craftbukkit.jar
+2014-04-13 03:22:23 [WARNING] ----- ------------------- -----
+2014-04-13 03:22:23 [INFO] Preparing spawn area: 78%
+2014-04-13 03:22:24 [INFO] Preparing start region for level 1 (Seed: -6264712660610705308)
+2014-04-13 03:22:24 [INFO] Preparing start region for level 2 (Seed: -6264712660610705308)
+2014-04-13 03:22:24 [INFO] [Spectate] Enabling Spectate v2.0
+2014-04-13 03:22:24 [INFO] Server permissions file permissions.yml is empty, ignoring it
+2014-04-13 03:22:24 [INFO] Done (2.055s)! For help, type "help" or "?"
+2014-04-13 03:22:46 [INFO] montoias[/127.0.0.1:64501] logged in with entity id 56 at ([world] 1040.300985597761, 4.0, -71.96865394550505)
+2014-04-13 03:23:43 [INFO] ritji[/127.0.0.1:64512] logged in with entity id 11480 at ([world] 1032.5, 4.0, -76.5)
+2014-04-13 03:23:44 [INFO] <ritji> I have 20 health and 20 food[m
+2014-04-13 03:24:31 [INFO] <ritji> diging[m
+2014-04-13 03:24:31 [INFO] <ritji> ABORTEUi![object Object][m
+2014-04-13 03:24:31 [INFO] <ritji> diging[m
+2014-04-13 03:24:34 [INFO] <ritji> chegamos ao complete[m
+2014-04-13 03:24:34 [INFO] <ritji> finished digging[m
+2014-04-13 03:24:34 [INFO] <ritji> diging[m
+2014-04-13 03:24:37 [INFO] <ritji> chegamos ao complete[m
+2014-04-13 03:24:37 [INFO] <ritji> finished digging[m
+2014-04-13 03:24:40 [INFO] <ritji> diging[m
+2014-04-13 03:24:40 [INFO] <ritji> ABORTEUi![object Object][m
+2014-04-13 03:24:40 [INFO] <ritji> diging[m
+2014-04-13 03:24:43 [INFO] <ritji> chegamos ao complete[m
+2014-04-13 03:24:43 [INFO] <ritji> finished digging[m
+2014-04-13 03:24:43 [INFO] <ritji> diging[m
+2014-04-13 03:24:46 [INFO] <ritji> chegamos ao complete[m
+2014-04-13 03:24:46 [INFO] <ritji> finished digging[m
+2014-04-13 03:24:54 [INFO] <ritji> diging[m
+2014-04-13 03:24:54 [INFO] <ritji> ABORTEUi![object Object][m
+2014-04-13 03:24:54 [INFO] <ritji> diging[m
+2014-04-13 03:24:57 [INFO] <ritji> chegamos ao complete[m
+2014-04-13 03:24:57 [INFO] <ritji> finished digging[m
+2014-04-13 03:24:57 [INFO] <ritji> diging[m
+2014-04-13 03:25:00 [INFO] <ritji> chegamos ao complete[m
+2014-04-13 03:25:00 [INFO] <ritji> finished digging[m
+2014-04-13 03:25:01 [INFO] <ritji> diging[m
+2014-04-13 03:25:01 [INFO] <ritji> ABORTEUi![object Object][m
+2014-04-13 03:25:01 [INFO] <ritji> diging[m
+2014-04-13 03:25:04 [INFO] <ritji> chegamos ao complete[m
+2014-04-13 03:25:04 [INFO] <ritji> finished digging[m
+2014-04-13 03:25:04 [INFO] <ritji> diging[m
+2014-04-13 03:25:07 [INFO] <ritji> chegamos ao complete[m
+2014-04-13 03:25:07 [INFO] <ritji> finished digging[m
+2014-04-13 03:25:23 [INFO] <ritji> I have 18 health and 20 food[m
+2014-04-13 03:25:24 [INFO] <ritji> I have 16 health and 20 food[m
+2014-04-13 03:25:26 [INFO] <ritji> I have 14 health and 20 food[m
+2014-04-13 03:25:27 [INFO] <ritji> I have 15 health and 20 food[m
+2014-04-13 03:25:29 [INFO] <ritji> I have 13 health and 20 food[m
+2014-04-13 03:25:30 [INFO] <ritji> I have 11 health and 20 food[m
+2014-04-13 03:25:31 [INFO] <ritji> I have 12 health and 20 food[m
+2014-04-13 03:25:31 [INFO] <ritji> I have 10 health and 20 food[m
+2014-04-13 03:25:35 [INFO] <ritji> I have 11 health and 20 food[m
+2014-04-13 03:25:39 [INFO] <ritji> I have 12 health and 20 food[m
+2014-04-13 03:25:40 [INFO] <ritji> I have 10 health and 20 food[m
+2014-04-13 03:25:41 [INFO] <ritji> I have 8 health and 20 food[m
+2014-04-13 03:25:41 [INFO] <ritji> I have 6 health and 20 food[m
+2014-04-13 03:25:43 [INFO] <ritji> I have 4 health and 20 food[m
+2014-04-13 03:25:44 [INFO] <ritji> I have 5 health and 20 food[m
+2014-04-13 03:25:48 [INFO] <ritji> I have 6 health and 20 food[m
+2014-04-13 03:25:52 [INFO] <ritji> I have 7 health and 20 food[m
+2014-04-13 03:25:53 [INFO] <ritji> I have 5 health and 20 food[m
+2014-04-13 03:25:56 [INFO] <ritji> I have 6 health and 20 food[m
+2014-04-13 03:26:01 [INFO] <ritji> I have 7 health and 20 food[m
+2014-04-13 03:26:01 [INFO] <ritji> I have 5 health and 20 food[m
+2014-04-13 03:26:02 [INFO] <ritji> I have 3 health and 20 food[m
+2014-04-13 03:26:05 [INFO] <ritji> I have 4 health and 20 food[m
+2014-04-13 03:26:05 [INFO] <ritji> I have 2 health and 20 food[m
+2014-04-13 03:26:08 [INFO] ritji was slain by Slime
+2014-04-13 03:26:08 [INFO] <ritji> I have 0 health and 20 food[m
+2014-04-13 03:26:08 [INFO] <ritji> I have 20 health and 20 food[m
+2014-04-13 03:26:08 [INFO] <ritji> I have 20 health and 20 food[m
+2014-04-13 03:26:17 [INFO] <ritji> I have 18 health and 20 food[m
+2014-04-13 03:26:20 [INFO] <ritji> I have 16 health and 20 food[m
+2014-04-13 03:26:22 [INFO] <ritji> I have 17 health and 20 food[m
+2014-04-13 03:26:23 [INFO] <ritji> I have 15 health and 20 food[m
+2014-04-13 03:26:23 [INFO] <ritji> I have 13 health and 20 food[m
+2014-04-13 03:26:26 [INFO] <ritji> I have 14 health and 20 food[m
+2014-04-13 03:26:30 [INFO] <ritji> I have 15 health and 20 food[m
+2014-04-13 03:26:31 [INFO] <ritji> I have 13 health and 20 food[m
+2014-04-13 03:26:33 [INFO] <ritji> I have 11 health and 20 food[m
+2014-04-13 03:26:34 [INFO] <ritji> I have 9 health and 20 food[m
+2014-04-13 03:26:35 [INFO] <ritji> I have 10 health and 20 food[m
+2014-04-13 03:26:37 [INFO] <ritji> I have 8 health and 20 food[m
+2014-04-13 03:26:39 [INFO] <ritji> I have 9 health and 20 food[m
+2014-04-13 03:26:39 [INFO] <ritji> I have 7 health and 20 food[m
+2014-04-13 03:26:40 [INFO] <ritji> I have 5 health and 20 food[m
+2014-04-13 03:26:42 [INFO] <ritji> I have 3 health and 20 food[m
+2014-04-13 03:26:43 [INFO] <ritji> I have 1 health and 20 food[m
+2014-04-13 03:26:43 [INFO] <ritji> I have 2 health and 20 food[m
+2014-04-13 03:26:45 [INFO] ritji was slain by Slime
+2014-04-13 03:26:45 [INFO] <ritji> I have 0 health and 20 food[m
+2014-04-13 03:26:45 [INFO] <ritji> I have 20 health and 20 food[m
+2014-04-13 03:26:45 [INFO] <ritji> I have 20 health and 20 food[m
+2014-04-13 03:26:54 [INFO] <ritji> I have 19 health and 20 food[m
+2014-04-13 03:26:58 [INFO] <ritji> I have 20 health and 20 food[m
+2014-04-13 03:27:03 [INFO] <ritji> I have 19 health and 20 food[m
+2014-04-13 03:27:05 [INFO] <ritji> I have 18 health and 20 food[m
+2014-04-13 03:27:07 [INFO] <ritji> I have 19 health and 20 food[m
+2014-04-13 03:27:11 [INFO] <ritji> I have 20 health and 20 food[m
+2014-04-13 03:27:18 [INFO] <ritji> I have 19 health and 20 food[m
+2014-04-13 03:27:23 [INFO] <ritji> I have 20 health and 20 food[m
+2014-04-13 03:27:25 [INFO] <ritji> I have 19 health and 20 food[m
+2014-04-13 03:27:26 [INFO] <ritji> I have 18 health and 20 food[m
+2014-04-13 03:27:26 [INFO] <ritji> I have 17 health and 20 food[m
+2014-04-13 03:27:28 [INFO] <ritji> I have 16 health and 20 food[m
+2014-04-13 03:27:29 [INFO] <ritji> I have 17 health and 20 food[m
+2014-04-13 03:27:29 [INFO] <ritji> I have 16 health and 20 food[m
+2014-04-13 03:27:30 [INFO] <ritji> I have 13 health and 20 food[m
+2014-04-13 03:27:30 [INFO] <ritji> I have 10 health and 20 food[m
+2014-04-13 03:27:31 [INFO] <ritji> I have 9 health and 20 food[m
+2014-04-13 03:27:32 [INFO] <ritji> I have 8 health and 20 food[m
+2014-04-13 03:27:32 [INFO] <ritji> I have 7 health and 20 food[m
+2014-04-13 03:27:33 [INFO] <ritji> I have 6 health and 20 food[m
+2014-04-13 03:27:33 [INFO] <ritji> I have 4 health and 20 food[m
+2014-04-13 03:27:33 [INFO] <ritji> I have 5 health and 20 food[m
+2014-04-13 03:27:34 [INFO] <ritji> I have 4 health and 20 food[m
+2014-04-13 03:27:35 [INFO] <ritji> I have 3 health and 20 food[m
+2014-04-13 03:27:35 [INFO] <ritji> I have 2 health and 20 food[m
+2014-04-13 03:27:36 [INFO] <ritji> I have 1 health and 20 food[m
+2014-04-13 03:27:37 [INFO] ritji was slain by montoias
+2014-04-13 03:27:37 [INFO] <ritji> I have 0 health and 20 food[m
+2014-04-13 03:27:37 [INFO] <ritji> I have 20 health and 20 food[m
+2014-04-13 03:27:37 [INFO] <ritji> I have 20 health and 20 food[m
+2014-04-13 03:27:38 [INFO] <ritji> I have 18 health and 20 food[m
+2014-04-13 03:27:40 [INFO] <ritji> I have 16 health and 20 food[m
+2014-04-13 03:27:42 [INFO] <ritji> I have 17 health and 20 food[m
+2014-04-13 03:27:47 [INFO] <ritji> I have 18 health and 20 food[m
+2014-04-13 03:27:47 [INFO] <ritji> I have 17 health and 20 food[m
+2014-04-13 03:27:47 [INFO] <ritji> I have 16 health and 20 food[m
+2014-04-13 03:27:48 [INFO] <ritji> I have 15 health and 20 food[m
+2014-04-13 03:27:49 [INFO] <ritji> I have 14 health and 20 food[m
+2014-04-13 03:27:49 [INFO] <ritji> I have 13 health and 20 food[m
+2014-04-13 03:27:50 [INFO] <ritji> I have 12 health and 20 food[m
+2014-04-13 03:27:51 [INFO] <ritji> I have 13 health and 20 food[m
+2014-04-13 03:27:51 [INFO] <ritji> I have 12 health and 20 food[m
+2014-04-13 03:27:52 [INFO] <ritji> I have 11 health and 20 food[m
+2014-04-13 03:27:53 [INFO] <ritji> I have 10 health and 20 food[m
+2014-04-13 03:27:54 [INFO] <ritji> I have 9 health and 20 food[m
+2014-04-13 03:27:55 [INFO] <ritji> I have 10 health and 20 food[m
+2014-04-13 03:27:59 [INFO] <ritji> I have 11 health and 20 food[m
+2014-04-13 03:28:03 [INFO] <ritji> I have 12 health and 20 food[m
+2014-04-13 03:28:08 [INFO] <ritji> I have 13 health and 20 food[m
+2014-04-13 03:28:09 [INFO] <ritji> I have 12 health and 20 food[m
+2014-04-13 03:28:09 [INFO] <ritji> I have 11 health and 20 food[m
+2014-04-13 03:28:10 [INFO] <ritji> I have 10 health and 20 food[m
+2014-04-13 03:28:11 [INFO] <ritji> I have 9 health and 20 food[m
+2014-04-13 03:28:11 [INFO] <ritji> I have 8 health and 20 food[m
+2014-04-13 03:28:12 [INFO] <ritji> I have 7 health and 20 food[m
+2014-04-13 03:28:13 [INFO] <ritji> I have 6 health and 20 food[m
+2014-04-13 03:28:13 [INFO] <ritji> I have 5 health and 20 food[m
+2014-04-13 03:28:14 [INFO] <ritji> I have 4 health and 20 food[m
+2014-04-13 03:28:14 [INFO] <ritji> I have 3 health and 20 food[m
+2014-04-13 03:28:15 [INFO] <ritji> I have 2 health and 20 food[m
+2014-04-13 03:28:15 [INFO] <ritji> I have 1 health and 20 food[m
+2014-04-13 03:28:16 [INFO] <ritji> I have 2 health and 20 food[m
+2014-04-13 03:28:16 [INFO] <ritji> I have 1 health and 20 food[m
+2014-04-13 03:28:17 [INFO] ritji was slain by montoias
+2014-04-13 03:28:17 [INFO] <ritji> I have 0 health and 20 food[m
+2014-04-13 03:28:17 [INFO] <ritji> I have 20 health and 20 food[m
+2014-04-13 03:28:23 [INFO] <ritji> diging[m
+2014-04-13 03:28:23 [INFO] <ritji> ABORTEUi![object Object][m
+2014-04-13 03:28:23 [INFO] <ritji> diging[m
+2014-04-13 03:28:26 [INFO] <ritji> chegamos ao complete[m
+2014-04-13 03:28:26 [INFO] <ritji> finished digging[m
+2014-04-13 03:28:26 [INFO] <ritji> diging[m
+2014-04-13 03:28:29 [INFO] <ritji> chegamos ao complete[m
+2014-04-13 03:28:29 [INFO] <ritji> finished digging[m
+2014-04-13 03:28:29 [INFO] <ritji> diging[m
+2014-04-13 03:28:29 [INFO] <ritji> ABORTEUi![object Object][m
+2014-04-13 03:28:29 [INFO] <ritji> diging[m
+2014-04-13 03:28:32 [INFO] <ritji> chegamos ao complete[m
+2014-04-13 03:28:32 [INFO] <ritji> finished digging[m
+2014-04-13 03:28:32 [INFO] <ritji> diging[m
+2014-04-13 03:28:35 [INFO] <ritji> chegamos ao complete[m
+2014-04-13 03:28:35 [INFO] <ritji> finished digging[m
+2014-04-13 03:28:36 [INFO] <ritji> diging[m
+2014-04-13 03:28:36 [INFO] <ritji> ABORTEUi![object Object][m
+2014-04-13 03:28:36 [INFO] <ritji> diging[m
+2014-04-13 03:28:39 [INFO] <ritji> chegamos ao complete[m
+2014-04-13 03:28:39 [INFO] <ritji> finished digging[m
+2014-04-13 03:28:39 [INFO] <ritji> diging[m
+2014-04-13 03:28:42 [INFO] <ritji> chegamos ao complete[m
+2014-04-13 03:28:42 [INFO] <ritji> finished digging[m
+2014-04-13 03:29:37 [INFO] <ritji> diging[m
+2014-04-13 03:29:37 [INFO] <ritji> ABORTEUi![object Object][m
+2014-04-13 03:29:37 [INFO] <ritji> diging[m
+2014-04-13 03:29:40 [INFO] <ritji> chegamos ao complete[m
+2014-04-13 03:29:40 [INFO] <ritji> finished digging[m
+2014-04-13 03:29:40 [INFO] <ritji> diging[m
+2014-04-13 03:29:40 [INFO] <ritji> ABORTEUi![object Object][m
+2014-04-13 03:29:40 [INFO] <ritji> diging[m
+2014-04-13 03:29:43 [INFO] <ritji> chegamos ao complete[m
+2014-04-13 03:29:43 [INFO] <ritji> finished digging[m
+2014-04-13 03:29:43 [INFO] <ritji> diging[m
+2014-04-13 03:29:46 [INFO] <ritji> chegamos ao complete[m
+2014-04-13 03:29:46 [INFO] <ritji> finished digging[m
+2014-04-13 03:29:46 [INFO] <ritji> diging[m
+2014-04-13 03:29:46 [INFO] <ritji> ABORTEUi![object Object][m
+2014-04-13 03:29:46 [INFO] <ritji> diging[m
+2014-04-13 03:29:46 [INFO] <ritji> ABORTEUi![object Object][m
+2014-04-13 03:29:46 [INFO] <ritji> diging[m
+2014-04-13 03:29:49 [INFO] <ritji> chegamos ao complete[m
+2014-04-13 03:29:49 [INFO] <ritji> finished digging[m
+2014-04-13 03:29:49 [INFO] <ritji> diging[m
+2014-04-13 03:29:49 [INFO] <ritji> ABORTEUi![object Object][m
+2014-04-13 03:29:49 [INFO] <ritji> diging[m
+2014-04-13 03:29:49 [INFO] ¤eritji left the game.
+2014-04-13 03:29:51 [INFO] Connection reset
+2014-04-13 03:30:06 [INFO] ritji[/127.0.0.1:64572] logged in with entity id 92195 at ([world] 1041.67968, 4.0009999999999994, -44.032207158190744)
+2014-04-13 03:30:06 [INFO] <ritji> I have 20 health and 20 food[m
+2014-04-13 03:30:06 [INFO] <ritji> diging[m
+2014-04-13 03:30:06 [INFO] <ritji> ABORTEUi![object Object][m
+2014-04-13 03:30:06 [INFO] <ritji> diging[m
+2014-04-13 03:30:09 [INFO] <ritji> chegamos ao complete[m
+2014-04-13 03:30:09 [INFO] <ritji> finished digging[m
+2014-04-13 03:30:09 [INFO] <ritji> diging[m
+2014-04-13 03:30:12 [INFO] <ritji> chegamos ao complete[m
+2014-04-13 03:30:12 [INFO] <ritji> finished digging[m
+2014-04-13 03:30:13 [INFO] <ritji> diging[m
+2014-04-13 03:30:13 [INFO] <ritji> ABORTEUi![object Object][m
+2014-04-13 03:30:13 [INFO] <ritji> diging[m
+2014-04-13 03:30:13 [INFO] <ritji> ABORTEUi![object Object][m
+2014-04-13 03:30:13 [INFO] <ritji> diging[m
+2014-04-13 03:30:16 [INFO] <ritji> chegamos ao complete[m
+2014-04-13 03:30:16 [INFO] <ritji> finished digging[m
+2014-04-13 03:30:16 [INFO] <ritji> diging[m
+2014-04-13 03:30:16 [INFO] <ritji> ABORTEUi![object Object][m
+2014-04-13 03:30:16 [INFO] <ritji> diging[m
+2014-04-13 03:30:19 [INFO] <ritji> chegamos ao complete[m
+2014-04-13 03:30:19 [INFO] <ritji> finished digging[m
+2014-04-13 03:30:19 [INFO] <ritji> diging[m
+2014-04-13 03:30:22 [INFO] <ritji> chegamos ao complete[m
+2014-04-13 03:30:22 [INFO] <ritji> finished digging[m
+2014-04-13 03:30:30 [INFO] CONSOLE: Set time to 1000[m
+2014-04-13 03:30:38 [INFO] <ritji> diging[m
+2014-04-13 03:30:38 [INFO] <ritji> ABORTEUi![object Object][m
+2014-04-13 03:30:38 [INFO] <ritji> diging[m
+2014-04-13 03:30:38 [INFO] <ritji> ABORTEUi![object Object][m
+2014-04-13 03:30:38 [INFO] <ritji> diging[m
+2014-04-13 03:30:41 [INFO] <ritji> chegamos ao complete[m
+2014-04-13 03:30:41 [INFO] <ritji> finished digging[m
+2014-04-13 03:30:41 [INFO] <ritji> diging[m
+2014-04-13 03:30:41 [INFO] <ritji> ABORTEUi![object Object][m
+2014-04-13 03:30:41 [INFO] <ritji> diging[m
+2014-04-13 03:30:44 [INFO] <ritji> chegamos ao complete[m
+2014-04-13 03:30:44 [INFO] <ritji> finished digging[m
+2014-04-13 03:30:44 [INFO] <ritji> diging[m
+2014-04-13 03:30:47 [INFO] <ritji> chegamos ao complete[m
+2014-04-13 03:30:47 [INFO] <ritji> finished digging[m
+2014-04-13 03:32:48 [INFO] <ritji> I have 19 health and 20 food[m
+2014-04-13 03:32:52 [INFO] <ritji> I have 20 health and 20 food[m
+2014-04-13 03:33:31 [INFO] <ritji> diging[m
+2014-04-13 03:33:31 [INFO] <ritji> ABORTEUi![object Object][m
+2014-04-13 03:33:31 [INFO] <ritji> diging[m
+2014-04-13 03:33:34 [INFO] <ritji> chegamos ao complete[m
+2014-04-13 03:33:34 [INFO] <ritji> finished digging[m
+2014-04-13 03:33:34 [INFO] <ritji> diging[m
+2014-04-13 03:33:37 [INFO] <ritji> chegamos ao complete[m
+2014-04-13 03:33:37 [INFO] <ritji> finished digging[m
+2014-04-13 03:33:37 [INFO] <ritji> diging[m
+2014-04-13 03:33:37 [INFO] <ritji> ABORTEUi![object Object][m
+2014-04-13 03:33:37 [INFO] <ritji> diging[m
+2014-04-13 03:33:40 [INFO] <ritji> chegamos ao complete[m
+2014-04-13 03:33:40 [INFO] <ritji> finished digging[m
+2014-04-13 03:33:40 [INFO] <ritji> diging[m
+2014-04-13 03:33:43 [INFO] <ritji> chegamos ao complete[m
+2014-04-13 03:33:43 [INFO] <ritji> finished digging[m
+2014-04-13 03:33:45 [INFO] <ritji> I have 18 health and 20 food[m
+2014-04-13 03:33:45 [INFO] <ritji> I have 16 health and 20 food[m
+2014-04-13 03:33:46 [INFO] <ritji> I have 14 health and 20 food[m
+2014-04-13 03:33:47 [INFO] <ritji> I have 12 health and 20 food[m
+2014-04-13 03:33:48 [INFO] <ritji> diging[m
+2014-04-13 03:33:48 [INFO] <ritji> ABORTEUi![object Object][m
+2014-04-13 03:33:48 [INFO] <ritji> diging[m
+2014-04-13 03:33:49 [INFO] <ritji> I have 10 health and 20 food[m
+2014-04-13 03:33:49 [INFO] <ritji> I have 11 health and 20 food[m
+2014-04-13 03:33:50 [INFO] <ritji> I have 9 health and 20 food[m
+2014-04-13 03:33:51 [INFO] <ritji> chegamos ao complete[m
+2014-04-13 03:33:51 [INFO] <ritji> finished digging[m
+2014-04-13 03:33:51 [INFO] <ritji> diging[m
+2014-04-13 03:33:53 [INFO] <ritji> I have 10 health and 20 food[m
+2014-04-13 03:33:53 [INFO] <ritji> I have 9 health and 20 food[m
+2014-04-13 03:33:54 [INFO] <ritji> chegamos ao complete[m
+2014-04-13 03:33:54 [INFO] <ritji> finished digging[m
+2014-04-13 03:33:54 [INFO] ¤eritji left the game.
+2014-04-13 03:33:56 [INFO] Connection reset
+2014-04-13 03:34:11 [INFO] ritji[/127.0.0.1:64630] logged in with entity id 145064 at ([world] 1029.166017254368, 4.0009999999999994, -33.662341559727494)
+2014-04-13 03:34:11 [INFO] <ritji> I have 9 health and 20 food[m
+2014-04-13 03:34:14 [INFO] <ritji> diging[m
+2014-04-13 03:34:14 [INFO] <ritji> ABORTEUi![object Object][m
+2014-04-13 03:34:14 [INFO] <ritji> diging[m
+2014-04-13 03:34:15 [INFO] <ritji> I have 10 health and 20 food[m
+2014-04-13 03:34:17 [INFO] <ritji> chegamos ao complete[m
+2014-04-13 03:34:17 [INFO] <ritji> finished digging[m
+2014-04-13 03:34:17 [INFO] <ritji> diging[m
+2014-04-13 03:34:19 [INFO] <ritji> I have 11 health and 20 food[m
+2014-04-13 03:34:20 [INFO] <ritji> chegamos ao complete[m
+2014-04-13 03:34:20 [INFO] <ritji> finished digging[m
+2014-04-13 03:34:23 [INFO] <ritji> I have 12 health and 20 food[m
+2014-04-13 03:34:27 [INFO] <ritji> I have 13 health and 20 food[m
+2014-04-13 03:34:32 [INFO] <ritji> I have 14 health and 20 food[m
+2014-04-13 03:34:36 [INFO] <ritji> I have 15 health and 20 food[m
+2014-04-13 03:34:40 [INFO] <ritji> I have 16 health and 20 food[m
+2014-04-13 03:34:44 [INFO] <ritji> I have 17 health and 20 food[m
+2014-04-13 03:34:49 [INFO] <ritji> I have 18 health and 20 food[m
+2014-04-13 03:34:53 [INFO] <ritji> I have 19 health and 20 food[m
+2014-04-13 03:34:57 [INFO] <ritji> I have 20 health and 20 food[m
+2014-04-13 03:36:18 [INFO] <ritji> I have 19 health and 20 food[m
+2014-04-13 03:36:19 [INFO] <ritji> I have 18 health and 20 food[m
+2014-04-13 03:36:22 [INFO] <ritji> I have 19 health and 20 food[m
+2014-04-13 03:36:25 [INFO] <ritji> I have 18 health and 20 food[m
+2014-04-13 03:36:26 [INFO] <ritji> I have 19 health and 20 food[m
+2014-04-13 03:36:31 [INFO] <ritji> I have 20 health and 20 food[m
+2014-04-13 03:37:16 [INFO] <ritji> I have 20 health and 20 food[m
+2014-04-13 03:37:44 [INFO] <ritji> I have 17 health and 20 food[m
+2014-04-13 03:37:44 [INFO] <ritji> I have 14 health and 20 food[m
+2014-04-13 03:37:45 [INFO] <ritji> I have 11 health and 20 food[m
+2014-04-13 03:37:46 [INFO] <ritji> I have 8 health and 20 food[m
+2014-04-13 03:37:48 [INFO] <ritji> I have 9 health and 20 food[m
+2014-04-13 03:37:49 [INFO] <ritji> I have 6 health and 20 food[m
+2014-04-13 03:37:49 [INFO] <ritji> I have 3 health and 20 food[m
+2014-04-13 03:37:50 [INFO] ritji was slain by Slime
+2014-04-13 03:37:50 [INFO] <ritji> I have 0 health and 20 food[m
+2014-04-13 03:37:50 [INFO] <ritji> I have 20 health and 20 food[m
+2014-04-13 03:37:58 [INFO] <ritji> diging[m
+2014-04-13 03:37:58 [INFO] <ritji> ABORTEUi![object Object][m
+2014-04-13 03:37:58 [INFO] <ritji> diging[m
+2014-04-13 03:38:01 [INFO] <ritji> chegamos ao complete[m
+2014-04-13 03:38:01 [INFO] <ritji> finished digging[m
+2014-04-13 03:38:01 [INFO] <ritji> diging[m
+2014-04-13 03:38:04 [INFO] <ritji> chegamos ao complete[m
+2014-04-13 03:38:04 [INFO] <ritji> finished digging[m
+2014-04-13 03:38:06 [INFO] <ritji> diging[m
+2014-04-13 03:38:06 [INFO] <ritji> ABORTEUi![object Object][m
+2014-04-13 03:38:06 [INFO] <ritji> diging[m
+2014-04-13 03:38:09 [INFO] <ritji> chegamos ao complete[m
+2014-04-13 03:38:09 [INFO] <ritji> finished digging[m
+2014-04-13 03:38:09 [INFO] <ritji> diging[m
+2014-04-13 03:38:12 [INFO] <ritji> chegamos ao complete[m
+2014-04-13 03:38:12 [INFO] <ritji> finished digging[m
+2014-04-13 03:38:16 [INFO] <ritji> diging[m
+2014-04-13 03:38:16 [INFO] <ritji> ABORTEUi![object Object][m
+2014-04-13 03:38:16 [INFO] <ritji> diging[m
+2014-04-13 03:38:19 [INFO] <ritji> chegamos ao complete[m
+2014-04-13 03:38:19 [INFO] <ritji> finished digging[m
+2014-04-13 03:38:19 [INFO] <ritji> diging[m
+2014-04-13 03:38:22 [INFO] <ritji> chegamos ao complete[m
+2014-04-13 03:38:22 [INFO] <ritji> finished digging[m
+2014-04-13 03:38:25 [INFO] <ritji> I have 18 health and 20 food[m
+2014-04-13 03:38:27 [INFO] <ritji> I have 16 health and 20 food[m
+2014-04-13 03:38:28 [INFO] <ritji> I have 14 health and 20 food[m
+2014-04-13 03:38:29 [INFO] <ritji> I have 15 health and 20 food[m
+2014-04-13 03:38:33 [INFO] <ritji> I have 16 health and 20 food[m
+2014-04-13 03:38:38 [INFO] <ritji> I have 17 health and 20 food[m
+2014-04-13 03:38:42 [INFO] <ritji> I have 18 health and 20 food[m
+2014-04-13 03:38:46 [INFO] <ritji> I have 19 health and 20 food[m
+2014-04-13 03:38:50 [INFO] <ritji> I have 20 health and 20 food[m
+2014-04-13 03:47:43 [INFO] <ritji> I have 17.5 health and 20 food[m
+2014-04-13 03:47:44 [INFO] <ritji> I have 15 health and 20 food[m
+2014-04-13 03:47:46 [INFO] <ritji> I have 12.5 health and 20 food[m
+2014-04-13 03:47:47 [INFO] <ritji> I have 10 health and 20 food[m
+2014-04-13 03:47:47 [INFO] <ritji> I have 11 health and 20 food[m
+2014-04-13 03:47:48 [INFO] <ritji> I have 8.5 health and 20 food[m
+2014-04-13 03:47:49 [INFO] <ritji> I have 6 health and 20 food[m
+2014-04-13 03:47:50 [INFO] <ritji> I have 3.5 health and 20 food[m
+2014-04-13 03:47:51 [INFO] <ritji> I have 4.5 health and 20 food[m
+2014-04-13 03:47:52 [INFO] <ritji> I have 2 health and 20 food[m
+2014-04-13 03:47:53 [INFO] ritji was slain by Zombie
+2014-04-13 03:47:53 [INFO] <ritji> I have 0 health and 20 food[m
+2014-04-13 03:47:54 [INFO] <ritji> I have 20 health and 20 food[m
+2014-04-13 03:47:54 [INFO] <ritji> I have 20 health and 20 food[m
+2014-04-13 03:47:55 [INFO] <ritji> I have 18 health and 20 food[m
+2014-04-13 03:47:56 [INFO] <ritji> I have 16 health and 20 food[m
+2014-04-13 03:47:57 [INFO] <ritji> I have 14 health and 20 food[m
+2014-04-13 03:47:59 [INFO] <ritji> I have 15 health and 20 food[m
+2014-04-13 03:48:02 [INFO] <ritji> I have 13 health and 20 food[m
+2014-04-13 03:48:03 [INFO] <ritji> I have 14 health and 20 food[m
+2014-04-13 03:48:06 [INFO] <ritji> I have 12 health and 20 food[m
+2014-04-13 03:48:08 [INFO] <ritji> I have 13 health and 20 food[m
+2014-04-13 03:48:11 [INFO] <ritji> I have 10.5 health and 20 food[m
+2014-04-13 03:48:12 [INFO] <ritji> I have 11.5 health and 20 food[m
+2014-04-13 03:48:12 [INFO] <ritji> I have 9 health and 20 food[m
+2014-04-13 03:48:13 [INFO] <ritji> I have 6.5 health and 20 food[m
+2014-04-13 03:48:15 [INFO] <ritji> I have 4 health and 20 food[m
+2014-04-13 03:48:15 [INFO] <ritji> I have 1.5 health and 20 food[m
+2014-04-13 03:48:16 [INFO] <ritji> I have 2.5 health and 20 food[m
+2014-04-13 03:48:16 [INFO] ritji was slain by Zombie
+2014-04-13 03:48:16 [INFO] <ritji> I have 0 health and 20 food[m
+2014-04-13 03:48:16 [INFO] <ritji> I have 20 health and 20 food[m
+2014-04-13 03:48:16 [INFO] <ritji> I have 20 health and 20 food[m
+2014-04-13 03:48:17 [INFO] <ritji> I have 17.5 health and 20 food[m
+2014-04-13 03:48:18 [INFO] <ritji> I have 15.5 health and 20 food[m
+2014-04-13 03:48:18 [INFO] <ritji> I have 15 health and 20 food[m
+2014-04-13 03:48:19 [INFO] <ritji> I have 12.5 health and 20 food[m
+2014-04-13 03:48:20 [INFO] <ritji> I have 10.5 health and 20 food[m
+2014-04-13 03:48:20 [INFO] <ritji> I have 10 health and 20 food[m
+2014-04-13 03:48:21 [INFO] <ritji> I have 7.5 health and 20 food[m
+2014-04-13 03:48:21 [INFO] <ritji> I have 8.5 health and 20 food[m
+2014-04-13 03:48:22 [INFO] <ritji> I have 6 health and 20 food[m
+2014-04-13 03:48:22 [INFO] ritji was blown up by Creeper
+2014-04-13 03:48:22 [INFO] <ritji> I have 0 health and 20 food[m
+2014-04-13 03:48:22 [INFO] <ritji> I have 20 health and 20 food[m
+2014-04-13 03:48:22 [INFO] ¤eritji left the game.
+2014-04-13 03:48:24 [INFO] Connection reset
+2014-04-13 04:02:11 [INFO] ritji[/127.0.0.1:64961] logged in with entity id 382626 at ([world] 1024.5, 4.0, -66.5)
+2014-04-13 04:02:11 [INFO] <ritji> I have 20 health and 20 food[m
+2014-04-13 04:02:18 [INFO] CONSOLE: Set time to 1000[m
+2014-04-13 04:02:22 [INFO] <ritji> I have 17.5 health and 20 food[m
+2014-04-13 04:02:23 [INFO] <ritji> I have 15 health and 20 food[m
+2014-04-13 04:02:24 [INFO] <ritji> I have 14 health and 20 food[m
+2014-04-13 04:02:24 [INFO] <ritji> I have 12.5 health and 20 food[m
+2014-04-13 04:02:25 [INFO] <ritji> I have 10 health and 20 food[m
+2014-04-13 04:02:26 [INFO] <ritji> I have 7.5 health and 20 food[m
+2014-04-13 04:02:26 [INFO] <ritji> I have 8.5 health and 20 food[m
+2014-04-13 04:02:26 [INFO] <ritji> I have 7.5 health and 20 food[m
+2014-04-13 04:02:27 [INFO] <ritji> I have 6 health and 20 food[m
+2014-04-13 04:02:27 [INFO] <ritji> I have 3.5 health and 20 food[m
+2014-04-13 04:02:28 [INFO] <ritji> I have 1 health and 20 food[m
+2014-04-13 04:02:29 [INFO] ritji was slain by Zombie
+2014-04-13 04:02:29 [INFO] <ritji> I have 0 health and 20 food[m
+2014-04-13 04:02:29 [INFO] <ritji> I have 20 health and 20 food[m
+2014-04-13 04:02:29 [INFO] <ritji> I have 20 health and 20 food[m
+2014-04-13 04:02:29 [INFO] <ritji> I have 17.5 health and 20 food[m
+2014-04-13 04:02:31 [INFO] <ritji> I have 15 health and 20 food[m
+2014-04-13 04:02:32 [INFO] <ritji> I have 14 health and 20 food[m
+2014-04-13 04:02:32 [INFO] <ritji> I have 12.5 health and 20 food[m
+2014-04-13 04:02:32 [INFO] <ritji> I have 10 health and 20 food[m
+2014-04-13 04:02:33 [INFO] <ritji> I have 7.5 health and 20 food[m
+2014-04-13 04:02:33 [INFO] <ritji> I have 8.5 health and 20 food[m
+2014-04-13 04:02:34 [INFO] <ritji> I have 6 health and 20 food[m
+2014-04-13 04:02:34 [INFO] ¤eritji left the game.
+2014-04-13 04:02:36 [INFO] Connection reset
+2014-04-13 04:03:20 [INFO] ritji[/127.0.0.1:64968] logged in with entity id 395806 at ([world] 1025.4554591908384, 4.0009999999999994, -66.48514802376705)
+2014-04-13 04:03:21 [INFO] <ritji> I have 6 health and 20 food[m
+2014-04-13 04:03:25 [INFO] <ritji> I have 7 health and 20 food[m
+2014-04-13 04:03:26 [INFO] <ritji> I have 5 health and 20 food[m
+2014-04-13 04:03:29 [INFO] <ritji> I have 6 health and 20 food[m
+2014-04-13 04:03:33 [INFO] <ritji> I have 7 health and 20 food[m
+2014-04-13 04:03:35 [INFO] ritji was slain by montoias
+2014-04-13 04:03:35 [INFO] <ritji> I have 0 health and 20 food[m
+2014-04-13 04:03:35 [INFO] <ritji> I have 20 health and 20 food[m
+2014-04-13 04:03:35 [INFO] <ritji> I have 20 health and 20 food[m
+2014-04-13 04:04:08 [INFO] <ritji> I have 19 health and 20 food[m
+2014-04-13 04:04:08 [INFO] <ritji> I have 18 health and 20 food[m
+2014-04-13 04:04:09 [INFO] <ritji> I have 17 health and 20 food[m
+2014-04-13 04:04:10 [INFO] <ritji> I have 16 health and 20 food[m
+2014-04-13 04:04:10 [INFO] <ritji> I have 15 health and 20 food[m
+2014-04-13 04:04:11 [INFO] <ritji> I have 8 health and 20 food[m
+2014-04-13 04:04:11 [INFO] <ritji> I have 1 health and 20 food[m
+2014-04-13 04:04:12 [INFO] <ritji> I have 2 health and 20 food[m
+2014-04-13 04:04:13 [INFO] ritji was slain by montoias
+2014-04-13 04:04:13 [INFO] <ritji> I have 0 health and 20 food[m
+2014-04-13 04:04:13 [INFO] <ritji> I have 20 health and 20 food[m
+2014-04-13 04:04:13 [INFO] <ritji> I have 20 health and 20 food[m
+2014-04-13 04:04:16 [INFO] <ritji> diging[m
+2014-04-13 04:04:16 [INFO] <ritji> ABORTEUi![object Object][m
+2014-04-13 04:04:16 [INFO] <ritji> diging[m
+2014-04-13 04:04:29 [INFO] <ritji> I have 19 health and 20 food[m
+2014-04-13 04:04:30 [INFO] <ritji> I have 18 health and 20 food[m
+2014-04-13 04:04:30 [INFO] <ritji> I have 17 health and 20 food[m
+2014-04-13 04:04:31 [INFO] <ritji> I have 10 health and 20 food[m
+2014-04-13 04:04:31 [INFO] <ritji> chegamos ao complete[m
+2014-04-13 04:04:31 [INFO] <ritji> finished digging[m
+2014-04-13 04:04:32 [INFO] <ritji> I have 3 health and 20 food[m
+2014-04-13 04:04:33 [INFO] ritji was slain by montoias
+2014-04-13 04:04:33 [INFO] <ritji> I have 0 health and 20 food[m
+2014-04-13 04:04:33 [INFO] <ritji> I have 20 health and 20 food[m
+2014-04-13 04:04:33 [INFO] <ritji> I have 20 health and 20 food[m
+2014-04-13 04:05:45 [INFO] <ritji> diging[m
+2014-04-13 04:05:46 [INFO] <ritji> ABORTEUi![object Object][m
+2014-04-13 04:05:46 [INFO] <ritji> diging[m
+2014-04-13 04:05:48 [INFO] <ritji> chegamos ao complete[m
+2014-04-13 04:05:49 [INFO] <ritji> finished digging[m
+2014-04-13 04:05:49 [INFO] <ritji> diging[m
+2014-04-13 04:05:52 [INFO] <ritji> chegamos ao complete[m
+2014-04-13 04:05:52 [INFO] <ritji> finished digging[m
+2014-04-13 04:06:30 [INFO] <ritji> diging[m
+2014-04-13 04:06:30 [INFO] <ritji> ABORTEUi![object Object][m
+2014-04-13 04:06:30 [INFO] <ritji> diging[m
+2014-04-13 04:06:33 [INFO] <ritji> chegamos ao complete[m
+2014-04-13 04:06:33 [INFO] <ritji> finished digging[m
+2014-04-13 04:06:33 [INFO] <ritji> diging[m
+2014-04-13 04:06:36 [INFO] <ritji> chegamos ao complete[m
+2014-04-13 04:06:37 [INFO] <ritji> finished digging[m
+2014-04-13 04:06:37 [INFO] <ritji> diging[m
+2014-04-13 04:06:37 [INFO] <ritji> ABORTEUi![object Object][m
+2014-04-13 04:06:37 [INFO] <ritji> diging[m
+2014-04-13 04:06:40 [INFO] <ritji> chegamos ao complete[m
+2014-04-13 04:06:40 [INFO] <ritji> finished digging[m
+2014-04-13 04:06:40 [INFO] <ritji> diging[m
+2014-04-13 04:06:43 [INFO] <ritji> chegamos ao complete[m
+2014-04-13 04:06:43 [INFO] <ritji> finished digging[m
+2014-04-13 04:06:51 [INFO] <ritji> I have 17 health and 20 food[m
+2014-04-13 04:06:52 [INFO] <ritji> I have 14 health and 20 food[m
+2014-04-13 04:06:53 [INFO] <ritji> I have 11 health and 20 food[m
+2014-04-13 04:06:54 [INFO] <ritji> I have 8 health and 20 food[m
+2014-04-13 04:06:55 [INFO] <ritji> I have 5 health and 20 food[m
+2014-04-13 04:06:55 [INFO] <ritji> I have 6 health and 20 food[m
+2014-04-13 04:06:55 [INFO] <ritji> I have 3 health and 20 food[m
+2014-04-13 04:06:56 [INFO] ritji was slain by Slime
+2014-04-13 04:06:56 [INFO] <ritji> I have 0 health and 20 food[m
+2014-04-13 04:06:56 [INFO] <ritji> I have 20 health and 20 food[m
+2014-04-13 04:06:56 [INFO] <ritji> I have 20 health and 20 food[m
+2014-04-13 04:08:28 [INFO] <ritji> diging[m
+2014-04-13 04:08:28 [INFO] <ritji> ABORTEUi![object Object][m
+2014-04-13 04:08:28 [INFO] <ritji> diging[m
+2014-04-13 04:08:28 [INFO] <ritji> ABORTEUi![object Object][m
+2014-04-13 04:08:28 [INFO] <ritji> diging[m
+2014-04-13 04:08:31 [INFO] <ritji> chegamos ao complete[m
+2014-04-13 04:08:31 [INFO] <ritji> finished digging[m
+2014-04-13 04:08:31 [INFO] <ritji> diging[m
+2014-04-13 04:08:31 [INFO] <ritji> ABORTEUi![object Object][m
+2014-04-13 04:08:31 [INFO] <ritji> diging[m
+2014-04-13 04:08:34 [INFO] <ritji> chegamos ao complete[m
+2014-04-13 04:08:34 [INFO] <ritji> finished digging[m
+2014-04-13 04:08:34 [INFO] <ritji> diging[m
+2014-04-13 04:08:37 [INFO] <ritji> chegamos ao complete[m
+2014-04-13 04:08:37 [INFO] <ritji> finished digging[m
+2014-04-13 04:08:43 [INFO] <ritji> diging[m
+2014-04-13 04:08:43 [INFO] <ritji> ABORTEUi![object Object][m
+2014-04-13 04:08:43 [INFO] <ritji> diging[m
+2014-04-13 04:08:46 [INFO] <ritji> chegamos ao complete[m
+2014-04-13 04:08:46 [INFO] <ritji> finished digging[m
+2014-04-13 04:08:46 [INFO] <ritji> diging[m
+2014-04-13 04:08:49 [INFO] <ritji> chegamos ao complete[m
+2014-04-13 04:08:49 [INFO] <ritji> finished digging[m
+2014-04-13 04:09:11 [INFO] <ritji> diging[m
+2014-04-13 04:09:11 [INFO] <ritji> ABORTEUi![object Object][m
+2014-04-13 04:09:11 [INFO] <ritji> diging[m
+2014-04-13 04:09:14 [INFO] <ritji> chegamos ao complete[m
+2014-04-13 04:09:14 [INFO] <ritji> finished digging[m
+2014-04-13 04:09:14 [INFO] <ritji> diging[m
+2014-04-13 04:09:17 [INFO] <ritji> chegamos ao complete[m
+2014-04-13 04:09:17 [INFO] <ritji> finished digging[m
+2014-04-13 04:09:18 [INFO] <ritji> diging[m
+2014-04-13 04:09:18 [INFO] <ritji> ABORTEUi![object Object][m
+2014-04-13 04:09:18 [INFO] <ritji> diging[m
+2014-04-13 04:09:21 [INFO] <ritji> chegamos ao complete[m
+2014-04-13 04:09:21 [INFO] <ritji> finished digging[m
+2014-04-13 04:09:21 [INFO] <ritji> diging[m
+2014-04-13 04:09:24 [INFO] <ritji> chegamos ao complete[m
+2014-04-13 04:09:24 [INFO] <ritji> finished digging[m
+2014-04-13 04:09:25 [INFO] <ritji> diging[m
+2014-04-13 04:09:26 [INFO] <ritji> ABORTEUi![object Object][m
+2014-04-13 04:09:26 [INFO] <ritji> diging[m
+2014-04-13 04:09:28 [INFO] <ritji> chegamos ao complete[m
+2014-04-13 04:09:29 [INFO] <ritji> finished digging[m
+2014-04-13 04:09:29 [INFO] <ritji> diging[m
+2014-04-13 04:09:32 [INFO] <ritji> chegamos ao complete[m
+2014-04-13 04:09:32 [INFO] <ritji> finished digging[m
+2014-04-13 04:09:32 [INFO] <ritji> diging[m
+2014-04-13 04:09:32 [INFO] <ritji> ABORTEUi![object Object][m
+2014-04-13 04:09:32 [INFO] <ritji> diging[m
+2014-04-13 04:09:35 [INFO] <ritji> chegamos ao complete[m
+2014-04-13 04:09:35 [INFO] <ritji> finished digging[m
+2014-04-13 04:09:35 [INFO] <ritji> diging[m
+2014-04-13 04:09:38 [INFO] <ritji> chegamos ao complete[m
+2014-04-13 04:09:38 [INFO] <ritji> finished digging[m
+2014-04-13 04:09:41 [INFO] <ritji> diging[m
+2014-04-13 04:09:44 [INFO] <ritji> chegamos ao complete[m
+2014-04-13 04:09:44 [INFO] <ritji> finished digging[m
+2014-04-13 04:09:45 [INFO] <ritji> diging[m
+2014-04-13 04:09:48 [INFO] <ritji> chegamos ao complete[m
+2014-04-13 04:09:48 [INFO] <ritji> finished digging[m
+2014-04-13 04:09:49 [INFO] <ritji> diging[m
+2014-04-13 04:09:49 [INFO] <ritji> ABORTEUi![object Object][m
+2014-04-13 04:09:49 [INFO] <ritji> diging[m
+2014-04-13 04:09:52 [INFO] <ritji> chegamos ao complete[m
+2014-04-13 04:09:52 [INFO] <ritji> finished digging[m
+2014-04-13 04:09:52 [INFO] <ritji> diging[m
+2014-04-13 04:09:55 [INFO] <ritji> chegamos ao complete[m
+2014-04-13 04:09:55 [INFO] <ritji> finished digging[m
+2014-04-13 04:09:56 [INFO] <ritji> diging[m
+2014-04-13 04:09:56 [INFO] <ritji> ABORTEUi![object Object][m
+2014-04-13 04:09:56 [INFO] <ritji> diging[m
+2014-04-13 04:09:59 [INFO] <ritji> chegamos ao complete[m
+2014-04-13 04:09:59 [INFO] <ritji> finished digging[m
+2014-04-13 04:09:59 [INFO] <ritji> diging[m
+2014-04-13 04:10:02 [INFO] <ritji> chegamos ao complete[m
+2014-04-13 04:10:02 [INFO] <ritji> finished digging[m
+2014-04-13 04:10:26 [INFO] <ritji> diging[m
+2014-04-13 04:10:26 [INFO] <ritji> ABORTEUi![object Object][m
+2014-04-13 04:10:26 [INFO] <ritji> diging[m
+2014-04-13 04:10:29 [INFO] <ritji> chegamos ao complete[m
+2014-04-13 04:10:29 [INFO] <ritji> finished digging[m
+2014-04-13 04:10:29 [INFO] <ritji> diging[m
+2014-04-13 04:10:32 [INFO] <ritji> chegamos ao complete[m
+2014-04-13 04:10:32 [INFO] <ritji> finished digging[m
+2014-04-13 04:10:32 [INFO] <ritji> diging[m
+2014-04-13 04:10:32 [INFO] <ritji> ABORTEUi![object Object][m
+2014-04-13 04:10:32 [INFO] <ritji> diging[m
+2014-04-13 04:10:35 [INFO] <ritji> chegamos ao complete[m
+2014-04-13 04:10:35 [INFO] <ritji> finished digging[m
+2014-04-13 04:10:35 [INFO] <ritji> diging[m
+2014-04-13 04:10:38 [INFO] <ritji> chegamos ao complete[m
+2014-04-13 04:10:38 [INFO] <ritji> finished digging[m
+2014-04-13 04:10:40 [INFO] <ritji> diging[m
+2014-04-13 04:10:43 [INFO] <ritji> chegamos ao complete[m
+2014-04-13 04:10:43 [INFO] <ritji> finished digging[m
+2014-04-13 04:11:05 [INFO] ritji lost connection: disconnect.endOfStream
+2014-04-13 04:11:05 [INFO] ¤eritji left the game.
+2014-04-13 04:15:38 [INFO] ritji[/127.0.0.1:65088] logged in with entity id 512874 at ([world] 1025.6570698749128, 4.0009999999999994, -70.8538879665735)
+2014-04-13 04:15:38 [INFO] <ritji> I have 20 health and 20 food[m
+2014-04-13 04:15:45 [INFO] CONSOLE: Set time to 1000[m
+2014-04-13 04:15:49 [INFO] ¤eritji left the game.
+2014-04-13 04:15:49 [INFO] Player ritji tried to attack an EntityPlayer, so I have disconnected them for exploiting.
+2014-04-13 04:15:51 [INFO] Connection reset
+2014-04-13 04:15:59 [INFO] ritji[/127.0.0.1:65090] logged in with entity id 513453 at ([world] 1024.0140684789067, 1.001, -73.75038764933667)
+2014-04-13 04:15:59 [INFO] <ritji> I have 19 health and 20 food[m
+2014-04-13 04:16:03 [INFO] <ritji> I have 20 health and 20 food[m
+2014-04-13 04:16:08 [INFO] <ritji> I have 19 health and 20 food[m
+2014-04-13 04:16:08 [INFO] ¤eritji left the game.
+2014-04-13 04:16:08 [INFO] Player ritji tried to attack an EntityPlayer, so I have disconnected them for exploiting.
+2014-04-13 04:16:10 [INFO] Connection reset
+2014-04-13 04:16:46 [INFO] ritji[/127.0.0.1:65095] logged in with entity id 523695 at ([world] 1023.632919838407, 1.001, -73.22283445825555)
+2014-04-13 04:16:46 [INFO] <ritji> I have 19 health and 20 food[m
+2014-04-13 04:16:46 [WARNING] ritji moved wrongly!
+2014-04-13 04:16:46 [WARNING] ritji moved wrongly!
+2014-04-13 04:16:46 [WARNING] ritji moved wrongly!
+2014-04-13 04:16:46 [INFO] <ritji> diging[m
+2014-04-13 04:16:46 [INFO] <ritji> ABORTEUi![object Object][m
+2014-04-13 04:16:46 [INFO] <ritji> diging[m
+2014-04-13 04:16:46 [INFO] <ritji> ABORTEUi![object Object][m
+2014-04-13 04:16:46 [INFO] <ritji> diging[m
+2014-04-13 04:16:46 [WARNING] ritji moved wrongly!
+2014-04-13 04:16:49 [INFO] <ritji> I have 18 health and 20 food[m
+2014-04-13 04:16:49 [INFO] ¤eritji left the game.
+2014-04-13 04:16:49 [INFO] Player ritji tried to attack an EntityPlayer, so I have disconnected them for exploiting.
+2014-04-13 04:16:51 [INFO] Connection reset
+2014-04-13 04:16:55 [INFO] ritji[/127.0.0.1:65097] logged in with entity id 525570 at ([world] 1022.67968, 1.001, -67.67868)
+2014-04-13 04:16:55 [INFO] <ritji> diging[m
+2014-04-13 04:16:55 [INFO] <ritji> ABORTEUi![object Object][m
+2014-04-13 04:16:55 [INFO] <ritji> diging[m
+2014-04-13 04:16:55 [INFO] <ritji> ABORTEUi![object Object][m
+2014-04-13 04:16:55 [INFO] <ritji> diging[m
+2014-04-13 04:16:55 [INFO] <ritji> I have 18 health and 20 food[m
+2014-04-13 04:16:56 [INFO] <ritji> I have 19 health and 20 food[m
+2014-04-13 04:16:58 [INFO] <ritji> I have 18 health and 20 food[m
+2014-04-13 04:16:58 [INFO] ¤eritji left the game.
+2014-04-13 04:16:58 [INFO] Player ritji tried to attack an EntityPlayer, so I have disconnected them for exploiting.
+2014-04-13 04:17:00 [INFO] Connection reset
+2014-04-13 04:17:05 [INFO] ritji[/127.0.0.1:65099] logged in with entity id 527897 at ([world] 1022.67968, 1.001, -67.67868)
+2014-04-13 04:17:05 [INFO] <ritji> diging[m
+2014-04-13 04:17:05 [INFO] <ritji> ABORTEUi![object Object][m
+2014-04-13 04:17:05 [INFO] <ritji> diging[m
+2014-04-13 04:17:05 [INFO] <ritji> ABORTEUi![object Object][m
+2014-04-13 04:17:05 [INFO] <ritji> diging[m
+2014-04-13 04:17:05 [INFO] <ritji> I have 18 health and 20 food[m
+2014-04-13 04:17:07 [INFO] <ritji> I have 19 health and 20 food[m
+2014-04-13 04:17:08 [INFO] <ritji> I have 18 health and 20 food[m
+2014-04-13 04:17:08 [INFO] ¤eritji left the game.
+2014-04-13 04:17:08 [INFO] Player ritji tried to attack an EntityPlayer, so I have disconnected them for exploiting.
+2014-04-13 04:17:39 [INFO] ritji[/127.0.0.1:65105] logged in with entity id 534680 at ([world] 1022.67968, 1.001, -67.67868)
+2014-04-13 04:17:39 [INFO] <ritji> I have 18 health and 20 food[m
+2014-04-13 04:17:39 [INFO] <ritji> diging[m
+2014-04-13 04:17:39 [INFO] <ritji> ABORTEUi![object Object][m
+2014-04-13 04:17:39 [INFO] <ritji> diging[m
+2014-04-13 04:17:39 [INFO] <ritji> ABORTEUi![object Object][m
+2014-04-13 04:17:39 [INFO] <ritji> diging[m
+2014-04-13 04:17:42 [INFO] <ritji> I have 17 health and 20 food[m
+2014-04-13 04:17:42 [INFO] <ritji> chegamos ao complete[m
+2014-04-13 04:17:42 [INFO] <ritji> finished digging[m
+2014-04-13 04:17:42 [INFO] <ritji> diging[m
+2014-04-13 04:17:42 [INFO] <ritji> ABORTEUi![object Object][m
+2014-04-13 04:17:42 [INFO] <ritji> diging[m
+2014-04-13 04:17:42 [INFO] <ritji> I have 16 health and 20 food[m
+2014-04-13 04:17:43 [INFO] <ritji> I have 17 health and 20 food[m
+2014-04-13 04:17:43 [INFO] ¤eritji left the game.
+2014-04-13 04:17:45 [INFO] Connection reset
+2014-04-13 04:18:00 [INFO] ritjii[/127.0.0.1:65107] logged in with entity id 538981 at ([world] 1024.5, 5.0, -63.5)
+2014-04-13 04:18:00 [INFO] <ritjii> I have 20 health and 20 food[m
+2014-04-13 04:18:01 [INFO] <ritjii> diging[m
+2014-04-13 04:18:04 [INFO] <ritjii> chegamos ao complete[m
+2014-04-13 04:18:04 [INFO] <ritjii> finished digging[m
+2014-04-13 04:18:07 [INFO] ritjii lost connection: disconnect.endOfStream
+2014-04-13 04:18:07 [INFO] ¤eritjii left the game.
+2014-04-13 04:18:21 [INFO] ritji[/127.0.0.1:65112] logged in with entity id 543696 at ([world] 1022.67968, 1.001, -67.67868)
+2014-04-13 04:18:21 [INFO] <ritji> diging[m
+2014-04-13 04:18:21 [INFO] <ritji> ABORTEUi![object Object][m
+2014-04-13 04:18:21 [INFO] <ritji> diging[m
+2014-04-13 04:18:21 [INFO] <ritji> I have 17 health and 20 food[m
+2014-04-13 04:18:22 [INFO] <ritji> chegamos ao complete[m
+2014-04-13 04:18:22 [INFO] <ritji> finished digging[m
+2014-04-13 04:18:22 [INFO] <ritji> diging[m
+2014-04-13 04:18:24 [INFO] <ritji> I have 16 health and 20 food[m
+2014-04-13 04:18:24 [INFO] ¤eritji left the game.
+2014-04-13 04:18:24 [INFO] Player ritji tried to attack an EntityPlayer, so I have disconnected them for exploiting.
+2014-04-13 04:18:26 [INFO] Connection reset
+2014-04-13 04:19:15 [INFO] ritji[/127.0.0.1:65123] logged in with entity id 554818 at ([world] 1022.67968, 1.001, -67.67868)
+2014-04-13 04:19:15 [INFO] <ritji> diging[m
+2014-04-13 04:19:15 [INFO] <ritji> I have 16 health and 20 food[m
+2014-04-13 04:19:16 [INFO] <ritji> I have 17 health and 20 food[m
+2014-04-13 04:19:18 [INFO] <ritji> I have 16 health and 20 food[m
+2014-04-13 04:19:18 [INFO] <ritji> chegamos ao complete[m
+2014-04-13 04:19:18 [INFO] <ritji> finished digging[m
+2014-04-13 04:19:18 [WARNING] ritji moved wrongly!
+2014-04-13 04:19:18 [WARNING] ritji moved wrongly!
+2014-04-13 04:19:18 [WARNING] ritji moved wrongly!
+2014-04-13 04:19:18 [WARNING] ritji moved wrongly!
+2014-04-13 04:19:18 [INFO] <ritji> I have 15 health and 20 food[m
+2014-04-13 04:19:18 [WARNING] ritji moved wrongly!
+2014-04-13 04:19:18 [WARNING] ritji moved wrongly!
+2014-04-13 04:19:18 [WARNING] ritji moved wrongly!
+2014-04-13 04:19:18 [WARNING] ritji moved wrongly!
+2014-04-13 04:19:18 [WARNING] ritji moved wrongly!
+2014-04-13 04:19:18 [WARNING] ritji moved wrongly!
+2014-04-13 04:19:19 [WARNING] ritji moved wrongly!
+2014-04-13 04:19:19 [WARNING] ritji moved wrongly!
+2014-04-13 04:19:19 [WARNING] ritji moved wrongly!
+2014-04-13 04:19:19 [WARNING] ritji moved wrongly!
+2014-04-13 04:19:19 [INFO] <ritji> I have 14 health and 20 food[m
+2014-04-13 04:19:19 [WARNING] ritji moved wrongly!
+2014-04-13 04:19:19 [WARNING] ritji moved wrongly!
+2014-04-13 04:19:19 [WARNING] ritji moved wrongly!
+2014-04-13 04:19:19 [WARNING] ritji moved wrongly!
+2014-04-13 04:19:19 [WARNING] ritji moved wrongly!
+2014-04-13 04:19:19 [WARNING] ritji moved wrongly!
+2014-04-13 04:19:19 [WARNING] ritji moved wrongly!
+2014-04-13 04:19:19 [WARNING] ritji moved wrongly!
+2014-04-13 04:19:19 [WARNING] ritji moved wrongly!
+2014-04-13 04:19:19 [WARNING] ritji moved wrongly!
+2014-04-13 04:19:19 [INFO] <ritji> I have 13 health and 20 food[m
+2014-04-13 04:19:19 [WARNING] ritji moved wrongly!
+2014-04-13 04:19:19 [WARNING] ritji moved wrongly!
+2014-04-13 04:19:19 [WARNING] ritji moved wrongly!
+2014-04-13 04:19:19 [WARNING] ritji moved wrongly!
+2014-04-13 04:19:19 [WARNING] ritji moved wrongly!
+2014-04-13 04:19:20 [WARNING] ritji moved wrongly!
+2014-04-13 04:19:20 [WARNING] ritji moved wrongly!
+2014-04-13 04:19:20 [WARNING] ritji moved wrongly!
+2014-04-13 04:19:20 [WARNING] ritji moved wrongly!
+2014-04-13 04:19:20 [INFO] <ritji> I have 12 health and 20 food[m
+2014-04-13 04:19:20 [WARNING] ritji moved wrongly!
+2014-04-13 04:19:20 [WARNING] ritji moved wrongly!
+2014-04-13 04:19:20 [WARNING] ritji moved wrongly!
+2014-04-13 04:19:20 [WARNING] ritji moved wrongly!
+2014-04-13 04:19:20 [WARNING] ritji moved wrongly!
+2014-04-13 04:19:20 [WARNING] ritji moved wrongly!
+2014-04-13 04:19:20 [WARNING] ritji moved wrongly!
+2014-04-13 04:19:20 [WARNING] ritji moved wrongly!
+2014-04-13 04:19:20 [INFO] <ritji> I have 13 health and 20 food[m
+2014-04-13 04:19:20 [WARNING] ritji moved wrongly!
+2014-04-13 04:19:20 [WARNING] ritji moved wrongly!
+2014-04-13 04:19:20 [WARNING] ritji moved wrongly!
+2014-04-13 04:19:20 [WARNING] ritji moved wrongly!
+2014-04-13 04:19:20 [INFO] <ritji> I have 12 health and 20 food[m
+2014-04-13 04:19:20 [WARNING] ritji moved wrongly!
+2014-04-13 04:19:20 [WARNING] ritji moved wrongly!
+2014-04-13 04:19:20 [WARNING] ritji moved wrongly!
+2014-04-13 04:19:20 [WARNING] ritji moved wrongly!
+2014-04-13 04:19:21 [WARNING] ritji moved wrongly!
+2014-04-13 04:19:21 [WARNING] ritji moved wrongly!
+2014-04-13 04:19:21 [WARNING] ritji moved wrongly!
+2014-04-13 04:19:21 [WARNING] ritji moved wrongly!
+2014-04-13 04:19:21 [WARNING] ritji moved wrongly!
+2014-04-13 04:19:21 [WARNING] ritji moved wrongly!
+2014-04-13 04:19:21 [WARNING] ritji moved wrongly!
+2014-04-13 04:19:21 [WARNING] ritji moved wrongly!
+2014-04-13 04:19:21 [WARNING] ritji moved wrongly!
+2014-04-13 04:19:21 [INFO] <ritji> I have 11 health and 20 food[m
+2014-04-13 04:19:21 [WARNING] ritji moved wrongly!
+2014-04-13 04:19:21 [WARNING] ritji moved wrongly!
+2014-04-13 04:19:21 [WARNING] ritji moved wrongly!
+2014-04-13 04:19:21 [WARNING] ritji moved wrongly!
+2014-04-13 04:19:21 [WARNING] ritji moved wrongly!
+2014-04-13 04:19:21 [WARNING] ritji moved wrongly!
+2014-04-13 04:19:21 [WARNING] ritji moved wrongly!
+2014-04-13 04:19:21 [WARNING] ritji moved wrongly!
+2014-04-13 04:19:21 [INFO] <ritji> I have 10 health and 20 food[m
+2014-04-13 04:19:21 [WARNING] ritji moved wrongly!
+2014-04-13 04:19:21 [WARNING] ritji moved wrongly!
+2014-04-13 04:19:22 [WARNING] ritji moved wrongly!
+2014-04-13 04:19:22 [WARNING] ritji moved wrongly!
+2014-04-13 04:19:22 [WARNING] ritji moved wrongly!
+2014-04-13 04:19:22 [WARNING] ritji moved wrongly!
+2014-04-13 04:19:22 [WARNING] ritji moved wrongly!
+2014-04-13 04:19:22 [WARNING] ritji moved wrongly!
+2014-04-13 04:19:22 [WARNING] ritji moved wrongly!
+2014-04-13 04:19:22 [WARNING] ritji moved wrongly!
+2014-04-13 04:19:22 [WARNING] ritji moved wrongly!
+2014-04-13 04:19:22 [WARNING] ritji moved wrongly!
+2014-04-13 04:19:22 [WARNING] ritji moved wrongly!
+2014-04-13 04:19:22 [INFO] <ritji> I have 9 health and 20 food[m
+2014-04-13 04:19:22 [WARNING] ritji moved wrongly!
+2014-04-13 04:19:22 [WARNING] ritji moved wrongly!
+2014-04-13 04:19:22 [WARNING] ritji moved wrongly!
+2014-04-13 04:19:22 [WARNING] ritji moved wrongly!
+2014-04-13 04:19:22 [WARNING] ritji moved wrongly!
+2014-04-13 04:19:22 [WARNING] ritji moved wrongly!
+2014-04-13 04:19:22 [WARNING] ritji moved wrongly!
+2014-04-13 04:19:22 [WARNING] ritji moved wrongly!
+2014-04-13 04:19:22 [WARNING] ritji moved wrongly!
+2014-04-13 04:19:23 [WARNING] ritji moved wrongly!
+2014-04-13 04:19:23 [INFO] <ritji> I have 8 health and 20 food[m
+2014-04-13 04:19:23 [WARNING] ritji moved wrongly!
+2014-04-13 04:19:23 [WARNING] ritji moved wrongly!
+2014-04-13 04:19:23 [WARNING] ritji moved wrongly!
+2014-04-13 04:19:23 [WARNING] ritji moved wrongly!
+2014-04-13 04:19:23 [WARNING] ritji moved wrongly!
+2014-04-13 04:19:23 [WARNING] ritji moved wrongly!
+2014-04-13 04:19:23 [WARNING] ritji moved wrongly!
+2014-04-13 04:19:23 [WARNING] ritji moved wrongly!
+2014-04-13 04:19:23 [WARNING] ritji moved wrongly!
+2014-04-13 04:19:23 [WARNING] ritji moved wrongly!
+2014-04-13 04:19:23 [WARNING] ritji moved wrongly!
+2014-04-13 04:19:23 [INFO] <ritji> I have 7 health and 20 food[m
+2014-04-13 04:19:23 [WARNING] ritji moved wrongly!
+2014-04-13 04:19:23 [WARNING] ritji moved wrongly!
+2014-04-13 04:19:23 [WARNING] ritji moved wrongly!
+2014-04-13 04:19:23 [WARNING] ritji moved wrongly!
+2014-04-13 04:19:23 [WARNING] ritji moved wrongly!
+2014-04-13 04:19:23 [WARNING] ritji moved wrongly!
+2014-04-13 04:19:23 [WARNING] ritji moved wrongly!
+2014-04-13 04:19:24 [WARNING] ritji moved wrongly!
+2014-04-13 04:19:24 [WARNING] ritji moved wrongly!
+2014-04-13 04:19:24 [WARNING] ritji moved wrongly!
+2014-04-13 04:19:24 [WARNING] ritji moved wrongly!
+2014-04-13 04:19:24 [INFO] <ritji> I have 6 health and 20 food[m
+2014-04-13 04:19:24 [WARNING] ritji moved wrongly!
+2014-04-13 04:19:24 [WARNING] ritji moved wrongly!
+2014-04-13 04:19:24 [WARNING] ritji moved wrongly!
+2014-04-13 04:19:24 [WARNING] ritji moved wrongly!
+2014-04-13 04:19:24 [WARNING] ritji moved wrongly!
+2014-04-13 04:19:24 [WARNING] ritji moved wrongly!
+2014-04-13 04:19:24 [WARNING] ritji moved wrongly!
+2014-04-13 04:19:24 [WARNING] ritji moved wrongly!
+2014-04-13 04:19:24 [WARNING] ritji moved wrongly!
+2014-04-13 04:19:24 [WARNING] ritji moved wrongly!
+2014-04-13 04:19:24 [WARNING] ritji moved wrongly!
+2014-04-13 04:19:24 [WARNING] ritji moved wrongly!
+2014-04-13 04:19:24 [WARNING] ritji moved wrongly!
+2014-04-13 04:19:24 [WARNING] ritji moved wrongly!
+2014-04-13 04:19:24 [WARNING] ritji moved wrongly!
+2014-04-13 04:19:24 [WARNING] ritji moved wrongly!
+2014-04-13 04:19:25 [WARNING] ritji moved wrongly!
+2014-04-13 04:19:25 [WARNING] ritji moved wrongly!
+2014-04-13 04:19:25 [WARNING] ritji moved wrongly!
+2014-04-13 04:19:25 [WARNING] ritji moved wrongly!
+2014-04-13 04:19:25 [WARNING] ritji moved wrongly!
+2014-04-13 04:19:25 [INFO] <ritji> I have 5 health and 20 food[m
+2014-04-13 04:19:25 [WARNING] ritji moved wrongly!
+2014-04-13 04:19:25 [WARNING] ritji moved wrongly!
+2014-04-13 04:19:25 [WARNING] ritji moved wrongly!
+2014-04-13 04:19:25 [WARNING] ritji moved wrongly!
+2014-04-13 04:19:25 [WARNING] ritji moved wrongly!
+2014-04-13 04:19:25 [WARNING] ritji moved wrongly!
+2014-04-13 04:19:25 [WARNING] ritji moved wrongly!
+2014-04-13 04:19:25 [WARNING] ritji moved wrongly!
+2014-04-13 04:19:25 [WARNING] ritji moved wrongly!
+2014-04-13 04:19:25 [WARNING] ritji moved wrongly!
+2014-04-13 04:19:25 [WARNING] ritji moved wrongly!
+2014-04-13 04:19:25 [WARNING] ritji moved wrongly!
+2014-04-13 04:19:25 [WARNING] ritji moved wrongly!
+2014-04-13 04:19:25 [INFO] <ritji> I have 4 health and 20 food[m
+2014-04-13 04:19:25 [WARNING] ritji moved wrongly!
+2014-04-13 04:19:25 [WARNING] ritji moved wrongly!
+2014-04-13 04:19:26 [WARNING] ritji moved wrongly!
+2014-04-13 04:19:26 [WARNING] ritji moved wrongly!
+2014-04-13 04:19:26 [WARNING] ritji moved wrongly!
+2014-04-13 04:19:26 [WARNING] ritji moved wrongly!
+2014-04-13 04:19:26 [WARNING] ritji moved wrongly!
+2014-04-13 04:19:26 [WARNING] ritji moved wrongly!
+2014-04-13 04:19:26 [INFO] <ritji> I have 3 health and 20 food[m
+2014-04-13 04:19:26 [WARNING] ritji moved wrongly!
+2014-04-13 04:19:26 [WARNING] ritji moved wrongly!
+2014-04-13 04:19:26 [WARNING] ritji moved wrongly!
+2014-04-13 04:19:26 [WARNING] ritji moved wrongly!
+2014-04-13 04:19:26 [WARNING] ritji moved wrongly!
+2014-04-13 04:19:26 [WARNING] ritji moved wrongly!
+2014-04-13 04:19:26 [WARNING] ritji moved wrongly!
+2014-04-13 04:19:26 [WARNING] ritji moved wrongly!
+2014-04-13 04:19:26 [WARNING] ritji moved wrongly!
+2014-04-13 04:19:26 [INFO] <ritji> I have 2 health and 20 food[m
+2014-04-13 04:19:26 [WARNING] ritji moved wrongly!
+2014-04-13 04:19:26 [WARNING] ritji moved wrongly!
+2014-04-13 04:19:26 [WARNING] ritji moved wrongly!
+2014-04-13 04:19:26 [INFO] ¤eritji left the game.
+2014-04-13 04:19:28 [INFO] Connection reset
+2014-04-13 04:19:30 [INFO] ritji[/127.0.0.1:65125] logged in with entity id 559442 at ([world] 1022.67968, 1.001, 329.32132)
+2014-04-13 04:19:30 [INFO] <ritji> I have 2 health and 20 food[m
+2014-04-13 04:19:31 [WARNING] ritji moved wrongly!
+2014-04-13 04:19:31 [WARNING] ritji moved wrongly!
+2014-04-13 04:19:31 [WARNING] ritji moved wrongly!
+2014-04-13 04:19:31 [WARNING] ritji moved wrongly!
+2014-04-13 04:19:31 [WARNING] ritji moved wrongly!
+2014-04-13 04:19:31 [WARNING] ritji moved wrongly!
+2014-04-13 04:19:31 [WARNING] ritji moved wrongly!
+2014-04-13 04:19:31 [WARNING] ritji moved wrongly!
+2014-04-13 04:19:31 [WARNING] ritji moved wrongly!
+2014-04-13 04:19:31 [WARNING] ritji moved wrongly!
+2014-04-13 04:19:31 [WARNING] ritji moved wrongly!
+2014-04-13 04:19:31 [WARNING] ritji moved wrongly!
+2014-04-13 04:19:31 [WARNING] ritji moved wrongly!
+2014-04-13 04:19:31 [WARNING] ritji moved wrongly!
+2014-04-13 04:19:31 [WARNING] ritji moved wrongly!
+2014-04-13 04:19:31 [WARNING] ritji moved wrongly!
+2014-04-13 04:19:31 [WARNING] ritji moved wrongly!
+2014-04-13 04:19:31 [WARNING] ritji moved wrongly!
+2014-04-13 04:19:31 [WARNING] ritji moved wrongly!
+2014-04-13 04:19:32 [WARNING] ritji moved wrongly!
+2014-04-13 04:19:32 [WARNING] ritji moved wrongly!
+2014-04-13 04:19:32 [WARNING] ritji moved wrongly!
+2014-04-13 04:19:32 [WARNING] ritji moved wrongly!
+2014-04-13 04:19:32 [WARNING] ritji moved wrongly!
+2014-04-13 04:19:32 [WARNING] ritji moved wrongly!
+2014-04-13 04:19:32 [WARNING] ritji moved wrongly!
+2014-04-13 04:19:32 [WARNING] ritji moved wrongly!
+2014-04-13 04:19:32 [WARNING] ritji moved wrongly!
+2014-04-13 04:19:32 [WARNING] ritji moved wrongly!
+2014-04-13 04:19:32 [WARNING] ritji moved wrongly!
+2014-04-13 04:19:32 [WARNING] ritji moved wrongly!
+2014-04-13 04:19:32 [WARNING] ritji moved wrongly!
+2014-04-13 04:19:32 [WARNING] ritji moved wrongly!
+2014-04-13 04:19:32 [WARNING] ritji moved wrongly!
+2014-04-13 04:19:32 [INFO] <ritji> I have 3 health and 20 food[m
+2014-04-13 04:19:32 [WARNING] ritji moved wrongly!
+2014-04-13 04:19:32 [WARNING] ritji moved wrongly!
+2014-04-13 04:19:32 [WARNING] ritji moved wrongly!
+2014-04-13 04:19:32 [WARNING] ritji moved wrongly!
+2014-04-13 04:19:32 [WARNING] ritji moved wrongly!
+2014-04-13 04:19:33 [WARNING] ritji moved wrongly!
+2014-04-13 04:19:33 [WARNING] ritji moved wrongly!
+2014-04-13 04:19:33 [WARNING] ritji moved wrongly!
+2014-04-13 04:19:33 [WARNING] ritji moved wrongly!
+2014-04-13 04:19:33 [WARNING] ritji moved wrongly!
+2014-04-13 04:19:33 [WARNING] ritji moved wrongly!
+2014-04-13 04:19:33 [WARNING] ritji moved wrongly!
+2014-04-13 04:19:33 [WARNING] ritji moved wrongly!
+2014-04-13 04:19:33 [WARNING] ritji moved wrongly!
+2014-04-13 04:19:33 [WARNING] ritji moved wrongly!
+2014-04-13 04:19:33 [WARNING] ritji moved wrongly!
+2014-04-13 04:19:33 [WARNING] ritji moved wrongly!
+2014-04-13 04:19:33 [WARNING] ritji moved wrongly!
+2014-04-13 04:19:33 [WARNING] ritji moved wrongly!
+2014-04-13 04:19:33 [WARNING] ritji moved wrongly!
+2014-04-13 04:19:33 [WARNING] ritji moved wrongly!
+2014-04-13 04:19:33 [INFO] <ritji> I have 2 health and 20 food[m
+2014-04-13 04:19:33 [WARNING] ritji moved wrongly!
+2014-04-13 04:19:33 [WARNING] ritji moved wrongly!
+2014-04-13 04:19:33 [WARNING] ritji moved wrongly!
+2014-04-13 04:19:34 [WARNING] ritji moved wrongly!
+2014-04-13 04:19:34 [WARNING] ritji moved wrongly!
+2014-04-13 04:19:34 [WARNING] ritji moved wrongly!
+2014-04-13 04:19:34 [WARNING] ritji moved wrongly!
+2014-04-13 04:19:34 [WARNING] ritji moved wrongly!
+2014-04-13 04:19:34 [WARNING] ritji moved wrongly!
+2014-04-13 04:19:34 [WARNING] ritji moved wrongly!
+2014-04-13 04:19:34 [INFO] <ritji> I have 1 health and 20 food[m
+2014-04-13 04:19:34 [WARNING] ritji moved wrongly!
+2014-04-13 04:19:34 [WARNING] ritji moved wrongly!
+2014-04-13 04:19:34 [WARNING] ritji moved wrongly!
+2014-04-13 04:19:34 [WARNING] ritji moved wrongly!
+2014-04-13 04:19:34 [WARNING] ritji moved wrongly!
+2014-04-13 04:19:34 [WARNING] ritji moved wrongly!
+2014-04-13 04:19:34 [WARNING] ritji moved wrongly!
+2014-04-13 04:19:34 [WARNING] ritji moved wrongly!
+2014-04-13 04:19:34 [WARNING] ritji moved wrongly!
+2014-04-13 04:19:34 [INFO] ritji suffocated in a wall
+2014-04-13 04:19:34 [WARNING] ritji moved wrongly!
+2014-04-13 04:19:34 [INFO] <ritji> I have 0 health and 20 food[m
+2014-04-13 04:19:34 [WARNING] ritji moved wrongly!
+2014-04-13 04:19:34 [INFO] <ritji> I have 20 health and 20 food[m
+2014-04-13 04:19:35 [INFO] <ritji> I have 20 health and 20 food[m
+2014-04-13 04:19:52 [INFO] <ritji> diging[m
+2014-04-13 04:19:52 [INFO] <ritji> ABORTEUi![object Object][m
+2014-04-13 04:19:52 [INFO] <ritji> diging[m
+2014-04-13 04:19:55 [INFO] <ritji> chegamos ao complete[m
+2014-04-13 04:19:55 [INFO] <ritji> finished digging[m
+2014-04-13 04:19:55 [INFO] <ritji> diging[m
+2014-04-13 04:19:58 [INFO] <ritji> chegamos ao complete[m
+2014-04-13 04:19:58 [INFO] <ritji> finished digging[m
+2014-04-13 04:20:27 [INFO] <ritji> diging[m
+2014-04-13 04:20:27 [INFO] <ritji> ABORTEUi![object Object][m
+2014-04-13 04:20:27 [INFO] <ritji> diging[m
+2014-04-13 04:20:30 [INFO] <ritji> chegamos ao complete[m
+2014-04-13 04:20:30 [INFO] <ritji> finished digging[m
+2014-04-13 04:20:30 [INFO] <ritji> diging[m
+2014-04-13 04:20:33 [INFO] <ritji> chegamos ao complete[m
+2014-04-13 04:20:33 [INFO] <ritji> finished digging[m
+2014-04-13 04:20:34 [INFO] <ritji> diging[m
+2014-04-13 04:20:34 [INFO] <ritji> ABORTEUi![object Object][m
+2014-04-13 04:20:34 [INFO] <ritji> diging[m
+2014-04-13 04:20:37 [INFO] <ritji> chegamos ao complete[m
+2014-04-13 04:20:37 [INFO] <ritji> finished digging[m
+2014-04-13 04:20:37 [INFO] <ritji> diging[m
+2014-04-13 04:20:40 [INFO] <ritji> chegamos ao complete[m
+2014-04-13 04:20:40 [INFO] <ritji> finished digging[m
+2014-04-13 04:20:58 [INFO] ritji lost connection: disconnect.endOfStream
+2014-04-13 04:20:58 [INFO] ¤eritji left the game.
+2014-04-13 04:21:33 [INFO] ritji[/127.0.0.1:65137] logged in with entity id 585909 at ([world] 1038.777463866496, 4.0009999999999994, -63.576669380945205)
+2014-04-13 04:21:33 [INFO] <ritji> I have 20 health and 20 food[m
+2014-04-13 04:21:41 [INFO] <ritji> diging[m
+2014-04-13 04:21:41 [INFO] <ritji> ABORTEUi![object Object][m
+2014-04-13 04:21:41 [INFO] <ritji> diging[m
+2014-04-13 04:21:44 [INFO] <ritji> chegamos ao complete[m
+2014-04-13 04:21:44 [INFO] <ritji> finished digging[m
+2014-04-13 04:21:44 [INFO] <ritji> diging[m
+2014-04-13 04:21:47 [INFO] <ritji> chegamos ao complete[m
+2014-04-13 04:21:47 [INFO] <ritji> finished digging[m
+2014-04-13 04:21:58 [INFO] <ritji> diging[m
+2014-04-13 04:21:58 [INFO] <ritji> ABORTEUi![object Object][m
+2014-04-13 04:21:58 [INFO] <ritji> diging[m
+2014-04-13 04:22:01 [INFO] <ritji> chegamos ao complete[m
+2014-04-13 04:22:01 [INFO] <ritji> finished digging[m
+2014-04-13 04:22:01 [INFO] <ritji> diging[m
+2014-04-13 04:22:04 [INFO] <ritji> chegamos ao complete[m
+2014-04-13 04:22:04 [INFO] <ritji> finished digging[m
+2014-04-13 04:22:04 [INFO] <ritji> diging[m
+2014-04-13 04:22:04 [INFO] <ritji> ABORTEUi![object Object][m
+2014-04-13 04:22:04 [INFO] <ritji> diging[m
+2014-04-13 04:22:07 [INFO] <ritji> chegamos ao complete[m
+2014-04-13 04:22:07 [INFO] <ritji> finished digging[m
+2014-04-13 04:22:07 [INFO] <ritji> diging[m
+2014-04-13 04:22:10 [INFO] <ritji> chegamos ao complete[m
+2014-04-13 04:22:11 [INFO] <ritji> finished digging[m
+2014-04-13 04:22:27 [INFO] montoias issued server command: /spectate ritjii
+2014-04-13 04:22:37 [INFO] <ritji> diging[m
+2014-04-13 04:22:37 [INFO] <ritji> ABORTEUi![object Object][m
+2014-04-13 04:22:37 [INFO] <ritji> diging[m
+2014-04-13 04:22:37 [INFO] <ritji> ABORTEUi![object Object][m
+2014-04-13 04:22:37 [INFO] <ritji> diging[m
+2014-04-13 04:22:40 [INFO] <ritji> chegamos ao complete[m
+2014-04-13 04:22:40 [INFO] <ritji> finished digging[m
+2014-04-13 04:22:40 [INFO] <ritji> diging[m
+2014-04-13 04:22:40 [INFO] <ritji> ABORTEUi![object Object][m
+2014-04-13 04:22:40 [INFO] <ritji> diging[m
+2014-04-13 04:22:43 [INFO] <ritji> chegamos ao complete[m
+2014-04-13 04:22:43 [INFO] <ritji> finished digging[m
+2014-04-13 04:22:43 [INFO] <ritji> diging[m
+2014-04-13 04:22:46 [INFO] <ritji> chegamos ao complete[m
+2014-04-13 04:22:46 [INFO] <ritji> finished digging[m
+2014-04-13 04:23:17 [INFO] <ritji> I have 17 health and 20 food[m
+2014-04-13 04:23:17 [INFO] ¤eritji left the game.
+2014-04-13 04:23:17 [INFO] Player ritji tried to attack an EntityPlayer, so I have disconnected them for exploiting.
+2014-04-13 04:23:19 [INFO] Connection reset
+2014-04-13 04:24:09 [INFO] ritji[/127.0.0.1:65150] logged in with entity id 617564 at ([world] 1068.0811516692193, 4.0009999999999994, -63.03557608852474)
+2014-04-13 04:24:09 [INFO] <ritji> I have 17 health and 20 food[m
+2014-04-13 04:24:13 [INFO] <ritji> I have 18 health and 20 food[m
+2014-04-13 04:24:17 [INFO] <ritji> I have 19 health and 20 food[m
+2014-04-13 04:24:21 [INFO] <ritji> I have 20 health and 20 food[m
+2014-04-13 04:24:43 [INFO] <ritji> I have 19 health and 20 food[m
+2014-04-13 04:24:44 [INFO] <ritji> I have 18 health and 20 food[m
+2014-04-13 04:24:44 [INFO] <ritji> I have 17 health and 20 food[m
+2014-04-13 04:24:45 [INFO] <ritji> I have 16 health and 20 food[m
+2014-04-13 04:24:45 [INFO] <ritji> I have 15 health and 20 food[m
+2014-04-13 04:24:46 [INFO] <ritji> I have 14 health and 20 food[m
+2014-04-13 04:24:47 [INFO] <ritji> I have 15 health and 20 food[m
+2014-04-13 04:24:47 [INFO] <ritji> I have 14 health and 20 food[m
+2014-04-13 04:24:48 [INFO] <ritji> I have 13 health and 20 food[m
+2014-04-13 04:24:51 [INFO] <ritji> I have 12 health and 20 food[m
+2014-04-13 04:24:51 [INFO] <ritji> I have 13 health and 20 food[m
+2014-04-13 04:24:51 [INFO] <ritji> I have 12 health and 20 food[m
+2014-04-13 04:24:52 [INFO] <ritji> I have 11 health and 20 food[m
+2014-04-13 04:24:53 [INFO] <ritji> I have 10 health and 20 food[m
+2014-04-13 04:24:53 [INFO] <ritji> I have 9 health and 20 food[m
+2014-04-13 04:24:54 [INFO] <ritji> I have 8 health and 20 food[m
+2014-04-13 04:24:55 [INFO] <ritji> I have 9 health and 20 food[m
+2014-04-13 04:24:59 [INFO] <ritji> I have 10 health and 20 food[m
+2014-04-13 04:25:03 [INFO] <ritji> I have 11 health and 20 food[m
+2014-04-13 04:25:07 [INFO] <ritji> I have 12 health and 20 food[m
+2014-04-13 04:25:11 [INFO] <ritji> I have 13 health and 20 food[m
+2014-04-13 04:25:14 [INFO] <ritji> I have 10 health and 20 food[m
+2014-04-13 04:25:15 [INFO] <ritji> I have 7 health and 20 food[m
+2014-04-13 04:25:15 [INFO] <ritji> I have 5 health and 20 food[m
+2014-04-13 04:25:16 [INFO] <ritji> I have 2 health and 20 food[m
+2014-04-13 04:25:16 [INFO] ritji was slain by Slime
+2014-04-13 04:25:16 [INFO] <ritji> I have 0 health and 20 food[m
+2014-04-13 04:25:17 [INFO] <ritji> I have 20 health and 20 food[m
+2014-04-13 04:25:17 [INFO] <ritji> I have 20 health and 20 food[m
+2014-04-13 04:25:33 [INFO] ritji lost connection: disconnect.endOfStream
+2014-04-13 04:25:33 [INFO] ¤eritji left the game.
+2014-04-13 04:25:35 [INFO] ritji[/127.0.0.1:65164] logged in with entity id 635060 at ([world] 1025.3864509067905, 4.0009999999999994, -73.57274313682511)
+2014-04-13 04:25:35 [INFO] <ritji> I have 20 health and 20 food[m
+2014-04-13 04:25:38 [INFO] <ritji> I have 17 health and 20 food[m
+2014-04-13 04:25:39 [INFO] <ritji> I have 14 health and 20 food[m
+2014-04-13 04:25:39 [INFO] <ritji> I have 11 health and 20 food[m
+2014-04-13 04:25:40 [INFO] <ritji> I have 8 health and 20 food[m
+2014-04-13 04:25:41 [INFO] <ritji> I have 5 health and 20 food[m
+2014-04-13 04:25:41 [INFO] <ritji> I have 2 health and 20 food[m
+2014-04-13 04:25:42 [INFO] ritji was slain by Slime
+2014-04-13 04:25:42 [INFO] <ritji> I have 0 health and 20 food[m
+2014-04-13 04:25:42 [INFO] <ritji> I have 20 health and 20 food[m
+2014-04-13 04:25:42 [INFO] <ritji> I have 20 health and 20 food[m
+2014-04-13 04:25:42 [WARNING] ritji moved wrongly!
+2014-04-13 04:25:44 [INFO] <ritji> I have 17 health and 20 food[m
+2014-04-13 04:25:45 [INFO] <ritji> I have 14 health and 20 food[m
+2014-04-13 04:25:45 [INFO] <ritji> I have 11 health and 20 food[m
+2014-04-13 04:25:46 [INFO] <ritji> I have 8 health and 20 food[m
+2014-04-13 04:25:46 [INFO] <ritji> I have 5 health and 20 food[m
+2014-04-13 04:25:47 [INFO] <ritji> I have 2 health and 20 food[m
+2014-04-13 04:25:47 [INFO] ritji was slain by Slime
+2014-04-13 04:25:47 [INFO] <ritji> I have 0 health and 20 food[m
+2014-04-13 04:25:47 [INFO] <ritji> I have 20 health and 20 food[m
+2014-04-13 04:25:47 [INFO] <ritji> I have 20 health and 20 food[m
+2014-04-13 04:25:50 [INFO] <ritji> I have 17 health and 20 food[m
+2014-04-13 04:25:51 [INFO] <ritji> I have 14 health and 20 food[m
+2014-04-13 04:25:51 [INFO] ritji lost connection: disconnect.endOfStream
+2014-04-13 04:25:51 [INFO] ¤eritji left the game.
+2014-04-13 04:29:09 [INFO] ritji[/127.0.0.1:65183] logged in with entity id 642289 at ([world] 1026.3987002995314, 4.0009999999999994, -66.86199615086748)
+2014-04-13 04:29:09 [INFO] <ritji> I have 14 health and 20 food[m
+2014-04-13 04:29:12 [INFO] <ritji> I have 15 health and 20 food[m
+2014-04-13 04:29:16 [INFO] <ritji> I have 16 health and 20 food[m
+2014-04-13 04:29:20 [INFO] <ritji> I have 17 health and 20 food[m
+2014-04-13 04:29:21 [INFO] <ritji> I have 14.5 health and 20 food[m
+2014-04-13 04:29:21 [INFO] ¤eritji left the game.
+2014-04-13 04:29:21 [INFO] Player ritji tried to attack an EntityPlayer, so I have disconnected them for exploiting.
+2014-04-13 04:29:23 [INFO] Connection reset
+2014-04-13 04:32:55 [INFO] ritji[/127.0.0.1:65233] logged in with entity id 643864 at ([world] 1025.320762011343, 4.0009999999999994, -66.00254899386914)
+2014-04-13 04:32:56 [INFO] <ritji> I have 14.5 health and 20 food[m
+2014-04-13 04:32:59 [INFO] <ritji> I have 15.5 health and 20 food[m
+2014-04-13 04:33:00 [INFO] ritji lost connection: disconnect.endOfStream
+2014-04-13 04:33:00 [INFO] ¤eritji left the game.
+2014-04-13 04:34:05 [INFO] ritji[/127.0.0.1:65240] logged in with entity id 645711 at ([world] 1025.079762823026, 4.0009999999999994, -65.85762044520202)
+2014-04-13 04:34:05 [INFO] <ritji> I have 13 health and 20 food[m
+2014-04-13 04:34:08 [INFO] <ritji> I have 14 health and 20 food[m
+2014-04-13 04:34:09 [INFO] ritji lost connection: disconnect.endOfStream
+2014-04-13 04:34:09 [INFO] ¤eritji left the game.
+2014-04-13 04:34:38 [INFO] ritji[/127.0.0.1:65243] logged in with entity id 652944 at ([world] 1023.0464368689918, 1.001, -67.49765342814767)
+2014-04-13 04:34:39 [INFO] <ritji> I have 11.5 health and 20 food[m
+2014-04-13 04:34:42 [INFO] <ritji> I have 12.5 health and 20 food[m
+2014-04-13 04:34:42 [INFO] ritji lost connection: disconnect.endOfStream
+2014-04-13 04:34:42 [INFO] ¤eritji left the game.
+2014-04-13 04:35:45 [INFO] ritji[/127.0.0.1:65251] logged in with entity id 667302 at ([world] 1022.6821230439789, 1.001, -69.04929612846786)
+2014-04-13 04:35:45 [INFO] <ritji> I have 10 health and 20 food[m
+2014-04-13 04:35:49 [INFO] <ritji> I have 11 health and 20 food[m
+2014-04-13 04:35:53 [INFO] <ritji> I have 12 health and 20 food[m
+2014-04-13 04:35:55 [INFO] <ritji> I have 11 health and 20 food[m
+2014-04-13 04:35:55 [INFO] ¤eritji left the game.
+2014-04-13 04:35:55 [INFO] Player ritji tried to attack an EntityPlayer, so I have disconnected them for exploiting.
+2014-04-13 04:35:57 [INFO] Connection reset
+2014-04-13 04:36:56 [INFO] ritji[/127.0.0.1:65263] logged in with entity id 682289 at ([world] 1023.3063926695429, 1.001, -67.75269277175973)
+2014-04-13 04:36:56 [INFO] <ritji> I have 11 health and 20 food[m
+2014-04-13 04:36:56 [WARNING] ritji moved wrongly!
+2014-04-13 04:36:56 [WARNING] ritji moved wrongly!
+2014-04-13 04:36:57 [WARNING] ritji moved wrongly!
+2014-04-13 04:36:57 [WARNING] ritji moved wrongly!
+2014-04-13 04:36:57 [WARNING] ritji moved wrongly!
+2014-04-13 04:36:57 [WARNING] ritji moved wrongly!
+2014-04-13 04:36:57 [WARNING] ritji moved wrongly!
+2014-04-13 04:36:57 [WARNING] ritji moved wrongly!
+2014-04-13 04:36:57 [WARNING] ritji moved wrongly!
+2014-04-13 04:36:57 [WARNING] ritji moved wrongly!
+2014-04-13 04:36:57 [WARNING] ritji moved wrongly!
+2014-04-13 04:36:57 [WARNING] ritji moved wrongly!
+2014-04-13 04:36:57 [WARNING] ritji moved wrongly!
+2014-04-13 04:36:57 [WARNING] ritji moved wrongly!
+2014-04-13 04:36:57 [WARNING] ritji moved wrongly!
+2014-04-13 04:36:57 [WARNING] ritji moved wrongly!
+2014-04-13 04:36:57 [WARNING] ritji moved wrongly!
+2014-04-13 04:36:57 [WARNING] ritji moved wrongly!
+2014-04-13 04:36:57 [WARNING] ritji moved wrongly!
+2014-04-13 04:36:57 [WARNING] ritji moved wrongly!
+2014-04-13 04:36:57 [WARNING] ritji moved wrongly!
+2014-04-13 04:36:58 [WARNING] ritji moved wrongly!
+2014-04-13 04:36:58 [WARNING] ritji moved wrongly!
+2014-04-13 04:36:58 [WARNING] ritji moved wrongly!
+2014-04-13 04:36:58 [WARNING] ritji moved wrongly!
+2014-04-13 04:36:58 [INFO] <ritji> I have 12 health and 20 food[m
+2014-04-13 04:36:58 [WARNING] ritji moved wrongly!
+2014-04-13 04:36:58 [WARNING] ritji moved wrongly!
+2014-04-13 04:36:58 [WARNING] ritji moved wrongly!
+2014-04-13 04:36:58 [WARNING] ritji moved wrongly!
+2014-04-13 04:36:58 [WARNING] ritji moved wrongly!
+2014-04-13 04:36:58 [WARNING] ritji moved wrongly!
+2014-04-13 04:36:58 [WARNING] ritji moved wrongly!
+2014-04-13 04:36:58 [WARNING] ritji moved wrongly!
+2014-04-13 04:36:58 [WARNING] ritji moved wrongly!
+2014-04-13 04:36:58 [WARNING] ritji moved wrongly!
+2014-04-13 04:36:58 [WARNING] ritji moved wrongly!
+2014-04-13 04:36:58 [WARNING] ritji moved wrongly!
+2014-04-13 04:36:58 [WARNING] ritji moved wrongly!
+2014-04-13 04:36:58 [WARNING] ritji moved wrongly!
+2014-04-13 04:36:58 [WARNING] ritji moved wrongly!
+2014-04-13 04:36:58 [WARNING] ritji moved wrongly!
+2014-04-13 04:36:58 [WARNING] ritji moved wrongly!
+2014-04-13 04:36:59 [WARNING] ritji moved wrongly!
+2014-04-13 04:36:59 [WARNING] ritji moved wrongly!
+2014-04-13 04:36:59 [WARNING] ritji moved wrongly!
+2014-04-13 04:36:59 [WARNING] ritji moved wrongly!
+2014-04-13 04:36:59 [WARNING] ritji moved wrongly!
+2014-04-13 04:36:59 [WARNING] ritji moved wrongly!
+2014-04-13 04:36:59 [WARNING] ritji moved wrongly!
+2014-04-13 04:36:59 [WARNING] ritji moved wrongly!
+2014-04-13 04:36:59 [WARNING] ritji moved wrongly!
+2014-04-13 04:36:59 [WARNING] ritji moved wrongly!
+2014-04-13 04:36:59 [WARNING] ritji moved wrongly!
+2014-04-13 04:36:59 [WARNING] ritji moved wrongly!
+2014-04-13 04:36:59 [WARNING] ritji moved wrongly!
+2014-04-13 04:36:59 [WARNING] ritji moved wrongly!
+2014-04-13 04:36:59 [INFO] <ritji> I have 11 health and 20 food[m
+2014-04-13 04:36:59 [WARNING] ritji moved wrongly!
+2014-04-13 04:36:59 [INFO] ¤eritji left the game.
+2014-04-13 04:36:59 [INFO] Player ritji tried to attack an EntityPlayer, so I have disconnected them for exploiting.
+2014-04-13 04:37:01 [INFO] Connection reset
+2014-04-13 04:37:03 [INFO] ritji[/127.0.0.1:65265] logged in with entity id 683993 at ([world] 886.67968, 1.001, -68.32032)
+2014-04-13 04:37:03 [INFO] <ritji> I have 11 health and 20 food[m
+2014-04-13 04:37:03 [WARNING] ritji moved wrongly!
+2014-04-13 04:37:03 [WARNING] ritji moved wrongly!
+2014-04-13 04:37:03 [WARNING] ritji moved wrongly!
+2014-04-13 04:37:03 [WARNING] ritji moved wrongly!
+2014-04-13 04:37:03 [WARNING] ritji moved wrongly!
+2014-04-13 04:37:03 [WARNING] ritji moved wrongly!
+2014-04-13 04:37:04 [WARNING] ritji moved wrongly!
+2014-04-13 04:37:04 [WARNING] ritji moved wrongly!
+2014-04-13 04:37:04 [WARNING] ritji moved wrongly!
+2014-04-13 04:37:04 [WARNING] ritji moved wrongly!
+2014-04-13 04:37:04 [WARNING] ritji moved wrongly!
+2014-04-13 04:37:04 [WARNING] ritji moved wrongly!
+2014-04-13 04:37:04 [WARNING] ritji moved wrongly!
+2014-04-13 04:37:04 [WARNING] ritji moved wrongly!
+2014-04-13 04:37:04 [WARNING] ritji moved wrongly!
+2014-04-13 04:37:04 [WARNING] ritji moved wrongly!
+2014-04-13 04:37:04 [WARNING] ritji moved wrongly!
+2014-04-13 04:37:04 [WARNING] ritji moved wrongly!
+2014-04-13 04:37:04 [WARNING] ritji moved wrongly!
+2014-04-13 04:37:04 [WARNING] ritji moved wrongly!
+2014-04-13 04:37:04 [WARNING] ritji moved wrongly!
+2014-04-13 04:37:04 [WARNING] ritji moved wrongly!
+2014-04-13 04:37:04 [WARNING] ritji moved wrongly!
+2014-04-13 04:37:04 [WARNING] ritji moved wrongly!
+2014-04-13 04:37:04 [WARNING] ritji moved wrongly!
+2014-04-13 04:37:04 [WARNING] ritji moved wrongly!
+2014-04-13 04:37:05 [WARNING] ritji moved wrongly!
+2014-04-13 04:37:05 [WARNING] ritji moved wrongly!
+2014-04-13 04:37:05 [WARNING] ritji moved wrongly!
+2014-04-13 04:37:05 [WARNING] ritji moved wrongly!
+2014-04-13 04:37:05 [WARNING] ritji moved wrongly!
+2014-04-13 04:37:05 [WARNING] ritji moved wrongly!
+2014-04-13 04:37:05 [WARNING] ritji moved wrongly!
+2014-04-13 04:37:05 [WARNING] ritji moved wrongly!
+2014-04-13 04:37:05 [WARNING] ritji moved wrongly!
+2014-04-13 04:37:05 [WARNING] ritji moved wrongly!
+2014-04-13 04:37:05 [WARNING] ritji moved wrongly!
+2014-04-13 04:37:05 [WARNING] ritji moved wrongly!
+2014-04-13 04:37:05 [WARNING] ritji moved wrongly!
+2014-04-13 04:37:05 [WARNING] ritji moved wrongly!
+2014-04-13 04:37:05 [WARNING] ritji moved wrongly!
+2014-04-13 04:37:05 [WARNING] ritji moved wrongly!
+2014-04-13 04:37:05 [WARNING] ritji moved wrongly!
+2014-04-13 04:37:05 [WARNING] ritji moved wrongly!
+2014-04-13 04:37:05 [WARNING] ritji moved wrongly!
+2014-04-13 04:37:06 [WARNING] ritji moved wrongly!
+2014-04-13 04:37:06 [WARNING] ritji moved wrongly!
+2014-04-13 04:37:06 [INFO] <ritji> I have 12 health and 20 food[m
+2014-04-13 04:37:06 [WARNING] ritji moved wrongly!
+2014-04-13 04:37:06 [WARNING] ritji moved wrongly!
+2014-04-13 04:37:06 [WARNING] ritji moved wrongly!
+2014-04-13 04:37:06 [WARNING] ritji moved wrongly!
+2014-04-13 04:37:06 [WARNING] ritji moved wrongly!
+2014-04-13 04:37:06 [WARNING] ritji moved wrongly!
+2014-04-13 04:37:06 [WARNING] ritji moved wrongly!
+2014-04-13 04:37:06 [WARNING] ritji moved wrongly!
+2014-04-13 04:37:06 [WARNING] ritji moved wrongly!
+2014-04-13 04:37:06 [WARNING] ritji moved wrongly!
+2014-04-13 04:37:06 [INFO] <ritji> I have 11 health and 20 food[m
+2014-04-13 04:37:06 [INFO] ¤eritji left the game.
+2014-04-13 04:37:06 [INFO] Player ritji tried to attack an EntityPlayer, so I have disconnected them for exploiting.
+2014-04-13 04:37:08 [INFO] Connection reset
+2014-04-13 04:37:11 [INFO] ritji[/127.0.0.1:65266] logged in with entity id 685809 at ([world] 1024.32132, 1.001, -68.32032)
+2014-04-13 04:37:11 [INFO] <ritji> I have 11 health and 20 food[m
+2014-04-13 04:37:11 [WARNING] ritji moved wrongly!
+2014-04-13 04:37:11 [WARNING] ritji moved wrongly!
+2014-04-13 04:37:11 [WARNING] ritji moved wrongly!
+2014-04-13 04:37:11 [WARNING] ritji moved wrongly!
+2014-04-13 04:37:11 [WARNING] ritji moved wrongly!
+2014-04-13 04:37:11 [WARNING] ritji moved wrongly!
+2014-04-13 04:37:11 [WARNING] ritji moved wrongly!
+2014-04-13 04:37:11 [WARNING] ritji moved wrongly!
+2014-04-13 04:37:11 [WARNING] ritji moved wrongly!
+2014-04-13 04:37:11 [WARNING] ritji moved wrongly!
+2014-04-13 04:37:11 [WARNING] ritji moved wrongly!
+2014-04-13 04:37:11 [WARNING] ritji moved wrongly!
+2014-04-13 04:37:11 [WARNING] ritji moved wrongly!
+2014-04-13 04:37:11 [WARNING] ritji moved wrongly!
+2014-04-13 04:37:11 [WARNING] ritji moved wrongly!
+2014-04-13 04:37:11 [WARNING] ritji moved wrongly!
+2014-04-13 04:37:11 [WARNING] ritji moved wrongly!
+2014-04-13 04:37:12 [WARNING] ritji moved wrongly!
+2014-04-13 04:37:12 [WARNING] ritji moved wrongly!
+2014-04-13 04:37:12 [WARNING] ritji moved wrongly!
+2014-04-13 04:37:12 [WARNING] ritji moved wrongly!
+2014-04-13 04:37:12 [WARNING] ritji moved wrongly!
+2014-04-13 04:37:12 [WARNING] ritji moved wrongly!
+2014-04-13 04:37:12 [WARNING] ritji moved wrongly!
+2014-04-13 04:37:12 [WARNING] ritji moved wrongly!
+2014-04-13 04:37:12 [WARNING] ritji moved wrongly!
+2014-04-13 04:37:12 [WARNING] ritji moved wrongly!
+2014-04-13 04:37:12 [WARNING] ritji moved wrongly!
+2014-04-13 04:37:12 [WARNING] ritji moved wrongly!
+2014-04-13 04:37:12 [WARNING] ritji moved wrongly!
+2014-04-13 04:37:12 [WARNING] ritji moved wrongly!
+2014-04-13 04:37:12 [WARNING] ritji moved wrongly!
+2014-04-13 04:37:12 [WARNING] ritji moved wrongly!
+2014-04-13 04:37:12 [WARNING] ritji moved wrongly!
+2014-04-13 04:37:12 [WARNING] ritji moved wrongly!
+2014-04-13 04:37:12 [WARNING] ritji moved wrongly!
+2014-04-13 04:37:12 [WARNING] ritji moved wrongly!
+2014-04-13 04:37:13 [WARNING] ritji moved wrongly!
+2014-04-13 04:37:13 [WARNING] ritji moved wrongly!
+2014-04-13 04:37:13 [WARNING] ritji moved wrongly!
+2014-04-13 04:37:13 [WARNING] ritji moved wrongly!
+2014-04-13 04:37:13 [WARNING] ritji moved wrongly!
+2014-04-13 04:37:13 [WARNING] ritji moved wrongly!
+2014-04-13 04:37:13 [WARNING] ritji moved wrongly!
+2014-04-13 04:37:13 [WARNING] ritji moved wrongly!
+2014-04-13 04:37:13 [WARNING] ritji moved wrongly!
+2014-04-13 04:37:13 [WARNING] ritji moved wrongly!
+2014-04-13 04:37:13 [WARNING] ritji moved wrongly!
+2014-04-13 04:37:13 [WARNING] ritji moved wrongly!
+2014-04-13 04:37:13 [WARNING] ritji moved wrongly!
+2014-04-13 04:37:13 [WARNING] ritji moved wrongly!
+2014-04-13 04:37:13 [WARNING] ritji moved wrongly!
+2014-04-13 04:37:13 [WARNING] ritji moved wrongly!
+2014-04-13 04:37:13 [WARNING] ritji moved wrongly!
+2014-04-13 04:37:13 [WARNING] ritji moved wrongly!
+2014-04-13 04:37:13 [WARNING] ritji moved wrongly!
+2014-04-13 04:37:13 [WARNING] ritji moved wrongly!
+2014-04-13 04:37:14 [WARNING] ritji moved wrongly!
+2014-04-13 04:37:14 [INFO] <ritji> I have 10 health and 20 food[m
+2014-04-13 04:37:14 [INFO] ¤eritji left the game.
+2014-04-13 04:37:14 [INFO] Player ritji tried to attack an EntityPlayer, so I have disconnected them for exploiting.
+2014-04-13 04:37:16 [INFO] Connection reset
+2014-04-13 04:37:22 [INFO] ritjii[/127.0.0.1:65268] logged in with entity id 688112 at ([world] 1025.8587937013442, 4.0009999999999994, -61.67868)
+2014-04-13 04:37:22 [INFO] <ritjii> I have 20 health and 20 food[m
+2014-04-13 04:37:23 [INFO] <ritjii> diging[m
+2014-04-13 04:37:23 [INFO] <ritjii> ABORTEUi![object Object][m
+2014-04-13 04:37:23 [INFO] <ritjii> diging[m
+2014-04-13 04:37:26 [INFO] <ritjii> chegamos ao complete[m
+2014-04-13 04:37:26 [INFO] <ritjii> finished digging[m
+2014-04-13 04:37:26 [INFO] <ritjii> diging[m
+2014-04-13 04:37:29 [INFO] <ritjii> chegamos ao complete[m
+2014-04-13 04:37:29 [INFO] <ritjii> finished digging[m
+2014-04-13 04:38:21 [INFO] CONSOLE: Set time to 2000[m
+2014-04-13 04:38:29 [INFO] <ritjii> diging[m
+2014-04-13 04:38:29 [INFO] <ritjii> ABORTEUi![object Object][m
+2014-04-13 04:38:29 [INFO] <ritjii> diging[m
+2014-04-13 04:38:29 [INFO] <ritjii> ABORTEUi![object Object][m
+2014-04-13 04:38:29 [INFO] <ritjii> diging[m
+2014-04-13 04:38:29 [INFO] CONSOLE: Set time to 8000[m
+2014-04-13 04:38:32 [INFO] <ritjii> chegamos ao complete[m
+2014-04-13 04:38:32 [INFO] <ritjii> finished digging[m
+2014-04-13 04:38:32 [INFO] <ritjii> diging[m
+2014-04-13 04:38:32 [INFO] <ritjii> ABORTEUi![object Object][m
+2014-04-13 04:38:32 [INFO] <ritjii> diging[m
+2014-04-13 04:38:35 [INFO] <ritjii> chegamos ao complete[m
+2014-04-13 04:38:35 [INFO] <ritjii> finished digging[m
+2014-04-13 04:38:35 [INFO] <ritjii> diging[m
+2014-04-13 04:38:38 [INFO] <ritjii> chegamos ao complete[m
+2014-04-13 04:38:38 [INFO] <ritjii> finished digging[m
+2014-04-13 04:38:52 [INFO] <ritjii> diging[m
+2014-04-13 04:38:52 [INFO] <ritjii> ABORTEUi![object Object][m
+2014-04-13 04:38:52 [INFO] <ritjii> diging[m
+2014-04-13 04:38:52 [INFO] <ritjii> ABORTEUi![object Object][m
+2014-04-13 04:38:52 [INFO] <ritjii> diging[m
+2014-04-13 04:38:55 [INFO] <ritjii> chegamos ao complete[m
+2014-04-13 04:38:55 [INFO] <ritjii> finished digging[m
+2014-04-13 04:38:55 [INFO] <ritjii> diging[m
+2014-04-13 04:38:55 [INFO] <ritjii> ABORTEUi![object Object][m
+2014-04-13 04:38:55 [INFO] <ritjii> diging[m
+2014-04-13 04:38:58 [INFO] <ritjii> chegamos ao complete[m
+2014-04-13 04:38:58 [INFO] <ritjii> finished digging[m
+2014-04-13 04:38:58 [INFO] <ritjii> diging[m
+2014-04-13 04:39:01 [INFO] <ritjii> chegamos ao complete[m
+2014-04-13 04:39:01 [INFO] <ritjii> finished digging[m
+2014-04-13 04:39:01 [INFO] <ritjii> diging[m
+2014-04-13 04:39:01 [INFO] <ritjii> ABORTEUi![object Object][m
+2014-04-13 04:39:01 [INFO] <ritjii> diging[m
+2014-04-13 04:39:01 [INFO] <ritjii> ABORTEUi![object Object][m
+2014-04-13 04:39:01 [INFO] <ritjii> diging[m
+2014-04-13 04:39:02 [INFO] ¤eritjii left the game.
+2014-04-13 04:39:04 [INFO] Connection reset
+2014-04-13 04:39:16 [INFO] ritjii[/127.0.0.1:65279] logged in with entity id 710893 at ([world] 1030.999615045323, 4.0009999999999994, -35.9954923844355)
+2014-04-13 04:39:16 [INFO] <ritjii> diging[m
+2014-04-13 04:39:16 [INFO] <ritjii> ABORTEUi![object Object][m
+2014-04-13 04:39:16 [INFO] <ritjii> diging[m
+2014-04-13 04:39:16 [INFO] <ritjii> ABORTEUi![object Object][m
+2014-04-13 04:39:16 [INFO] <ritjii> diging[m
+2014-04-13 04:39:16 [INFO] <ritjii> I have 20 health and 20 food[m
+2014-04-13 04:39:19 [INFO] <ritjii> chegamos ao complete[m
+2014-04-13 04:39:19 [INFO] <ritjii> finished digging[m
+2014-04-13 04:39:33 [INFO] <ritjii> diging[m
+2014-04-13 04:39:33 [INFO] <ritjii> ABORTEUi![object Object][m
+2014-04-13 04:39:33 [INFO] <ritjii> diging[m
+2014-04-13 04:39:36 [INFO] <ritjii> chegamos ao complete[m
+2014-04-13 04:39:36 [INFO] <ritjii> finished digging[m
+2014-04-13 04:39:36 [INFO] <ritjii> diging[m
+2014-04-13 04:39:39 [INFO] <ritjii> chegamos ao complete[m
+2014-04-13 04:39:39 [INFO] <ritjii> finished digging[m
+2014-04-13 04:39:39 [INFO] <ritjii> diging[m
+2014-04-13 04:39:39 [INFO] <ritjii> ABORTEUi![object Object][m
+2014-04-13 04:39:39 [INFO] <ritjii> diging[m
+2014-04-13 04:39:39 [INFO] <ritjii> ABORTEUi![object Object][m
+2014-04-13 04:39:39 [INFO] <ritjii> diging[m
+2014-04-13 04:39:42 [INFO] <ritjii> chegamos ao complete[m
+2014-04-13 04:39:42 [INFO] <ritjii> finished digging[m
+2014-04-13 04:39:42 [INFO] <ritjii> diging[m
+2014-04-13 04:39:42 [INFO] <ritjii> ABORTEUi![object Object][m
+2014-04-13 04:39:42 [INFO] <ritjii> diging[m
+2014-04-13 04:39:45 [INFO] <ritjii> chegamos ao complete[m
+2014-04-13 04:39:45 [INFO] <ritjii> finished digging[m
+2014-04-13 04:39:45 [INFO] <ritjii> diging[m
+2014-04-13 04:39:48 [INFO] <ritjii> chegamos ao complete[m
+2014-04-13 04:39:48 [INFO] <ritjii> finished digging[m
+2014-04-13 04:39:51 [INFO] <ritjii> diging[m
+2014-04-13 04:39:51 [INFO] <ritjii> ABORTEUi![object Object][m
+2014-04-13 04:39:51 [INFO] <ritjii> diging[m
+2014-04-13 04:39:51 [INFO] <ritjii> ABORTEUi![object Object][m
+2014-04-13 04:39:51 [INFO] <ritjii> diging[m
+2014-04-13 04:39:54 [INFO] <ritjii> chegamos ao complete[m
+2014-04-13 04:39:54 [INFO] <ritjii> finished digging[m
+2014-04-13 04:39:54 [INFO] <ritjii> diging[m
+2014-04-13 04:39:54 [INFO] <ritjii> ABORTEUi![object Object][m
+2014-04-13 04:39:55 [INFO] <ritjii> diging[m
+2014-04-13 04:39:55 [INFO] ¤eritjii left the game.
+2014-04-13 04:39:57 [INFO] Connection reset
+2014-04-13 04:40:32 [INFO] ritjii[/127.0.0.1:65291] logged in with entity id 726417 at ([world] 1032.7493539841973, 4.0009999999999994, -35.32032)
+2014-04-13 04:40:32 [INFO] <ritjii> I have 20 health and 20 food[m
+2014-04-13 04:40:33 [INFO] <ritjii> diging[m
+2014-04-13 04:40:33 [INFO] <ritjii> ABORTEUi![object Object][m
+2014-04-13 04:40:33 [INFO] <ritjii> diging[m
+2014-04-13 04:40:36 [INFO] <ritjii> chegamos ao complete[m
+2014-04-13 04:40:36 [INFO] <ritjii> finished digging[m
+2014-04-13 04:40:36 [INFO] <ritjii> diging[m
+2014-04-13 04:40:39 [INFO] <ritjii> chegamos ao complete[m
+2014-04-13 04:40:39 [INFO] <ritjii> finished digging[m
+2014-04-13 04:41:04 [INFO] <ritjii> I have 18 health and 20 food[m
+2014-04-13 04:41:04 [INFO] ¤eritjii left the game.
+2014-04-13 04:41:04 [INFO] Player ritjii tried to attack an EntityPlayer, so I have disconnected them for exploiting.
+2014-04-13 04:41:06 [INFO] Connection reset
+2014-04-13 04:41:23 [INFO] ritjii[/127.0.0.1:65295] logged in with entity id 737048 at ([world] 1044.349223014549, 4.0009999999999994, -34.01012046507384)
+2014-04-13 04:41:23 [INFO] <ritjii> I have 18 health and 20 food[m
+2014-04-13 04:41:27 [INFO] <ritjii> I have 19 health and 20 food[m
+2014-04-13 04:41:32 [INFO] <ritjii> I have 20 health and 20 food[m
+2014-04-13 04:43:02 [INFO] ¤eritjii left the game.
+2014-04-13 04:43:03 [INFO] Player ritjii tried to attack an EntityPlayer, so I have disconnected them for exploiting.
+2014-04-13 04:43:04 [INFO] Connection reset
+2014-04-13 04:43:20 [INFO] ritjii[/127.0.0.1:65307] logged in with entity id 756535 at ([world] 1022.3056094005053, 4.0009999999999994, 15.053900018327504)
+2014-04-13 04:43:20 [INFO] <ritjii> I have 17.5 health and 20 food[m
+2014-04-13 04:43:24 [INFO] ¤eritjii left the game.
+2014-04-13 04:43:24 [INFO] Player ritjii tried to attack an EntityPlayer, so I have disconnected them for exploiting.
+2014-04-13 04:43:26 [INFO] Connection reset
+2014-04-13 04:47:44 [INFO] [0;33;1m--------- [0;37;1mHelp: Index [0;33;1m---------------------------[m
+2014-04-13 04:47:44 [INFO] [0;37;22mUse /help [n] to get page n of help.[m
+2014-04-13 04:47:44 [INFO] [0;33;22mAliases: [0;37;1mLists command aliases[m
+2014-04-13 04:47:44 [INFO] [0;33;22mBukkit: [0;37;1mAll commands for Bukkit[m
+2014-04-13 04:47:44 [INFO] [0;33;22mSpectate: [0;37;1mAll commands for Spectate[m
+2014-04-13 04:47:44 [INFO] [0;33;22m/ban: [0;37;1mPrevents the specified player from using this server[m
+2014-04-13 04:47:44 [INFO] [0;33;22m/ban-ip: [0;37;1mPrevents the specified IP address from using this server[m
+2014-04-13 04:47:44 [INFO] [0;33;22m/banlist: [0;37;1mView all players banned from this server[m
+2014-04-13 04:47:44 [INFO] [0;33;22m/clear: [0;37;1mClears the player's inventory. Can specify item and data filters too.[m
+2014-04-13 04:47:44 [INFO] [0;33;22m/control: [0;37;1mLets you control another user[m
+2014-04-13 04:47:44 [INFO] [0;33;22m/defaultgamemode: [0;37;1mSet the default gamemode[m
+2014-04-13 04:47:44 [INFO] [0;33;22m/deop: [0;37;1mTakes the specified player's operator status[m
+2014-04-13 04:47:44 [INFO] [0;33;22m/difficulty: [0;37;1mSets the game difficulty[m
+2014-04-13 04:47:44 [INFO] [0;33;22m/effect: [0;37;1mAdds/Removes effects on players[m
+2014-04-13 04:47:44 [INFO] [0;33;22m/enchant: [0;37;1mAdds enchantments to the item the player is currently holding. Specify 0 for the level to remove an enchantment. Specify force to ignore normal enchantment restrictions[m
+2014-04-13 04:47:44 [INFO] [0;33;22m/gamemode: [0;37;1mChanges the player to a specific game mode[m
+2014-04-13 04:47:44 [INFO] [0;33;22m/gamerule: [0;37;1mSets a server's game rules[m
+2014-04-13 04:47:44 [INFO] [0;33;22m/give: [0;37;1mGives the specified player a certain amount of items[m
+2014-04-13 04:47:44 [INFO] [0;33;22m/help: [0;37;1mShows the help menu[m
+2014-04-13 04:47:44 [INFO] [0;33;22m/kick: [0;37;1mRemoves the specified player from the server[m
+2014-04-13 04:47:44 [INFO] [0;33;22m/kill: [0;37;1mCommits suicide, only usable as a player[m
+2014-04-13 04:47:44 [INFO] [0;33;22m/list: [0;37;1mLists all online players[m
+2014-04-13 04:47:44 [INFO] [0;33;22m/me: [0;37;1mPerforms the specified action in chat[m
+2014-04-13 04:47:44 [INFO] [0;33;22m/op: [0;37;1mGives the specified player operator status[m
+2014-04-13 04:47:44 [INFO] [0;33;22m/pardon: [0;37;1mAllows the specified player to use this server[m
+2014-04-13 04:47:44 [INFO] [0;33;22m/pardon-ip: [0;37;1mAllows the specified IP address to use this server[m
+2014-04-13 04:47:44 [INFO] [0;33;22m/playsound: [0;37;1mPlays a sound to a given player[m
+2014-04-13 04:47:44 [INFO] [0;33;22m/plugins: [0;37;1mGets a list of plugins running on the server[m
+2014-04-13 04:47:44 [INFO] [0;33;22m/reload: [0;37;1mReloads the server configuration and plugins[m
+2014-04-13 04:47:44 [INFO] [0;33;22m/save-all: [0;37;1mSaves the server to disk[m
+2014-04-13 04:47:44 [INFO] [0;33;22m/save-off: [0;37;1mDisables server autosaving[m
+2014-04-13 04:47:44 [INFO] [0;33;22m/save-on: [0;37;1mEnables server autosaving[m
+2014-04-13 04:47:44 [INFO] [0;33;22m/say: [0;37;1mBroadcasts the given message as the console[m
+2014-04-13 04:47:44 [INFO] [0;33;22m/scoreboard: [0;37;1mScoreboard control[m
+2014-04-13 04:47:44 [INFO] [0;33;22m/seed: [0;37;1mShows the world seed[m
+2014-04-13 04:47:44 [INFO] [0;33;22m/spawnpoint: [0;37;1mSets a player's spawn point[m
+2014-04-13 04:47:44 [INFO] [0;33;22m/spectate: [0;37;1mLets you spectate another user[m
+2014-04-13 04:47:44 [INFO] [0;33;22m/spreadplayers: [0;37;1mSpreads players around a point[m
+2014-04-13 04:47:44 [INFO] [0;33;22m/stop: [0;37;1mStops the server with optional reason[m
+2014-04-13 04:47:44 [INFO] [0;33;22m/tell: [0;37;1mSends a private message to the given player[m
+2014-04-13 04:47:44 [INFO] [0;33;22m/testfor: [0;37;1mTests whether a specifed player is online[m
+2014-04-13 04:47:44 [INFO] [0;33;22m/time: [0;37;1mChanges the time on each world[m
+2014-04-13 04:47:44 [INFO] [0;33;22m/timings: [0;37;1mRecords timings for all plugin events[m
+2014-04-13 04:47:44 [INFO] [0;33;22m/toggledownfall: [0;37;1mToggles rain on/off on a given world[m
+2014-04-13 04:47:44 [INFO] [0;33;22m/tp: [0;37;1mTeleports the given player (or yourself) to another player or coordinates[m
+2014-04-13 04:47:44 [INFO] [0;33;22m/version: [0;37;1mGets the version of this server including any plugins in use[m
+2014-04-13 04:47:44 [INFO] [0;33;22m/weather: [0;37;1mChanges the weather[m
+2014-04-13 04:47:44 [INFO] [0;33;22m/whitelist: [0;37;1mManages the list of players allowed to use this server[m
+2014-04-13 04:47:44 [INFO] [0;33;22m/xp: [0;37;1mGives the specified player a certain amount of experience. Specify <amount>L to give levels instead, with a negative amount resulting in taking levels.[m
+2014-04-13 04:48:23 [INFO] [0;31;1mCommands for Spectate:[m
+2014-04-13 04:48:23 [INFO] [0;31;1m/spectate [PlayerName]: [0;37;22mPuts you into spectate mode and lets you see what the target sees.[m
+2014-04-13 04:48:23 [INFO] [0;31;1m/spectate off : [0;37;22mTakes you out of spectate mode.[m
+2014-04-13 04:48:23 [INFO] [0;31;1m/spectate scan [interval] : [0;37;22mStarts the scanning mode with the specified interval.[m
+2014-04-13 04:48:23 [INFO] [0;31;1m/spectate mode [1 | default]: [0;37;22mPuts you into the default spectate mode.[m
+2014-04-13 04:48:23 [INFO] [0;31;1m/spectate mode [2 | scroll]: [0;37;22mPuts you into scroll style mode with left click and right click controls.[m
+2014-04-13 04:48:23 [INFO] [0;31;1m/spectate reload : [0;37;22mReloads the config.[m
+2014-04-13 04:48:23 [INFO] [0;31;1m/spectate help : [0;37;22mShows this help page.[m
+2014-04-13 04:48:36 [INFO] Unknown command. Type "help" for help.[m
+2014-04-13 04:48:40 [INFO] Unknown command. Type "help" for help.[m
+2014-04-13 04:48:43 [INFO] [0;33;1m--------- [0;37;1mHelp: Index [0;33;1m---------------------------[m
+2014-04-13 04:48:43 [INFO] [0;37;22mUse /help [n] to get page n of help.[m
+2014-04-13 04:48:43 [INFO] [0;33;22mAliases: [0;37;1mLists command aliases[m
+2014-04-13 04:48:43 [INFO] [0;33;22mBukkit: [0;37;1mAll commands for Bukkit[m
+2014-04-13 04:48:43 [INFO] [0;33;22mSpectate: [0;37;1mAll commands for Spectate[m
+2014-04-13 04:48:43 [INFO] [0;33;22m/ban: [0;37;1mPrevents the specified player from using this server[m
+2014-04-13 04:48:43 [INFO] [0;33;22m/ban-ip: [0;37;1mPrevents the specified IP address from using this server[m
+2014-04-13 04:48:43 [INFO] [0;33;22m/banlist: [0;37;1mView all players banned from this server[m
+2014-04-13 04:48:43 [INFO] [0;33;22m/clear: [0;37;1mClears the player's inventory. Can specify item and data filters too.[m
+2014-04-13 04:48:43 [INFO] [0;33;22m/control: [0;37;1mLets you control another user[m
+2014-04-13 04:48:43 [INFO] [0;33;22m/defaultgamemode: [0;37;1mSet the default gamemode[m
+2014-04-13 04:48:43 [INFO] [0;33;22m/deop: [0;37;1mTakes the specified player's operator status[m
+2014-04-13 04:48:43 [INFO] [0;33;22m/difficulty: [0;37;1mSets the game difficulty[m
+2014-04-13 04:48:43 [INFO] [0;33;22m/effect: [0;37;1mAdds/Removes effects on players[m
+2014-04-13 04:48:43 [INFO] [0;33;22m/enchant: [0;37;1mAdds enchantments to the item the player is currently holding. Specify 0 for the level to remove an enchantment. Specify force to ignore normal enchantment restrictions[m
+2014-04-13 04:48:43 [INFO] [0;33;22m/gamemode: [0;37;1mChanges the player to a specific game mode[m
+2014-04-13 04:48:43 [INFO] [0;33;22m/gamerule: [0;37;1mSets a server's game rules[m
+2014-04-13 04:48:43 [INFO] [0;33;22m/give: [0;37;1mGives the specified player a certain amount of items[m
+2014-04-13 04:48:43 [INFO] [0;33;22m/help: [0;37;1mShows the help menu[m
+2014-04-13 04:48:43 [INFO] [0;33;22m/kick: [0;37;1mRemoves the specified player from the server[m
+2014-04-13 04:48:43 [INFO] [0;33;22m/kill: [0;37;1mCommits suicide, only usable as a player[m
+2014-04-13 04:48:43 [INFO] [0;33;22m/list: [0;37;1mLists all online players[m
+2014-04-13 04:48:43 [INFO] [0;33;22m/me: [0;37;1mPerforms the specified action in chat[m
+2014-04-13 04:48:43 [INFO] [0;33;22m/op: [0;37;1mGives the specified player operator status[m
+2014-04-13 04:48:43 [INFO] [0;33;22m/pardon: [0;37;1mAllows the specified player to use this server[m
+2014-04-13 04:48:43 [INFO] [0;33;22m/pardon-ip: [0;37;1mAllows the specified IP address to use this server[m
+2014-04-13 04:48:43 [INFO] [0;33;22m/playsound: [0;37;1mPlays a sound to a given player[m
+2014-04-13 04:48:43 [INFO] [0;33;22m/plugins: [0;37;1mGets a list of plugins running on the server[m
+2014-04-13 04:48:43 [INFO] [0;33;22m/reload: [0;37;1mReloads the server configuration and plugins[m
+2014-04-13 04:48:43 [INFO] [0;33;22m/save-all: [0;37;1mSaves the server to disk[m
+2014-04-13 04:48:43 [INFO] [0;33;22m/save-off: [0;37;1mDisables server autosaving[m
+2014-04-13 04:48:43 [INFO] [0;33;22m/save-on: [0;37;1mEnables server autosaving[m
+2014-04-13 04:48:43 [INFO] [0;33;22m/say: [0;37;1mBroadcasts the given message as the console[m
+2014-04-13 04:48:43 [INFO] [0;33;22m/scoreboard: [0;37;1mScoreboard control[m
+2014-04-13 04:48:43 [INFO] [0;33;22m/seed: [0;37;1mShows the world seed[m
+2014-04-13 04:48:43 [INFO] [0;33;22m/spawnpoint: [0;37;1mSets a player's spawn point[m
+2014-04-13 04:48:43 [INFO] [0;33;22m/spectate: [0;37;1mLets you spectate another user[m
+2014-04-13 04:48:43 [INFO] [0;33;22m/spreadplayers: [0;37;1mSpreads players around a point[m
+2014-04-13 04:48:43 [INFO] [0;33;22m/stop: [0;37;1mStops the server with optional reason[m
+2014-04-13 04:48:43 [INFO] [0;33;22m/tell: [0;37;1mSends a private message to the given player[m
+2014-04-13 04:48:43 [INFO] [0;33;22m/testfor: [0;37;1mTests whether a specifed player is online[m
+2014-04-13 04:48:43 [INFO] [0;33;22m/time: [0;37;1mChanges the time on each world[m
+2014-04-13 04:48:43 [INFO] [0;33;22m/timings: [0;37;1mRecords timings for all plugin events[m
+2014-04-13 04:48:43 [INFO] [0;33;22m/toggledownfall: [0;37;1mToggles rain on/off on a given world[m
+2014-04-13 04:48:43 [INFO] [0;33;22m/tp: [0;37;1mTeleports the given player (or yourself) to another player or coordinates[m
+2014-04-13 04:48:43 [INFO] [0;33;22m/version: [0;37;1mGets the version of this server including any plugins in use[m
+2014-04-13 04:48:43 [INFO] [0;33;22m/weather: [0;37;1mChanges the weather[m
+2014-04-13 04:48:43 [INFO] [0;33;22m/whitelist: [0;37;1mManages the list of players allowed to use this server[m
+2014-04-13 04:48:43 [INFO] [0;33;22m/xp: [0;37;1mGives the specified player a certain amount of experience. Specify <amount>L to give levels instead, with a negative amount resulting in taking levels.[m
+2014-04-13 04:48:57 [INFO] Unknown command. Type "help" for help.[m
+2014-04-13 04:49:00 [INFO] Unknown command. Type "help" for help.[m
+2014-04-13 04:49:05 [INFO] CONSOLE: Stopping the server..[m
+2014-04-13 04:49:05 [INFO] Stopping server
+2014-04-13 04:49:05 [INFO] [Spectate] Disabling Spectate v2.0
+2014-04-13 04:49:05 [INFO] Saving players
+2014-04-13 04:49:05 [WARNING] DSCT: Socket closed
+2014-04-13 04:49:05 [INFO] Closing listening thread
+2014-04-13 04:49:05 [INFO] ¤emontoias left the game.
+2014-04-13 04:49:05 [INFO] Saving worlds
+2014-04-13 04:49:05 [INFO] Saving chunks for level 'world'/Overworld
+2014-04-13 04:49:06 [INFO] Saving chunks for level 'world_nether'/Nether
+2014-04-13 04:49:06 [INFO] Saving chunks for level 'world_the_end'/The End
+2014-04-13 04:49:06 [INFO] Stopping server
+2014-04-13 04:57:18 [INFO] Starting minecraft server version 1.6.4
+2014-04-13 04:57:18 [INFO] Loading properties
+2014-04-13 04:57:18 [INFO] Default game type: SURVIVAL
+2014-04-13 04:57:18 [INFO] Generating keypair
+2014-04-13 04:57:18 [INFO] Starting Minecraft server on *:25565
+2014-04-13 04:57:18 [INFO] This server is running CraftBukkit version git-Bukkit-1.6.2-R1.0-2-g317b76b-b2882jnks (MC: 1.6.4) (Implementing API version 1.6.4-R0.1-SNAPSHOT)
+2014-04-13 04:57:18 [INFO] [Spectate] Loading Spectate v2.0
+2014-04-13 04:57:18 [INFO] Preparing level "world"
+2014-04-13 04:57:18 [INFO] Preparing start region for level 0 (Seed: 4539697792417860999)
+2014-04-13 04:57:19 [WARNING] ----- Bukkit Auto Updater -----
+2014-04-13 04:57:19 [WARNING] Your version of CraftBukkit is out of date. Version 1.6.4-R2.0 (build #2918) was released on Wed Oct 30 23:39:40 WET 2013.
+2014-04-13 04:57:19 [WARNING] Details: /downloads/craftbukkit/view/02389_1.6.4-R2.0/
+2014-04-13 04:57:19 [WARNING] Download: /downloads/craftbukkit/get/02389_1.6.4-R2.0/craftbukkit.jar
+2014-04-13 04:57:19 [WARNING] ----- ------------------- -----
+2014-04-13 04:57:19 [INFO] Preparing start region for level 1 (Seed: -6264712660610705308)
+2014-04-13 04:57:20 [INFO] Preparing start region for level 2 (Seed: -6264712660610705308)
+2014-04-13 04:57:20 [INFO] [Spectate] Enabling Spectate v2.0
+2014-04-13 04:57:20 [INFO] Server permissions file permissions.yml is empty, ignoring it
+2014-04-13 04:57:20 [INFO] Done (1.984s)! For help, type "help" or "?"
+2014-04-13 04:57:21 [INFO] Unknown command. Type "help" for help.[m
+2014-04-13 04:57:33 [INFO] Disconnecting ritjii [/127.0.0.1:49188]: Failed to verify username!
+2014-04-13 04:57:35 [INFO] Connection reset
+2014-04-13 04:57:41 [INFO] montoias [/127.0.0.1:49191] lost connection
+2014-04-13 04:57:44 [INFO] CONSOLE: Stopping the server..[m
+2014-04-13 04:57:44 [INFO] Stopping server
+2014-04-13 04:57:44 [INFO] [Spectate] Disabling Spectate v2.0
+2014-04-13 04:57:44 [INFO] Saving players
+2014-04-13 04:57:44 [WARNING] DSCT: Socket closed
+2014-04-13 04:57:44 [INFO] Saving worlds
+2014-04-13 04:57:44 [INFO] Closing listening thread
+2014-04-13 04:57:44 [INFO] Saving chunks for level 'world'/Overworld
+2014-04-13 04:57:45 [INFO] Saving chunks for level 'world_nether'/Nether
+2014-04-13 04:57:45 [INFO] Saving chunks for level 'world_the_end'/The End
+2014-04-13 04:58:04 [INFO] Starting minecraft server version 1.6.4
+2014-04-13 04:58:04 [INFO] Loading properties
+2014-04-13 04:58:04 [INFO] Default game type: SURVIVAL
+2014-04-13 04:58:04 [INFO] Generating keypair
+2014-04-13 04:58:04 [INFO] Starting Minecraft server on *:25565
+2014-04-13 04:58:04 [INFO] This server is running CraftBukkit version git-Bukkit-1.6.2-R1.0-2-g317b76b-b2882jnks (MC: 1.6.4) (Implementing API version 1.6.4-R0.1-SNAPSHOT)
+2014-04-13 04:58:05 [INFO] [Spectate] Loading Spectate v2.0
+2014-04-13 04:58:05 [WARNING] **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+2014-04-13 04:58:05 [WARNING] The server will make no attempt to authenticate usernames. Beware.
+2014-04-13 04:58:05 [WARNING] While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+2014-04-13 04:58:05 [WARNING] To change this, set "online-mode" to "true" in the server.properties file.
+2014-04-13 04:58:05 [INFO] Preparing level "world"
+2014-04-13 04:58:05 [INFO] Preparing start region for level 0 (Seed: 4539697792417860999)
+2014-04-13 04:58:05 [WARNING] ----- Bukkit Auto Updater -----
+2014-04-13 04:58:05 [WARNING] Your version of CraftBukkit is out of date. Version 1.6.4-R2.0 (build #2918) was released on Wed Oct 30 23:39:40 WET 2013.
+2014-04-13 04:58:05 [WARNING] Details: /downloads/craftbukkit/view/02389_1.6.4-R2.0/
+2014-04-13 04:58:05 [WARNING] Download: /downloads/craftbukkit/get/02389_1.6.4-R2.0/craftbukkit.jar
+2014-04-13 04:58:05 [WARNING] ----- ------------------- -----
+2014-04-13 04:58:06 [INFO] Preparing spawn area: 95%
+2014-04-13 04:58:06 [INFO] Preparing start region for level 1 (Seed: -6264712660610705308)
+2014-04-13 04:58:06 [INFO] Preparing start region for level 2 (Seed: -6264712660610705308)
+2014-04-13 04:58:06 [INFO] [Spectate] Enabling Spectate v2.0
+2014-04-13 04:58:06 [INFO] Server permissions file permissions.yml is empty, ignoring it
+2014-04-13 04:58:07 [INFO] Done (1.948s)! For help, type "help" or "?"
+2014-04-13 04:58:08 [INFO] montoias[/127.0.0.1:49203] logged in with entity id 158 at ([world] 1029.6910620394272, 7.658045146740146, 10.461039467422244)
+2014-04-13 04:58:09 [INFO] ritjii[/127.0.0.1:49204] logged in with entity id 173 at ([world] 1020.9603607256716, 4.0009999999999994, 15.118669906244138)
+2014-04-13 04:58:09 [INFO] <ritjii> I have 15 health and 20 food[m
+2014-04-13 04:58:09 [INFO] <ritjii> I have 16 health and 20 food[m
+2014-04-13 04:58:13 [INFO] <ritjii> I have 17 health and 20 food[m
+2014-04-13 04:58:18 [INFO] <ritjii> I have 18 health and 20 food[m
+2014-04-13 04:58:19 [INFO] <ritjii> I have 15.5 health and 20 food[m
+2014-04-13 04:58:19 [INFO] ¤eritjii left the game.
+2014-04-13 04:58:19 [INFO] Player ritjii tried to attack an EntityPlayer, so I have disconnected them for exploiting.
+2014-04-13 04:58:21 [INFO] Connection reset
+2014-04-13 04:59:30 [INFO] ritjii[/127.0.0.1:49216] logged in with entity id 1314 at ([world] 1021.3702335016163, 4.0009999999999994, 16.895107208459436)
+2014-04-13 04:59:30 [INFO] <ritjii> I have 15.5 health and 20 food[m
+2014-04-13 04:59:33 [INFO] <ritjii> I have 16.5 health and 20 food[m
+2014-04-13 04:59:34 [INFO] <ritjii> I have 14 health and 20 food[m
+2014-04-13 04:59:35 [INFO] <ritjii> I have 11.5 health and 20 food[m
+2014-04-13 04:59:36 [INFO] <ritjii> I have 9 health and 20 food[m
+2014-04-13 04:59:37 [INFO] <ritjii> I have 6.5 health and 20 food[m
+2014-04-13 04:59:37 [INFO] <ritjii> I have 7.5 health and 20 food[m
+2014-04-13 04:59:38 [INFO] <ritjii> I have 5 health and 20 food[m
+2014-04-13 04:59:38 [INFO] <ritjii> I have 2.5 health and 20 food[m
+2014-04-13 04:59:39 [INFO] ritjii was slain by Zombie
+2014-04-13 04:59:39 [INFO] <ritjii> I have 0 health and 20 food[m
+2014-04-13 04:59:39 [INFO] <ritjii> I have 20 health and 20 food[m
+2014-04-13 04:59:39 [INFO] <ritjii> I have 20 health and 20 food[m
+2014-04-13 04:59:54 [INFO] <ritjii> I have 17.5 health and 20 food[m
+2014-04-13 04:59:55 [INFO] <ritjii> I have 15 health and 20 food[m
+2014-04-13 04:59:57 [INFO] <ritjii> I have 12.5 health and 20 food[m
+2014-04-13 04:59:58 [INFO] <ritjii> I have 13.5 health and 20 food[m
+2014-04-13 04:59:58 [INFO] <ritjii> I have 11 health and 20 food[m
+2014-04-13 04:59:59 [INFO] <ritjii> I have 8.5 health and 20 food[m
+2014-04-13 05:00:01 [INFO] <ritjii> I have 6 health and 20 food[m
+2014-04-13 05:00:02 [INFO] <ritjii> I have 7 health and 20 food[m
+2014-04-13 05:00:02 [INFO] <ritjii> I have 4.5 health and 20 food[m
+2014-04-13 05:00:03 [INFO] <ritjii> I have 2 health and 20 food[m
+2014-04-13 05:00:04 [INFO] <ritjii> I have 1 health and 20 food[m
+2014-04-13 05:00:05 [INFO] ritjii was slain by Zombie
+2014-04-13 05:00:05 [INFO] <ritjii> I have 0 health and 20 food[m
+2014-04-13 05:00:05 [INFO] <ritjii> I have 20 health and 20 food[m
+2014-04-13 05:00:06 [INFO] <ritjii> I have 20 health and 20 food[m
+2014-04-13 05:00:06 [WARNING] ritjii moved wrongly!
+2014-04-13 05:00:06 [INFO] <ritjii> I have 17.5 health and 20 food[m
+2014-04-13 05:00:07 [INFO] <ritjii> I have 15 health and 20 food[m
+2014-04-13 05:00:07 [INFO] <ritjii> I have 12.5 health and 20 food[m
+2014-04-13 05:00:08 [INFO] <ritjii> I have 10 health and 20 food[m
+2014-04-13 05:00:09 [INFO] <ritjii> I have 7.5 health and 20 food[m
+2014-04-13 05:00:09 [INFO] <ritjii> I have 6.5 health and 20 food[m
+2014-04-13 05:00:09 [INFO] <ritjii> I have 5 health and 20 food[m
+2014-04-13 05:00:10 [INFO] <ritjii> I have 2.5 health and 20 food[m
+2014-04-13 05:00:10 [INFO] <ritjii> I have 3.5 health and 20 food[m
+2014-04-13 05:00:10 [INFO] <ritjii> I have 1 health and 20 food[m
+2014-04-13 05:00:11 [INFO] ritjii was slain by montoias
+2014-04-13 05:00:11 [INFO] <ritjii> I have 0 health and 20 food[m
+2014-04-13 05:00:11 [INFO] <ritjii> I have 20 health and 20 food[m
+2014-04-13 05:00:11 [INFO] <ritjii> I have 20 health and 20 food[m
+2014-04-13 05:00:11 [INFO] ¤eritjii left the game.
+2014-04-13 05:00:13 [INFO] Connection reset
+2014-04-13 05:00:18 [INFO] ritjii[/127.0.0.1:49222] logged in with entity id 11723 at ([world] 1024.5, 4.0, -66.5)
+2014-04-13 05:00:18 [INFO] <ritjii> I have 20 health and 20 food[m
+2014-04-13 05:00:18 [WARNING] ritjii moved wrongly!
+2014-04-13 05:00:18 [WARNING] ritjii moved wrongly!
+2014-04-13 05:00:18 [WARNING] ritjii moved wrongly!
+2014-04-13 05:01:34 [INFO] <ritjii> diging[m
+2014-04-13 05:01:34 [INFO] <ritjii> ABORTEUi![object Object][m
+2014-04-13 05:01:34 [INFO] <ritjii> diging[m
+2014-04-13 05:01:35 [INFO] ritjii lost connection: disconnect.endOfStream
+2014-04-13 05:01:35 [INFO] ¤eritjii left the game.
+2014-04-13 05:01:36 [INFO] ritjii[/127.0.0.1:49246] logged in with entity id 27845 at ([world] 1017.7930428127611, 4.0009999999999994, -62.288595028998785)
+2014-04-13 05:01:36 [INFO] <ritjii> I have 20 health and 20 food[m
+2014-04-13 05:01:36 [INFO] <ritjii> diging[m
+2014-04-13 05:01:36 [INFO] <ritjii> ABORTEUi![object Object][m
+2014-04-13 05:01:36 [INFO] <ritjii> diging[m
+2014-04-13 05:01:39 [INFO] <ritjii> chegamos ao complete[m
+2014-04-13 05:01:39 [INFO] <ritjii> finished digging[m
+2014-04-13 05:01:39 [INFO] <ritjii> diging[m
+2014-04-13 05:01:42 [INFO] <ritjii> chegamos ao complete[m
+2014-04-13 05:01:42 [INFO] <ritjii> finished digging[m
+2014-04-13 05:01:43 [INFO] <ritjii> diging[m
+2014-04-13 05:01:43 [INFO] <ritjii> ABORTEUi![object Object][m
+2014-04-13 05:01:43 [INFO] <ritjii> diging[m
+2014-04-13 05:01:46 [INFO] <ritjii> chegamos ao complete[m
+2014-04-13 05:01:46 [INFO] <ritjii> finished digging[m
+2014-04-13 05:01:46 [INFO] <ritjii> diging[m
+2014-04-13 05:01:49 [INFO] <ritjii> chegamos ao complete[m
+2014-04-13 05:01:49 [INFO] <ritjii> finished digging[m
+2014-04-13 05:01:50 [INFO] <ritjii> diging[m
+2014-04-13 05:01:50 [INFO] <ritjii> ABORTEUi![object Object][m
+2014-04-13 05:01:50 [INFO] <ritjii> diging[m
+2014-04-13 05:01:53 [INFO] <ritjii> chegamos ao complete[m
+2014-04-13 05:01:53 [INFO] <ritjii> finished digging[m
+2014-04-13 05:01:53 [INFO] <ritjii> diging[m
+2014-04-13 05:01:56 [INFO] <ritjii> chegamos ao complete[m
+2014-04-13 05:01:56 [INFO] <ritjii> finished digging[m
+2014-04-13 05:01:56 [INFO] <ritjii> diging[m
+2014-04-13 05:01:56 [INFO] <ritjii> ABORTEUi![object Object][m
+2014-04-13 05:01:56 [INFO] <ritjii> diging[m
+2014-04-13 05:01:59 [INFO] <ritjii> chegamos ao complete[m
+2014-04-13 05:01:59 [INFO] <ritjii> finished digging[m
+2014-04-13 05:01:59 [INFO] <ritjii> diging[m
+2014-04-13 05:02:02 [INFO] <ritjii> chegamos ao complete[m
+2014-04-13 05:02:02 [INFO] <ritjii> finished digging[m
+2014-04-13 05:02:03 [INFO] <ritjii> diging[m
+2014-04-13 05:02:03 [INFO] <ritjii> ABORTEUi![object Object][m
+2014-04-13 05:02:03 [INFO] <ritjii> diging[m
+2014-04-13 05:02:06 [INFO] <ritjii> chegamos ao complete[m
+2014-04-13 05:02:06 [INFO] <ritjii> finished digging[m
+2014-04-13 05:02:06 [INFO] <ritjii> diging[m
+2014-04-13 05:02:09 [INFO] <ritjii> chegamos ao complete[m
+2014-04-13 05:02:09 [INFO] <ritjii> finished digging[m
+2014-04-13 05:03:19 [INFO] <ritjii> diging[m
+2014-04-13 05:03:19 [INFO] <ritjii> ABORTEUi![object Object][m
+2014-04-13 05:03:19 [INFO] <ritjii> diging[m
+2014-04-13 05:03:22 [INFO] <ritjii> chegamos ao complete[m
+2014-04-13 05:03:22 [INFO] <ritjii> finished digging[m
+2014-04-13 05:03:22 [INFO] <ritjii> diging[m
+2014-04-13 05:03:25 [INFO] <ritjii> chegamos ao complete[m
+2014-04-13 05:03:25 [INFO] <ritjii> finished digging[m
+2014-04-13 05:04:10 [INFO] <ritjii> diging[m
+2014-04-13 05:04:10 [INFO] <ritjii> ABORTEUi![object Object][m
+2014-04-13 05:04:10 [INFO] <ritjii> diging[m
+2014-04-13 05:04:13 [INFO] <ritjii> chegamos ao complete[m
+2014-04-13 05:04:13 [INFO] <ritjii> finished digging[m
+2014-04-13 05:04:13 [INFO] <ritjii> diging[m
+2014-04-13 05:04:16 [INFO] <ritjii> chegamos ao complete[m
+2014-04-13 05:04:16 [INFO] <ritjii> finished digging[m
+2014-04-13 05:08:16 [INFO] <ritjii> diging[m
+2014-04-13 05:08:16 [INFO] <ritjii> ABORTEUi![object Object][m
+2014-04-13 05:08:16 [INFO] <ritjii> diging[m
+2014-04-13 05:08:19 [INFO] <ritjii> chegamos ao complete[m
+2014-04-13 05:08:19 [INFO] <ritjii> finished digging[m
+2014-04-13 05:08:19 [INFO] <ritjii> diging[m
+2014-04-13 05:08:22 [INFO] <ritjii> chegamos ao complete[m
+2014-04-13 05:08:22 [INFO] <ritjii> finished digging[m
+2014-04-13 05:08:52 [INFO] <ritjii> I have 18 health and 20 food[m
+2014-04-13 05:08:53 [INFO] <ritjii> I have 16 health and 20 food[m
+2014-04-13 05:08:56 [INFO] <ritjii> I have 17 health and 20 food[m
+2014-04-13 05:08:59 [INFO] <ritjii> I have 15 health and 20 food[m
+2014-04-13 05:09:00 [INFO] <ritjii> I have 16 health and 20 food[m
+2014-04-13 05:09:04 [INFO] <ritjii> I have 17 health and 20 food[m
+2014-04-13 05:09:08 [INFO] <ritjii> I have 18 health and 20 food[m
+2014-04-13 05:09:09 [INFO] <ritjii> I have 16 health and 20 food[m
+2014-04-13 05:09:10 [INFO] <ritjii> I have 14 health and 20 food[m
+2014-04-13 05:09:10 [INFO] <ritjii> I have 12 health and 20 food[m
+2014-04-13 05:09:11 [INFO] <ritjii> I have 10 health and 20 food[m
+2014-04-13 05:09:12 [INFO] <ritjii> I have 11 health and 20 food[m
+2014-04-13 05:09:16 [INFO] <ritjii> I have 9 health and 20 food[m
+2014-04-13 05:09:16 [INFO] <ritjii> I have 10 health and 20 food[m
+2014-04-13 05:09:19 [INFO] <ritjii> I have 8 health and 20 food[m
+2014-04-13 05:09:20 [INFO] <ritjii> I have 9 health and 20 food[m
+2014-04-13 05:09:24 [INFO] <ritjii> I have 10 health and 20 food[m
+2014-04-13 05:09:24 [INFO] <ritjii> I have 8 health and 20 food[m
+2014-04-13 05:09:25 [INFO] <ritjii> I have 6 health and 20 food[m
+2014-04-13 05:09:25 [INFO] <ritjii> diging[m
+2014-04-13 05:09:25 [INFO] <ritjii> ABORTEUi![object Object][m
+2014-04-13 05:09:25 [INFO] <ritjii> diging[m
+2014-04-13 05:09:26 [INFO] <ritjii> I have 4 health and 20 food[m
+2014-04-13 05:09:27 [INFO] <ritjii> I have 2 health and 20 food[m
+2014-04-13 05:09:28 [INFO] <ritjii> I have 3 health and 20 food[m
+2014-04-13 05:09:28 [INFO] <ritjii> chegamos ao complete[m
+2014-04-13 05:09:28 [INFO] <ritjii> finished digging[m
+2014-04-13 05:09:28 [INFO] <ritjii> diging[m
+2014-04-13 05:09:30 [INFO] <ritjii> I have 1 health and 20 food[m
+2014-04-13 05:09:31 [INFO] ritjii was slain by Slime
+2014-04-13 05:09:31 [INFO] <ritjii> I have 0 health and 20 food[m
+2014-04-13 05:09:31 [INFO] <ritjii> I have 20 health and 20 food[m
+2014-04-13 05:09:31 [INFO] <ritjii> I have 20 health and 20 food[m
+2014-04-13 05:09:31 [INFO] <ritjii> chegamos ao complete[m
+2014-04-13 05:09:31 [INFO] <ritjii> finished digging[m
+2014-04-13 05:09:31 [INFO] ¤eritjii left the game.
+2014-04-13 05:09:33 [INFO] Connection reset
+2014-04-13 05:09:43 [INFO] ritjii[/127.0.0.1:49332] logged in with entity id 138512 at ([world] 1023.9867289752048, 4.0009999999999994, -66.32032)
+2014-04-13 05:09:43 [INFO] <ritjii> I have 20 health and 20 food[m
+2014-04-13 05:09:51 [INFO] montoias lost connection: disconnect.endOfStream
+2014-04-13 05:09:52 [INFO] ¤emontoias left the game.
+2014-04-13 05:09:57 [INFO] <ritjii> I have 18 health and 20 food[m
+2014-04-13 05:09:57 [INFO] ritjii lost connection: disconnect.endOfStream
+2014-04-13 05:09:57 [INFO] ¤eritjii left the game.
+2014-04-13 05:10:01 [INFO] CONSOLE: Stopping the server..[m
+2014-04-13 05:10:01 [INFO] Stopping server
+2014-04-13 05:10:01 [INFO] [Spectate] Disabling Spectate v2.0
+2014-04-13 05:10:01 [INFO] Saving players
+2014-04-13 05:10:01 [WARNING] DSCT: Socket closed
+2014-04-13 05:10:01 [INFO] Saving worlds
+2014-04-13 05:10:01 [INFO] Closing listening thread
+2014-04-13 05:10:01 [INFO] Saving chunks for level 'world'/Overworld
+2014-04-13 05:10:02 [INFO] Saving chunks for level 'world_nether'/Nether
+2014-04-13 05:10:02 [INFO] Saving chunks for level 'world_the_end'/The End
