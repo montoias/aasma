@@ -9,7 +9,7 @@ Node:
   This will put the mineflayer in the correct version.
 
 Server:
-  1. server can be started by running java -Xms1G -Xmx1G -jar craftbukkit-1.6.4-R2.0.jar -o false
+  1. server can be started by running java -Xms1G -Xmx1G -jar craftbukkit-1.6.4-R0.1-20130920.011648-1.jar -o false
 
 Client:
   1. First unzip deps/Nodus.zip into Library/Application\ Support/minecraft/versions
