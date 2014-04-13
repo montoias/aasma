@@ -113,6 +113,19 @@ var treeNeighbor  = function (pos){
 	return neighbors;
 }
 
+var treePossiblePositions = function (pos) {
+	var vec = []
+	var v1 = vec3 (pos.x,pos.y,pos.z);
+	var v2 = vec3 (pos.x,pos.y - 1,pos.z);
+	var v3 = vec3 (pos.x,pos.y + 1,pos.z);
+
+	vec.push(bot.blockAt(v1));
+	vec.push(bot.blockAt(v2));
+	vec.push(bot.blockAt(v3));
+	
+	return vec;
+
+}
 
 exports.unit = unit;
 exports.isYawValid = isYawValid;
@@ -127,4 +140,5 @@ exports.boundingBox = boundingBox;
 exports.randomIntInc = randomIntInc;
 exports.setBot = setBot;
 exports.treeNeighbor = treeNeighbor;
+exports.treePossiblePositions =treePossiblePositions;
 

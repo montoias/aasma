@@ -28,13 +28,18 @@ bot.on('entityMoved', function () {
 		 bot.setControlState('forward', false);
 
 		 console.log('so pa ver se entras aqui mais do que uma vez');
-		 var digBlock = bot.blockAt(tree[0]);
-		 console.log(digBlock)	
-		 
-		 if(bot.canDigBlock(digBlock)){
-		  	bot.dig(digBlock,onDiggingCompleted);
-		  	bot.chat("diging");
-		 }
+		 var digBlocks = mvc.treePossiblePositions(tree[0]);
+		 console.log(digBlocks)	
+		 digBlocks.forEach (function  (b) {
+		 	if(bot.canDigBlock(b)){
+		 	 	bot.dig(b,onDiggingCompleted);
+		 	 	bot.chat("diging");
+		 	 	return;
+		 	}
+		 })
+
+
+
 		 return;
 	}
 	var neighbors = mvc.freeNeighbors(botposition);
@@ -67,6 +72,9 @@ bot.on('health', function() {
 
 bot.on('diggingCompleted', function(block){
 	bot.chat("chegamos ao complete");
+	digging = false;
+	bot.setControlState('forward', true);
+
 });
 
 
