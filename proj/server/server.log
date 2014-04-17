@@ -2010,3 +2010,909 @@
 2014-04-13 05:10:01 [INFO] Saving chunks for level 'world'/Overworld
 2014-04-13 05:10:02 [INFO] Saving chunks for level 'world_nether'/Nether
 2014-04-13 05:10:02 [INFO] Saving chunks for level 'world_the_end'/The End
+2014-04-13 16:17:41 [INFO] Starting minecraft server version 1.6.4
+2014-04-13 16:17:41 [INFO] Loading properties
+2014-04-13 16:17:41 [INFO] Default game type: SURVIVAL
+2014-04-13 16:17:41 [INFO] Generating keypair
+2014-04-13 16:17:41 [INFO] Starting Minecraft server on *:25565
+2014-04-13 16:17:41 [INFO] This server is running CraftBukkit version git-Bukkit-1.6.2-R1.0-2-g317b76b-b2882jnks (MC: 1.6.4) (Implementing API version 1.6.4-R0.1-SNAPSHOT)
+2014-04-13 16:17:42 [INFO] [Spectate] Loading Spectate v2.0
+2014-04-13 16:17:42 [WARNING] **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+2014-04-13 16:17:42 [WARNING] The server will make no attempt to authenticate usernames. Beware.
+2014-04-13 16:17:42 [WARNING] While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+2014-04-13 16:17:42 [WARNING] To change this, set "online-mode" to "true" in the server.properties file.
+2014-04-13 16:17:42 [INFO] Preparing level "world"
+2014-04-13 16:17:42 [INFO] Preparing start region for level 0 (Seed: 4539697792417860999)
+2014-04-13 16:17:42 [WARNING] ----- Bukkit Auto Updater -----
+2014-04-13 16:17:42 [WARNING] Your version of CraftBukkit is out of date. Version 1.6.4-R2.0 (build #2918) was released on Wed Oct 30 23:39:40 WET 2013.
+2014-04-13 16:17:42 [WARNING] Details: /downloads/craftbukkit/view/02389_1.6.4-R2.0/
+2014-04-13 16:17:42 [WARNING] Download: /downloads/craftbukkit/get/02389_1.6.4-R2.0/craftbukkit.jar
+2014-04-13 16:17:42 [WARNING] ----- ------------------- -----
+2014-04-13 16:17:43 [INFO] Preparing spawn area: 96%
+2014-04-13 16:17:43 [INFO] Preparing start region for level 1 (Seed: -6264712660610705308)
+2014-04-13 16:17:43 [INFO] Preparing start region for level 2 (Seed: -6264712660610705308)
+2014-04-13 16:17:43 [INFO] [Spectate] Enabling Spectate v2.0
+2014-04-13 16:17:43 [INFO] Server permissions file permissions.yml is empty, ignoring it
+2014-04-13 16:17:43 [INFO] Done (1,908s)! For help, type "help" or "?"
+2014-04-13 16:18:10 [INFO] RitjiiiMaster[/127.0.0.1:50965] logged in with entity id 91 at ([world] 1025.5, 4.0, -70.5)
+2014-04-13 16:18:48 [INFO] Unknown command. Type "help" for help.[m
+2014-04-13 16:18:56 [INFO] ritjii[/127.0.0.1:50971] logged in with entity id 9189 at ([world] 1025.0245137019258, 4.0009999999999994, -68.42755908204163)
+2014-04-13 16:18:56 [INFO] <ritjii> I have 18 health and 20 food[m
+2014-04-13 16:19:00 [INFO] <ritjii> I have 19 health and 20 food[m
+2014-04-13 16:19:01 [INFO] <ritjii> diging[m
+2014-04-13 16:19:02 [INFO] <ritjii> ABORTEUi![object Object][m
+2014-04-13 16:19:02 [INFO] <ritjii> diging[m
+2014-04-13 16:19:04 [INFO] <ritjii> chegamos ao complete[m
+2014-04-13 16:19:04 [INFO] <ritjii> finished digging[m
+2014-04-13 16:19:04 [INFO] <ritjii> diging[m
+2014-04-13 16:19:05 [INFO] <ritjii> I have 20 health and 20 food[m
+2014-04-13 16:19:07 [INFO] <ritjii> chegamos ao complete[m
+2014-04-13 16:19:08 [INFO] <ritjii> finished digging[m
+2014-04-13 16:19:11 [INFO] CONSOLE: Set time to 1000[m
+2014-04-13 16:20:06 [INFO] RitjiiiMaster lost connection: disconnect.quitting
+2014-04-13 16:20:06 [INFO] Connection reset
+2014-04-13 16:20:06 [INFO] ¤eRitjiiiMaster left the game.
+2014-04-13 16:20:28 [INFO] RitjiiiMaster[/127.0.0.1:50979] logged in with entity id 28697 at ([world] 1034.566514600388, 4.0, -78.5851606285506)
+2014-04-13 16:20:42 [INFO] Unknown command. Type "help" for help.[m
+2014-04-13 16:20:50 [INFO] Can't find player CONSOLE[m
+2014-04-13 16:21:04 [INFO] Can't find player 0[m
+2014-04-13 16:21:11 [INFO] RitjiiiMaster already has game mode 0[m
+2014-04-13 16:21:17 [INFO] CONSOLE: Set RitjiiiMaster's game mode to CREATIVE mode[m
+2014-04-13 16:22:15 [INFO] ritjii lost connection: disconnect.endOfStream
+2014-04-13 16:22:15 [INFO] ¤eritjii left the game.
+2014-04-13 16:22:24 [INFO] ritjii[/127.0.0.1:50984] logged in with entity id 52790 at ([world] 1041.5610861439163, 3.001, -78.67868)
+2014-04-13 16:22:24 [INFO] <ritjii> I have 20 health and 20 food[m
+2014-04-13 16:22:29 [INFO] <ritjii> I have 19 health and 20 food[m
+2014-04-13 16:22:30 [INFO] <ritjii> I have 18 health and 20 food[m
+2014-04-13 16:22:31 [INFO] <ritjii> I have 17 health and 20 food[m
+2014-04-13 16:22:31 [INFO] <ritjii> I have 16 health and 20 food[m
+2014-04-13 16:22:32 [INFO] <ritjii> I have 15 health and 20 food[m
+2014-04-13 16:22:33 [INFO] <ritjii> I have 14 health and 20 food[m
+2014-04-13 16:22:33 [INFO] <ritjii> I have 15 health and 20 food[m
+2014-04-13 16:22:33 [INFO] <ritjii> I have 14 health and 20 food[m
+2014-04-13 16:22:34 [INFO] <ritjii> I have 13 health and 20 food[m
+2014-04-13 16:22:34 [INFO] <ritjii> I have 12 health and 20 food[m
+2014-04-13 16:22:35 [INFO] <ritjii> I have 11 health and 20 food[m
+2014-04-13 16:22:36 [INFO] <ritjii> I have 10 health and 20 food[m
+2014-04-13 16:22:36 [INFO] <ritjii> I have 9 health and 20 food[m
+2014-04-13 16:22:37 [INFO] <ritjii> I have 8 health and 20 food[m
+2014-04-13 16:22:37 [INFO] <ritjii> I have 9 health and 20 food[m
+2014-04-13 16:22:37 [INFO] <ritjii> I have 8 health and 20 food[m
+2014-04-13 16:22:38 [INFO] <ritjii> I have 7 health and 20 food[m
+2014-04-13 16:22:38 [INFO] <ritjii> I have 6 health and 20 food[m
+2014-04-13 16:22:39 [INFO] <ritjii> I have 5 health and 20 food[m
+2014-04-13 16:22:40 [INFO] <ritjii> I have 4 health and 20 food[m
+2014-04-13 16:22:40 [INFO] <ritjii> I have 3 health and 20 food[m
+2014-04-13 16:22:41 [INFO] <ritjii> I have 2 health and 20 food[m
+2014-04-13 16:22:41 [INFO] ¤eritjii left the game.
+2014-04-13 16:22:43 [INFO] Connection reset
+2014-04-13 16:22:48 [INFO] ritjii[/127.0.0.1:50988] logged in with entity id 57987 at ([world] 1041.5610861439163, 3.001, -78.67868)
+2014-04-13 16:22:48 [INFO] <ritjii> I have 2 health and 20 food[m
+2014-04-13 16:22:49 [INFO] <ritjii> I have 3 health and 20 food[m
+2014-04-13 16:22:53 [INFO] <ritjii> I have 4 health and 20 food[m
+2014-04-13 16:22:57 [INFO] <ritjii> I have 5 health and 20 food[m
+2014-04-13 16:23:01 [INFO] <ritjii> I have 6 health and 20 food[m
+2014-04-13 16:23:05 [INFO] <ritjii> I have 7 health and 20 food[m
+2014-04-13 16:23:09 [INFO] <ritjii> I have 8 health and 20 food[m
+2014-04-13 16:23:13 [INFO] <ritjii> I have 7 health and 20 food[m
+2014-04-13 16:23:13 [INFO] <ritjii> I have 6 health and 20 food[m
+2014-04-13 16:23:13 [INFO] <ritjii> I have 7 health and 20 food[m
+2014-04-13 16:23:14 [INFO] <ritjii> I have 6 health and 20 food[m
+2014-04-13 16:23:15 [INFO] <ritjii> I have 5 health and 20 food[m
+2014-04-13 16:23:16 [INFO] <ritjii> I have 4 health and 20 food[m
+2014-04-13 16:23:16 [INFO] <ritjii> I have 3 health and 20 food[m
+2014-04-13 16:23:17 [INFO] <ritjii> I have 2 health and 20 food[m
+2014-04-13 16:23:17 [INFO] <ritjii> I have 1 health and 20 food[m
+2014-04-13 16:23:17 [INFO] <ritjii> I have 2 health and 20 food[m
+2014-04-13 16:23:18 [INFO] <ritjii> I have 1 health and 20 food[m
+2014-04-13 16:23:19 [INFO] ritjii was slain by RitjiiiMaster
+2014-04-13 16:23:19 [INFO] <ritjii> I have 0 health and 20 food[m
+2014-04-13 16:23:19 [INFO] <ritjii> I have 20 health and 20 food[m
+2014-04-13 16:23:37 [INFO] <ritjii> diging[m
+2014-04-13 16:23:37 [INFO] <ritjii> ABORTEUi![object Object][m
+2014-04-13 16:23:37 [INFO] <ritjii> diging[m
+2014-04-13 16:23:38 [INFO] <ritjii> chegamos ao complete[m
+2014-04-13 16:23:38 [INFO] <ritjii> finished digging[m
+2014-04-13 16:23:38 [INFO] <ritjii> diging[m
+2014-04-13 16:23:41 [INFO] <ritjii> chegamos ao complete[m
+2014-04-13 16:23:41 [INFO] <ritjii> finished digging[m
+2014-04-13 16:25:18 [INFO] <ritjii> I have 18 health and 20 food[m
+2014-04-13 16:25:19 [INFO] <ritjii> diging[m
+2014-04-13 16:25:21 [INFO] <ritjii> I have 19 health and 20 food[m
+2014-04-13 16:25:23 [INFO] <ritjii> I have 17 health and 20 food[m
+2014-04-13 16:25:23 [INFO] <ritjii> I have 18 health and 20 food[m
+2014-04-13 16:25:26 [INFO] <ritjii> I have 19 health and 20 food[m
+2014-04-13 16:25:28 [INFO] <ritjii> I have 20 health and 20 food[m
+2014-04-13 16:25:32 [INFO] <ritjii> I have 18 health and 20 food[m
+2014-04-13 16:25:32 [INFO] <ritjii> I have 16 health and 20 food[m
+2014-04-13 16:25:34 [INFO] <ritjii> chegamos ao complete[m
+2014-04-13 16:25:34 [INFO] <ritjii> finished digging[m
+2014-04-13 16:25:34 [INFO] <ritjii> I have 15 health and 20 food[m
+2014-04-13 16:25:37 [WARNING] ritjii moved wrongly!
+2014-04-13 16:25:37 [INFO] <ritjii> I have 16 health and 20 food[m
+2014-04-13 16:25:37 [WARNING] ritjii moved wrongly!
+2014-04-13 16:25:38 [WARNING] ritjii moved wrongly!
+2014-04-13 16:25:38 [INFO] <ritjii> I have 14 health and 20 food[m
+2014-04-13 16:25:39 [INFO] <ritjii> I have 15 health and 20 food[m
+2014-04-13 16:25:41 [INFO] <ritjii> I have 13 health and 20 food[m
+2014-04-13 16:25:42 [INFO] <ritjii> I have 11 health and 20 food[m
+2014-04-13 16:25:42 [INFO] <ritjii> I have 12 health and 20 food[m
+2014-04-13 16:25:43 [INFO] <ritjii> I have 10 health and 20 food[m
+2014-04-13 16:25:45 [WARNING] ritjii moved wrongly!
+2014-04-13 16:25:45 [INFO] <ritjii> I have 11 health and 20 food[m
+2014-04-13 16:25:46 [WARNING] ritjii moved wrongly!
+2014-04-13 16:25:48 [INFO] <ritjii> I have 12 health and 20 food[m
+2014-04-13 16:25:49 [INFO] <ritjii> I have 10 health and 20 food[m
+2014-04-13 16:25:50 [INFO] <ritjii> I have 11 health and 20 food[m
+2014-04-13 16:25:51 [INFO] <ritjii> I have 9 health and 20 food[m
+2014-04-13 16:25:52 [INFO] <ritjii> I have 7 health and 20 food[m
+2014-04-13 16:25:53 [INFO] <ritjii> I have 8 health and 20 food[m
+2014-04-13 16:25:55 [INFO] <ritjii> I have 9 health and 20 food[m
+2014-04-13 16:25:58 [INFO] <ritjii> I have 8 health and 20 food[m
+2014-04-13 16:26:00 [INFO] <ritjii> I have 9 health and 20 food[m
+2014-04-13 16:26:03 [INFO] <ritjii> I have 10 health and 20 food[m
+2014-04-13 16:26:04 [INFO] <ritjii> I have 8 health and 20 food[m
+2014-04-13 16:26:05 [INFO] <ritjii> I have 9 health and 20 food[m
+2014-04-13 16:26:07 [INFO] <ritjii> I have 7 health and 20 food[m
+2014-04-13 16:26:08 [INFO] <ritjii> I have 8 health and 20 food[m
+2014-04-13 16:26:09 [WARNING] ritjii moved wrongly!
+2014-04-13 16:26:10 [INFO] <ritjii> I have 9 health and 20 food[m
+2014-04-13 16:26:10 [WARNING] ritjii moved wrongly!
+2014-04-13 16:26:13 [INFO] <ritjii> I have 10 health and 20 food[m
+2014-04-13 16:26:14 [INFO] <ritjii> I have 8 health and 20 food[m
+2014-04-13 16:26:15 [WARNING] ritjii moved wrongly!
+2014-04-13 16:26:15 [INFO] <ritjii> I have 9 health and 20 food[m
+2014-04-13 16:26:18 [INFO] <ritjii> I have 10 health and 20 food[m
+2014-04-13 16:26:18 [INFO] <ritjii> I have 8 health and 20 food[m
+2014-04-13 16:26:20 [INFO] <ritjii> I have 9 health and 20 food[m
+2014-04-13 16:26:22 [WARNING] ritjii moved wrongly!
+2014-04-13 16:26:22 [INFO] <ritjii> I have 8 health and 20 food[m
+2014-04-13 16:26:23 [INFO] <ritjii> I have 9 health and 20 food[m
+2014-04-13 16:26:23 [INFO] <ritjii> I have 8 health and 20 food[m
+2014-04-13 16:26:25 [WARNING] ritjii moved wrongly!
+2014-04-13 16:26:25 [INFO] <ritjii> I have 9 health and 20 food[m
+2014-04-13 16:26:28 [INFO] <ritjii> I have 10 health and 20 food[m
+2014-04-13 16:26:29 [INFO] <ritjii> diging[m
+2014-04-13 16:26:31 [INFO] <ritjii> I have 11 health and 20 food[m
+2014-04-13 16:26:35 [INFO] <ritjii> I have 12 health and 20 food[m
+2014-04-13 16:26:37 [INFO] <ritjii> I have 10 health and 20 food[m
+2014-04-13 16:26:39 [INFO] <ritjii> I have 11 health and 20 food[m
+2014-04-13 16:26:39 [INFO] <ritjii> I have 9 health and 20 food[m
+2014-04-13 16:26:42 [INFO] <ritjii> I have 7 health and 20 food[m
+2014-04-13 16:26:42 [INFO] <ritjii> I have 5 health and 20 food[m
+2014-04-13 16:26:43 [INFO] <ritjii> I have 6 health and 20 food[m
+2014-04-13 16:26:44 [INFO] <ritjii> chegamos ao complete[m
+2014-04-13 16:26:44 [INFO] <ritjii> finished digging[m
+2014-04-13 16:26:47 [INFO] <ritjii> I have 7 health and 20 food[m
+2014-04-13 16:26:51 [INFO] <ritjii> I have 8 health and 20 food[m
+2014-04-13 16:26:55 [INFO] <ritjii> I have 9 health and 20 food[m
+2014-04-13 16:27:00 [INFO] <ritjii> I have 10 health and 20 food[m
+2014-04-13 16:27:04 [INFO] <ritjii> I have 11 health and 20 food[m
+2014-04-13 16:27:08 [INFO] <ritjii> I have 12 health and 20 food[m
+2014-04-13 16:27:12 [INFO] <ritjii> I have 13 health and 20 food[m
+2014-04-13 16:27:16 [INFO] <ritjii> I have 14 health and 20 food[m
+2014-04-13 16:27:20 [INFO] <ritjii> I have 15 health and 20 food[m
+2014-04-13 16:27:24 [INFO] <ritjii> I have 16 health and 20 food[m
+2014-04-13 16:27:28 [INFO] <ritjii> I have 17 health and 20 food[m
+2014-04-13 16:27:32 [INFO] <ritjii> I have 18 health and 20 food[m
+2014-04-13 16:27:33 [WARNING] ritjii moved wrongly!
+2014-04-13 16:27:36 [INFO] <ritjii> I have 19 health and 20 food[m
+2014-04-13 16:27:40 [INFO] <ritjii> I have 20 health and 20 food[m
+2014-04-13 16:28:05 [INFO] <ritjii> I have 13 health and 20 food[m
+2014-04-13 16:28:09 [INFO] <ritjii> I have 6 health and 20 food[m
+2014-04-13 16:28:11 [INFO] <ritjii> I have 7 health and 20 food[m
+2014-04-13 16:28:15 [INFO] <ritjii> I have 8 health and 20 food[m
+2014-04-13 16:28:20 [INFO] <ritjii> I have 9 health and 20 food[m
+2014-04-13 16:28:24 [INFO] <ritjii> I have 10 health and 20 food[m
+2014-04-13 16:28:28 [INFO] <ritjii> I have 11 health and 20 food[m
+2014-04-13 16:28:31 [INFO] CONSOLE: Set RitjiiiMaster's game mode to SURVIVAL mode[m
+2014-04-13 16:28:32 [INFO] <ritjii> I have 12 health and 20 food[m
+2014-04-13 16:28:36 [INFO] <ritjii> I have 13 health and 20 food[m
+2014-04-13 16:28:40 [INFO] CONSOLE: Set RitjiiiMaster's game mode to ADVENTURE mode[m
+2014-04-13 16:28:40 [INFO] <ritjii> I have 14 health and 20 food[m
+2014-04-13 16:28:45 [INFO] <ritjii> I have 15 health and 20 food[m
+2014-04-13 16:28:49 [INFO] <ritjii> I have 16 health and 20 food[m
+2014-04-13 16:28:53 [INFO] <ritjii> I have 17 health and 20 food[m
+2014-04-13 16:28:57 [INFO] <ritjii> I have 18 health and 20 food[m
+2014-04-13 16:29:01 [INFO] <ritjii> I have 19 health and 20 food[m
+2014-04-13 16:29:02 [INFO] CONSOLE: Set time to 1000[m
+2014-04-13 16:29:06 [INFO] <ritjii> I have 20 health and 20 food[m
+2014-04-13 16:30:21 [INFO] CONSOLE: Set RitjiiiMaster's game mode to SURVIVAL mode[m
+2014-04-13 16:31:15 [INFO] <ritjii> diging[m
+2014-04-13 16:31:15 [INFO] <ritjii> ABORTEUi![object Object][m
+2014-04-13 16:31:15 [INFO] <ritjii> diging[m
+2014-04-13 16:31:18 [INFO] <ritjii> chegamos ao complete[m
+2014-04-13 16:31:18 [INFO] <ritjii> finished digging[m
+2014-04-13 16:31:18 [INFO] <ritjii> diging[m
+2014-04-13 16:31:21 [INFO] <ritjii> chegamos ao complete[m
+2014-04-13 16:31:21 [INFO] <ritjii> finished digging[m
+2014-04-13 16:32:34 [INFO] <ritjii> I have 19 health and 20 food[m
+2014-04-13 16:32:38 [INFO] <ritjii> I have 20 health and 20 food[m
+2014-04-13 16:32:38 [INFO] <ritjii> I have 19 health and 20 food[m
+2014-04-13 16:32:39 [INFO] <ritjii> I have 18 health and 20 food[m
+2014-04-13 16:32:41 [INFO] <ritjii> I have 17 health and 20 food[m
+2014-04-13 16:32:43 [INFO] <ritjii> I have 18 health and 20 food[m
+2014-04-13 16:32:45 [INFO] <ritjii> I have 11 health and 20 food[m
+2014-04-13 16:32:47 [INFO] <ritjii> I have 4 health and 20 food[m
+2014-04-13 16:32:47 [INFO] <ritjii> I have 5 health and 20 food[m
+2014-04-13 16:32:47 [INFO] ritjii was slain by RitjiiiMaster
+2014-04-13 16:32:47 [INFO] <ritjii> I have 0 health and 20 food[m
+2014-04-13 16:32:48 [INFO] <ritjii> I have 20 health and 20 food[m
+2014-04-13 16:32:48 [INFO] <ritjii> I have 20 health and 20 food[m
+2014-04-13 16:32:56 [INFO] <ritjii> diging[m
+2014-04-13 16:32:56 [INFO] <ritjii> ABORTEUi![object Object][m
+2014-04-13 16:32:56 [INFO] <ritjii> diging[m
+2014-04-13 16:32:57 [INFO] <ritjii> chegamos ao complete[m
+2014-04-13 16:32:57 [INFO] <ritjii> finished digging[m
+2014-04-13 16:32:57 [INFO] <ritjii> diging[m
+2014-04-13 16:33:00 [INFO] <ritjii> chegamos ao complete[m
+2014-04-13 16:33:00 [INFO] <ritjii> finished digging[m
+2014-04-13 16:33:00 [INFO] <ritjii> diging[m
+2014-04-13 16:33:00 [INFO] <ritjii> ABORTEUi![object Object][m
+2014-04-13 16:33:00 [INFO] <ritjii> diging[m
+2014-04-13 16:33:01 [INFO] <ritjii> chegamos ao complete[m
+2014-04-13 16:33:01 [INFO] <ritjii> finished digging[m
+2014-04-13 16:33:01 [INFO] <ritjii> diging[m
+2014-04-13 16:33:04 [INFO] <ritjii> chegamos ao complete[m
+2014-04-13 16:33:04 [INFO] <ritjii> finished digging[m
+2014-04-13 16:33:05 [INFO] <ritjii> diging[m
+2014-04-13 16:33:05 [INFO] <ritjii> ABORTEUi![object Object][m
+2014-04-13 16:33:05 [INFO] <ritjii> diging[m
+2014-04-13 16:33:05 [INFO] ¤eritjii left the game.
+2014-04-13 16:33:07 [INFO] Connection reset
+2014-04-13 16:33:32 [INFO] ritjii[/127.0.0.1:51015] logged in with entity id 195828 at ([world] 1029.0774895072218, 3.001, -71.54222872522834)
+2014-04-13 16:33:33 [INFO] <ritjii> I have 20 health and 20 food[m
+2014-04-13 16:33:33 [INFO] <ritjii> diging[m
+2014-04-13 16:33:33 [INFO] <ritjii> ABORTEUi![object Object][m
+2014-04-13 16:33:33 [INFO] <ritjii> diging[m
+2014-04-13 16:33:36 [INFO] <ritjii> chegamos ao complete[m
+2014-04-13 16:33:36 [INFO] <ritjii> finished digging[m
+2014-04-13 16:33:36 [INFO] <ritjii> diging[m
+2014-04-13 16:33:39 [INFO] <ritjii> chegamos ao complete[m
+2014-04-13 16:33:39 [INFO] <ritjii> finished digging[m
+2014-04-13 16:34:12 [INFO] CONSOLE: Stopping the server..[m
+2014-04-13 16:34:12 [INFO] Stopping server
+2014-04-13 16:34:12 [INFO] [Spectate] Disabling Spectate v2.0
+2014-04-13 16:34:12 [INFO] Saving players
+2014-04-13 16:34:12 [WARNING] DSCT: Socket closed
+2014-04-13 16:34:12 [INFO] Closing listening thread
+2014-04-13 16:34:12 [INFO] ¤eRitjiiiMaster left the game.
+2014-04-13 16:34:12 [INFO] ¤eritjii left the game.
+2014-04-13 16:34:13 [INFO] Saving worlds
+2014-04-13 16:34:13 [INFO] Saving chunks for level 'world'/Overworld
+2014-04-13 16:34:14 [INFO] Saving chunks for level 'world_nether'/Nether
+2014-04-13 16:34:14 [INFO] Saving chunks for level 'world_the_end'/The End
+2014-04-13 16:34:44 [INFO] Starting minecraft server version 1.6.4
+2014-04-13 16:34:45 [INFO] Loading properties
+2014-04-13 16:34:45 [INFO] Default game type: SURVIVAL
+2014-04-13 16:34:45 [INFO] Generating keypair
+2014-04-13 16:34:45 [INFO] Starting Minecraft server on *:25565
+2014-04-13 16:34:47 [INFO] This server is running CraftBukkit version git-Bukkit-1.6.2-R1.0-2-g317b76b-b2882jnks (MC: 1.6.4) (Implementing API version 1.6.4-R0.1-SNAPSHOT)
+2014-04-13 16:34:47 [INFO] [Spectate] Loading Spectate v2.0
+2014-04-13 16:34:47 [WARNING] **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+2014-04-13 16:34:47 [WARNING] The server will make no attempt to authenticate usernames. Beware.
+2014-04-13 16:34:47 [WARNING] While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+2014-04-13 16:34:47 [WARNING] To change this, set "online-mode" to "true" in the server.properties file.
+2014-04-13 16:34:47 [INFO] Preparing level "world"
+2014-04-13 16:34:48 [WARNING] ----- Bukkit Auto Updater -----
+2014-04-13 16:34:48 [WARNING] Your version of CraftBukkit is out of date. Version 1.6.4-R2.0 (build #2918) was released on Wed Oct 30 23:39:40 WET 2013.
+2014-04-13 16:34:48 [WARNING] Details: /downloads/craftbukkit/view/02389_1.6.4-R2.0/
+2014-04-13 16:34:48 [WARNING] Download: /downloads/craftbukkit/get/02389_1.6.4-R2.0/craftbukkit.jar
+2014-04-13 16:34:48 [WARNING] ----- ------------------- -----
+2014-04-13 16:34:48 [INFO] Preparing start region for level 0 (Seed: 4539697792417860999)
+2014-04-13 16:34:49 [INFO] Preparing spawn area: 13%
+2014-04-13 16:34:50 [INFO] Preparing spawn area: 70%
+2014-04-13 16:34:51 [INFO] Preparing start region for level 1 (Seed: -6264712660610705308)
+2014-04-13 16:34:52 [INFO] Preparing spawn area: 53%
+2014-04-13 16:34:52 [INFO] Preparing start region for level 2 (Seed: -6264712660610705308)
+2014-04-13 16:34:53 [INFO] [Spectate] Enabling Spectate v2.0
+2014-04-13 16:34:53 [INFO] Server permissions file permissions.yml is empty, ignoring it
+2014-04-13 16:34:53 [INFO] Done (5,902s)! For help, type "help" or "?"
+2014-04-13 16:34:54 [INFO] RitjiiiMaster[/127.0.0.1:51023] logged in with entity id 91 at ([world] 1039.773240035743, 3.0, -81.26383103056882)
+2014-04-13 16:34:59 [INFO] ritjii[/127.0.0.1:51024] logged in with entity id 936 at ([world] 1025.0245137019258, 4.0009999999999994, -68.42755908204163)
+2014-04-13 16:35:00 [INFO] <ritjii> I have 18 health and 20 food[m
+2014-04-13 16:35:03 [INFO] <ritjii> I have 16 health and 20 food[m
+2014-04-13 16:35:04 [INFO] <ritjii> I have 17 health and 20 food[m
+2014-04-13 16:35:04 [INFO] <ritjii> I have 15 health and 20 food[m
+2014-04-13 16:35:05 [INFO] <ritjii> I have 13 health and 20 food[m
+2014-04-13 16:35:08 [INFO] <ritjii> I have 12 health and 20 food[m
+2014-04-13 16:35:09 [INFO] <ritjii> I have 10 health and 20 food[m
+2014-04-13 16:35:09 [WARNING] RitjiiiMaster was kicked for floating too long!
+2014-04-13 16:35:09 [INFO] ¤eRitjiiiMaster left the game.
+2014-04-13 16:35:12 [INFO] <ritjii> I have 8 health and 20 food[m
+2014-04-13 16:35:12 [INFO] <ritjii> I have 9 health and 20 food[m
+2014-04-13 16:35:13 [INFO] <ritjii> I have 7 health and 20 food[m
+2014-04-13 16:35:14 [INFO] /127.0.0.1:51029 lost connection
+2014-04-13 16:35:15 [INFO] <ritjii> I have 5 health and 20 food[m
+2014-04-13 16:35:16 [INFO] RitjiiiMaster[/127.0.0.1:51030] logged in with entity id 4495 at ([world] 1020.242570264323, 14.234074261620076, -62.77273776558303)
+2014-04-13 16:35:16 [INFO] <ritjii> I have 6 health and 20 food[m
+2014-04-13 16:35:16 [INFO] <ritjii> I have 4 health and 20 food[m
+2014-04-13 16:35:18 [INFO] <ritjii> I have 2 health and 20 food[m
+2014-04-13 16:35:20 [INFO] ritjii was slain by Slime
+2014-04-13 16:35:20 [WARNING] RitjiiiMaster was kicked for floating too long!
+2014-04-13 16:35:20 [INFO] ¤eRitjiiiMaster left the game.
+2014-04-13 16:35:20 [INFO] <ritjii> I have 0 health and 20 food[m
+2014-04-13 16:35:20 [INFO] <ritjii> I have 20 health and 20 food[m
+2014-04-13 16:35:20 [INFO] <ritjii> I have 20 health and 20 food[m
+2014-04-13 16:35:21 [INFO] <ritjii> I have 18 health and 20 food[m
+2014-04-13 16:35:22 [INFO] <ritjii> I have 16 health and 20 food[m
+2014-04-13 16:35:25 [INFO] <ritjii> I have 14 health and 20 food[m
+2014-04-13 16:35:26 [INFO] <ritjii> I have 15 health and 20 food[m
+2014-04-13 16:35:28 [INFO] RitjiiiMaster[/127.0.0.1:51032] logged in with entity id 6792 at ([world] 1020.242570264323, 26.30102930391038, -62.77273776558303)
+2014-04-13 16:35:29 [INFO] <ritjii> I have 13 health and 20 food[m
+2014-04-13 16:35:30 [INFO] <ritjii> I have 14 health and 20 food[m
+2014-04-13 16:35:30 [INFO] <ritjii> I have 12 health and 20 food[m
+2014-04-13 16:35:32 [WARNING] RitjiiiMaster was kicked for floating too long!
+2014-04-13 16:35:32 [INFO] ¤eRitjiiiMaster left the game.
+2014-04-13 16:35:32 [INFO] <ritjii> I have 10 health and 20 food[m
+2014-04-13 16:35:33 [INFO] /127.0.0.1:51033 lost connection
+2014-04-13 16:35:34 [INFO] <ritjii> I have 11 health and 20 food[m
+2014-04-13 16:35:35 [INFO] RitjiiiMaster[/127.0.0.1:51034] logged in with entity id 8207 at ([world] 1020.242570264323, 35.63972541183998, -62.77273776558303)
+2014-04-13 16:35:35 [INFO] <ritjii> I have 8 health and 20 food[m
+2014-04-13 16:35:36 [INFO] <ritjii> I have 5 health and 20 food[m
+2014-04-13 16:35:37 [INFO] <ritjii> I have 3 health and 20 food[m
+2014-04-13 16:35:37 [INFO] <ritjii> I have 2 health and 20 food[m
+2014-04-13 16:35:37 [INFO] ritjii was slain by Slime
+2014-04-13 16:35:37 [INFO] <ritjii> I have 0 health and 20 food[m
+2014-04-13 16:35:38 [INFO] <ritjii> I have 20 health and 20 food[m
+2014-04-13 16:35:38 [INFO] <ritjii> I have 20 health and 20 food[m
+2014-04-13 16:35:38 [INFO] <ritjii> I have 17 health and 20 food[m
+2014-04-13 16:35:39 [INFO] <ritjii> I have 15 health and 20 food[m
+2014-04-13 16:35:39 [WARNING] RitjiiiMaster was kicked for floating too long!
+2014-04-13 16:35:39 [INFO] ¤eRitjiiiMaster left the game.
+2014-04-13 16:35:39 [INFO] <ritjii> I have 14 health and 20 food[m
+2014-04-13 16:35:39 [INFO] <ritjii> I have 11 health and 20 food[m
+2014-04-13 16:35:40 [INFO] <ritjii> I have 8 health and 20 food[m
+2014-04-13 16:35:41 [INFO] <ritjii> I have 5 health and 20 food[m
+2014-04-13 16:35:42 [INFO] <ritjii> I have 3 health and 20 food[m
+2014-04-13 16:35:43 [INFO] <ritjii> I have 4 health and 20 food[m
+2014-04-13 16:35:43 [INFO] <ritjii> I have 2 health and 20 food[m
+2014-04-13 16:35:44 [INFO] ritjii was slain by Slime
+2014-04-13 16:35:44 [INFO] <ritjii> I have 0 health and 20 food[m
+2014-04-13 16:35:45 [INFO] <ritjii> I have 20 health and 20 food[m
+2014-04-13 16:35:45 [INFO] <ritjii> I have 20 health and 20 food[m
+2014-04-13 16:35:46 [INFO] <ritjii> I have 17 health and 20 food[m
+2014-04-13 16:35:47 [INFO] <ritjii> I have 14 health and 20 food[m
+2014-04-13 16:35:48 [INFO] <ritjii> I have 11 health and 20 food[m
+2014-04-13 16:35:49 [INFO] <ritjii> I have 9 health and 20 food[m
+2014-04-13 16:35:49 [INFO] <ritjii> I have 8 health and 20 food[m
+2014-04-13 16:35:49 [INFO] ¤eritjii left the game.
+2014-04-13 16:35:51 [INFO] Connection reset
+2014-04-13 16:35:54 [INFO] Can't find player RitjiiiMaster[m
+2014-04-13 16:36:20 [INFO] Can't find player RitjiiiMaster[m
+2014-04-13 16:36:24 [INFO] Can't find player RitjiiiMaster[m
+2014-04-13 16:36:27 [INFO] RitjiiiMaster[/127.0.0.1:51036] logged in with entity id 11450 at ([world] 1020.242570264323, 36.01472541183998, -62.77273776558303)
+2014-04-13 16:36:27 [INFO] RitjiiiMaster already has game mode 0[m
+2014-04-13 16:36:31 [WARNING] RitjiiiMaster was kicked for floating too long!
+2014-04-13 16:36:31 [INFO] ¤eRitjiiiMaster left the game.
+2014-04-13 16:36:35 [INFO] RitjiiiMaster[/127.0.0.1:51037] logged in with entity id 12215 at ([world] 1020.242570264323, 36.01472541183998, -62.77273776558303)
+2014-04-13 16:36:37 [INFO] CONSOLE: Set RitjiiiMaster's game mode to CREATIVE mode[m
+2014-04-13 16:36:43 [INFO] CONSOLE: Set time to 10000[m
+2014-04-13 16:36:54 [INFO] CONSOLE: Set RitjiiiMaster's game mode to SURVIVAL mode[m
+2014-04-13 16:36:58 [WARNING] RitjiiiMaster was kicked for floating too long!
+2014-04-13 16:36:58 [INFO] ¤eRitjiiiMaster left the game.
+2014-04-13 16:37:17 [INFO] RitjiiiMaster[/127.0.0.1:51038] logged in with entity id 14173 at ([world] 1020.242570264323, 49.08945141446657, -62.77273776558303)
+2014-04-13 16:37:21 [INFO] CONSOLE: Set RitjiiiMaster's game mode to CREATIVE mode[m
+2014-04-13 16:37:36 [INFO] RitjiiiMaster lost connection: disconnect.endOfStream
+2014-04-13 16:37:36 [INFO] ¤eRitjiiiMaster left the game.
+2014-04-13 16:38:13 [INFO] RitjiiiMaster[/127.0.0.1:51065] logged in with entity id 18350 at ([world] 1023.5486850745123, 60.300372124917786, -60.01289621421898)
+2014-04-13 16:38:22 [INFO] ritjii[/127.0.0.1:51068] logged in with entity id 20256 at ([world] 1024.8045764511705, 4.0009999999999994, -68.92671842813749)
+2014-04-13 16:38:22 [INFO] <ritjii> I have 8 health and 20 food[m
+2014-04-13 16:38:23 [INFO] <ritjii> I have 9 health and 20 food[m
+2014-04-13 16:38:27 [INFO] <ritjii> I have 10 health and 20 food[m
+2014-04-13 16:38:27 [INFO] <ritjii> I have 8 health and 20 food[m
+2014-04-13 16:38:31 [INFO] <ritjii> I have 9 health and 20 food[m
+2014-04-13 16:38:32 [INFO] <ritjii> I have 7 health and 20 food[m
+2014-04-13 16:38:34 [INFO] ritjii was slain by RitjiiiMaster
+2014-04-13 16:38:34 [INFO] <ritjii> I have 0 health and 20 food[m
+2014-04-13 16:38:34 [INFO] <ritjii> I have 20 health and 20 food[m
+2014-04-13 16:38:34 [INFO] <ritjii> I have 20 health and 20 food[m
+2014-04-13 16:38:47 [INFO] CONSOLE: Set time to 10000[m
+2014-04-13 16:39:46 [INFO] <ritjii> diging[m
+2014-04-13 16:39:47 [INFO] <ritjii> ABORTEUi![object Object][m
+2014-04-13 16:39:47 [INFO] <ritjii> diging[m
+2014-04-13 16:39:49 [INFO] <ritjii> chegamos ao complete[m
+2014-04-13 16:39:50 [INFO] <ritjii> finished digging[m
+2014-04-13 16:39:50 [INFO] <ritjii> diging[m
+2014-04-13 16:39:53 [INFO] <ritjii> chegamos ao complete[m
+2014-04-13 16:39:53 [INFO] <ritjii> finished digging[m
+2014-04-13 16:40:25 [INFO] CONSOLE: Set time to 10000[m
+2014-04-13 16:41:22 [INFO] <ritjii> diging[m
+2014-04-13 16:41:22 [INFO] <ritjii> ABORTEUi![object Object][m
+2014-04-13 16:41:22 [INFO] <ritjii> diging[m
+2014-04-13 16:41:25 [INFO] <ritjii> chegamos ao complete[m
+2014-04-13 16:41:25 [INFO] <ritjii> finished digging[m
+2014-04-13 16:41:25 [INFO] <ritjii> diging[m
+2014-04-13 16:41:28 [INFO] <ritjii> chegamos ao complete[m
+2014-04-13 16:41:28 [INFO] <ritjii> finished digging[m
+2014-04-13 16:41:29 [INFO] <ritjii> diging[m
+2014-04-13 16:41:29 [INFO] <ritjii> ABORTEUi![object Object][m
+2014-04-13 16:41:29 [INFO] <ritjii> diging[m
+2014-04-13 16:41:32 [INFO] <ritjii> chegamos ao complete[m
+2014-04-13 16:41:32 [INFO] <ritjii> finished digging[m
+2014-04-13 16:41:32 [INFO] <ritjii> diging[m
+2014-04-13 16:41:35 [INFO] <ritjii> chegamos ao complete[m
+2014-04-13 16:41:35 [INFO] <ritjii> finished digging[m
+2014-04-13 16:41:37 [INFO] <ritjii> diging[m
+2014-04-13 16:41:37 [INFO] <ritjii> ABORTEUi![object Object][m
+2014-04-13 16:41:37 [INFO] <ritjii> diging[m
+2014-04-13 16:41:40 [INFO] <ritjii> chegamos ao complete[m
+2014-04-13 16:41:40 [INFO] <ritjii> finished digging[m
+2014-04-13 16:41:40 [INFO] <ritjii> diging[m
+2014-04-13 16:41:43 [INFO] <ritjii> chegamos ao complete[m
+2014-04-13 16:41:43 [INFO] <ritjii> finished digging[m
+2014-04-13 16:41:54 [INFO] RitjiiiMaster lost connection: disconnect.quitting
+2014-04-13 16:41:54 [INFO] Connection reset
+2014-04-13 16:41:54 [INFO] ¤eRitjiiiMaster left the game.
+2014-04-13 16:42:05 [INFO] CONSOLE: Stopping the server..[m
+2014-04-13 16:42:05 [INFO] Stopping server
+2014-04-13 16:42:05 [INFO] [Spectate] Disabling Spectate v2.0
+2014-04-13 16:42:05 [WARNING] DSCT: Socket closed
+2014-04-13 16:42:05 [INFO] Saving players
+2014-04-13 16:42:05 [INFO] Closing listening thread
+2014-04-13 16:42:05 [INFO] ¤eritjii left the game.
+2014-04-13 16:42:05 [INFO] Saving worlds
+2014-04-13 16:42:05 [INFO] Saving chunks for level 'world'/Overworld
+2014-04-13 16:42:06 [INFO] Saving chunks for level 'world_nether'/Nether
+2014-04-13 16:42:06 [INFO] Saving chunks for level 'world_the_end'/The End
+2014-04-16 12:55:54 [INFO] Starting minecraft server version 1.6.4
+2014-04-16 12:55:54 [INFO] Loading properties
+2014-04-16 12:55:54 [INFO] Default game type: SURVIVAL
+2014-04-16 12:55:54 [INFO] Generating keypair
+2014-04-16 12:55:55 [INFO] Starting Minecraft server on *:25565
+2014-04-16 12:55:56 [INFO] This server is running CraftBukkit version git-Bukkit-1.6.2-R1.0-2-g317b76b-b2882jnks (MC: 1.6.4) (Implementing API version 1.6.4-R0.1-SNAPSHOT)
+2014-04-16 12:55:56 [INFO] [Spectate] Loading Spectate v2.0
+2014-04-16 12:55:56 [WARNING] **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+2014-04-16 12:55:56 [WARNING] The server will make no attempt to authenticate usernames. Beware.
+2014-04-16 12:55:56 [WARNING] While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+2014-04-16 12:55:56 [WARNING] To change this, set "online-mode" to "true" in the server.properties file.
+2014-04-16 12:55:56 [INFO] Preparing level "world"
+2014-04-16 12:55:57 [INFO] Preparing start region for level 0 (Seed: 4539697792417860999)
+2014-04-16 12:55:57 [WARNING] ----- Bukkit Auto Updater -----
+2014-04-16 12:55:57 [WARNING] Your version of CraftBukkit is out of date. Version 1.6.4-R2.0 (build #2918) was released on Wed Oct 30 23:39:40 WET 2013.
+2014-04-16 12:55:57 [WARNING] Details: /downloads/craftbukkit/view/02389_1.6.4-R2.0/
+2014-04-16 12:55:57 [WARNING] Download: /downloads/craftbukkit/get/02389_1.6.4-R2.0/craftbukkit.jar
+2014-04-16 12:55:57 [WARNING] ----- ------------------- -----
+2014-04-16 12:55:58 [INFO] Preparing spawn area: 62%
+2014-04-16 12:55:58 [INFO] Preparing start region for level 1 (Seed: -6264712660610705308)
+2014-04-16 12:55:59 [INFO] Preparing start region for level 2 (Seed: -6264712660610705308)
+2014-04-16 12:55:59 [INFO] [Spectate] Enabling Spectate v2.0
+2014-04-16 12:55:59 [INFO] Server permissions file permissions.yml is empty, ignoring it
+2014-04-16 12:55:59 [INFO] Done (3,073s)! For help, type "help" or "?"
+2014-04-16 13:09:04 [INFO] RitjiiiMaster[/127.0.0.1:58045] logged in with entity id 85 at ([world] 1027.2252428618895, 4.0, -51.9633813461231)
+2014-04-16 13:09:18 [INFO] ritjii[/127.0.0.1:58048] logged in with entity id 2848 at ([world] 1030.0582460822147, 4.0009999999999994, -60.32032)
+2014-04-16 13:09:18 [INFO] <ritjii> I have 20 health and 20 food[m
+2014-04-16 13:09:58 [INFO] <ritjii> diging[m
+2014-04-16 13:09:58 [INFO] <ritjii> ABORTEI![object Object][m
+2014-04-16 13:09:58 [INFO] <ritjii> diging[m
+2014-04-16 13:10:01 [INFO] <ritjii> chegamos ao complete[m
+2014-04-16 13:10:01 [INFO] <ritjii> finished digging[m
+2014-04-16 13:10:01 [INFO] <ritjii> diging[m
+2014-04-16 13:10:04 [INFO] <ritjii> chegamos ao complete[m
+2014-04-16 13:10:04 [INFO] <ritjii> finished digging[m
+2014-04-16 13:10:29 [INFO] <ritjii> diging[m
+2014-04-16 13:10:29 [INFO] <ritjii> ABORTEI![object Object][m
+2014-04-16 13:10:29 [INFO] <ritjii> diging[m
+2014-04-16 13:10:32 [INFO] <ritjii> chegamos ao complete[m
+2014-04-16 13:10:32 [INFO] <ritjii> finished digging[m
+2014-04-16 13:10:32 [INFO] <ritjii> diging[m
+2014-04-16 13:10:35 [INFO] <ritjii> chegamos ao complete[m
+2014-04-16 13:10:35 [INFO] <ritjii> finished digging[m
+2014-04-16 13:10:35 [INFO] <ritjii> diging[m
+2014-04-16 13:10:35 [INFO] <ritjii> ABORTEI![object Object][m
+2014-04-16 13:10:35 [INFO] <ritjii> diging[m
+2014-04-16 13:10:38 [INFO] <ritjii> chegamos ao complete[m
+2014-04-16 13:10:38 [INFO] <ritjii> finished digging[m
+2014-04-16 13:10:38 [INFO] <ritjii> diging[m
+2014-04-16 13:10:41 [INFO] <ritjii> chegamos ao complete[m
+2014-04-16 13:10:41 [INFO] <ritjii> finished digging[m
+2014-04-16 13:10:59 [INFO] RitjiiiMaster lost connection: disconnect.quitting
+2014-04-16 13:10:59 [INFO] Connection reset
+2014-04-16 13:10:59 [INFO] ¤eRitjiiiMaster left the game.
+2014-04-16 13:11:06 [INFO] ritjii lost connection: disconnect.endOfStream
+2014-04-16 13:11:06 [INFO] ¤eritjii left the game.
+2014-04-16 13:34:08 [WARNING] Time ran backwards! Did the system time change?
+2014-04-16 13:34:39 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2014-04-16 14:18:52 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2014-04-16 15:53:53 [INFO] RitjiiiMaster[/127.0.0.1:59434] logged in with entity id 24909 at ([world] 1030.8080920320522, 4.0, -59.41533821648853)
+2014-04-16 15:54:15 [INFO] ritjii[/127.0.0.1:59437] logged in with entity id 29512 at ([world] 1049.3039729736086, 4.0009999999999994, -55.46390982489062)
+2014-04-16 15:54:15 [INFO] <ritjii> I have 20 health and 20 food[m
+2014-04-16 15:54:40 [INFO] <ritjii> I have 19 health and 20 food[m
+2014-04-16 15:54:40 [INFO] ¤eritjii left the game.
+2014-04-16 15:54:40 [INFO] Player ritjii tried to attack an EntityPlayer, so I have disconnected them for exploiting.
+2014-04-16 15:54:42 [INFO] Connection reset
+2014-04-16 15:55:09 [INFO] ritjii[/127.0.0.1:59441] logged in with entity id 40105 at ([world] 1054.444181583089, 4.0009999999999994, -45.96866509858333)
+2014-04-16 15:55:10 [INFO] <ritjii> I have 19 health and 20 food[m
+2014-04-16 15:55:13 [INFO] <ritjii> I have 20 health and 20 food[m
+2014-04-16 15:55:46 [INFO] CONSOLE: Set time to 0[m
+2014-04-16 15:55:59 [INFO] CONSOLE: Set time to 2000[m
+2014-04-16 15:56:06 [INFO] CONSOLE: Set time to 0[m
+2014-04-16 15:56:10 [INFO] CONSOLE: Set time to 0[m
+2014-04-16 15:56:13 [INFO] CONSOLE: Set time to 0[m
+2014-04-16 15:56:19 [INFO] [0;31;1mIncorrect usage. Correct usage:
+/time set <value>
+/time add <value>[m
+2014-04-16 15:56:21 [INFO] CONSOLE: Set time to 2[m
+2014-04-16 15:56:48 [INFO] <ritjii> diging[m
+2014-04-16 15:56:48 [INFO] <ritjii> ABORTEI![object Object][m
+2014-04-16 15:56:48 [INFO] <ritjii> diging[m
+2014-04-16 15:56:51 [INFO] <ritjii> chegamos ao complete[m
+2014-04-16 15:56:51 [INFO] <ritjii> finished digging[m
+2014-04-16 15:56:51 [INFO] <ritjii> diging[m
+2014-04-16 15:56:54 [INFO] <ritjii> chegamos ao complete[m
+2014-04-16 15:56:54 [INFO] <ritjii> finished digging[m
+2014-04-16 15:57:20 [INFO] <ritjii> I have 17 health and 20 food[m
+2014-04-16 15:57:20 [INFO] ¤eritjii left the game.
+2014-04-16 15:57:20 [INFO] Player ritjii tried to attack an EntityPlayer, so I have disconnected them for exploiting.
+2014-04-16 15:57:22 [INFO] Connection reset
+2014-04-16 16:06:02 [INFO] Unknown command. Type "help" for help.[m
+2014-04-16 16:06:09 [INFO] CONSOLE: Set RitjiiiMaster's game mode to SURVIVAL mode[m
+2014-04-16 16:06:17 [INFO] CONSOLE: Set RitjiiiMaster's game mode to CREATIVE mode[m
+2014-04-16 16:06:26 [INFO] CONSOLE: Set RitjiiiMaster's game mode to ADVENTURE mode[m
+2014-04-16 16:06:35 [WARNING] RitjiiiMaster was kicked for floating too long!
+2014-04-16 16:06:35 [INFO] ¤eRitjiiiMaster left the game.
+2014-04-16 16:06:41 [INFO] Can't find player RitjiiiMaster[m
+2014-04-16 16:06:45 [INFO] Can't find player RitjiiiMaster[m
+2014-04-16 16:06:48 [INFO] RitjiiiMaster[/127.0.0.1:59492] logged in with entity id 179184 at ([world] 1189.424212374648, 19.897474297307976, -174.51667962196322)
+2014-04-16 16:06:49 [INFO] CONSOLE: Set RitjiiiMaster's game mode to SURVIVAL mode[m
+2014-04-16 16:06:53 [WARNING] RitjiiiMaster was kicked for floating too long!
+2014-04-16 16:06:53 [INFO] ¤eRitjiiiMaster left the game.
+2014-04-16 16:06:57 [INFO] RitjiiiMaster[/127.0.0.1:59494] logged in with entity id 179996 at ([world] 1189.424212374648, 21.607474297307977, -174.51667962196322)
+2014-04-16 16:07:01 [INFO] Connection reset
+2014-04-16 16:07:01 [INFO] RitjiiiMaster lost connection: disconnect.quitting
+2014-04-16 16:07:01 [INFO] ¤eRitjiiiMaster left the game.
+2014-04-16 16:13:21 [INFO] RitjiiiMaster[/127.0.0.1:59643] logged in with entity id 180830 at ([world] 1189.424212374648, 21.607474297307977, -174.51667962196322)
+2014-04-16 16:13:50 [INFO] RitjiiiMaster was slain by Zombie
+2014-04-16 16:13:59 [INFO] ritjii[/127.0.0.1:59647] logged in with entity id 181505 at ([world] 1039.521075816509, 4.0009999999999994, -48.40847255346433)
+2014-04-16 16:13:59 [INFO] <ritjii> I have 17 health and 20 food[m
+2014-04-16 16:14:03 [INFO] <ritjii> I have 18 health and 20 food[m
+2014-04-16 16:14:07 [INFO] <ritjii> I have 19 health and 20 food[m
+2014-04-16 16:14:11 [INFO] <ritjii> I have 20 health and 20 food[m
+2014-04-16 16:14:14 [INFO] ¤eritjii left the game.
+2014-04-16 16:14:14 [INFO] Player ritjii tried to attack an EntityPlayer, so I have disconnected them for exploiting.
+2014-04-16 16:14:16 [INFO] Connection reset
+2014-04-16 16:14:20 [INFO] RitjiiiMaster was slain by Zombie
+2014-04-16 16:14:23 [INFO] RitjiiiMaster lost connection: disconnect.quitting
+2014-04-16 16:14:23 [INFO] Connection reset
+2014-04-16 16:14:23 [INFO] ¤eRitjiiiMaster left the game.
+2014-04-16 16:15:23 [INFO] CONSOLE: Set time to 1000[m
+2014-04-16 16:15:27 [INFO] ritjii[/127.0.0.1:59650] logged in with entity id 182055 at ([world] 1039.5763092970478, 4.0009999999999994, -47.92142647725504)
+2014-04-16 16:15:27 [INFO] <ritjii> I have 17.5 health and 20 food[m
+2014-04-16 16:15:30 [INFO] <ritjii> I have 15 health and 20 food[m
+2014-04-16 16:15:31 [INFO] <ritjii> I have 16 health and 20 food[m
+2014-04-16 16:15:31 [INFO] <ritjii> I have 13.5 health and 20 food[m
+2014-04-16 16:15:32 [INFO] <ritjii> I have 11 health and 20 food[m
+2014-04-16 16:15:32 [INFO] <ritjii> I have 8.5 health and 20 food[m
+2014-04-16 16:15:33 [INFO] <ritjii> I have 6 health and 20 food[m
+2014-04-16 16:15:33 [INFO] <ritjii> I have 3.5 health and 20 food[m
+2014-04-16 16:15:34 [INFO] <ritjii> I have 1 health and 20 food[m
+2014-04-16 16:15:34 [INFO] ritjii was slain by Zombie
+2014-04-16 16:15:34 [INFO] <ritjii> I have 0 health and 20 food[m
+2014-04-16 16:15:34 [INFO] <ritjii> I have 20 health and 20 food[m
+2014-04-16 16:15:34 [INFO] <ritjii> I have 20 health and 20 food[m
+2014-04-16 16:15:35 [WARNING] ritjii moved wrongly!
+2014-04-16 16:15:35 [WARNING] ritjii moved wrongly!
+2014-04-16 16:15:35 [WARNING] ritjii moved wrongly!
+2014-04-16 16:15:35 [INFO] RitjiiiMaster[/127.0.0.1:59655] logged in with entity id 182895 at ([world] 1050.5913058015794, 4.0, -38.650098348021885)
+2014-04-16 16:15:37 [INFO] <ritjii> I have 17.5 health and 20 food[m
+2014-04-16 16:15:38 [INFO] <ritjii> I have 15 health and 20 food[m
+2014-04-16 16:15:39 [INFO] <ritjii> I have 12.5 health and 20 food[m
+2014-04-16 16:15:40 [INFO] <ritjii> I have 10 health and 20 food[m
+2014-04-16 16:15:41 [INFO] <ritjii> I have 7.5 health and 20 food[m
+2014-04-16 16:15:41 [INFO] <ritjii> I have 8.5 health and 20 food[m
+2014-04-16 16:15:42 [INFO] <ritjii> I have 6 health and 20 food[m
+2014-04-16 16:15:43 [INFO] <ritjii> I have 3.5 health and 20 food[m
+2014-04-16 16:15:45 [INFO] <ritjii> I have 1 health and 20 food[m
+2014-04-16 16:15:45 [INFO] <ritjii> I have 2 health and 20 food[m
+2014-04-16 16:15:46 [INFO] ritjii was slain by Zombie
+2014-04-16 16:15:46 [INFO] <ritjii> I have 0 health and 20 food[m
+2014-04-16 16:15:46 [INFO] <ritjii> I have 20 health and 20 food[m
+2014-04-16 16:15:46 [INFO] <ritjii> I have 20 health and 20 food[m
+2014-04-16 16:16:20 [INFO] <ritjii> I have 17 health and 20 food[m
+2014-04-16 16:16:21 [INFO] <ritjii> I have 14 health and 20 food[m
+2014-04-16 16:16:22 [INFO] <ritjii> I have 11 health and 20 food[m
+2014-04-16 16:16:24 [INFO] <ritjii> I have 8 health and 20 food[m
+2014-04-16 16:16:24 [INFO] <ritjii> I have 9 health and 20 food[m
+2014-04-16 16:16:25 [INFO] <ritjii> I have 6 health and 20 food[m
+2014-04-16 16:16:25 [INFO] <ritjii> I have 3 health and 20 food[m
+2014-04-16 16:16:26 [INFO] ritjii was slain by Slime
+2014-04-16 16:16:26 [INFO] <ritjii> I have 0 health and 20 food[m
+2014-04-16 16:16:26 [INFO] <ritjii> I have 20 health and 20 food[m
+2014-04-16 16:16:26 [INFO] <ritjii> I have 20 health and 20 food[m
+2014-04-16 16:16:30 [INFO] <ritjii> I have 17 health and 20 food[m
+2014-04-16 16:16:31 [INFO] <ritjii> I have 14 health and 20 food[m
+2014-04-16 16:16:32 [INFO] <ritjii> I have 11 health and 20 food[m
+2014-04-16 16:16:33 [INFO] <ritjii> I have 8 health and 20 food[m
+2014-04-16 16:16:34 [INFO] <ritjii> I have 5 health and 20 food[m
+2014-04-16 16:16:34 [INFO] <ritjii> I have 2 health and 20 food[m
+2014-04-16 16:16:34 [INFO] <ritjii> I have 3 health and 20 food[m
+2014-04-16 16:16:35 [INFO] ritjii was slain by Slime
+2014-04-16 16:16:35 [INFO] <ritjii> I have 0 health and 20 food[m
+2014-04-16 16:16:35 [INFO] <ritjii> I have 20 health and 20 food[m
+2014-04-16 16:16:35 [INFO] <ritjii> I have 20 health and 20 food[m
+2014-04-16 16:16:37 [INFO] <ritjii> I have 17 health and 20 food[m
+2014-04-16 16:16:38 [INFO] <ritjii> I have 14 health and 20 food[m
+2014-04-16 16:16:39 [INFO] <ritjii> I have 11 health and 20 food[m
+2014-04-16 16:16:40 [INFO] <ritjii> I have 8 health and 20 food[m
+2014-04-16 16:16:40 [INFO] <ritjii> I have 5 health and 20 food[m
+2014-04-16 16:16:41 [INFO] <ritjii> I have 2 health and 20 food[m
+2014-04-16 16:16:41 [INFO] <ritjii> I have 3 health and 20 food[m
+2014-04-16 16:16:41 [INFO] ritjii was slain by Slime
+2014-04-16 16:16:41 [INFO] <ritjii> I have 0 health and 20 food[m
+2014-04-16 16:16:41 [INFO] <ritjii> I have 20 health and 20 food[m
+2014-04-16 16:16:41 [INFO] <ritjii> I have 20 health and 20 food[m
+2014-04-16 16:16:44 [INFO] <ritjii> I have 17 health and 20 food[m
+2014-04-16 16:16:45 [INFO] <ritjii> I have 14 health and 20 food[m
+2014-04-16 16:16:47 [INFO] <ritjii> I have 11 health and 20 food[m
+2014-04-16 16:16:48 [INFO] <ritjii> I have 12 health and 20 food[m
+2014-04-16 16:16:48 [INFO] <ritjii> I have 9 health and 20 food[m
+2014-04-16 16:16:49 [INFO] <ritjii> I have 6 health and 20 food[m
+2014-04-16 16:16:50 [INFO] <ritjii> I have 3 health and 20 food[m
+2014-04-16 16:16:52 [INFO] <ritjii> I have 4 health and 20 food[m
+2014-04-16 16:16:53 [INFO] <ritjii> I have 1 health and 20 food[m
+2014-04-16 16:16:54 [INFO] ritjii was slain by RitjiiiMaster
+2014-04-16 16:16:54 [INFO] <ritjii> I have 0 health and 20 food[m
+2014-04-16 16:16:54 [INFO] <ritjii> I have 20 health and 20 food[m
+2014-04-16 16:16:54 [INFO] <ritjii> I have 20 health and 20 food[m
+2014-04-16 16:16:55 [INFO] <ritjii> I have 18 health and 20 food[m
+2014-04-16 16:16:55 [INFO] <ritjii> I have 15 health and 20 food[m
+2014-04-16 16:16:57 [INFO] <ritjii> I have 12 health and 20 food[m
+2014-04-16 16:16:59 [INFO] <ritjii> I have 13 health and 20 food[m
+2014-04-16 16:16:59 [INFO] <ritjii> I have 10 health and 20 food[m
+2014-04-16 16:17:01 [INFO] <ritjii> I have 7 health and 20 food[m
+2014-04-16 16:17:01 [INFO] <ritjii> I have 4 health and 20 food[m
+2014-04-16 16:17:02 [INFO] <ritjii> I have 1 health and 20 food[m
+2014-04-16 16:17:03 [INFO] <ritjii> I have 2 health and 20 food[m
+2014-04-16 16:17:03 [INFO] ritjii was slain by Slime
+2014-04-16 16:17:03 [INFO] <ritjii> I have 0 health and 20 food[m
+2014-04-16 16:17:03 [INFO] <ritjii> I have 20 health and 20 food[m
+2014-04-16 16:17:03 [INFO] <ritjii> I have 20 health and 20 food[m
+2014-04-16 16:17:03 [INFO] ¤eritjii left the game.
+2014-04-16 16:17:05 [INFO] Connection reset
+2014-04-16 16:17:54 [INFO] RitjiiiMaster was slain by Slime
+2014-04-16 16:18:29 [INFO] Unknown command. Type "help" for help.[m
+2014-04-16 16:18:31 [INFO] [0;31;1mUsage: /gamemode <mode> [player][m
+2014-04-16 16:18:38 [INFO] Can't find player CONSOLE[m
+2014-04-16 16:20:36 [INFO] ritjii[/127.0.0.1:59678] logged in with entity id 244806 at ([world] 1024.5, 4.0, -66.5)
+2014-04-16 16:20:37 [INFO] <ritjii> I have 20 health and 20 food[m
+2014-04-16 16:20:37 [WARNING] ritjii moved wrongly!
+2014-04-16 16:20:37 [WARNING] ritjii moved wrongly!
+2014-04-16 16:20:37 [WARNING] ritjii moved wrongly!
+2014-04-16 16:20:37 [WARNING] ritjii moved wrongly!
+2014-04-16 16:20:37 [WARNING] ritjii moved wrongly!
+2014-04-16 16:20:37 [WARNING] ritjii moved wrongly!
+2014-04-16 16:20:37 [WARNING] ritjii moved wrongly!
+2014-04-16 16:20:37 [WARNING] ritjii moved wrongly!
+2014-04-16 16:20:37 [WARNING] ritjii moved wrongly!
+2014-04-16 16:20:37 [WARNING] ritjii moved wrongly!
+2014-04-16 16:20:37 [WARNING] ritjii moved wrongly!
+2014-04-16 16:20:37 [WARNING] ritjii moved wrongly!
+2014-04-16 16:20:37 [WARNING] ritjii moved wrongly!
+2014-04-16 16:20:37 [WARNING] ritjii moved wrongly!
+2014-04-16 16:21:24 [INFO] <ritjii> diging[m
+2014-04-16 16:21:24 [INFO] <ritjii> ABORTEI![object Object][m
+2014-04-16 16:21:24 [INFO] <ritjii> diging[m
+2014-04-16 16:21:25 [INFO] <ritjii> chegamos ao complete[m
+2014-04-16 16:21:25 [INFO] <ritjii> finished digging[m
+2014-04-16 16:21:25 [INFO] <ritjii> diging[m
+2014-04-16 16:21:28 [INFO] <ritjii> chegamos ao complete[m
+2014-04-16 16:21:28 [INFO] <ritjii> finished digging[m
+2014-04-16 16:21:49 [INFO] RitjiiiMaster lost connection: disconnect.endOfStream
+2014-04-16 16:21:50 [INFO] ¤eRitjiiiMaster left the game.
+2014-04-16 16:22:07 [INFO] ritjii lost connection: disconnect.endOfStream
+2014-04-16 16:22:07 [INFO] ¤eritjii left the game.
+2014-04-16 16:23:44 [INFO] ritjii[/127.0.0.1:59711] logged in with entity id 264123 at ([world] 1017.4636635078857, 4.0009999999999994, -58.12918364391931)
+2014-04-16 16:23:44 [INFO] <ritjii> I have 20 health and 20 food[m
+2014-04-16 16:23:50 [INFO] /127.0.0.1:59715 lost connection
+2014-04-16 16:23:52 [INFO] RitjiiiMaster[/127.0.0.1:59717] logged in with entity id 265801 at ([world] 1018.08846566644, 4.0, -61.7550729126905)
+2014-04-16 16:24:24 [INFO] ritjii lost connection: disconnect.endOfStream
+2014-04-16 16:24:25 [INFO] ¤eritjii left the game.
+2014-04-16 16:24:26 [INFO] ritjii[/127.0.0.1:59723] logged in with entity id 273604 at ([world] 1014.48437, 1.001, -77.32032)
+2014-04-16 16:24:26 [INFO] <ritjii> I have 20 health and 20 food[m
+2014-04-16 16:24:26 [WARNING] ritjii moved wrongly!
+2014-04-16 16:24:51 [INFO] <ritjii> I have 19 health and 20 food[m
+2014-04-16 16:24:51 [INFO] ¤eritjii left the game.
+2014-04-16 16:24:51 [INFO] Player ritjii tried to attack an EntityPlayer, so I have disconnected them for exploiting.
+2014-04-16 16:24:53 [INFO] Connection reset
+2014-04-16 16:27:05 [INFO] RitjiiiMaster lost connection: disconnect.endOfStream
+2014-04-16 16:27:05 [INFO] ¤eRitjiiiMaster left the game.
+2014-04-16 16:27:09 [INFO] CONSOLE: Stopping the server..[m
+2014-04-16 16:27:09 [INFO] Stopping server
+2014-04-16 16:27:09 [INFO] [Spectate] Disabling Spectate v2.0
+2014-04-16 16:27:09 [INFO] Saving players
+2014-04-16 16:27:09 [WARNING] DSCT: Socket closed
+2014-04-16 16:27:09 [INFO] Saving worlds
+2014-04-16 16:27:09 [INFO] Closing listening thread
+2014-04-16 16:27:09 [INFO] Saving chunks for level 'world'/Overworld
+2014-04-16 16:27:10 [INFO] Saving chunks for level 'world_nether'/Nether
+2014-04-16 16:27:10 [INFO] Saving chunks for level 'world_the_end'/The End
+2014-04-16 16:28:49 [INFO] Starting minecraft server version 1.6.4
+2014-04-16 16:28:49 [INFO] Loading properties
+2014-04-16 16:28:49 [INFO] Default game type: SURVIVAL
+2014-04-16 16:28:49 [INFO] Generating keypair
+2014-04-16 16:28:49 [INFO] Starting Minecraft server on *:25565
+2014-04-16 16:28:50 [INFO] This server is running CraftBukkit version git-Bukkit-1.6.2-R1.0-2-g317b76b-b2882jnks (MC: 1.6.4) (Implementing API version 1.6.4-R0.1-SNAPSHOT)
+2014-04-16 16:28:50 [INFO] [Spectate] Loading Spectate v2.0
+2014-04-16 16:28:51 [INFO] Preparing level "world"
+2014-04-16 16:28:51 [INFO] Preparing start region for level 0 (Seed: 4539697792417860999)
+2014-04-16 16:28:51 [WARNING] ----- Bukkit Auto Updater -----
+2014-04-16 16:28:51 [WARNING] Your version of CraftBukkit is out of date. Version 1.6.4-R2.0 (build #2918) was released on Wed Oct 30 23:39:40 WET 2013.
+2014-04-16 16:28:51 [WARNING] Details: /downloads/craftbukkit/view/02389_1.6.4-R2.0/
+2014-04-16 16:28:51 [WARNING] Download: /downloads/craftbukkit/get/02389_1.6.4-R2.0/craftbukkit.jar
+2014-04-16 16:28:51 [WARNING] ----- ------------------- -----
+2014-04-16 16:28:52 [INFO] Preparing spawn area: 48%
+2014-04-16 16:28:52 [INFO] Preparing start region for level 1 (Seed: -6264712660610705308)
+2014-04-16 16:28:53 [INFO] Preparing start region for level 2 (Seed: -6264712660610705308)
+2014-04-16 16:28:53 [INFO] [Spectate] Enabling Spectate v2.0
+2014-04-16 16:28:53 [INFO] Server permissions file permissions.yml is empty, ignoring it
+2014-04-16 16:28:53 [INFO] Done (2,769s)! For help, type "help" or "?"
+2014-04-16 16:30:15 [INFO] /127.0.0.1:59787 lost connection
+2014-04-16 16:30:16 [INFO] Disconnecting ritjii [/127.0.0.1:59786]: Failed to verify username!
+2014-04-16 16:30:18 [INFO] Connection reset
+2014-04-16 16:30:22 [INFO] RitjiiiMaster [/127.0.0.1:59790] lost connection
+2014-04-16 16:30:30 [INFO] RitjiiiMaster [/127.0.0.1:59792] lost connection
+2014-04-16 16:30:34 [INFO] RitjiiiMaster [/127.0.0.1:59794] lost connection
+2014-04-16 16:30:36 [INFO] CONSOLE: Stopping the server..[m
+2014-04-16 16:30:36 [INFO] Stopping server
+2014-04-16 16:30:36 [INFO] [Spectate] Disabling Spectate v2.0
+2014-04-16 16:30:36 [INFO] Saving players
+2014-04-16 16:30:36 [WARNING] DSCT: Socket closed
+2014-04-16 16:30:36 [INFO] Saving worlds
+2014-04-16 16:30:36 [INFO] Closing listening thread
+2014-04-16 16:30:36 [INFO] Saving chunks for level 'world'/Overworld
+2014-04-16 16:30:36 [INFO] Saving chunks for level 'world_nether'/Nether
+2014-04-16 16:30:36 [INFO] Saving chunks for level 'world_the_end'/The End
+2014-04-16 16:30:53 [INFO] Starting minecraft server version 1.6.4
+2014-04-16 16:30:53 [INFO] Loading properties
+2014-04-16 16:30:53 [INFO] Default game type: SURVIVAL
+2014-04-16 16:30:53 [INFO] Generating keypair
+2014-04-16 16:30:53 [INFO] Starting Minecraft server on *:25565
+2014-04-16 16:30:54 [INFO] This server is running CraftBukkit version git-Bukkit-1.6.2-R1.0-2-g317b76b-b2882jnks (MC: 1.6.4) (Implementing API version 1.6.4-R0.1-SNAPSHOT)
+2014-04-16 16:30:54 [INFO] [Spectate] Loading Spectate v2.0
+2014-04-16 16:30:54 [WARNING] **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+2014-04-16 16:30:54 [WARNING] The server will make no attempt to authenticate usernames. Beware.
+2014-04-16 16:30:54 [WARNING] While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+2014-04-16 16:30:54 [WARNING] To change this, set "online-mode" to "true" in the server.properties file.
+2014-04-16 16:30:54 [INFO] Preparing level "world"
+2014-04-16 16:30:55 [INFO] Preparing start region for level 0 (Seed: 4539697792417860999)
+2014-04-16 16:30:56 [WARNING] ----- Bukkit Auto Updater -----
+2014-04-16 16:30:56 [WARNING] Your version of CraftBukkit is out of date. Version 1.6.4-R2.0 (build #2918) was released on Wed Oct 30 23:39:40 WET 2013.
+2014-04-16 16:30:56 [WARNING] Details: /downloads/craftbukkit/view/02389_1.6.4-R2.0/
+2014-04-16 16:30:56 [WARNING] Download: /downloads/craftbukkit/get/02389_1.6.4-R2.0/craftbukkit.jar
+2014-04-16 16:30:56 [WARNING] ----- ------------------- -----
+2014-04-16 16:30:56 [INFO] Preparing spawn area: 39%
+2014-04-16 16:30:57 [INFO] Preparing start region for level 1 (Seed: -6264712660610705308)
+2014-04-16 16:30:57 [INFO] Preparing start region for level 2 (Seed: -6264712660610705308)
+2014-04-16 16:30:57 [INFO] [Spectate] Enabling Spectate v2.0
+2014-04-16 16:30:57 [INFO] Server permissions file permissions.yml is empty, ignoring it
+2014-04-16 16:30:58 [INFO] Done (3,118s)! For help, type "help" or "?"
+2014-04-16 16:31:06 [INFO] ritjii[/127.0.0.1:59804] logged in with entity id 202 at ([world] 1014.32132, 1.001, -77.32032)
+2014-04-16 16:31:07 [INFO] <ritjii> I have 19 health and 20 food[m
+2014-04-16 16:31:09 [INFO] RitjiiiMaster[/127.0.0.1:59806] logged in with entity id 203 at ([world] 1015.0586476427002, 2.0, -76.15881784677843)
+2014-04-16 16:31:11 [INFO] <ritjii> I have 20 health and 20 food[m
+2014-04-16 16:31:18 [INFO] CONSOLE: Set time to 1000[m
+2014-04-16 16:36:09 [WARNING] RitjiiiMaster was kicked for floating too long!
+2014-04-16 16:36:09 [INFO] ¤eRitjiiiMaster left the game.
+2014-04-16 16:36:14 [INFO] RitjiiiMaster[/127.0.0.1:59822] logged in with entity id 65029 at ([world] 1014.8304576458678, 17.09222362600726, -81.8859747933941)
+2014-04-16 16:36:18 [WARNING] RitjiiiMaster was kicked for floating too long!
+2014-04-16 16:36:18 [INFO] ¤eRitjiiiMaster left the game.
+2014-04-16 16:36:24 [INFO] ritjii lost connection: disconnect.endOfStream
+2014-04-16 16:36:24 [INFO] ¤eritjii left the game.
+2014-04-16 16:48:56 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2014-04-16 17:03:56 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2014-04-16 17:05:07 [INFO] CONSOLE: Stopping the server..[m
+2014-04-16 17:05:07 [INFO] Stopping server
+2014-04-16 17:05:07 [INFO] [Spectate] Disabling Spectate v2.0
+2014-04-16 17:05:07 [INFO] Saving players
+2014-04-16 17:05:07 [WARNING] DSCT: Socket closed
+2014-04-16 17:05:07 [INFO] Closing listening thread
+2014-04-16 17:05:07 [INFO] Saving worlds
+2014-04-16 17:05:07 [INFO] Saving chunks for level 'world'/Overworld
+2014-04-16 17:05:08 [INFO] Saving chunks for level 'world_nether'/Nether
+2014-04-16 17:05:08 [INFO] Saving chunks for level 'world_the_end'/The End
+2014-04-16 17:05:39 [INFO] Starting minecraft server version 1.6.4
+2014-04-16 17:05:39 [INFO] Loading properties
+2014-04-16 17:05:39 [INFO] Default game type: SURVIVAL
+2014-04-16 17:05:39 [INFO] Generating keypair
+2014-04-16 17:05:40 [INFO] Starting Minecraft server on *:25565
+2014-04-16 17:05:41 [INFO] This server is running CraftBukkit version git-Bukkit-1.6.2-R1.0-2-g317b76b-b2882jnks (MC: 1.6.4) (Implementing API version 1.6.4-R0.1-SNAPSHOT)
+2014-04-16 17:05:41 [INFO] [Spectate] Loading Spectate v2.0
+2014-04-16 17:05:41 [WARNING] **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+2014-04-16 17:05:41 [WARNING] The server will make no attempt to authenticate usernames. Beware.
+2014-04-16 17:05:41 [WARNING] While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+2014-04-16 17:05:41 [WARNING] To change this, set "online-mode" to "true" in the server.properties file.
+2014-04-16 17:05:42 [INFO] Preparing level "world"
+2014-04-16 17:05:42 [INFO] Preparing start region for level 0 (Seed: 4539697792417860999)
+2014-04-16 17:05:42 [WARNING] ----- Bukkit Auto Updater -----
+2014-04-16 17:05:42 [WARNING] Your version of CraftBukkit is out of date. Version 1.6.4-R2.0 (build #2918) was released on Wed Oct 30 23:39:40 WET 2013.
+2014-04-16 17:05:42 [WARNING] Details: /downloads/craftbukkit/view/02389_1.6.4-R2.0/
+2014-04-16 17:05:42 [WARNING] Download: /downloads/craftbukkit/get/02389_1.6.4-R2.0/craftbukkit.jar
+2014-04-16 17:05:42 [WARNING] ----- ------------------- -----
+2014-04-16 17:05:43 [INFO] Preparing spawn area: 34%
+2014-04-16 17:05:44 [INFO] Preparing spawn area: 80%
+2014-04-16 17:05:45 [INFO] Preparing spawn area: 91%
+2014-04-16 17:05:46 [INFO] Preparing start region for level 1 (Seed: -6264712660610705308)
+2014-04-16 17:05:47 [INFO] Preparing spawn area: 26%
+2014-04-16 17:05:48 [INFO] Preparing spawn area: 32%
+2014-04-16 17:05:49 [INFO] Preparing spawn area: 44%
+2014-04-16 17:05:50 [INFO] Preparing spawn area: 61%
+2014-04-16 17:05:51 [INFO] Preparing spawn area: 66%
+2014-04-16 17:05:52 [INFO] Preparing spawn area: 72%
+2014-04-16 17:05:53 [INFO] Preparing spawn area: 76%
+2014-04-16 17:05:54 [INFO] Preparing spawn area: 77%
+2014-04-16 17:05:55 [INFO] Preparing spawn area: 80%
+2014-04-16 17:05:56 [INFO] Preparing spawn area: 95%
+2014-04-16 17:05:57 [INFO] Preparing start region for level 2 (Seed: -6264712660610705308)
+2014-04-16 17:05:58 [INFO] Preparing spawn area: 15%
+2014-04-16 17:05:59 [INFO] Preparing spawn area: 30%
+2014-04-16 17:06:00 [INFO] Preparing spawn area: 36%
+2014-04-16 17:06:01 [INFO] Preparing spawn area: 38%
+2014-04-16 17:06:02 [INFO] Preparing spawn area: 44%
+2014-04-16 17:06:03 [INFO] Preparing spawn area: 52%
+2014-04-16 17:06:05 [INFO] Preparing spawn area: 58%
+2014-04-16 17:06:06 [INFO] Preparing spawn area: 63%
+2014-04-16 17:06:07 [INFO] Preparing spawn area: 73%
+2014-04-16 17:06:08 [INFO] Preparing spawn area: 76%
+2014-04-16 17:06:09 [INFO] Preparing spawn area: 85%
+2014-04-16 17:06:10 [INFO] Preparing spawn area: 89%
+2014-04-16 17:06:11 [INFO] Preparing spawn area: 92%
+2014-04-16 17:06:12 [INFO] [Spectate] Enabling Spectate v2.0
+2014-04-16 17:06:13 [INFO] Server permissions file permissions.yml is empty, ignoring it
+2014-04-16 17:06:13 [INFO] Done (31,697s)! For help, type "help" or "?"
+2014-04-16 17:08:09 [INFO] RitjiiiMaster[/127.0.0.1:60036] logged in with entity id 120 at ([world] 1014.8304576458678, 19.89491903556886, -81.8859747933941)
+2014-04-16 17:08:41 [INFO] ritjii[/127.0.0.1:60039] logged in with entity id 6377 at ([world] 1014.67968, 1.001, -78.64201000000001)
+2014-04-16 17:08:41 [INFO] <ritjii> I have 20 health and 20 food[m
+2014-04-16 17:09:03 [INFO] <ritjii> I have 19 health and 20 food[m
+2014-04-16 17:09:03 [INFO] ¤eritjii left the game.
+2014-04-16 17:09:03 [INFO] Player ritjii tried to attack an EntityPlayer, so I have disconnected them for exploiting.
+2014-04-16 17:09:05 [INFO] Connection reset
+2014-04-16 17:09:26 [INFO] CONSOLE: Stopping the server..[m
+2014-04-16 17:09:26 [INFO] Stopping server
+2014-04-16 17:09:26 [INFO] [Spectate] Disabling Spectate v2.0
+2014-04-16 17:09:26 [WARNING] DSCT: Socket closed
+2014-04-16 17:09:26 [INFO] Saving players
+2014-04-16 17:09:26 [INFO] Closing listening thread
+2014-04-16 17:09:26 [INFO] ¤eRitjiiiMaster left the game.
+2014-04-16 17:09:26 [INFO] Saving worlds
+2014-04-16 17:09:26 [INFO] Saving chunks for level 'world'/Overworld
+2014-04-16 17:09:27 [INFO] Saving chunks for level 'world_nether'/Nether
+2014-04-16 17:09:27 [INFO] Saving chunks for level 'world_the_end'/The End
+2014-04-17 15:26:38 [INFO] Starting minecraft server version 1.6.4
+2014-04-17 15:26:38 [INFO] Loading properties
+2014-04-17 15:26:38 [INFO] Default game type: SURVIVAL
+2014-04-17 15:26:38 [INFO] Generating keypair
+2014-04-17 15:26:39 [INFO] Starting Minecraft server on *:25565
+2014-04-17 15:26:40 [INFO] This server is running CraftBukkit version git-Bukkit-1.6.2-R1.0-2-g317b76b-b2882jnks (MC: 1.6.4) (Implementing API version 1.6.4-R0.1-SNAPSHOT)
+2014-04-17 15:26:41 [INFO] [Spectate] Loading Spectate v2.0
+2014-04-17 15:26:41 [WARNING] **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+2014-04-17 15:26:41 [WARNING] The server will make no attempt to authenticate usernames. Beware.
+2014-04-17 15:26:41 [WARNING] While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+2014-04-17 15:26:41 [WARNING] To change this, set "online-mode" to "true" in the server.properties file.
+2014-04-17 15:26:41 [INFO] Preparing level "world"
+2014-04-17 15:26:42 [WARNING] ----- Bukkit Auto Updater -----
+2014-04-17 15:26:42 [INFO] Preparing start region for level 0 (Seed: 4539697792417860999)
+2014-04-17 15:26:42 [WARNING] Your version of CraftBukkit is out of date. Version 1.6.4-R2.0 (build #2918) was released on Wed Oct 30 23:39:40 WET 2013.
+2014-04-17 15:26:42 [WARNING] Details: /downloads/craftbukkit/view/02389_1.6.4-R2.0/
+2014-04-17 15:26:42 [WARNING] Download: /downloads/craftbukkit/get/02389_1.6.4-R2.0/craftbukkit.jar
+2014-04-17 15:26:42 [WARNING] ----- ------------------- -----
+2014-04-17 15:26:44 [INFO] Preparing spawn area: 6%
+2014-04-17 15:26:45 [INFO] Preparing spawn area: 48%
+2014-04-17 15:26:46 [INFO] Preparing spawn area: 66%
+2014-04-17 15:26:47 [INFO] Preparing spawn area: 76%
+2014-04-17 15:26:47 [INFO] Preparing start region for level 1 (Seed: -6264712660610705308)
+2014-04-17 15:26:48 [INFO] Preparing spawn area: 17%
+2014-04-17 15:26:49 [INFO] Preparing spawn area: 51%
+2014-04-17 15:26:50 [INFO] Preparing spawn area: 57%
+2014-04-17 15:26:51 [INFO] Preparing spawn area: 84%
+2014-04-17 15:26:52 [INFO] Preparing start region for level 2 (Seed: -6264712660610705308)
+2014-04-17 15:26:53 [INFO] Preparing spawn area: 50%
+2014-04-17 15:26:54 [INFO] [Spectate] Enabling Spectate v2.0
+2014-04-17 15:26:54 [INFO] Server permissions file permissions.yml is empty, ignoring it
+2014-04-17 15:26:54 [INFO] Done (12,900s)! For help, type "help" or "?"
+2014-04-17 15:28:30 [INFO] RitjiiiMaster[/127.0.0.1:49935] logged in with entity id 91 at ([world] 1013.775378060013, 3.0, -79.69558139486723)
+2014-04-17 15:28:32 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2014-04-17 15:28:44 [INFO] CONSOLE: Set time to 1000[m
+2014-04-17 15:28:44 [INFO] RitjiiiMaster suffocated in a wall
+2014-04-17 15:31:26 [INFO] RitjiiiMaster lost connection: disconnect.quitting
+2014-04-17 15:31:26 [INFO] Connection reset
+2014-04-17 15:31:26 [INFO] ¤eRitjiiiMaster left the game.
