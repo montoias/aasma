@@ -123,8 +123,9 @@ var treePossiblePositions = function (pos) {
 	vec.push(bot.blockAt(v3));
 	
 	return vec;
-
 }
+
+
 
 exports.unit = unit;
 exports.isYawValid = isYawValid;

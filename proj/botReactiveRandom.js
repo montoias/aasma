@@ -5,7 +5,9 @@ var vec3 = mineflayer.vec3;
 
 var steps = 0;
 var bot = mineflayer.createBot({
-  username: "ritjii"
+  username: "ritjii",
+  'pvp': true,
+  'online-mode':false,
 });
 
 //passa ao movementController info sobre o bot
@@ -17,11 +19,6 @@ bot.on('spawn', function(){
 
 //flag que indica se está a fazer digging ou nao
 var digging = false;
-
-bot.game.gamemode = 0;
-
-console.log("cenas do game", bot.game);
-
 
 //sempre que um bot se move é verificada um nova posicao atraves do random e e verificado se existem coisas pa fazer dig
 bot.on('entityMoved', function () {
@@ -62,15 +59,29 @@ bot.on('entityMoved', function () {
 	 }
 });
 
-//funcao auxiliar ao dig
-function onDiggingCompleted(err,b) {
-    bot.chat("finished digging ");
-}
 
 //infica a heath do bot
 bot.on('health', function() {
   bot.chat("I have " + bot.health + " health and " + bot.food + " food");
+  listInventory();
 });
+
+function listInventory() {
+  bot.chat("Inventorio" + bot.inventory.items().map(itemStr).join(", "));
+}
+
+function itemStr(item) {
+  if (item) {
+    return item.name + " x " + item.count;
+  } else {
+    return "(nothing)";
+  }
+}
+
+//funcao auxiliar ao dig
+function onDiggingCompleted(err,b) {
+    bot.chat("finished digging ");
+}
 
 //funcao auxiliar ao dig
 bot.on('diggingCompleted', function(block){
@@ -85,7 +96,29 @@ bot.on('diggingAborted', function(block){
 });
 
 
+function nearestEntity(type) {
+  var id, entity, dist;
+  var best = null;
+  var bestDistance = null;
+  //console.log("entidades!", bot.entities);
+  for (id in bot.entities) {
+    entity = bot.entities[id];
+    if (type && entity.type !== type) continue;
+    if (entity === bot.entity) continue;
+    if (entity.type !== 'mob') continue;
+    dist = bot.entity.position.distanceTo(entity.position);
+    if (! best || dist < bestDistance) {
+      best = entity;
+      bestDistance = dist;
+    }
+  }
+  return best;
+}
+
 bot.on('entityHurt', function (ent) {
-	//if(!ent.type == "entityPlayer")
-		bot.attack(ent);
+	var enemy = nearestEntity();
+	if(enemy){
+		bot.lookAt(enemy.position);
+		bot.attack(enemy);
+	}
 });
