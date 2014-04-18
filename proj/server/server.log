@@ -4637,3 +4637,511 @@ org.bukkit.plugin.UnknownDependencyException: Essentials
 2014-04-17 19:40:39 [INFO] Saving chunks for level 'world'/Overworld
 2014-04-17 19:40:40 [INFO] Saving chunks for level 'world_nether'/Nether
 2014-04-17 19:40:40 [INFO] Saving chunks for level 'world_the_end'/The End
+2014-04-18 02:10:02 [INFO] Starting minecraft server version 1.6.4
+2014-04-18 02:10:02 [INFO] Loading properties
+2014-04-18 02:10:03 [INFO] Default game type: SURVIVAL
+2014-04-18 02:10:03 [INFO] Generating keypair
+2014-04-18 02:10:03 [INFO] Starting Minecraft server on *:25565
+2014-04-18 02:10:05 [INFO] This server is running CraftBukkit version git-Bukkit-1.6.2-R1.0-2-g317b76b-b2882jnks (MC: 1.6.4) (Implementing API version 1.6.4-R0.1-SNAPSHOT)
+2014-04-18 02:10:05 [INFO] [Spectate] Loading Spectate v2.0
+2014-04-18 02:10:05 [INFO] [Essentials] Loading Essentials v2.12.1
+2014-04-18 02:10:05 [INFO] [EssentialsChat] Loading EssentialsChat v2.12.1
+2014-04-18 02:10:05 [INFO] [EssentialsProtect] Loading EssentialsProtect v2.12.1
+2014-04-18 02:10:05 [INFO] [EssentialsSpawn] Loading EssentialsSpawn v2.12.1
+2014-04-18 02:10:05 [INFO] [EssentialsAntiBuild] Loading EssentialsAntiBuild v2.12.1
+2014-04-18 02:10:05 [WARNING] **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+2014-04-18 02:10:05 [WARNING] The server will make no attempt to authenticate usernames. Beware.
+2014-04-18 02:10:05 [WARNING] While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+2014-04-18 02:10:05 [WARNING] To change this, set "online-mode" to "true" in the server.properties file.
+2014-04-18 02:10:05 [INFO] Preparing level "world"
+2014-04-18 02:10:06 [INFO] Preparing start region for level 0 (Seed: 4539697792417860999)
+2014-04-18 02:10:07 [WARNING] ----- Bukkit Auto Updater -----
+2014-04-18 02:10:07 [WARNING] Your version of CraftBukkit is out of date. Version 1.6.4-R2.0 (build #2918) was released on Wed Oct 30 23:39:40 WET 2013.
+2014-04-18 02:10:07 [WARNING] Details: /downloads/craftbukkit/view/02389_1.6.4-R2.0/
+2014-04-18 02:10:07 [WARNING] Download: /downloads/craftbukkit/get/02389_1.6.4-R2.0/craftbukkit.jar
+2014-04-18 02:10:07 [WARNING] ----- ------------------- -----
+2014-04-18 02:10:07 [INFO] Preparing spawn area: 26%
+2014-04-18 02:10:08 [INFO] Preparing spawn area: 97%
+2014-04-18 02:10:08 [INFO] Preparing start region for level 1 (Seed: -7800796378682977844)
+2014-04-18 02:10:09 [INFO] Preparing spawn area: 50%
+2014-04-18 02:10:09 [INFO] Preparing start region for level 2 (Seed: -7800796378682977844)
+2014-04-18 02:10:10 [INFO] [Spectate] Enabling Spectate v2.0
+2014-04-18 02:10:10 [INFO] [Essentials] Enabling Essentials v2.12.1
+2014-04-18 02:10:11 [INFO] Essentials: Using config file enhanced permissions.
+2014-04-18 02:10:11 [INFO] Permissions listed in as player-commands will be given to all users.
+2014-04-18 02:10:11 [INFO] [EssentialsChat] Enabling EssentialsChat v2.12.1
+2014-04-18 02:10:11 [INFO] [EssentialsProtect] Enabling EssentialsProtect v2.12.1
+2014-04-18 02:10:11 [INFO] [EssentialsSpawn] Enabling EssentialsSpawn v2.12.1
+2014-04-18 02:10:11 [INFO] [EssentialsAntiBuild] Enabling EssentialsAntiBuild v2.12.1
+2014-04-18 02:10:11 [INFO] Server permissions file permissions.yml is empty, ignoring it
+2014-04-18 02:10:11 [INFO] Done (6,229s)! For help, type "help" or "?"
+2014-04-18 02:11:09 [INFO] RitjiiiMaster[/127.0.0.1:54997] logged in with entity id 142 at ([world] 1025.875955939642, 17.103206865074224, -71.71810013665544)
+2014-04-18 02:11:22 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2014-04-18 02:11:30 [INFO] CONSOLE issued server command: /time set 1000
+2014-04-18 02:11:30 [INFO] [0;33;22mO tempo foi definido para[0;31;1m [0;31;1m07:00[0;33;22m ou [0;31;1m7:00 AM[0;33;22m ou [0;31;1m1000ticks[0;33;22m. [0;33;22mem: [0;31;1mworld, world_nether, world_the_end[0;33;22m.[m
+2014-04-18 02:12:25 [INFO] CONSOLE issued server command: /gamemode 1 RitjiiiMaster
+2014-04-18 02:12:25 [INFO] [0;33;22mModo de jogo[0;31;1m criativo [0;33;22mdefinido para [0;31;22mRitjiiiMaster[m[0;33;22m.[m
+2014-04-18 02:13:47 [INFO] RitjiiiMaster lost connection: disconnect.quitting
+2014-04-18 02:13:47 [INFO] Connection reset
+2014-04-18 02:13:47 [INFO] ¤eRitjiiiMaster left the game.
+2014-04-18 02:13:50 [INFO] RitjiiiMaster[/127.0.0.1:55003] logged in with entity id 28942 at ([world] 1013.2533954456597, -2.3139820483885223, -70.87798410073457)
+2014-04-18 02:16:24 [INFO] RitjiiiMaster lost connection: disconnect.quitting
+2014-04-18 02:16:24 [INFO] Connection reset
+2014-04-18 02:16:24 [INFO] ¤eRitjiiiMaster left the game.
+2014-04-18 02:16:27 [INFO] RitjiiiMaster[/127.0.0.1:55009] logged in with entity id 60676 at ([world] 1509.4392213319375, 29.279459987694523, 3.3465379496801506)
+2014-04-18 02:16:40 [INFO] [0;33;1m--------- [0;37;1mHelp: Index [0;33;1m---------------------------[m
+2014-04-18 02:16:40 [INFO] [0;37;22mUse /help [n] to get page n of help.[m
+2014-04-18 02:16:40 [INFO] [0;33;22mAliases: [0;37;1mLists command aliases[m
+2014-04-18 02:16:40 [INFO] [0;33;22mBukkit: [0;37;1mAll commands for Bukkit[m
+2014-04-18 02:16:40 [INFO] [0;33;22mEssentials: [0;37;1mAll commands for Essentials[m
+2014-04-18 02:16:40 [INFO] [0;33;22mEssentialsSpawn: [0;37;1mAll commands for EssentialsSpawn[m
+2014-04-18 02:16:40 [INFO] [0;33;22mSpectate: [0;37;1mAll commands for Spectate[m
+2014-04-18 02:16:40 [INFO] [0;33;22m/afk: [0;37;1mMarks you as away-from-keyboard.[m
+2014-04-18 02:16:40 [INFO] [0;33;22m/antioch: [0;37;1mA little surprise for operators.[m
+2014-04-18 02:16:40 [INFO] [0;33;22m/back: [0;37;1mTeleports you to your location prior to tp/spawn/warp.[m
+2014-04-18 02:16:40 [INFO] [0;33;22m/backup: [0;37;1mRuns the backup if configured.[m
+2014-04-18 02:16:40 [INFO] [0;33;22m/balance: [0;37;1mStates the current balance of a player.[m
+2014-04-18 02:16:40 [INFO] [0;33;22m/balancetop: [0;37;1mGets the top balance values.[m
+2014-04-18 02:16:40 [INFO] [0;33;22m/ban: [0;37;1mBans a player.[m
+2014-04-18 02:16:40 [INFO] [0;33;22m/ban-ip: [0;37;1mPrevents the specified IP address from using this server[m
+2014-04-18 02:16:40 [INFO] [0;33;22m/banip: [0;37;1mBans an IP address.[m
+2014-04-18 02:16:40 [INFO] [0;33;22m/banlist: [0;37;1mView all players banned from this server[m
+2014-04-18 02:16:40 [INFO] [0;33;22m/bigtree: [0;37;1mSpawn a big tree where you are looking.[m
+2014-04-18 02:16:40 [INFO] [0;33;22m/book: [0;37;1mAllows reopening and editing of sealed books.[m
+2014-04-18 02:16:40 [INFO] [0;33;22m/break: [0;37;1mBreaks the block you are looking at.[m
+2014-04-18 02:16:40 [INFO] [0;33;22m/broadcast: [0;37;1mBroadcasts a message to the entire server.[m
+2014-04-18 02:16:40 [INFO] [0;33;22m/burn: [0;37;1mSet a player on fire.[m
+2014-04-18 02:16:40 [INFO] [0;33;22m/clearinventory: [0;37;1mClear all items in your inventory.[m
+2014-04-18 02:16:40 [INFO] [0;33;22m/compass: [0;37;1mDescribes your current bearing.[m
+2014-04-18 02:16:40 [INFO] [0;33;22m/control: [0;37;1mLets you control another user[m
+2014-04-18 02:16:40 [INFO] [0;33;22m/customtext: [0;37;1mAllows you to create custom text commands.[m
+2014-04-18 02:16:40 [INFO] [0;33;22m/defaultgamemode: [0;37;1mSet the default gamemode[m
+2014-04-18 02:16:40 [INFO] [0;33;22m/delhome: [0;37;1mRemoves a home.[m
+2014-04-18 02:16:40 [INFO] [0;33;22m/deljail: [0;37;1mRemoves a jail.[m
+2014-04-18 02:16:40 [INFO] [0;33;22m/delwarp: [0;37;1mDeletes the specified warp.[m
+2014-04-18 02:16:40 [INFO] [0;33;22m/deop: [0;37;1mTakes the specified player's operator status[m
+2014-04-18 02:16:40 [INFO] [0;33;22m/depth: [0;37;1mStates current depth, relative to sea level.[m
+2014-04-18 02:16:40 [INFO] [0;33;22m/difficulty: [0;37;1mSets the game difficulty[m
+2014-04-18 02:16:40 [INFO] [0;33;22m/eco: [0;37;1mManages the server economy.[m
+2014-04-18 02:16:40 [INFO] [0;33;22m/effect: [0;37;1mAdds/Removes effects on players[m
+2014-04-18 02:16:40 [INFO] [0;33;22m/enchant: [0;37;1mEnchants the item the user is holding.[m
+2014-04-18 02:16:40 [INFO] [0;33;22m/enderchest: [0;37;1mLets you see inside an enderchest.[m
+2014-04-18 02:16:40 [INFO] [0;33;22m/essentials: [0;37;1mReloads essentials.[m
+2014-04-18 02:16:40 [INFO] [0;33;22m/exp: [0;37;1mGive, set or look at a players exp.[m
+2014-04-18 02:16:40 [INFO] [0;33;22m/ext: [0;37;1mExtinguish players.[m
+2014-04-18 02:16:40 [INFO] [0;33;22m/feed: [0;37;1mSatisfy the hunger.[m
+2014-04-18 02:16:40 [INFO] [0;33;22m/fireball: [0;37;1mThrow a fireball.[m
+2014-04-18 02:16:40 [INFO] [0;33;22m/firework: [0;37;1mAllows you to modify a stack of fireworks.[m
+2014-04-18 02:16:40 [INFO] [0;33;22m/fly: [0;37;1mTake off, and soar![m
+2014-04-18 02:16:40 [INFO] [0;33;22m/gamemode: [0;37;1mChange player gamemode.[m
+2014-04-18 02:16:40 [INFO] [0;33;22m/gamerule: [0;37;1mSets a server's game rules[m
+2014-04-18 02:16:40 [INFO] [0;33;22m/gc: [0;37;1mReports memory, uptime and tick info.[m
+2014-04-18 02:16:40 [INFO] [0;33;22m/getpos: [0;37;1mGet your current coordinates or those of a player.[m
+2014-04-18 02:16:40 [INFO] [0;33;22m/give: [0;37;1mGive a player an item.[m
+2014-04-18 02:16:40 [INFO] [0;33;22m/god: [0;37;1mEnables your godly powers.[m
+2014-04-18 02:16:40 [INFO] [0;33;22m/hat: [0;37;1mGet some cool new headgear.[m
+2014-04-18 02:16:40 [INFO] [0;33;22m/heal: [0;37;1mHeals you or the given player.[m
+2014-04-18 02:16:40 [INFO] [0;33;22m/help: [0;37;1mViews a list of available commands.[m
+2014-04-18 02:16:40 [INFO] [0;33;22m/helpop: [0;37;1mMessage online admins.[m
+2014-04-18 02:16:40 [INFO] [0;33;22m/home: [0;37;1mTeleport to your home.[m
+2014-04-18 02:16:40 [INFO] [0;33;22m/ignore: [0;37;1mIgnore other players.[m
+2014-04-18 02:16:40 [INFO] [0;33;22m/info: [0;37;1mShows information set by the server owner.[m
+2014-04-18 02:16:40 [INFO] [0;33;22m/invsee: [0;37;1mSee the inventory of other players.[m
+2014-04-18 02:16:40 [INFO] [0;33;22m/item: [0;37;1mSpawn an item.[m
+2014-04-18 02:16:40 [INFO] [0;33;22m/itemdb: [0;37;1mSearches for an item.[m
+2014-04-18 02:16:40 [INFO] [0;33;22m/jails: [0;37;1mList all jails.[m
+2014-04-18 02:16:40 [INFO] [0;33;22m/jump: [0;37;1mJumps to the nearest block in the line of sight.[m
+2014-04-18 02:16:40 [INFO] [0;33;22m/kick: [0;37;1mKicks a specified player with a reason.[m
+2014-04-18 02:16:40 [INFO] [0;33;22m/kickall: [0;37;1mKicks all players off the server except the issuer.[m
+2014-04-18 02:16:40 [INFO] [0;33;22m/kill: [0;37;1mKills specified player.[m
+2014-04-18 02:16:40 [INFO] [0;33;22m/killall: [0;37;1mKill all mobs in a world.[m
+2014-04-18 02:16:40 [INFO] [0;33;22m/kit: [0;37;1mObtains the specified kit or views all available kits.[m
+2014-04-18 02:16:40 [INFO] [0;33;22m/kittycannon: [0;37;1mThrow an exploding kitten at your opponent.[m
+2014-04-18 02:16:40 [INFO] [0;33;22m/lightning: [0;37;1mThe power of Thor. Strike at cursor or player.[m
+2014-04-18 02:16:40 [INFO] [0;33;22m/list: [0;37;1mList all online players.[m
+2014-04-18 02:16:40 [INFO] [0;33;22m/mail: [0;37;1mManages inter-player, intra-server mail.[m
+2014-04-18 02:16:40 [INFO] [0;33;22m/me: [0;37;1mDescribes an action in the context of the player.[m
+2014-04-18 02:16:40 [INFO] [0;33;22m/more: [0;37;1mFills the item stack in hand to maximum size.[m
+2014-04-18 02:16:40 [INFO] [0;33;22m/motd: [0;37;1mViews the Message Of The Day.[m
+2014-04-18 02:16:40 [INFO] [0;33;22m/msg: [0;37;1mSends a private message to the specified player.[m
+2014-04-18 02:16:40 [INFO] [0;33;22m/mute: [0;37;1mMutes or unmutes a player.[m
+2014-04-18 02:16:40 [INFO] [0;33;22m/near: [0;37;1mLists the players near by or around a player.[m
+2014-04-18 02:16:40 [INFO] [0;33;22m/nick: [0;37;1mChange your nickname or that of another player.[m
+2014-04-18 02:16:40 [INFO] [0;33;22m/nuke: [0;37;1mMay death rain upon them.[m
+2014-04-18 02:16:40 [INFO] [0;33;22m/op: [0;37;1mGives the specified player operator status[m
+2014-04-18 02:16:40 [INFO] [0;33;22m/pardon-ip: [0;37;1mAllows the specified IP address to use this server[m
+2014-04-18 02:16:40 [INFO] [0;33;22m/pay: [0;37;1mPays another player from your balance.[m
+2014-04-18 02:16:40 [INFO] [0;33;22m/ping: [0;37;1mPong![m
+2014-04-18 02:16:40 [INFO] [0;33;22m/playsound: [0;37;1mPlays a sound to a given player[m
+2014-04-18 02:16:40 [INFO] [0;33;22m/plugins: [0;37;1mGets a list of plugins running on the server[m
+2014-04-18 02:16:40 [INFO] [0;33;22m/potion: [0;37;1mAdds custom potion effects to a potion.[m
+2014-04-18 02:16:40 [INFO] [0;33;22m/powertool: [0;37;1mAssigns a command to the item in hand.[m
+2014-04-18 02:16:40 [INFO] [0;33;22m/powertooltoggle: [0;37;1mEnables or disables all current powertools.[m
+2014-04-18 02:16:40 [INFO] [0;33;22m/ptime: [0;37;1mAdjust player's client time. Add @ prefix to fix.[m
+2014-04-18 02:16:40 [INFO] [0;33;22m/pweather: [0;37;1mAdjust a player's weather[m
+2014-04-18 02:16:40 [INFO] [0;33;22m/r: [0;37;1mQuickly reply to the last player to message you.[m
+2014-04-18 02:16:40 [INFO] [0;33;22m/realname: [0;37;1mDisplays the username of a user based on nick.[m
+2014-04-18 02:16:40 [INFO] [0;33;22m/recipe: [0;37;1mDisplays how to craft items.[m
+2014-04-18 02:16:40 [INFO] [0;33;22m/reload: [0;37;1mReloads the server configuration and plugins[m
+2014-04-18 02:16:40 [INFO] [0;33;22m/remove: [0;37;1mRemoves entities in your world.[m
+2014-04-18 02:16:40 [INFO] [0;33;22m/repair: [0;37;1mRepairs the durability of one or all items.[m
+2014-04-18 02:16:40 [INFO] [0;33;22m/rules: [0;37;1mViews the server rules.[m
+2014-04-18 02:16:40 [INFO] [0;33;22m/save-all: [0;37;1mSaves the server to disk[m
+2014-04-18 02:16:40 [INFO] [0;33;22m/save-off: [0;37;1mDisables server autosaving[m
+2014-04-18 02:16:40 [INFO] [0;33;22m/save-on: [0;37;1mEnables server autosaving[m
+2014-04-18 02:16:40 [INFO] [0;33;22m/say: [0;37;1mBroadcasts the given message as the console[m
+2014-04-18 02:16:40 [INFO] [0;33;22m/scoreboard: [0;37;1mScoreboard control[m
+2014-04-18 02:16:40 [INFO] [0;33;22m/seed: [0;37;1mShows the world seed[m
+2014-04-18 02:16:40 [INFO] [0;33;22m/seen: [0;37;1mShows the last logout time of a player.[m
+2014-04-18 02:16:40 [INFO] [0;33;22m/sell: [0;37;1mSells the item currently in your hand.[m
+2014-04-18 02:16:40 [INFO] [0;33;22m/sethome: [0;37;1mSet your home to your current location.[m
+2014-04-18 02:16:40 [INFO] [0;33;22m/setjail: [0;37;1mCreates a jail where you specified named [jailname].[m
+2014-04-18 02:16:40 [INFO] [0;33;22m/setspawn: [0;37;1mSet the spawnpoint to your current position.[m
+2014-04-18 02:16:40 [INFO] [0;33;22m/setwarp: [0;37;1mCreates a new warp.[m
+2014-04-18 02:16:40 [INFO] [0;33;22m/setworth: [0;37;1mSet the sell value of an item.[m
+2014-04-18 02:16:40 [INFO] [0;33;22m/socialspy: [0;37;1mToggles if you can see msg/mail commands in chat.[m
+2014-04-18 02:16:40 [INFO] [0;33;22m/spawn: [0;37;1mTeleport to the spawnpoint.[m
+2014-04-18 02:16:40 [INFO] [0;33;22m/spawner: [0;37;1mChange the mob type of a spawner.[m
+2014-04-18 02:16:40 [INFO] [0;33;22m/spawnmob: [0;37;1mSpawns a mob.[m
+2014-04-18 02:16:40 [INFO] [0;33;22m/spawnpoint: [0;37;1mSets a player's spawn point[m
+2014-04-18 02:16:40 [INFO] [0;33;22m/spectate: [0;37;1mLets you spectate another user[m
+2014-04-18 02:16:40 [INFO] [0;33;22m/speed: [0;37;1mChange your speed limits.[m
+2014-04-18 02:16:40 [INFO] [0;33;22m/spreadplayers: [0;37;1mSpreads players around a point[m
+2014-04-18 02:16:40 [INFO] [0;33;22m/stop: [0;37;1mStops the server with optional reason[m
+2014-04-18 02:16:40 [INFO] [0;33;22m/sudo: [0;37;1mMake another user perform a command.[m
+2014-04-18 02:16:40 [INFO] [0;33;22m/suicide: [0;37;1mCauses you to perish.[m
+2014-04-18 02:16:40 [INFO] [0;33;22m/tempban: [0;37;1mTemporary ban a user.[m
+2014-04-18 02:16:40 [INFO] [0;33;22m/testfor: [0;37;1mTests whether a specifed player is online[m
+2014-04-18 02:16:40 [INFO] [0;33;22m/thunder: [0;37;1mEnable/disable thunder.[m
+2014-04-18 02:16:40 [INFO] [0;33;22m/time: [0;37;1mDisplay/Change the world time. Defaults to current world.[m
+2014-04-18 02:16:40 [INFO] [0;33;22m/timings: [0;37;1mRecords timings for all plugin events[m
+2014-04-18 02:16:40 [INFO] [0;33;22m/toggledownfall: [0;37;1mToggles rain on/off on a given world[m
+2014-04-18 02:16:40 [INFO] [0;33;22m/togglejail: [0;37;1mJails/Unjails a player, TPs them to the jail specified.[m
+2014-04-18 02:16:40 [INFO] [0;33;22m/top: [0;37;1mTeleport to the highest block at your current position.[m
+2014-04-18 02:16:40 [INFO] [0;33;22m/tp: [0;37;1mTeleport to a player.[m
+2014-04-18 02:16:40 [INFO] [0;33;22m/tpa: [0;37;1mRequest to teleport to the specified player.[m
+2014-04-18 02:16:40 [INFO] [0;33;22m/tpaall: [0;37;1mRequests all players online to teleport to you.[m
+2014-04-18 02:16:40 [INFO] [0;33;22m/tpaccept: [0;37;1mAccepts a teleport request.[m
+2014-04-18 02:16:40 [INFO] [0;33;22m/tpahere: [0;37;1mRequest that the specified player teleport to you.[m
+2014-04-18 02:16:40 [INFO] [0;33;22m/tpall: [0;37;1mTeleport all online players to another player.[m
+2014-04-18 02:16:40 [INFO] [0;33;22m/tpdeny: [0;37;1mReject a teleport request.[m
+2014-04-18 02:16:40 [INFO] [0;33;22m/tphere: [0;37;1mTeleport a player to you.[m
+2014-04-18 02:16:40 [INFO] [0;33;22m/tpo: [0;37;1mTeleport override for tptoggle.[m
+2014-04-18 02:16:40 [INFO] [0;33;22m/tpohere: [0;37;1mTeleport here override for tptoggle.[m
+2014-04-18 02:16:40 [INFO] [0;33;22m/tppos: [0;37;1mTeleport to coordinates.[m
+2014-04-18 02:16:40 [INFO] [0;33;22m/tptoggle: [0;37;1mBlocks all forms of teleportation.[m
+2014-04-18 02:16:40 [INFO] [0;33;22m/tree: [0;37;1mSpawn a tree where you are looking.[m
+2014-04-18 02:16:40 [INFO] [0;33;22m/unban: [0;37;1mUnbans the specified player.[m
+2014-04-18 02:16:40 [INFO] [0;33;22m/unbanip: [0;37;1mUnbans the specified IP address.[m
+2014-04-18 02:16:40 [INFO] [0;33;22m/unlimited: [0;37;1mAllows the unlimited placing of items.[m
+2014-04-18 02:16:40 [INFO] [0;33;22m/vanish: [0;37;1mHide yourself from other players.[m
+2014-04-18 02:16:40 [INFO] [0;33;22m/version: [0;37;1mGets the version of this server including any plugins in use[m
+2014-04-18 02:16:40 [INFO] [0;33;22m/warp: [0;37;1mList all warps or warp to the specified location.[m
+2014-04-18 02:16:40 [INFO] [0;33;22m/weather: [0;37;1mSets the weather.[m
+2014-04-18 02:16:40 [INFO] [0;33;22m/whitelist: [0;37;1mManages the list of players allowed to use this server[m
+2014-04-18 02:16:40 [INFO] [0;33;22m/whois: [0;37;1mDetermine the username behind a nickname.[m
+2014-04-18 02:16:40 [INFO] [0;33;22m/workbench: [0;37;1mOpens up a workbench.[m
+2014-04-18 02:16:40 [INFO] [0;33;22m/world: [0;37;1mSwitch between worlds.[m
+2014-04-18 02:16:40 [INFO] [0;33;22m/worth: [0;37;1mCalculates the worth of items in hand or as specified.[m
+2014-04-18 02:16:56 [INFO] RitjiiiMaster lost connection: disconnect.endOfStream
+2014-04-18 02:16:57 [INFO] ¤eRitjiiiMaster left the game.
+2014-04-18 02:17:57 [INFO] RitjiiiMaster[/127.0.0.1:55043] logged in with entity id 67075 at ([world] 1509.4392213319375, 36.75846473824664, 3.3465379496801506)
+2014-04-18 02:19:13 [INFO] Connection reset
+2014-04-18 02:19:13 [INFO] RitjiiiMaster lost connection: disconnect.quitting
+2014-04-18 02:19:13 [INFO] ¤eRitjiiiMaster left the game.
+2014-04-18 02:19:20 [INFO] Unknown command. Type "help" for help.[m
+2014-04-18 02:19:22 [INFO] CONSOLE: Stopping the server..[m
+2014-04-18 02:19:22 [INFO] Stopping server
+2014-04-18 02:19:22 [INFO] [EssentialsAntiBuild] Disabling EssentialsAntiBuild v2.12.1
+2014-04-18 02:19:22 [INFO] [EssentialsSpawn] Disabling EssentialsSpawn v2.12.1
+2014-04-18 02:19:22 [INFO] [EssentialsProtect] Disabling EssentialsProtect v2.12.1
+2014-04-18 02:19:22 [INFO] [EssentialsChat] Disabling EssentialsChat v2.12.1
+2014-04-18 02:19:22 [INFO] [Essentials] Disabling Essentials v2.12.1
+2014-04-18 02:19:22 [INFO] [Spectate] Disabling Spectate v2.0
+2014-04-18 02:19:22 [INFO] Saving players
+2014-04-18 02:19:22 [WARNING] DSCT: Socket closed
+2014-04-18 02:19:22 [INFO] Saving worlds
+2014-04-18 02:19:22 [INFO] Saving chunks for level 'world'/Overworld
+2014-04-18 02:19:22 [INFO] Closing listening thread
+2014-04-18 02:19:23 [INFO] Saving chunks for level 'world_nether'/Nether
+2014-04-18 02:19:24 [INFO] Saving chunks for level 'world_the_end'/The End
+2014-04-18 02:19:32 [INFO] Starting minecraft server version 1.6.4
+2014-04-18 02:19:32 [INFO] Loading properties
+2014-04-18 02:19:32 [INFO] Default game type: SURVIVAL
+2014-04-18 02:19:32 [INFO] Generating keypair
+2014-04-18 02:19:32 [INFO] Starting Minecraft server on *:25565
+2014-04-18 02:19:33 [INFO] This server is running CraftBukkit version git-Bukkit-1.6.2-R1.0-2-g317b76b-b2882jnks (MC: 1.6.4) (Implementing API version 1.6.4-R0.1-SNAPSHOT)
+2014-04-18 02:19:34 [INFO] [Spectate] Loading Spectate v2.0
+2014-04-18 02:19:34 [INFO] [Essentials] Loading Essentials v2.12.1
+2014-04-18 02:19:34 [INFO] [EssentialsChat] Loading EssentialsChat v2.12.1
+2014-04-18 02:19:34 [INFO] [EssentialsProtect] Loading EssentialsProtect v2.12.1
+2014-04-18 02:19:34 [INFO] [EssentialsSpawn] Loading EssentialsSpawn v2.12.1
+2014-04-18 02:19:34 [INFO] [EssentialsAntiBuild] Loading EssentialsAntiBuild v2.12.1
+2014-04-18 02:19:34 [WARNING] **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+2014-04-18 02:19:34 [WARNING] The server will make no attempt to authenticate usernames. Beware.
+2014-04-18 02:19:34 [WARNING] While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+2014-04-18 02:19:34 [WARNING] To change this, set "online-mode" to "true" in the server.properties file.
+2014-04-18 02:19:34 [INFO] Preparing level "world"
+2014-04-18 02:19:34 [INFO] Preparing start region for level 0 (Seed: 4539697792417860999)
+2014-04-18 02:19:34 [WARNING] ----- Bukkit Auto Updater -----
+2014-04-18 02:19:34 [WARNING] Your version of CraftBukkit is out of date. Version 1.6.4-R2.0 (build #2918) was released on Wed Oct 30 23:39:40 WET 2013.
+2014-04-18 02:19:34 [WARNING] Details: /downloads/craftbukkit/view/02389_1.6.4-R2.0/
+2014-04-18 02:19:34 [WARNING] Download: /downloads/craftbukkit/get/02389_1.6.4-R2.0/craftbukkit.jar
+2014-04-18 02:19:34 [WARNING] ----- ------------------- -----
+2014-04-18 02:19:35 [INFO] Preparing spawn area: 31%
+2014-04-18 02:19:36 [INFO] Preparing start region for level 1 (Seed: -7800796378682977844)
+2014-04-18 02:19:37 [INFO] Preparing start region for level 2 (Seed: -7800796378682977844)
+2014-04-18 02:19:38 [INFO] [Spectate] Enabling Spectate v2.0
+2014-04-18 02:19:38 [INFO] [Essentials] Enabling Essentials v2.12.1
+2014-04-18 02:19:39 [INFO] Essentials: Using config file enhanced permissions.
+2014-04-18 02:19:39 [INFO] Permissions listed in as player-commands will be given to all users.
+2014-04-18 02:19:39 [INFO] [EssentialsChat] Enabling EssentialsChat v2.12.1
+2014-04-18 02:19:39 [INFO] [EssentialsProtect] Enabling EssentialsProtect v2.12.1
+2014-04-18 02:19:39 [INFO] [EssentialsSpawn] Enabling EssentialsSpawn v2.12.1
+2014-04-18 02:19:39 [INFO] [EssentialsAntiBuild] Enabling EssentialsAntiBuild v2.12.1
+2014-04-18 02:19:39 [INFO] Server permissions file permissions.yml is empty, ignoring it
+2014-04-18 02:19:39 [INFO] Done (5,202s)! For help, type "help" or "?"
+2014-04-18 02:20:17 [INFO] /127.0.0.1:55096 lost connection
+2014-04-18 02:20:22 [INFO] RitjiiiMaster[/127.0.0.1:55099] logged in with entity id 94 at ([world] 1432.0650623030565, 4.0, -113.57556935229286)
+2014-04-18 02:20:26 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2014-04-18 02:21:46 [INFO] CONSOLE issued server command: /time set 1000
+2014-04-18 02:21:46 [INFO] [0;33;22mO tempo foi definido para[0;31;1m [0;31;1m07:00[0;33;22m ou [0;31;1m7:00 AM[0;33;22m ou [0;31;1m1000ticks[0;33;22m. [0;33;22mem: [0;31;1mworld, world_nether, world_the_end[0;33;22m.[m
+2014-04-18 02:23:11 [INFO] CONSOLE: Stopping the server..[m
+2014-04-18 02:23:11 [INFO] Stopping server
+2014-04-18 02:23:11 [INFO] [EssentialsAntiBuild] Disabling EssentialsAntiBuild v2.12.1
+2014-04-18 02:23:11 [INFO] [EssentialsSpawn] Disabling EssentialsSpawn v2.12.1
+2014-04-18 02:23:11 [INFO] [EssentialsProtect] Disabling EssentialsProtect v2.12.1
+2014-04-18 02:23:11 [INFO] [EssentialsChat] Disabling EssentialsChat v2.12.1
+2014-04-18 02:23:11 [INFO] [Essentials] Disabling Essentials v2.12.1
+2014-04-18 02:23:11 [INFO] [Spectate] Disabling Spectate v2.0
+2014-04-18 02:23:11 [WARNING] DSCT: Socket closed
+2014-04-18 02:23:11 [INFO] Closing listening thread
+2014-04-18 02:23:11 [INFO] Saving players
+2014-04-18 02:23:11 [INFO] ¤eRitjiiiMaster left the game.
+2014-04-18 02:23:11 [INFO] Saving worlds
+2014-04-18 02:23:11 [INFO] Saving chunks for level 'world'/Overworld
+2014-04-18 02:23:13 [INFO] Saving chunks for level 'world_nether'/Nether
+2014-04-18 02:23:13 [INFO] Saving chunks for level 'world_the_end'/The End
+2014-04-18 02:26:49 [INFO] Starting minecraft server version 1.6.4
+2014-04-18 02:26:49 [INFO] Loading properties
+2014-04-18 02:26:49 [INFO] Default game type: SURVIVAL
+2014-04-18 02:26:49 [INFO] Generating keypair
+2014-04-18 02:26:49 [INFO] Starting Minecraft server on *:25565
+2014-04-18 02:26:50 [INFO] This server is running CraftBukkit version git-Bukkit-1.6.2-R1.0-2-g317b76b-b2882jnks (MC: 1.6.4) (Implementing API version 1.6.4-R0.1-SNAPSHOT)
+2014-04-18 02:26:51 [INFO] [Spectate] Loading Spectate v2.0
+2014-04-18 02:26:51 [INFO] [Essentials] Loading Essentials v2.12.1
+2014-04-18 02:26:51 [INFO] [EssentialsChat] Loading EssentialsChat v2.12.1
+2014-04-18 02:26:51 [INFO] [EssentialsProtect] Loading EssentialsProtect v2.12.1
+2014-04-18 02:26:51 [INFO] [EssentialsSpawn] Loading EssentialsSpawn v2.12.1
+2014-04-18 02:26:51 [INFO] [EssentialsAntiBuild] Loading EssentialsAntiBuild v2.12.1
+2014-04-18 02:26:51 [WARNING] **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+2014-04-18 02:26:51 [WARNING] The server will make no attempt to authenticate usernames. Beware.
+2014-04-18 02:26:51 [WARNING] While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+2014-04-18 02:26:51 [WARNING] To change this, set "online-mode" to "true" in the server.properties file.
+2014-04-18 02:26:51 [INFO] Preparing level "world"
+2014-04-18 02:26:51 [INFO] Preparing start region for level 0 (Seed: 4539697792417860999)
+2014-04-18 02:26:52 [INFO] Preparing spawn area: 66%
+2014-04-18 02:26:53 [INFO] Preparing start region for level 1 (Seed: -7800796378682977844)
+2014-04-18 02:26:54 [INFO] Preparing start region for level 2 (Seed: -7800796378682977844)
+2014-04-18 02:26:54 [INFO] [Spectate] Enabling Spectate v2.0
+2014-04-18 02:26:54 [INFO] [Essentials] Enabling Essentials v2.12.1
+2014-04-18 02:26:55 [INFO] Essentials: Using config file enhanced permissions.
+2014-04-18 02:26:55 [INFO] Permissions listed in as player-commands will be given to all users.
+2014-04-18 02:26:55 [INFO] [EssentialsChat] Enabling EssentialsChat v2.12.1
+2014-04-18 02:26:55 [INFO] [EssentialsProtect] Enabling EssentialsProtect v2.12.1
+2014-04-18 02:26:55 [INFO] [EssentialsSpawn] Enabling EssentialsSpawn v2.12.1
+2014-04-18 02:26:55 [INFO] [EssentialsAntiBuild] Enabling EssentialsAntiBuild v2.12.1
+2014-04-18 02:26:55 [INFO] Server permissions file permissions.yml is empty, ignoring it
+2014-04-18 02:26:55 [INFO] Done (4,246s)! For help, type "help" or "?"
+2014-04-18 02:26:57 [WARNING] ----- Bukkit Auto Updater -----
+2014-04-18 02:26:57 [WARNING] Your version of CraftBukkit is out of date. Version 1.6.4-R2.0 (build #2918) was released on Wed Oct 30 23:39:40 WET 2013.
+2014-04-18 02:26:57 [WARNING] Details: /downloads/craftbukkit/view/02389_1.6.4-R2.0/
+2014-04-18 02:26:57 [WARNING] Download: /downloads/craftbukkit/get/02389_1.6.4-R2.0/craftbukkit.jar
+2014-04-18 02:26:57 [WARNING] ----- ------------------- -----
+2014-04-18 02:28:51 [INFO] RitjiiiMaster[/127.0.0.1:55162] logged in with entity id 142 at ([world] 1312.1874507564435, -5327.205001072786, -60.612739746922344)
+2014-04-18 02:28:54 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2014-04-18 02:30:05 [INFO] [0;33;1m--------- [0;37;1mHelp: Index [0;33;1m---------------------------[m
+2014-04-18 02:30:05 [INFO] [0;37;22mUse /help [n] to get page n of help.[m
+2014-04-18 02:30:05 [INFO] [0;33;22mAliases: [0;37;1mLists command aliases[m
+2014-04-18 02:30:05 [INFO] [0;33;22mBukkit: [0;37;1mAll commands for Bukkit[m
+2014-04-18 02:30:05 [INFO] [0;33;22mEssentials: [0;37;1mAll commands for Essentials[m
+2014-04-18 02:30:05 [INFO] [0;33;22mEssentialsSpawn: [0;37;1mAll commands for EssentialsSpawn[m
+2014-04-18 02:30:05 [INFO] [0;33;22mSpectate: [0;37;1mAll commands for Spectate[m
+2014-04-18 02:30:05 [INFO] [0;33;22m/afk: [0;37;1mMarks you as away-from-keyboard.[m
+2014-04-18 02:30:05 [INFO] [0;33;22m/antioch: [0;37;1mA little surprise for operators.[m
+2014-04-18 02:30:05 [INFO] [0;33;22m/back: [0;37;1mTeleports you to your location prior to tp/spawn/warp.[m
+2014-04-18 02:30:05 [INFO] [0;33;22m/backup: [0;37;1mRuns the backup if configured.[m
+2014-04-18 02:30:05 [INFO] [0;33;22m/balance: [0;37;1mStates the current balance of a player.[m
+2014-04-18 02:30:05 [INFO] [0;33;22m/balancetop: [0;37;1mGets the top balance values.[m
+2014-04-18 02:30:05 [INFO] [0;33;22m/ban: [0;37;1mBans a player.[m
+2014-04-18 02:30:05 [INFO] [0;33;22m/ban-ip: [0;37;1mPrevents the specified IP address from using this server[m
+2014-04-18 02:30:05 [INFO] [0;33;22m/banip: [0;37;1mBans an IP address.[m
+2014-04-18 02:30:05 [INFO] [0;33;22m/banlist: [0;37;1mView all players banned from this server[m
+2014-04-18 02:30:05 [INFO] [0;33;22m/bigtree: [0;37;1mSpawn a big tree where you are looking.[m
+2014-04-18 02:30:05 [INFO] [0;33;22m/book: [0;37;1mAllows reopening and editing of sealed books.[m
+2014-04-18 02:30:05 [INFO] [0;33;22m/break: [0;37;1mBreaks the block you are looking at.[m
+2014-04-18 02:30:05 [INFO] [0;33;22m/broadcast: [0;37;1mBroadcasts a message to the entire server.[m
+2014-04-18 02:30:05 [INFO] [0;33;22m/burn: [0;37;1mSet a player on fire.[m
+2014-04-18 02:30:05 [INFO] [0;33;22m/clearinventory: [0;37;1mClear all items in your inventory.[m
+2014-04-18 02:30:05 [INFO] [0;33;22m/compass: [0;37;1mDescribes your current bearing.[m
+2014-04-18 02:30:05 [INFO] [0;33;22m/control: [0;37;1mLets you control another user[m
+2014-04-18 02:30:05 [INFO] [0;33;22m/customtext: [0;37;1mAllows you to create custom text commands.[m
+2014-04-18 02:30:05 [INFO] [0;33;22m/defaultgamemode: [0;37;1mSet the default gamemode[m
+2014-04-18 02:30:05 [INFO] [0;33;22m/delhome: [0;37;1mRemoves a home.[m
+2014-04-18 02:30:05 [INFO] [0;33;22m/deljail: [0;37;1mRemoves a jail.[m
+2014-04-18 02:30:05 [INFO] [0;33;22m/delwarp: [0;37;1mDeletes the specified warp.[m
+2014-04-18 02:30:05 [INFO] [0;33;22m/deop: [0;37;1mTakes the specified player's operator status[m
+2014-04-18 02:30:05 [INFO] [0;33;22m/depth: [0;37;1mStates current depth, relative to sea level.[m
+2014-04-18 02:30:05 [INFO] [0;33;22m/difficulty: [0;37;1mSets the game difficulty[m
+2014-04-18 02:30:05 [INFO] [0;33;22m/eco: [0;37;1mManages the server economy.[m
+2014-04-18 02:30:05 [INFO] [0;33;22m/effect: [0;37;1mAdds/Removes effects on players[m
+2014-04-18 02:30:05 [INFO] [0;33;22m/enchant: [0;37;1mEnchants the item the user is holding.[m
+2014-04-18 02:30:05 [INFO] [0;33;22m/enderchest: [0;37;1mLets you see inside an enderchest.[m
+2014-04-18 02:30:05 [INFO] [0;33;22m/essentials: [0;37;1mReloads essentials.[m
+2014-04-18 02:30:05 [INFO] [0;33;22m/exp: [0;37;1mGive, set or look at a players exp.[m
+2014-04-18 02:30:05 [INFO] [0;33;22m/ext: [0;37;1mExtinguish players.[m
+2014-04-18 02:30:05 [INFO] [0;33;22m/feed: [0;37;1mSatisfy the hunger.[m
+2014-04-18 02:30:05 [INFO] [0;33;22m/fireball: [0;37;1mThrow a fireball.[m
+2014-04-18 02:30:05 [INFO] [0;33;22m/firework: [0;37;1mAllows you to modify a stack of fireworks.[m
+2014-04-18 02:30:05 [INFO] [0;33;22m/fly: [0;37;1mTake off, and soar![m
+2014-04-18 02:30:05 [INFO] [0;33;22m/gamemode: [0;37;1mChange player gamemode.[m
+2014-04-18 02:30:05 [INFO] [0;33;22m/gamerule: [0;37;1mSets a server's game rules[m
+2014-04-18 02:30:05 [INFO] [0;33;22m/gc: [0;37;1mReports memory, uptime and tick info.[m
+2014-04-18 02:30:05 [INFO] [0;33;22m/getpos: [0;37;1mGet your current coordinates or those of a player.[m
+2014-04-18 02:30:05 [INFO] [0;33;22m/give: [0;37;1mGive a player an item.[m
+2014-04-18 02:30:05 [INFO] [0;33;22m/god: [0;37;1mEnables your godly powers.[m
+2014-04-18 02:30:05 [INFO] [0;33;22m/hat: [0;37;1mGet some cool new headgear.[m
+2014-04-18 02:30:05 [INFO] [0;33;22m/heal: [0;37;1mHeals you or the given player.[m
+2014-04-18 02:30:05 [INFO] [0;33;22m/help: [0;37;1mViews a list of available commands.[m
+2014-04-18 02:30:05 [INFO] [0;33;22m/helpop: [0;37;1mMessage online admins.[m
+2014-04-18 02:30:05 [INFO] [0;33;22m/home: [0;37;1mTeleport to your home.[m
+2014-04-18 02:30:05 [INFO] [0;33;22m/ignore: [0;37;1mIgnore other players.[m
+2014-04-18 02:30:05 [INFO] [0;33;22m/info: [0;37;1mShows information set by the server owner.[m
+2014-04-18 02:30:05 [INFO] [0;33;22m/invsee: [0;37;1mSee the inventory of other players.[m
+2014-04-18 02:30:05 [INFO] [0;33;22m/item: [0;37;1mSpawn an item.[m
+2014-04-18 02:30:05 [INFO] [0;33;22m/itemdb: [0;37;1mSearches for an item.[m
+2014-04-18 02:30:05 [INFO] [0;33;22m/jails: [0;37;1mList all jails.[m
+2014-04-18 02:30:05 [INFO] [0;33;22m/jump: [0;37;1mJumps to the nearest block in the line of sight.[m
+2014-04-18 02:30:05 [INFO] [0;33;22m/kick: [0;37;1mKicks a specified player with a reason.[m
+2014-04-18 02:30:05 [INFO] [0;33;22m/kickall: [0;37;1mKicks all players off the server except the issuer.[m
+2014-04-18 02:30:05 [INFO] [0;33;22m/kill: [0;37;1mKills specified player.[m
+2014-04-18 02:30:05 [INFO] [0;33;22m/killall: [0;37;1mKill all mobs in a world.[m
+2014-04-18 02:30:05 [INFO] [0;33;22m/kit: [0;37;1mObtains the specified kit or views all available kits.[m
+2014-04-18 02:30:05 [INFO] [0;33;22m/kittycannon: [0;37;1mThrow an exploding kitten at your opponent.[m
+2014-04-18 02:30:05 [INFO] [0;33;22m/lightning: [0;37;1mThe power of Thor. Strike at cursor or player.[m
+2014-04-18 02:30:05 [INFO] [0;33;22m/list: [0;37;1mList all online players.[m
+2014-04-18 02:30:05 [INFO] [0;33;22m/mail: [0;37;1mManages inter-player, intra-server mail.[m
+2014-04-18 02:30:05 [INFO] [0;33;22m/me: [0;37;1mDescribes an action in the context of the player.[m
+2014-04-18 02:30:05 [INFO] [0;33;22m/more: [0;37;1mFills the item stack in hand to maximum size.[m
+2014-04-18 02:30:05 [INFO] [0;33;22m/motd: [0;37;1mViews the Message Of The Day.[m
+2014-04-18 02:30:05 [INFO] [0;33;22m/msg: [0;37;1mSends a private message to the specified player.[m
+2014-04-18 02:30:05 [INFO] [0;33;22m/mute: [0;37;1mMutes or unmutes a player.[m
+2014-04-18 02:30:05 [INFO] [0;33;22m/near: [0;37;1mLists the players near by or around a player.[m
+2014-04-18 02:30:05 [INFO] [0;33;22m/nick: [0;37;1mChange your nickname or that of another player.[m
+2014-04-18 02:30:05 [INFO] [0;33;22m/nuke: [0;37;1mMay death rain upon them.[m
+2014-04-18 02:30:05 [INFO] [0;33;22m/op: [0;37;1mGives the specified player operator status[m
+2014-04-18 02:30:05 [INFO] [0;33;22m/pardon-ip: [0;37;1mAllows the specified IP address to use this server[m
+2014-04-18 02:30:05 [INFO] [0;33;22m/pay: [0;37;1mPays another player from your balance.[m
+2014-04-18 02:30:05 [INFO] [0;33;22m/ping: [0;37;1mPong![m
+2014-04-18 02:30:05 [INFO] [0;33;22m/playsound: [0;37;1mPlays a sound to a given player[m
+2014-04-18 02:30:05 [INFO] [0;33;22m/plugins: [0;37;1mGets a list of plugins running on the server[m
+2014-04-18 02:30:05 [INFO] [0;33;22m/potion: [0;37;1mAdds custom potion effects to a potion.[m
+2014-04-18 02:30:05 [INFO] [0;33;22m/powertool: [0;37;1mAssigns a command to the item in hand.[m
+2014-04-18 02:30:05 [INFO] [0;33;22m/powertooltoggle: [0;37;1mEnables or disables all current powertools.[m
+2014-04-18 02:30:05 [INFO] [0;33;22m/ptime: [0;37;1mAdjust player's client time. Add @ prefix to fix.[m
+2014-04-18 02:30:05 [INFO] [0;33;22m/pweather: [0;37;1mAdjust a player's weather[m
+2014-04-18 02:30:05 [INFO] [0;33;22m/r: [0;37;1mQuickly reply to the last player to message you.[m
+2014-04-18 02:30:05 [INFO] [0;33;22m/realname: [0;37;1mDisplays the username of a user based on nick.[m
+2014-04-18 02:30:05 [INFO] [0;33;22m/recipe: [0;37;1mDisplays how to craft items.[m
+2014-04-18 02:30:05 [INFO] [0;33;22m/reload: [0;37;1mReloads the server configuration and plugins[m
+2014-04-18 02:30:05 [INFO] [0;33;22m/remove: [0;37;1mRemoves entities in your world.[m
+2014-04-18 02:30:05 [INFO] [0;33;22m/repair: [0;37;1mRepairs the durability of one or all items.[m
+2014-04-18 02:30:05 [INFO] [0;33;22m/rules: [0;37;1mViews the server rules.[m
+2014-04-18 02:30:05 [INFO] [0;33;22m/save-all: [0;37;1mSaves the server to disk[m
+2014-04-18 02:30:05 [INFO] [0;33;22m/save-off: [0;37;1mDisables server autosaving[m
+2014-04-18 02:30:05 [INFO] [0;33;22m/save-on: [0;37;1mEnables server autosaving[m
+2014-04-18 02:30:05 [INFO] [0;33;22m/say: [0;37;1mBroadcasts the given message as the console[m
+2014-04-18 02:30:05 [INFO] [0;33;22m/scoreboard: [0;37;1mScoreboard control[m
+2014-04-18 02:30:05 [INFO] [0;33;22m/seed: [0;37;1mShows the world seed[m
+2014-04-18 02:30:05 [INFO] [0;33;22m/seen: [0;37;1mShows the last logout time of a player.[m
+2014-04-18 02:30:05 [INFO] [0;33;22m/sell: [0;37;1mSells the item currently in your hand.[m
+2014-04-18 02:30:05 [INFO] [0;33;22m/sethome: [0;37;1mSet your home to your current location.[m
+2014-04-18 02:30:05 [INFO] [0;33;22m/setjail: [0;37;1mCreates a jail where you specified named [jailname].[m
+2014-04-18 02:30:05 [INFO] [0;33;22m/setspawn: [0;37;1mSet the spawnpoint to your current position.[m
+2014-04-18 02:30:05 [INFO] [0;33;22m/setwarp: [0;37;1mCreates a new warp.[m
+2014-04-18 02:30:05 [INFO] [0;33;22m/setworth: [0;37;1mSet the sell value of an item.[m
+2014-04-18 02:30:05 [INFO] [0;33;22m/socialspy: [0;37;1mToggles if you can see msg/mail commands in chat.[m
+2014-04-18 02:30:05 [INFO] [0;33;22m/spawn: [0;37;1mTeleport to the spawnpoint.[m
+2014-04-18 02:30:05 [INFO] [0;33;22m/spawner: [0;37;1mChange the mob type of a spawner.[m
+2014-04-18 02:30:05 [INFO] [0;33;22m/spawnmob: [0;37;1mSpawns a mob.[m
+2014-04-18 02:30:05 [INFO] [0;33;22m/spawnpoint: [0;37;1mSets a player's spawn point[m
+2014-04-18 02:30:05 [INFO] [0;33;22m/spectate: [0;37;1mLets you spectate another user[m
+2014-04-18 02:30:05 [INFO] [0;33;22m/speed: [0;37;1mChange your speed limits.[m
+2014-04-18 02:30:05 [INFO] [0;33;22m/spreadplayers: [0;37;1mSpreads players around a point[m
+2014-04-18 02:30:05 [INFO] [0;33;22m/stop: [0;37;1mStops the server with optional reason[m
+2014-04-18 02:30:05 [INFO] [0;33;22m/sudo: [0;37;1mMake another user perform a command.[m
+2014-04-18 02:30:05 [INFO] [0;33;22m/suicide: [0;37;1mCauses you to perish.[m
+2014-04-18 02:30:05 [INFO] [0;33;22m/tempban: [0;37;1mTemporary ban a user.[m
+2014-04-18 02:30:05 [INFO] [0;33;22m/testfor: [0;37;1mTests whether a specifed player is online[m
+2014-04-18 02:30:05 [INFO] [0;33;22m/thunder: [0;37;1mEnable/disable thunder.[m
+2014-04-18 02:30:05 [INFO] [0;33;22m/time: [0;37;1mDisplay/Change the world time. Defaults to current world.[m
+2014-04-18 02:30:05 [INFO] [0;33;22m/timings: [0;37;1mRecords timings for all plugin events[m
+2014-04-18 02:30:05 [INFO] [0;33;22m/toggledownfall: [0;37;1mToggles rain on/off on a given world[m
+2014-04-18 02:30:05 [INFO] [0;33;22m/togglejail: [0;37;1mJails/Unjails a player, TPs them to the jail specified.[m
+2014-04-18 02:30:05 [INFO] [0;33;22m/top: [0;37;1mTeleport to the highest block at your current position.[m
+2014-04-18 02:30:05 [INFO] [0;33;22m/tp: [0;37;1mTeleport to a player.[m
+2014-04-18 02:30:05 [INFO] [0;33;22m/tpa: [0;37;1mRequest to teleport to the specified player.[m
+2014-04-18 02:30:05 [INFO] [0;33;22m/tpaall: [0;37;1mRequests all players online to teleport to you.[m
+2014-04-18 02:30:05 [INFO] [0;33;22m/tpaccept: [0;37;1mAccepts a teleport request.[m
+2014-04-18 02:30:05 [INFO] [0;33;22m/tpahere: [0;37;1mRequest that the specified player teleport to you.[m
+2014-04-18 02:30:05 [INFO] [0;33;22m/tpall: [0;37;1mTeleport all online players to another player.[m
+2014-04-18 02:30:05 [INFO] [0;33;22m/tpdeny: [0;37;1mReject a teleport request.[m
+2014-04-18 02:30:05 [INFO] [0;33;22m/tphere: [0;37;1mTeleport a player to you.[m
+2014-04-18 02:30:05 [INFO] [0;33;22m/tpo: [0;37;1mTeleport override for tptoggle.[m
+2014-04-18 02:30:05 [INFO] [0;33;22m/tpohere: [0;37;1mTeleport here override for tptoggle.[m
+2014-04-18 02:30:05 [INFO] [0;33;22m/tppos: [0;37;1mTeleport to coordinates.[m
+2014-04-18 02:30:05 [INFO] [0;33;22m/tptoggle: [0;37;1mBlocks all forms of teleportation.[m
+2014-04-18 02:30:05 [INFO] [0;33;22m/tree: [0;37;1mSpawn a tree where you are looking.[m
+2014-04-18 02:30:05 [INFO] [0;33;22m/unban: [0;37;1mUnbans the specified player.[m
+2014-04-18 02:30:05 [INFO] [0;33;22m/unbanip: [0;37;1mUnbans the specified IP address.[m
+2014-04-18 02:30:05 [INFO] [0;33;22m/unlimited: [0;37;1mAllows the unlimited placing of items.[m
+2014-04-18 02:30:05 [INFO] [0;33;22m/vanish: [0;37;1mHide yourself from other players.[m
+2014-04-18 02:30:05 [INFO] [0;33;22m/version: [0;37;1mGets the version of this server including any plugins in use[m
+2014-04-18 02:30:05 [INFO] [0;33;22m/warp: [0;37;1mList all warps or warp to the specified location.[m
+2014-04-18 02:30:05 [INFO] [0;33;22m/weather: [0;37;1mSets the weather.[m
+2014-04-18 02:30:05 [INFO] [0;33;22m/whitelist: [0;37;1mManages the list of players allowed to use this server[m
+2014-04-18 02:30:05 [INFO] [0;33;22m/whois: [0;37;1mDetermine the username behind a nickname.[m
+2014-04-18 02:30:05 [INFO] [0;33;22m/workbench: [0;37;1mOpens up a workbench.[m
+2014-04-18 02:30:05 [INFO] [0;33;22m/world: [0;37;1mSwitch between worlds.[m
+2014-04-18 02:30:05 [INFO] [0;33;22m/worth: [0;37;1mCalculates the worth of items in hand or as specified.[m
+2014-04-18 02:30:20 [INFO] Unknown command. Type "help" for help.[m
+2014-04-18 02:30:24 [INFO] Unknown command. Type "help" for help.[m
+2014-04-18 02:30:30 [INFO] CONSOLE issued server command: /spawn 
+2014-04-18 02:30:30 [INFO] Teleport to the spawnpoint.[m
+2014-04-18 02:30:30 [INFO] /spawn [player][m
+2014-04-18 02:30:36 [INFO] CONSOLE issued server command: /spawn RitjiiiMaster
+2014-04-18 02:30:36 [INFO] [0;33;22mTeleportando...[m
+2014-04-18 02:31:24 [INFO] CONSOLE issued server command: /time set 1000
+2014-04-18 02:31:24 [INFO] [0;33;22mO tempo foi definido para[0;31;1m [0;31;1m07:00[0;33;22m ou [0;31;1m7:00 AM[0;33;22m ou [0;31;1m1000ticks[0;33;22m. [0;33;22mem: [0;31;1mworld, world_nether, world_the_end[0;33;22m.[m
+2014-04-18 02:33:59 [INFO] tit[/127.0.0.1:55174] logged in with entity id 62841 at ([world] 1020.5, 4.0, -69.5)
+2014-04-18 02:33:59 [INFO] Criando configuraÌ¤ao vazia: /Users/anarita/Desktop/aasma/proj/server/plugins/Essentials/userdata/tit.yml
+2014-04-18 02:33:59 [INFO] [m<tit[m> I have 20 health and 20 food[m
+2014-04-18 02:34:12 [INFO] tit lost connection: disconnect.endOfStream
+2014-04-18 02:34:12 [INFO] ¤etit left the game.
+2014-04-18 02:47:29 [INFO] RitjiiiMaster lost connection: disconnect.endOfStream
+2014-04-18 02:47:29 [INFO] ¤eRitjiiiMaster left the game.
+2014-04-18 02:47:33 [INFO] CONSOLE: Stopping the server..[m
+2014-04-18 02:47:33 [INFO] Stopping server
+2014-04-18 02:47:33 [INFO] [EssentialsAntiBuild] Disabling EssentialsAntiBuild v2.12.1
+2014-04-18 02:47:33 [INFO] [EssentialsSpawn] Disabling EssentialsSpawn v2.12.1
+2014-04-18 02:47:33 [INFO] [EssentialsProtect] Disabling EssentialsProtect v2.12.1
+2014-04-18 02:47:33 [INFO] [EssentialsChat] Disabling EssentialsChat v2.12.1
+2014-04-18 02:47:33 [INFO] [Essentials] Disabling Essentials v2.12.1
+2014-04-18 02:47:33 [INFO] [Spectate] Disabling Spectate v2.0
+2014-04-18 02:47:33 [INFO] Saving players
+2014-04-18 02:47:33 [INFO] Saving worlds
+2014-04-18 02:47:33 [INFO] Saving chunks for level 'world'/Overworld
+2014-04-18 02:47:33 [WARNING] DSCT: Socket closed
+2014-04-18 02:47:33 [INFO] Closing listening thread
+2014-04-18 02:47:35 [INFO] Saving chunks for level 'world_nether'/Nether
+2014-04-18 02:47:35 [INFO] Saving chunks for level 'world_the_end'/The End

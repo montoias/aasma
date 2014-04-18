@@ -10,7 +10,7 @@ var bot = mineflayer.createBot({
   'online-mode':false,
 });
 
-//passa ao movementController info sobre o bot
+//passes to the movementController info about the bot
 mvc.setBot(bot);
 
 bot.on('spawn', function(){
@@ -20,7 +20,7 @@ bot.on('spawn', function(){
 //flag que indica se está a fazer digging ou nao
 var digging = false;
 
-//sempre que um bot se move é verificada um nova posicao atraves do random e e verificado se existem coisas pa fazer dig
+//when the bot moves it is cheked if there is something, around him, that it is to be digged
 bot.on('entityMoved', function () {
 	if(digging)
 		return;
@@ -42,6 +42,7 @@ bot.on('entityMoved', function () {
 		 return;
 	}
 
+	//see the free positions around the bot and moves forward, after walking 10 steps moves to other (random) direction
 	var neighbors = mvc.freeNeighbors(botposition);
 
 	steps ++;
@@ -56,20 +57,22 @@ bot.on('entityMoved', function () {
 	 	steps = 0;
 	 } else if (steps == 10) {
 	 	steps = 0;
-	 }
+	 } else if(!mvc.isYawValid(bot.entity.yaw,botposition))
 });
 
 
-//infica a heath do bot
+//Indicates the heath and the inventory of the bot
 bot.on('health', function() {
   bot.chat("I have " + bot.health + " health and " + bot.food + " food");
   listInventory();
 });
 
+//function that lists the bot's inventory
 function listInventory() {
   bot.chat("Inventorio" + bot.inventory.items().map(itemStr).join(", "));
 }
 
+//function that ounts every item that it exits at the bot's inventory 
 function itemStr(item) {
   if (item) {
     return item.name + " x " + item.count;
@@ -78,24 +81,24 @@ function itemStr(item) {
   }
 }
 
-//funcao auxiliar ao dig
+//auxiliar function to the operation dig
 function onDiggingCompleted(err,b) {
     bot.chat("finished digging ");
 }
 
-//funcao auxiliar ao dig
+//auxiliar function to the operation dig
 bot.on('diggingCompleted', function(block){
 	bot.chat("chegamos ao complete");
 	digging = false;
 	bot.setControlState('forward', true);
 });
 
-//funcao auxiliar ao dig
+//auxiliar function to the operation dig
 bot.on('diggingAborted', function(block){
 	bot.chat("ABORTEI!" + block);
 });
 
-
+//function that sees if there is olher entities around the bot, if it is the closest is return.
 function nearestEntity(type) {
   var id, entity, dist;
   var best = null;
@@ -115,6 +118,7 @@ function nearestEntity(type) {
   return best;
 }
 
+//When the bot was hurt attacks the entity closest to the bot
 bot.on('entityHurt', function (ent) {
 	var enemy = nearestEntity();
 	if(enemy){

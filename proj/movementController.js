@@ -125,8 +125,6 @@ var treePossiblePositions = function (pos) {
 	return vec;
 }
 
-
-
 exports.unit = unit;
 exports.isYawValid = isYawValid;
 exports.isValidDirection = isValidDirection;
