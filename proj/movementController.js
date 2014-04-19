@@ -12,13 +12,7 @@ var isYawValid = function (yaw, pos) {
 	var n = freeNeighbors(pos);
 	if(n.length > 0){
 		var direction = getVecFromYaw(yaw);
-		if(!isValidDirection (n, direction)){
-			bot.setControlState('jump',true);
-			bot.clearControlStates();
-			bot.setControlState('forward',true);
-			return false;
-		}
-		return true;		
+		return isValidDirection(n, direction);
 	}
 	return false;
 }

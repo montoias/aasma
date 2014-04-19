@@ -57,7 +57,12 @@ bot.on('entityMoved', function () {
 	 	steps = 0;
 	 } else if (steps == 10) {
 	 	steps = 0;
-	 } else if(!mvc.isYawValid(bot.entity.yaw,botposition))
+	 } else if(!mvc.isYawValid(bot.entity.yaw,botposition)){
+	 	bot.setControlState('jump',true);
+		bot.clearControlStates();
+		bot.setControlState('forward',true);
+	 	steps = 9;
+	 }
 });
 
 
