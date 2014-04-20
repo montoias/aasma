@@ -92,12 +92,8 @@ warn-on-smite: true
 # See http://wiki.bukkit.org/Bukkit.yml#aliases for more information
 
 overridden-commands:
-  - setspawn
-  - spawn
-  - god
 #  - god
 #  - info
-
 
 # Disabling commands here will prevent Essentials handling the command, this will not affect command conflicts.
 # Commands should fallback to the vanilla versions if available.

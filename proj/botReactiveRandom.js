@@ -16,7 +16,6 @@ mvc.setBot(bot);
 bot.on('spawn', function(){
 	bot.setControlState('forward', true);
 });
-
 //flag que indica se está a fazer digging ou nao
 var digging = false;
 
@@ -103,29 +102,10 @@ bot.on('diggingAborted', function(block){
 	bot.chat("ABORTEI!" + block);
 });
 
-//function that sees if there is olher entities around the bot, if it is the closest is return.
-function nearestEntity(type) {
-  var id, entity, dist;
-  var best = null;
-  var bestDistance = null;
-  //console.log("entidades!", bot.entities);
-  for (id in bot.entities) {
-    entity = bot.entities[id];
-    if (type && entity.type !== type) continue;
-    if (entity === bot.entity) continue;
-    if (entity.type !== 'mob') continue;
-    dist = bot.entity.position.distanceTo(entity.position);
-    if (! best || dist < bestDistance) {
-      best = entity;
-      bestDistance = dist;
-    }
-  }
-  return best;
-}
 
 //When the bot was hurt attacks the entity closest to the bot
 bot.on('entityHurt', function (ent) {
-	var enemy = nearestEntity();
+	var enemy = mvc.nearestEntity();
 	if(enemy){
 		bot.lookAt(enemy.position);
 		bot.attack(enemy);

@@ -119,6 +119,28 @@ var treePossiblePositions = function (pos) {
 	return vec;
 }
 
+
+//function that sees if there is olher entities around the bot, if it is the closest is return.
+var nearestEntity =  function (type) {
+  var id, entity, dist;
+  var best = null;
+  var bestDistance = null;
+ // console.log("entidades! do ", bot.username , bot.entities);
+  for (id in bot.entities) {
+    entity = bot.entities[id];
+    if (type && entity.type !== type) continue;
+    if (entity === bot.entity) continue;
+    if (entity.type !== 'mob') continue;
+    dist = bot.entity.position.distanceTo(entity.position);
+    if (! best || dist < bestDistance) {
+      best = entity;
+      bestDistance = dist;
+    }
+  }
+  return best;
+}
+
+
 exports.unit = unit;
 exports.isYawValid = isYawValid;
 exports.isValidDirection = isValidDirection;
@@ -133,4 +155,4 @@ exports.randomIntInc = randomIntInc;
 exports.setBot = setBot;
 exports.treeNeighbor = treeNeighbor;
 exports.treePossiblePositions =treePossiblePositions;
-
+exports.nearestEntity= nearestEntity;
