@@ -25,7 +25,7 @@ bot.on('entityMoved', function () {
 		return;
 	var botposition = bot.entity.position;
 
-	var tree = mvc.treeNeighbor(botposition);
+	var tree = mvc.materialNeighbor(botposition, 'wood');
 	if(tree.length >0){
 		 digging = true;
 		 bot.setControlState('forward', false);
@@ -39,6 +39,23 @@ bot.on('entityMoved', function () {
 		 	});
 		 });	 
 		 return;
+	}
+
+	//toss the inventory around the storage
+	var storage = mvc.typeMaterialNeighbor(botposition, 'oreGold');
+	if(storage.length > 0) {
+			var inventory = bot.inventory.items();
+		if(inventory.length > 0) { 
+			inventory.forEach(function (a) {
+				bot.tossStack(a, function(err) {
+					if (err) {
+			          bot.chat("unable to toss " + a.name);
+			        } else {
+			          bot.chat("tossed " + a.name);
+			        }
+	        	});
+			});
+		}
 	}
 
 	//see the free positions around the bot and moves forward, after walking 10 steps moves to other (random) direction

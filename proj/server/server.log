@@ -16097,3 +16097,1670 @@ Caused by: java.lang.LinkageError: com/earth2me/essentials/utils/FormatUtil
 2014-04-21 16:34:04 [INFO] Saving chunks for level 'world'/Overworld
 2014-04-21 16:34:04 [INFO] Saving chunks for level 'world_nether'/Nether
 2014-04-21 16:34:04 [INFO] Saving chunks for level 'world_the_end'/The End
+2014-04-21 17:45:46 [INFO] Starting minecraft server version 1.6.4
+2014-04-21 17:45:46 [INFO] Loading properties
+2014-04-21 17:45:46 [INFO] Default game type: SURVIVAL
+2014-04-21 17:45:46 [INFO] Generating keypair
+2014-04-21 17:45:46 [INFO] Starting Minecraft server on *:25565
+2014-04-21 17:45:47 [INFO] This server is running CraftBukkit version git-Bukkit-1.6.2-R1.0-2-g317b76b-b2882jnks (MC: 1.6.4) (Implementing API version 1.6.4-R0.1-SNAPSHOT)
+2014-04-21 17:45:47 [INFO] [Spectate] Loading Spectate v2.0
+2014-04-21 17:45:47 [INFO] [Essentials] Loading Essentials v2.12.1
+2014-04-21 17:45:47 [INFO] [EssentialsChat] Loading EssentialsChat v2.12.1
+2014-04-21 17:45:47 [INFO] [EssentialsAntiBuild] Loading EssentialsAntiBuild v2.12.1
+2014-04-21 17:45:47 [INFO] Preparing level "world"
+2014-04-21 17:45:47 [INFO] Preparing start region for level 0 (Seed: 4539697792417860999)
+2014-04-21 17:45:47 [WARNING] ----- Bukkit Auto Updater -----
+2014-04-21 17:45:47 [WARNING] Your version of CraftBukkit is out of date. Version 1.6.4-R2.0 (build #2918) was released on Wed Oct 30 23:39:40 WET 2013.
+2014-04-21 17:45:47 [WARNING] Details: /downloads/craftbukkit/view/02389_1.6.4-R2.0/
+2014-04-21 17:45:47 [WARNING] Download: /downloads/craftbukkit/get/02389_1.6.4-R2.0/craftbukkit.jar
+2014-04-21 17:45:47 [WARNING] ----- ------------------- -----
+2014-04-21 17:45:48 [INFO] Preparing spawn area: 50%
+2014-04-21 17:45:49 [INFO] Preparing start region for level 1 (Seed: 1772451141926695947)
+2014-04-21 17:45:49 [INFO] Preparing start region for level 2 (Seed: 1772451141926695947)
+2014-04-21 17:45:49 [INFO] [Spectate] Enabling Spectate v2.0
+2014-04-21 17:45:49 [INFO] [Essentials] Enabling Essentials v2.12.1
+2014-04-21 17:45:50 [INFO] Essentials: Using config file enhanced permissions.
+2014-04-21 17:45:50 [INFO] Permissions listed in as player-commands will be given to all users.
+2014-04-21 17:45:50 [INFO] [EssentialsChat] Enabling EssentialsChat v2.12.1
+2014-04-21 17:45:50 [INFO] [EssentialsAntiBuild] Enabling EssentialsAntiBuild v2.12.1
+2014-04-21 17:45:50 [INFO] Server permissions file permissions.yml is empty, ignoring it
+2014-04-21 17:45:50 [INFO] Done (3,240s)! For help, type "help" or "?"
+2014-04-21 17:46:01 [INFO] Stopping server
+2014-04-21 17:46:05 [INFO] Starting minecraft server version 1.6.4
+2014-04-21 17:46:05 [INFO] Loading properties
+2014-04-21 17:46:05 [INFO] Default game type: SURVIVAL
+2014-04-21 17:46:05 [INFO] Generating keypair
+2014-04-21 17:46:06 [INFO] Starting Minecraft server on *:25565
+2014-04-21 17:46:06 [INFO] This server is running CraftBukkit version git-Bukkit-1.6.2-R1.0-2-g317b76b-b2882jnks (MC: 1.6.4) (Implementing API version 1.6.4-R0.1-SNAPSHOT)
+2014-04-21 17:46:06 [INFO] [Spectate] Loading Spectate v2.0
+2014-04-21 17:46:06 [INFO] [Essentials] Loading Essentials v2.12.1
+2014-04-21 17:46:06 [INFO] [EssentialsChat] Loading EssentialsChat v2.12.1
+2014-04-21 17:46:06 [INFO] [EssentialsAntiBuild] Loading EssentialsAntiBuild v2.12.1
+2014-04-21 17:46:06 [WARNING] **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+2014-04-21 17:46:06 [WARNING] The server will make no attempt to authenticate usernames. Beware.
+2014-04-21 17:46:06 [WARNING] While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+2014-04-21 17:46:06 [WARNING] To change this, set "online-mode" to "true" in the server.properties file.
+2014-04-21 17:46:06 [INFO] Preparing level "world"
+2014-04-21 17:46:06 [WARNING] ----- Bukkit Auto Updater -----
+2014-04-21 17:46:06 [WARNING] Your version of CraftBukkit is out of date. Version 1.6.4-R2.0 (build #2918) was released on Wed Oct 30 23:39:40 WET 2013.
+2014-04-21 17:46:06 [WARNING] Details: /downloads/craftbukkit/view/02389_1.6.4-R2.0/
+2014-04-21 17:46:06 [WARNING] Download: /downloads/craftbukkit/get/02389_1.6.4-R2.0/craftbukkit.jar
+2014-04-21 17:46:06 [WARNING] ----- ------------------- -----
+2014-04-21 17:46:06 [INFO] Preparing start region for level 0 (Seed: 4539697792417860999)
+2014-04-21 17:46:07 [INFO] Preparing start region for level 1 (Seed: 1772451141926695947)
+2014-04-21 17:46:08 [INFO] Preparing start region for level 2 (Seed: 1772451141926695947)
+2014-04-21 17:46:08 [INFO] [Spectate] Enabling Spectate v2.0
+2014-04-21 17:46:08 [INFO] [Essentials] Enabling Essentials v2.12.1
+2014-04-21 17:46:08 [INFO] Essentials: Using config file enhanced permissions.
+2014-04-21 17:46:08 [INFO] Permissions listed in as player-commands will be given to all users.
+2014-04-21 17:46:08 [INFO] [EssentialsChat] Enabling EssentialsChat v2.12.1
+2014-04-21 17:46:08 [INFO] [EssentialsAntiBuild] Enabling EssentialsAntiBuild v2.12.1
+2014-04-21 17:46:08 [INFO] Server permissions file permissions.yml is empty, ignoring it
+2014-04-21 17:46:08 [INFO] Done (2,058s)! For help, type "help" or "?"
+2014-04-21 17:46:50 [INFO] RitjiiiMaster[/127.0.0.1:51383] logged in with entity id 72 at ([world] 998.5, 4.0, -68.5)
+2014-04-21 17:47:40 [INFO] CONSOLE issued server command: /gamemode 0 RitjiiiMaster
+2014-04-21 17:47:40 [INFO] [0;33;22mModo de jogo[0;31;1m sobrevivÌ»ncia [0;33;22mdefinido para [0;31;22mRitjiiiMaster[m[0;33;22m.[m
+2014-04-21 17:47:53 [INFO] CONSOLE issued server command: /gamemode 1 RitjiiiMaster
+2014-04-21 17:47:53 [INFO] [0;33;22mModo de jogo[0;31;1m criativo [0;33;22mdefinido para [0;31;22mRitjiiiMaster[m[0;33;22m.[m
+2014-04-21 17:52:31 [INFO] guard2[/127.0.0.1:51408] logged in with entity id 436105 at ([world] 1007.5, 4.0, -74.5)
+2014-04-21 17:52:32 [INFO] guard1[/127.0.0.1:51409] logged in with entity id 436106 at ([world] 1011.5, 4.0, -74.5)
+2014-04-21 17:52:32 [INFO] guard1 lost connection: disconnect.endOfStream
+2014-04-21 17:52:32 [INFO] [m<[0;31;22mguard2[m> guard2 have 20[m
+2014-04-21 17:52:32 [INFO] ¤eguard1 left the game.
+2014-04-21 17:52:32 [INFO] guard2 lost connection: disconnect.genericReason
+2014-04-21 17:52:32 [INFO] ¤eguard2 left the game.
+2014-04-21 17:53:05 [INFO] guard1[/127.0.0.1:51410] logged in with entity id 456793 at ([world] 1011.5, 4.0, -74.5)
+2014-04-21 17:53:05 [INFO] guard2[/127.0.0.1:51411] logged in with entity id 456794 at ([world] 1007.5, 3.958933, -74.5)
+2014-04-21 17:53:05 [INFO] [m<[0;31;22mguard1[m> guard1 have 20[m
+2014-04-21 17:53:05 [INFO] [m<[0;31;22mguard1[m> Inventorio[m
+2014-04-21 17:53:06 [INFO] [m<[0;31;22mguard2[m> guard2 have 20[m
+2014-04-21 17:53:06 [INFO] [m<[0;31;22mguard2[m> Inventorio[m
+2014-04-21 17:54:23 [INFO] guard1 lost connection: disconnect.endOfStream
+2014-04-21 17:54:24 [INFO] ¤eguard1 left the game.
+2014-04-21 17:54:24 [INFO] guard2 lost connection: disconnect.endOfStream
+2014-04-21 17:54:24 [INFO] ¤eguard2 left the game.
+2014-04-21 17:54:29 [INFO] guard1[/127.0.0.1:51415] logged in with entity id 682040 at ([world] 1011.5, 4.0009999999999994, -74.5)
+2014-04-21 17:54:29 [INFO] guard2[/127.0.0.1:51416] logged in with entity id 682041 at ([world] 1007.5, 4.0009999999999994, -74.5)
+2014-04-21 17:54:29 [INFO] [m<[0;31;22mguard1[m> guard1 have 20[m
+2014-04-21 17:54:29 [INFO] [m<[0;31;22mguard1[m> Inventorio[m
+2014-04-21 17:54:29 [INFO] [m<[0;31;22mguard2[m> guard2 have 20[m
+2014-04-21 17:54:29 [INFO] [m<[0;31;22mguard2[m> Inventorio[m
+2014-04-21 17:55:06 [INFO] CONSOLE issued server command: /time set 1000
+2014-04-21 17:55:06 [INFO] [0;33;22mO tempo foi definido para[0;31;1m [0;31;1m07:00[0;33;22m ou [0;31;1m7:00 AM[0;33;22m ou [0;31;1m1000ticks[0;33;22m. [0;33;22mem: [0;31;1mworld, world_nether, world_the_end[0;33;22m.[m
+2014-04-21 17:56:24 [INFO] [m<[0;31;22mguard1[m> guard1 have 19[m
+2014-04-21 17:56:24 [INFO] [m<[0;31;22mguard1[m> Inventorio[m
+2014-04-21 17:56:28 [INFO] [m<[0;31;22mguard1[m> guard1 have 20[m
+2014-04-21 17:56:28 [INFO] [m<[0;31;22mguard1[m> Inventorio[m
+2014-04-21 17:56:28 [INFO] [m<[0;31;22mguard1[m> guard1 have 19[m
+2014-04-21 17:56:28 [INFO] [m<[0;31;22mguard1[m> Inventorio[m
+2014-04-21 17:56:29 [INFO] [m<[0;31;22mguard1[m> guard1 have 18[m
+2014-04-21 17:56:29 [INFO] [m<[0;31;22mguard1[m> Inventorio[m
+2014-04-21 17:56:30 [INFO] [m<[0;31;22mguard1[m> guard1 have 17[m
+2014-04-21 17:56:30 [INFO] [m<[0;31;22mguard1[m> Inventorio[m
+2014-04-21 17:56:30 [INFO] [m<[0;31;22mguard1[m> guard1 have 16[m
+2014-04-21 17:56:30 [INFO] [m<[0;31;22mguard1[m> Inventorio[m
+2014-04-21 17:56:32 [INFO] [m<[0;31;22mguard1[m> guard1 have 17[m
+2014-04-21 17:56:32 [INFO] [m<[0;31;22mguard1[m> Inventorio[m
+2014-04-21 17:56:36 [INFO] [m<[0;31;22mguard1[m> guard1 have 16[m
+2014-04-21 17:56:36 [INFO] [m<[0;31;22mguard1[m> Inventorio[m
+2014-04-21 17:56:36 [INFO] [m<[0;31;22mguard1[m> guard1 have 17[m
+2014-04-21 17:56:36 [INFO] [m<[0;31;22mguard1[m> Inventorio[m
+2014-04-21 17:56:36 [INFO] [m<[0;31;22mguard1[m> guard1 have 16[m
+2014-04-21 17:56:36 [INFO] [m<[0;31;22mguard1[m> Inventorio[m
+2014-04-21 17:56:38 [INFO] [m<[0;31;22mguard1[m> guard1 have 8[m
+2014-04-21 17:56:38 [INFO] [m<[0;31;22mguard1[m> Inventorio[m
+2014-04-21 17:56:39 [INFO] guard1 was slain by RitjiiiMaster
+2014-04-21 17:56:39 [INFO] [m<[0;31;22mguard1[m> guard1 have 0[m
+2014-04-21 17:56:39 [INFO] [m<[0;31;22mguard1[m> Inventorio[m
+2014-04-21 17:56:39 [INFO] [m<[0;31;22mguard1[m> guard1 have 20[m
+2014-04-21 17:56:39 [INFO] [m<[0;31;22mguard1[m> Inventorio[m
+2014-04-21 17:56:39 [INFO] [m<[0;31;22mguard1[m> guard1 have 20[m
+2014-04-21 17:56:39 [INFO] [m<[0;31;22mguard1[m> Inventorio[m
+2014-04-21 17:56:42 [INFO] [m<[0;31;22mguard2[m> guard2 have 12[m
+2014-04-21 17:56:42 [INFO] [m<[0;31;22mguard2[m> Inventorio[m
+2014-04-21 17:56:43 [INFO] [m<[0;31;22mguard2[m> guard2 have 4[m
+2014-04-21 17:56:43 [INFO] [m<[0;31;22mguard2[m> Inventorio[m
+2014-04-21 17:56:44 [INFO] guard2 was slain by RitjiiiMaster
+2014-04-21 17:56:44 [INFO] [m<[0;31;22mguard2[m> guard2 have 0[m
+2014-04-21 17:56:44 [INFO] [m<[0;31;22mguard2[m> Inventorio[m
+2014-04-21 17:56:44 [INFO] [m<[0;31;22mguard2[m> guard2 have 20[m
+2014-04-21 17:56:44 [INFO] [m<[0;31;22mguard2[m> Inventorio[m
+2014-04-21 17:56:44 [INFO] [m<[0;31;22mguard2[m> guard2 have 20[m
+2014-04-21 17:56:44 [INFO] [m<[0;31;22mguard2[m> Inventorio[m
+2014-04-21 17:56:45 [INFO] [m<[0;31;22mguard1[m> guard1 have 12[m
+2014-04-21 17:56:45 [INFO] [m<[0;31;22mguard1[m> Inventorio[m
+2014-04-21 17:56:45 [INFO] [m<[0;31;22mguard1[m> guard1 have 4[m
+2014-04-21 17:56:45 [INFO] [m<[0;31;22mguard1[m> Inventorio[m
+2014-04-21 17:56:46 [INFO] guard1 was slain by RitjiiiMaster
+2014-04-21 17:56:46 [INFO] [m<[0;31;22mguard1[m> guard1 have 0[m
+2014-04-21 17:56:46 [INFO] [m<[0;31;22mguard1[m> Inventorio[m
+2014-04-21 17:56:46 [INFO] [m<[0;31;22mguard1[m> guard1 have 20[m
+2014-04-21 17:56:46 [INFO] [m<[0;31;22mguard1[m> Inventorio[m
+2014-04-21 17:56:48 [INFO] [m<[0;31;22mguard2[m> guard2 have 12[m
+2014-04-21 17:56:48 [INFO] [m<[0;31;22mguard2[m> Inventorio[m
+2014-04-21 17:56:49 [INFO] [m<[0;31;22mguard2[m> guard2 have 4[m
+2014-04-21 17:56:49 [INFO] [m<[0;31;22mguard2[m> Inventorio[m
+2014-04-21 17:56:49 [INFO] guard2 was slain by RitjiiiMaster
+2014-04-21 17:56:49 [INFO] [m<[0;31;22mguard2[m> guard2 have 0[m
+2014-04-21 17:56:49 [INFO] [m<[0;31;22mguard2[m> Inventorio[m
+2014-04-21 17:56:49 [INFO] [m<[0;31;22mguard2[m> guard2 have 20[m
+2014-04-21 17:56:49 [INFO] [m<[0;31;22mguard2[m> Inventorio[m
+2014-04-21 17:56:49 [INFO] [m<[0;31;22mguard2[m> guard2 have 20[m
+2014-04-21 17:56:49 [INFO] [m<[0;31;22mguard2[m> Inventorio[m
+2014-04-21 17:56:50 [INFO] [m<[0;31;22mguard1[m> guard1 have 12[m
+2014-04-21 17:56:50 [INFO] [m<[0;31;22mguard1[m> Inventorio[m
+2014-04-21 17:56:50 [INFO] [m<[0;31;22mguard1[m> guard1 have 4[m
+2014-04-21 17:56:50 [INFO] [m<[0;31;22mguard1[m> Inventorio[m
+2014-04-21 17:56:51 [INFO] guard1 was slain by RitjiiiMaster
+2014-04-21 17:56:51 [INFO] [m<[0;31;22mguard1[m> guard1 have 0[m
+2014-04-21 17:56:51 [INFO] [m<[0;31;22mguard1[m> Inventorio[m
+2014-04-21 17:56:51 [INFO] [m<[0;31;22mguard1[m> guard1 have 20[m
+2014-04-21 17:56:51 [INFO] [m<[0;31;22mguard1[m> Inventorio[m
+2014-04-21 17:56:53 [INFO] [m<[0;31;22mguard2[m> guard2 have 12[m
+2014-04-21 17:56:53 [INFO] [m<[0;31;22mguard2[m> Inventorio[m
+2014-04-21 17:56:54 [INFO] [m<[0;31;22mguard2[m> guard2 have 4[m
+2014-04-21 17:56:54 [INFO] [m<[0;31;22mguard2[m> Inventorio[m
+2014-04-21 17:56:54 [INFO] guard2 was slain by RitjiiiMaster
+2014-04-21 17:56:54 [INFO] [m<[0;31;22mguard2[m> guard2 have 0[m
+2014-04-21 17:56:54 [INFO] [m<[0;31;22mguard2[m> Inventorio[m
+2014-04-21 17:56:54 [INFO] [m<[0;31;22mguard2[m> guard2 have 20[m
+2014-04-21 17:56:54 [INFO] [m<[0;31;22mguard2[m> Inventorio[m
+2014-04-21 17:56:55 [INFO] [m<[0;31;22mguard1[m> guard1 have 12[m
+2014-04-21 17:56:55 [INFO] [m<[0;31;22mguard1[m> Inventorio[m
+2014-04-21 17:56:58 [INFO] [m<[0;31;22mguard1[m> guard1 have 4[m
+2014-04-21 17:56:58 [INFO] [m<[0;31;22mguard1[m> Inventorio[m
+2014-04-21 17:56:58 [INFO] guard1 was slain by RitjiiiMaster
+2014-04-21 17:56:58 [INFO] [m<[0;31;22mguard1[m> guard1 have 0[m
+2014-04-21 17:56:58 [INFO] [m<[0;31;22mguard1[m> Inventorio[m
+2014-04-21 17:56:58 [INFO] [m<[0;31;22mguard1[m> guard1 have 20[m
+2014-04-21 17:56:58 [INFO] [m<[0;31;22mguard1[m> Inventorio[m
+2014-04-21 17:56:59 [INFO] [m<[0;31;22mguard2[m> guard2 have 12[m
+2014-04-21 17:56:59 [INFO] [m<[0;31;22mguard2[m> Inventorio[m
+2014-04-21 17:56:59 [INFO] [m<[0;31;22mguard2[m> guard2 have 4[m
+2014-04-21 17:56:59 [INFO] [m<[0;31;22mguard2[m> Inventorio[m
+2014-04-21 17:57:00 [INFO] guard2 was slain by RitjiiiMaster
+2014-04-21 17:57:00 [INFO] [m<[0;31;22mguard2[m> guard2 have 0[m
+2014-04-21 17:57:00 [INFO] [m<[0;31;22mguard2[m> Inventorio[m
+2014-04-21 17:57:00 [INFO] [m<[0;31;22mguard2[m> guard2 have 20[m
+2014-04-21 17:57:00 [INFO] [m<[0;31;22mguard2[m> Inventorio[m
+2014-04-21 17:57:03 [INFO] [m<[0;31;22mguard1[m> guard1 have 12[m
+2014-04-21 17:57:03 [INFO] [m<[0;31;22mguard1[m> Inventorio[m
+2014-04-21 17:57:03 [INFO] [m<[0;31;22mguard1[m> guard1 have 4[m
+2014-04-21 17:57:03 [INFO] [m<[0;31;22mguard1[m> Inventorio[m
+2014-04-21 17:57:04 [INFO] guard1 was slain by RitjiiiMaster
+2014-04-21 17:57:04 [INFO] [m<[0;31;22mguard1[m> guard1 have 0[m
+2014-04-21 17:57:04 [INFO] [m<[0;31;22mguard1[m> Inventorio[m
+2014-04-21 17:57:04 [INFO] [m<[0;31;22mguard1[m> guard1 have 20[m
+2014-04-21 17:57:04 [INFO] [m<[0;31;22mguard1[m> Inventorio[m
+2014-04-21 17:57:04 [INFO] [m<[0;31;22mguard2[m> guard2 have 12[m
+2014-04-21 17:57:04 [INFO] [m<[0;31;22mguard2[m> Inventorio[m
+2014-04-21 17:57:08 [INFO] [m<[0;31;22mguard2[m> guard2 have 13[m
+2014-04-21 17:57:08 [INFO] [m<[0;31;22mguard2[m> Inventorio[m
+2014-04-21 17:57:12 [INFO] [m<[0;31;22mguard2[m> guard2 have 14[m
+2014-04-21 17:57:12 [INFO] [m<[0;31;22mguard2[m> Inventorio[m
+2014-04-21 17:57:16 [INFO] [m<[0;31;22mguard2[m> guard2 have 15[m
+2014-04-21 17:57:16 [INFO] [m<[0;31;22mguard2[m> Inventorio[m
+2014-04-21 17:57:20 [INFO] [m<[0;31;22mguard2[m> guard2 have 16[m
+2014-04-21 17:57:20 [INFO] [m<[0;31;22mguard2[m> Inventorio[m
+2014-04-21 17:57:24 [INFO] [m<[0;31;22mguard2[m> guard2 have 17[m
+2014-04-21 17:57:24 [INFO] [m<[0;31;22mguard2[m> Inventorio[m
+2014-04-21 17:57:28 [INFO] [m<[0;31;22mguard2[m> guard2 have 18[m
+2014-04-21 17:57:28 [INFO] [m<[0;31;22mguard2[m> Inventorio[m
+2014-04-21 17:57:33 [INFO] [m<[0;31;22mguard2[m> guard2 have 19[m
+2014-04-21 17:57:33 [INFO] [m<[0;31;22mguard2[m> Inventorio[m
+2014-04-21 17:57:37 [INFO] [m<[0;31;22mguard2[m> guard2 have 20[m
+2014-04-21 17:57:37 [INFO] [m<[0;31;22mguard2[m> Inventorio[m
+2014-04-21 17:57:38 [INFO] Unknown command. Type "help" for help.[m
+2014-04-21 17:57:42 [INFO] Unknown command. Type "help" for help.[m
+2014-04-21 17:57:46 [INFO] CONSOLE issued server command: /help 
+2014-04-21 17:57:46 [INFO] Para ver ajuda pelo console, digite ?.[m
+2014-04-21 17:57:48 [INFO] [0;33;1m--------- [0;37;1mHelp: Index [0;33;1m---------------------------[m
+2014-04-21 17:57:48 [INFO] [0;37;22mUse /help [n] to get page n of help.[m
+2014-04-21 17:57:48 [INFO] [0;33;22mAliases: [0;37;1mLists command aliases[m
+2014-04-21 17:57:48 [INFO] [0;33;22mBukkit: [0;37;1mAll commands for Bukkit[m
+2014-04-21 17:57:48 [INFO] [0;33;22mEssentials: [0;37;1mAll commands for Essentials[m
+2014-04-21 17:57:48 [INFO] [0;33;22mSpectate: [0;37;1mAll commands for Spectate[m
+2014-04-21 17:57:48 [INFO] [0;33;22m/afk: [0;37;1mMarks you as away-from-keyboard.[m
+2014-04-21 17:57:48 [INFO] [0;33;22m/antioch: [0;37;1mA little surprise for operators.[m
+2014-04-21 17:57:48 [INFO] [0;33;22m/back: [0;37;1mTeleports you to your location prior to tp/spawn/warp.[m
+2014-04-21 17:57:48 [INFO] [0;33;22m/backup: [0;37;1mRuns the backup if configured.[m
+2014-04-21 17:57:48 [INFO] [0;33;22m/balance: [0;37;1mStates the current balance of a player.[m
+2014-04-21 17:57:48 [INFO] [0;33;22m/balancetop: [0;37;1mGets the top balance values.[m
+2014-04-21 17:57:48 [INFO] [0;33;22m/ban: [0;37;1mBans a player.[m
+2014-04-21 17:57:48 [INFO] [0;33;22m/ban-ip: [0;37;1mPrevents the specified IP address from using this server[m
+2014-04-21 17:57:48 [INFO] [0;33;22m/banip: [0;37;1mBans an IP address.[m
+2014-04-21 17:57:48 [INFO] [0;33;22m/banlist: [0;37;1mView all players banned from this server[m
+2014-04-21 17:57:48 [INFO] [0;33;22m/bigtree: [0;37;1mSpawn a big tree where you are looking.[m
+2014-04-21 17:57:48 [INFO] [0;33;22m/book: [0;37;1mAllows reopening and editing of sealed books.[m
+2014-04-21 17:57:48 [INFO] [0;33;22m/break: [0;37;1mBreaks the block you are looking at.[m
+2014-04-21 17:57:48 [INFO] [0;33;22m/broadcast: [0;37;1mBroadcasts a message to the entire server.[m
+2014-04-21 17:57:48 [INFO] [0;33;22m/burn: [0;37;1mSet a player on fire.[m
+2014-04-21 17:57:48 [INFO] [0;33;22m/clearinventory: [0;37;1mClear all items in your inventory.[m
+2014-04-21 17:57:48 [INFO] [0;33;22m/compass: [0;37;1mDescribes your current bearing.[m
+2014-04-21 17:57:48 [INFO] [0;33;22m/control: [0;37;1mLets you control another user[m
+2014-04-21 17:57:48 [INFO] [0;33;22m/customtext: [0;37;1mAllows you to create custom text commands.[m
+2014-04-21 17:57:48 [INFO] [0;33;22m/defaultgamemode: [0;37;1mSet the default gamemode[m
+2014-04-21 17:57:48 [INFO] [0;33;22m/delhome: [0;37;1mRemoves a home.[m
+2014-04-21 17:57:48 [INFO] [0;33;22m/deljail: [0;37;1mRemoves a jail.[m
+2014-04-21 17:57:48 [INFO] [0;33;22m/delwarp: [0;37;1mDeletes the specified warp.[m
+2014-04-21 17:57:48 [INFO] [0;33;22m/deop: [0;37;1mTakes the specified player's operator status[m
+2014-04-21 17:57:48 [INFO] [0;33;22m/depth: [0;37;1mStates current depth, relative to sea level.[m
+2014-04-21 17:57:48 [INFO] [0;33;22m/difficulty: [0;37;1mSets the game difficulty[m
+2014-04-21 17:57:48 [INFO] [0;33;22m/eco: [0;37;1mManages the server economy.[m
+2014-04-21 17:57:48 [INFO] [0;33;22m/effect: [0;37;1mAdds/Removes effects on players[m
+2014-04-21 17:57:48 [INFO] [0;33;22m/enchant: [0;37;1mEnchants the item the user is holding.[m
+2014-04-21 17:57:48 [INFO] [0;33;22m/enderchest: [0;37;1mLets you see inside an enderchest.[m
+2014-04-21 17:57:48 [INFO] [0;33;22m/essentials: [0;37;1mReloads essentials.[m
+2014-04-21 17:57:48 [INFO] [0;33;22m/exp: [0;37;1mGive, set or look at a players exp.[m
+2014-04-21 17:57:48 [INFO] [0;33;22m/ext: [0;37;1mExtinguish players.[m
+2014-04-21 17:57:48 [INFO] [0;33;22m/feed: [0;37;1mSatisfy the hunger.[m
+2014-04-21 17:57:48 [INFO] [0;33;22m/fireball: [0;37;1mThrow a fireball.[m
+2014-04-21 17:57:48 [INFO] [0;33;22m/firework: [0;37;1mAllows you to modify a stack of fireworks.[m
+2014-04-21 17:57:48 [INFO] [0;33;22m/fly: [0;37;1mTake off, and soar![m
+2014-04-21 17:57:48 [INFO] [0;33;22m/gamemode: [0;37;1mChange player gamemode.[m
+2014-04-21 17:57:48 [INFO] [0;33;22m/gamerule: [0;37;1mSets a server's game rules[m
+2014-04-21 17:57:48 [INFO] [0;33;22m/gc: [0;37;1mReports memory, uptime and tick info.[m
+2014-04-21 17:57:48 [INFO] [0;33;22m/getpos: [0;37;1mGet your current coordinates or those of a player.[m
+2014-04-21 17:57:48 [INFO] [0;33;22m/give: [0;37;1mGive a player an item.[m
+2014-04-21 17:57:48 [INFO] [0;33;22m/god: [0;37;1mEnables your godly powers.[m
+2014-04-21 17:57:48 [INFO] [0;33;22m/hat: [0;37;1mGet some cool new headgear.[m
+2014-04-21 17:57:48 [INFO] [0;33;22m/heal: [0;37;1mHeals you or the given player.[m
+2014-04-21 17:57:48 [INFO] [0;33;22m/help: [0;37;1mViews a list of available commands.[m
+2014-04-21 17:57:48 [INFO] [0;33;22m/helpop: [0;37;1mMessage online admins.[m
+2014-04-21 17:57:48 [INFO] [0;33;22m/home: [0;37;1mTeleport to your home.[m
+2014-04-21 17:57:48 [INFO] [0;33;22m/ignore: [0;37;1mIgnore other players.[m
+2014-04-21 17:57:48 [INFO] [0;33;22m/info: [0;37;1mShows information set by the server owner.[m
+2014-04-21 17:57:48 [INFO] [0;33;22m/invsee: [0;37;1mSee the inventory of other players.[m
+2014-04-21 17:57:48 [INFO] [0;33;22m/item: [0;37;1mSpawn an item.[m
+2014-04-21 17:57:48 [INFO] [0;33;22m/itemdb: [0;37;1mSearches for an item.[m
+2014-04-21 17:57:48 [INFO] [0;33;22m/jails: [0;37;1mList all jails.[m
+2014-04-21 17:57:48 [INFO] [0;33;22m/jump: [0;37;1mJumps to the nearest block in the line of sight.[m
+2014-04-21 17:57:48 [INFO] [0;33;22m/kick: [0;37;1mKicks a specified player with a reason.[m
+2014-04-21 17:57:48 [INFO] [0;33;22m/kickall: [0;37;1mKicks all players off the server except the issuer.[m
+2014-04-21 17:57:48 [INFO] [0;33;22m/kill: [0;37;1mKills specified player.[m
+2014-04-21 17:57:48 [INFO] [0;33;22m/killall: [0;37;1mKill all mobs in a world.[m
+2014-04-21 17:57:48 [INFO] [0;33;22m/kit: [0;37;1mObtains the specified kit or views all available kits.[m
+2014-04-21 17:57:48 [INFO] [0;33;22m/kittycannon: [0;37;1mThrow an exploding kitten at your opponent.[m
+2014-04-21 17:57:48 [INFO] [0;33;22m/lightning: [0;37;1mThe power of Thor. Strike at cursor or player.[m
+2014-04-21 17:57:48 [INFO] [0;33;22m/list: [0;37;1mList all online players.[m
+2014-04-21 17:57:48 [INFO] [0;33;22m/mail: [0;37;1mManages inter-player, intra-server mail.[m
+2014-04-21 17:57:48 [INFO] [0;33;22m/me: [0;37;1mDescribes an action in the context of the player.[m
+2014-04-21 17:57:48 [INFO] [0;33;22m/more: [0;37;1mFills the item stack in hand to maximum size.[m
+2014-04-21 17:57:48 [INFO] [0;33;22m/motd: [0;37;1mViews the Message Of The Day.[m
+2014-04-21 17:57:48 [INFO] [0;33;22m/msg: [0;37;1mSends a private message to the specified player.[m
+2014-04-21 17:57:48 [INFO] [0;33;22m/mute: [0;37;1mMutes or unmutes a player.[m
+2014-04-21 17:57:48 [INFO] [0;33;22m/near: [0;37;1mLists the players near by or around a player.[m
+2014-04-21 17:57:48 [INFO] [0;33;22m/nick: [0;37;1mChange your nickname or that of another player.[m
+2014-04-21 17:57:48 [INFO] [0;33;22m/nuke: [0;37;1mMay death rain upon them.[m
+2014-04-21 17:57:48 [INFO] [0;33;22m/op: [0;37;1mGives the specified player operator status[m
+2014-04-21 17:57:48 [INFO] [0;33;22m/pardon-ip: [0;37;1mAllows the specified IP address to use this server[m
+2014-04-21 17:57:48 [INFO] [0;33;22m/pay: [0;37;1mPays another player from your balance.[m
+2014-04-21 17:57:48 [INFO] [0;33;22m/ping: [0;37;1mPong![m
+2014-04-21 17:57:48 [INFO] [0;33;22m/playsound: [0;37;1mPlays a sound to a given player[m
+2014-04-21 17:57:48 [INFO] [0;33;22m/plugins: [0;37;1mGets a list of plugins running on the server[m
+2014-04-21 17:57:48 [INFO] [0;33;22m/potion: [0;37;1mAdds custom potion effects to a potion.[m
+2014-04-21 17:57:48 [INFO] [0;33;22m/powertool: [0;37;1mAssigns a command to the item in hand.[m
+2014-04-21 17:57:48 [INFO] [0;33;22m/powertooltoggle: [0;37;1mEnables or disables all current powertools.[m
+2014-04-21 17:57:48 [INFO] [0;33;22m/ptime: [0;37;1mAdjust player's client time. Add @ prefix to fix.[m
+2014-04-21 17:57:48 [INFO] [0;33;22m/pweather: [0;37;1mAdjust a player's weather[m
+2014-04-21 17:57:48 [INFO] [0;33;22m/r: [0;37;1mQuickly reply to the last player to message you.[m
+2014-04-21 17:57:48 [INFO] [0;33;22m/realname: [0;37;1mDisplays the username of a user based on nick.[m
+2014-04-21 17:57:48 [INFO] [0;33;22m/recipe: [0;37;1mDisplays how to craft items.[m
+2014-04-21 17:57:48 [INFO] [0;33;22m/reload: [0;37;1mReloads the server configuration and plugins[m
+2014-04-21 17:57:48 [INFO] [0;33;22m/remove: [0;37;1mRemoves entities in your world.[m
+2014-04-21 17:57:48 [INFO] [0;33;22m/repair: [0;37;1mRepairs the durability of one or all items.[m
+2014-04-21 17:57:48 [INFO] [0;33;22m/rules: [0;37;1mViews the server rules.[m
+2014-04-21 17:57:48 [INFO] [0;33;22m/save-all: [0;37;1mSaves the server to disk[m
+2014-04-21 17:57:48 [INFO] [0;33;22m/save-off: [0;37;1mDisables server autosaving[m
+2014-04-21 17:57:48 [INFO] [0;33;22m/save-on: [0;37;1mEnables server autosaving[m
+2014-04-21 17:57:48 [INFO] [0;33;22m/say: [0;37;1mBroadcasts the given message as the console[m
+2014-04-21 17:57:48 [INFO] [0;33;22m/scoreboard: [0;37;1mScoreboard control[m
+2014-04-21 17:57:48 [INFO] [0;33;22m/seed: [0;37;1mShows the world seed[m
+2014-04-21 17:57:48 [INFO] [0;33;22m/seen: [0;37;1mShows the last logout time of a player.[m
+2014-04-21 17:57:48 [INFO] [0;33;22m/sell: [0;37;1mSells the item currently in your hand.[m
+2014-04-21 17:57:48 [INFO] [0;33;22m/sethome: [0;37;1mSet your home to your current location.[m
+2014-04-21 17:57:48 [INFO] [0;33;22m/setjail: [0;37;1mCreates a jail where you specified named [jailname].[m
+2014-04-21 17:57:48 [INFO] [0;33;22m/setwarp: [0;37;1mCreates a new warp.[m
+2014-04-21 17:57:48 [INFO] [0;33;22m/setworth: [0;37;1mSet the sell value of an item.[m
+2014-04-21 17:57:48 [INFO] [0;33;22m/socialspy: [0;37;1mToggles if you can see msg/mail commands in chat.[m
+2014-04-21 17:57:48 [INFO] [0;33;22m/spawner: [0;37;1mChange the mob type of a spawner.[m
+2014-04-21 17:57:48 [INFO] [0;33;22m/spawnmob: [0;37;1mSpawns a mob.[m
+2014-04-21 17:57:48 [INFO] [0;33;22m/spawnpoint: [0;37;1mSets a player's spawn point[m
+2014-04-21 17:57:48 [INFO] [0;33;22m/spectate: [0;37;1mLets you spectate another user[m
+2014-04-21 17:57:48 [INFO] [0;33;22m/speed: [0;37;1mChange your speed limits.[m
+2014-04-21 17:57:48 [INFO] [0;33;22m/spreadplayers: [0;37;1mSpreads players around a point[m
+2014-04-21 17:57:48 [INFO] [0;33;22m/stop: [0;37;1mStops the server with optional reason[m
+2014-04-21 17:57:48 [INFO] [0;33;22m/sudo: [0;37;1mMake another user perform a command.[m
+2014-04-21 17:57:48 [INFO] [0;33;22m/suicide: [0;37;1mCauses you to perish.[m
+2014-04-21 17:57:48 [INFO] [0;33;22m/tempban: [0;37;1mTemporary ban a user.[m
+2014-04-21 17:57:48 [INFO] [0;33;22m/testfor: [0;37;1mTests whether a specifed player is online[m
+2014-04-21 17:57:48 [INFO] [0;33;22m/thunder: [0;37;1mEnable/disable thunder.[m
+2014-04-21 17:57:48 [INFO] [0;33;22m/time: [0;37;1mDisplay/Change the world time. Defaults to current world.[m
+2014-04-21 17:57:48 [INFO] [0;33;22m/timings: [0;37;1mRecords timings for all plugin events[m
+2014-04-21 17:57:48 [INFO] [0;33;22m/toggledownfall: [0;37;1mToggles rain on/off on a given world[m
+2014-04-21 17:57:48 [INFO] [0;33;22m/togglejail: [0;37;1mJails/Unjails a player, TPs them to the jail specified.[m
+2014-04-21 17:57:48 [INFO] [0;33;22m/top: [0;37;1mTeleport to the highest block at your current position.[m
+2014-04-21 17:57:48 [INFO] [0;33;22m/tp: [0;37;1mTeleport to a player.[m
+2014-04-21 17:57:48 [INFO] [0;33;22m/tpa: [0;37;1mRequest to teleport to the specified player.[m
+2014-04-21 17:57:48 [INFO] [0;33;22m/tpaall: [0;37;1mRequests all players online to teleport to you.[m
+2014-04-21 17:57:48 [INFO] [0;33;22m/tpaccept: [0;37;1mAccepts a teleport request.[m
+2014-04-21 17:57:48 [INFO] [0;33;22m/tpahere: [0;37;1mRequest that the specified player teleport to you.[m
+2014-04-21 17:57:48 [INFO] [0;33;22m/tpall: [0;37;1mTeleport all online players to another player.[m
+2014-04-21 17:57:48 [INFO] [0;33;22m/tpdeny: [0;37;1mReject a teleport request.[m
+2014-04-21 17:57:48 [INFO] [0;33;22m/tphere: [0;37;1mTeleport a player to you.[m
+2014-04-21 17:57:48 [INFO] [0;33;22m/tpo: [0;37;1mTeleport override for tptoggle.[m
+2014-04-21 17:57:48 [INFO] [0;33;22m/tpohere: [0;37;1mTeleport here override for tptoggle.[m
+2014-04-21 17:57:48 [INFO] [0;33;22m/tppos: [0;37;1mTeleport to coordinates.[m
+2014-04-21 17:57:48 [INFO] [0;33;22m/tptoggle: [0;37;1mBlocks all forms of teleportation.[m
+2014-04-21 17:57:48 [INFO] [0;33;22m/tree: [0;37;1mSpawn a tree where you are looking.[m
+2014-04-21 17:57:48 [INFO] [0;33;22m/unban: [0;37;1mUnbans the specified player.[m
+2014-04-21 17:57:48 [INFO] [0;33;22m/unbanip: [0;37;1mUnbans the specified IP address.[m
+2014-04-21 17:57:48 [INFO] [0;33;22m/unlimited: [0;37;1mAllows the unlimited placing of items.[m
+2014-04-21 17:57:48 [INFO] [0;33;22m/vanish: [0;37;1mHide yourself from other players.[m
+2014-04-21 17:57:48 [INFO] [0;33;22m/version: [0;37;1mGets the version of this server including any plugins in use[m
+2014-04-21 17:57:48 [INFO] [0;33;22m/warp: [0;37;1mList all warps or warp to the specified location.[m
+2014-04-21 17:57:48 [INFO] [0;33;22m/weather: [0;37;1mSets the weather.[m
+2014-04-21 17:57:48 [INFO] [0;33;22m/whitelist: [0;37;1mManages the list of players allowed to use this server[m
+2014-04-21 17:57:48 [INFO] [0;33;22m/whois: [0;37;1mDetermine the username behind a nickname.[m
+2014-04-21 17:57:48 [INFO] [0;33;22m/workbench: [0;37;1mOpens up a workbench.[m
+2014-04-21 17:57:48 [INFO] [0;33;22m/world: [0;37;1mSwitch between worlds.[m
+2014-04-21 17:57:48 [INFO] [0;33;22m/worth: [0;37;1mCalculates the worth of items in hand or as specified.[m
+2014-04-21 17:58:41 [INFO] Unknown command. Type "help" for help.[m
+2014-04-21 17:58:44 [INFO] CONSOLE issued server command: /spawner 
+2014-04-21 17:58:44 [INFO] [0;31;1mErro:[0;31;22m [0;31;22mApenas jogadores in-game pode usar spawner.[m
+2014-04-21 17:58:49 [INFO] [0;33;1m--------- [0;37;1mHelp: Index [0;33;1m---------------------------[m
+2014-04-21 17:58:49 [INFO] [0;37;22mUse /help [n] to get page n of help.[m
+2014-04-21 17:58:49 [INFO] [0;33;22mAliases: [0;37;1mLists command aliases[m
+2014-04-21 17:58:49 [INFO] [0;33;22mBukkit: [0;37;1mAll commands for Bukkit[m
+2014-04-21 17:58:49 [INFO] [0;33;22mEssentials: [0;37;1mAll commands for Essentials[m
+2014-04-21 17:58:49 [INFO] [0;33;22mSpectate: [0;37;1mAll commands for Spectate[m
+2014-04-21 17:58:49 [INFO] [0;33;22m/afk: [0;37;1mMarks you as away-from-keyboard.[m
+2014-04-21 17:58:49 [INFO] [0;33;22m/antioch: [0;37;1mA little surprise for operators.[m
+2014-04-21 17:58:49 [INFO] [0;33;22m/back: [0;37;1mTeleports you to your location prior to tp/spawn/warp.[m
+2014-04-21 17:58:49 [INFO] [0;33;22m/backup: [0;37;1mRuns the backup if configured.[m
+2014-04-21 17:58:49 [INFO] [0;33;22m/balance: [0;37;1mStates the current balance of a player.[m
+2014-04-21 17:58:49 [INFO] [0;33;22m/balancetop: [0;37;1mGets the top balance values.[m
+2014-04-21 17:58:49 [INFO] [0;33;22m/ban: [0;37;1mBans a player.[m
+2014-04-21 17:58:49 [INFO] [0;33;22m/ban-ip: [0;37;1mPrevents the specified IP address from using this server[m
+2014-04-21 17:58:49 [INFO] [0;33;22m/banip: [0;37;1mBans an IP address.[m
+2014-04-21 17:58:49 [INFO] [0;33;22m/banlist: [0;37;1mView all players banned from this server[m
+2014-04-21 17:58:49 [INFO] [0;33;22m/bigtree: [0;37;1mSpawn a big tree where you are looking.[m
+2014-04-21 17:58:49 [INFO] [0;33;22m/book: [0;37;1mAllows reopening and editing of sealed books.[m
+2014-04-21 17:58:49 [INFO] [0;33;22m/break: [0;37;1mBreaks the block you are looking at.[m
+2014-04-21 17:58:49 [INFO] [0;33;22m/broadcast: [0;37;1mBroadcasts a message to the entire server.[m
+2014-04-21 17:58:49 [INFO] [0;33;22m/burn: [0;37;1mSet a player on fire.[m
+2014-04-21 17:58:49 [INFO] [0;33;22m/clearinventory: [0;37;1mClear all items in your inventory.[m
+2014-04-21 17:58:49 [INFO] [0;33;22m/compass: [0;37;1mDescribes your current bearing.[m
+2014-04-21 17:58:49 [INFO] [0;33;22m/control: [0;37;1mLets you control another user[m
+2014-04-21 17:58:49 [INFO] [0;33;22m/customtext: [0;37;1mAllows you to create custom text commands.[m
+2014-04-21 17:58:49 [INFO] [0;33;22m/defaultgamemode: [0;37;1mSet the default gamemode[m
+2014-04-21 17:58:49 [INFO] [0;33;22m/delhome: [0;37;1mRemoves a home.[m
+2014-04-21 17:58:49 [INFO] [0;33;22m/deljail: [0;37;1mRemoves a jail.[m
+2014-04-21 17:58:49 [INFO] [0;33;22m/delwarp: [0;37;1mDeletes the specified warp.[m
+2014-04-21 17:58:49 [INFO] [0;33;22m/deop: [0;37;1mTakes the specified player's operator status[m
+2014-04-21 17:58:49 [INFO] [0;33;22m/depth: [0;37;1mStates current depth, relative to sea level.[m
+2014-04-21 17:58:49 [INFO] [0;33;22m/difficulty: [0;37;1mSets the game difficulty[m
+2014-04-21 17:58:49 [INFO] [0;33;22m/eco: [0;37;1mManages the server economy.[m
+2014-04-21 17:58:49 [INFO] [0;33;22m/effect: [0;37;1mAdds/Removes effects on players[m
+2014-04-21 17:58:49 [INFO] [0;33;22m/enchant: [0;37;1mEnchants the item the user is holding.[m
+2014-04-21 17:58:49 [INFO] [0;33;22m/enderchest: [0;37;1mLets you see inside an enderchest.[m
+2014-04-21 17:58:49 [INFO] [0;33;22m/essentials: [0;37;1mReloads essentials.[m
+2014-04-21 17:58:49 [INFO] [0;33;22m/exp: [0;37;1mGive, set or look at a players exp.[m
+2014-04-21 17:58:49 [INFO] [0;33;22m/ext: [0;37;1mExtinguish players.[m
+2014-04-21 17:58:49 [INFO] [0;33;22m/feed: [0;37;1mSatisfy the hunger.[m
+2014-04-21 17:58:49 [INFO] [0;33;22m/fireball: [0;37;1mThrow a fireball.[m
+2014-04-21 17:58:49 [INFO] [0;33;22m/firework: [0;37;1mAllows you to modify a stack of fireworks.[m
+2014-04-21 17:58:49 [INFO] [0;33;22m/fly: [0;37;1mTake off, and soar![m
+2014-04-21 17:58:49 [INFO] [0;33;22m/gamemode: [0;37;1mChange player gamemode.[m
+2014-04-21 17:58:49 [INFO] [0;33;22m/gamerule: [0;37;1mSets a server's game rules[m
+2014-04-21 17:58:49 [INFO] [0;33;22m/gc: [0;37;1mReports memory, uptime and tick info.[m
+2014-04-21 17:58:49 [INFO] [0;33;22m/getpos: [0;37;1mGet your current coordinates or those of a player.[m
+2014-04-21 17:58:49 [INFO] [0;33;22m/give: [0;37;1mGive a player an item.[m
+2014-04-21 17:58:49 [INFO] [0;33;22m/god: [0;37;1mEnables your godly powers.[m
+2014-04-21 17:58:49 [INFO] [0;33;22m/hat: [0;37;1mGet some cool new headgear.[m
+2014-04-21 17:58:49 [INFO] [0;33;22m/heal: [0;37;1mHeals you or the given player.[m
+2014-04-21 17:58:49 [INFO] [0;33;22m/help: [0;37;1mViews a list of available commands.[m
+2014-04-21 17:58:49 [INFO] [0;33;22m/helpop: [0;37;1mMessage online admins.[m
+2014-04-21 17:58:49 [INFO] [0;33;22m/home: [0;37;1mTeleport to your home.[m
+2014-04-21 17:58:49 [INFO] [0;33;22m/ignore: [0;37;1mIgnore other players.[m
+2014-04-21 17:58:49 [INFO] [0;33;22m/info: [0;37;1mShows information set by the server owner.[m
+2014-04-21 17:58:49 [INFO] [0;33;22m/invsee: [0;37;1mSee the inventory of other players.[m
+2014-04-21 17:58:49 [INFO] [0;33;22m/item: [0;37;1mSpawn an item.[m
+2014-04-21 17:58:49 [INFO] [0;33;22m/itemdb: [0;37;1mSearches for an item.[m
+2014-04-21 17:58:49 [INFO] [0;33;22m/jails: [0;37;1mList all jails.[m
+2014-04-21 17:58:49 [INFO] [0;33;22m/jump: [0;37;1mJumps to the nearest block in the line of sight.[m
+2014-04-21 17:58:49 [INFO] [0;33;22m/kick: [0;37;1mKicks a specified player with a reason.[m
+2014-04-21 17:58:49 [INFO] [0;33;22m/kickall: [0;37;1mKicks all players off the server except the issuer.[m
+2014-04-21 17:58:49 [INFO] [0;33;22m/kill: [0;37;1mKills specified player.[m
+2014-04-21 17:58:49 [INFO] [0;33;22m/killall: [0;37;1mKill all mobs in a world.[m
+2014-04-21 17:58:49 [INFO] [0;33;22m/kit: [0;37;1mObtains the specified kit or views all available kits.[m
+2014-04-21 17:58:49 [INFO] [0;33;22m/kittycannon: [0;37;1mThrow an exploding kitten at your opponent.[m
+2014-04-21 17:58:49 [INFO] [0;33;22m/lightning: [0;37;1mThe power of Thor. Strike at cursor or player.[m
+2014-04-21 17:58:49 [INFO] [0;33;22m/list: [0;37;1mList all online players.[m
+2014-04-21 17:58:49 [INFO] [0;33;22m/mail: [0;37;1mManages inter-player, intra-server mail.[m
+2014-04-21 17:58:49 [INFO] [0;33;22m/me: [0;37;1mDescribes an action in the context of the player.[m
+2014-04-21 17:58:49 [INFO] [0;33;22m/more: [0;37;1mFills the item stack in hand to maximum size.[m
+2014-04-21 17:58:49 [INFO] [0;33;22m/motd: [0;37;1mViews the Message Of The Day.[m
+2014-04-21 17:58:49 [INFO] [0;33;22m/msg: [0;37;1mSends a private message to the specified player.[m
+2014-04-21 17:58:49 [INFO] [0;33;22m/mute: [0;37;1mMutes or unmutes a player.[m
+2014-04-21 17:58:49 [INFO] [0;33;22m/near: [0;37;1mLists the players near by or around a player.[m
+2014-04-21 17:58:49 [INFO] [0;33;22m/nick: [0;37;1mChange your nickname or that of another player.[m
+2014-04-21 17:58:49 [INFO] [0;33;22m/nuke: [0;37;1mMay death rain upon them.[m
+2014-04-21 17:58:49 [INFO] [0;33;22m/op: [0;37;1mGives the specified player operator status[m
+2014-04-21 17:58:49 [INFO] [0;33;22m/pardon-ip: [0;37;1mAllows the specified IP address to use this server[m
+2014-04-21 17:58:49 [INFO] [0;33;22m/pay: [0;37;1mPays another player from your balance.[m
+2014-04-21 17:58:49 [INFO] [0;33;22m/ping: [0;37;1mPong![m
+2014-04-21 17:58:49 [INFO] [0;33;22m/playsound: [0;37;1mPlays a sound to a given player[m
+2014-04-21 17:58:49 [INFO] [0;33;22m/plugins: [0;37;1mGets a list of plugins running on the server[m
+2014-04-21 17:58:49 [INFO] [0;33;22m/potion: [0;37;1mAdds custom potion effects to a potion.[m
+2014-04-21 17:58:49 [INFO] [0;33;22m/powertool: [0;37;1mAssigns a command to the item in hand.[m
+2014-04-21 17:58:49 [INFO] [0;33;22m/powertooltoggle: [0;37;1mEnables or disables all current powertools.[m
+2014-04-21 17:58:49 [INFO] [0;33;22m/ptime: [0;37;1mAdjust player's client time. Add @ prefix to fix.[m
+2014-04-21 17:58:49 [INFO] [0;33;22m/pweather: [0;37;1mAdjust a player's weather[m
+2014-04-21 17:58:49 [INFO] [0;33;22m/r: [0;37;1mQuickly reply to the last player to message you.[m
+2014-04-21 17:58:49 [INFO] [0;33;22m/realname: [0;37;1mDisplays the username of a user based on nick.[m
+2014-04-21 17:58:49 [INFO] [0;33;22m/recipe: [0;37;1mDisplays how to craft items.[m
+2014-04-21 17:58:49 [INFO] [0;33;22m/reload: [0;37;1mReloads the server configuration and plugins[m
+2014-04-21 17:58:49 [INFO] [0;33;22m/remove: [0;37;1mRemoves entities in your world.[m
+2014-04-21 17:58:49 [INFO] [0;33;22m/repair: [0;37;1mRepairs the durability of one or all items.[m
+2014-04-21 17:58:49 [INFO] [0;33;22m/rules: [0;37;1mViews the server rules.[m
+2014-04-21 17:58:49 [INFO] [0;33;22m/save-all: [0;37;1mSaves the server to disk[m
+2014-04-21 17:58:49 [INFO] [0;33;22m/save-off: [0;37;1mDisables server autosaving[m
+2014-04-21 17:58:49 [INFO] [0;33;22m/save-on: [0;37;1mEnables server autosaving[m
+2014-04-21 17:58:49 [INFO] [0;33;22m/say: [0;37;1mBroadcasts the given message as the console[m
+2014-04-21 17:58:49 [INFO] [0;33;22m/scoreboard: [0;37;1mScoreboard control[m
+2014-04-21 17:58:49 [INFO] [0;33;22m/seed: [0;37;1mShows the world seed[m
+2014-04-21 17:58:49 [INFO] [0;33;22m/seen: [0;37;1mShows the last logout time of a player.[m
+2014-04-21 17:58:49 [INFO] [0;33;22m/sell: [0;37;1mSells the item currently in your hand.[m
+2014-04-21 17:58:49 [INFO] [0;33;22m/sethome: [0;37;1mSet your home to your current location.[m
+2014-04-21 17:58:49 [INFO] [0;33;22m/setjail: [0;37;1mCreates a jail where you specified named [jailname].[m
+2014-04-21 17:58:49 [INFO] [0;33;22m/setwarp: [0;37;1mCreates a new warp.[m
+2014-04-21 17:58:49 [INFO] [0;33;22m/setworth: [0;37;1mSet the sell value of an item.[m
+2014-04-21 17:58:49 [INFO] [0;33;22m/socialspy: [0;37;1mToggles if you can see msg/mail commands in chat.[m
+2014-04-21 17:58:49 [INFO] [0;33;22m/spawner: [0;37;1mChange the mob type of a spawner.[m
+2014-04-21 17:58:49 [INFO] [0;33;22m/spawnmob: [0;37;1mSpawns a mob.[m
+2014-04-21 17:58:49 [INFO] [0;33;22m/spawnpoint: [0;37;1mSets a player's spawn point[m
+2014-04-21 17:58:49 [INFO] [0;33;22m/spectate: [0;37;1mLets you spectate another user[m
+2014-04-21 17:58:49 [INFO] [0;33;22m/speed: [0;37;1mChange your speed limits.[m
+2014-04-21 17:58:49 [INFO] [0;33;22m/spreadplayers: [0;37;1mSpreads players around a point[m
+2014-04-21 17:58:49 [INFO] [0;33;22m/stop: [0;37;1mStops the server with optional reason[m
+2014-04-21 17:58:49 [INFO] [0;33;22m/sudo: [0;37;1mMake another user perform a command.[m
+2014-04-21 17:58:49 [INFO] [0;33;22m/suicide: [0;37;1mCauses you to perish.[m
+2014-04-21 17:58:49 [INFO] [0;33;22m/tempban: [0;37;1mTemporary ban a user.[m
+2014-04-21 17:58:49 [INFO] [0;33;22m/testfor: [0;37;1mTests whether a specifed player is online[m
+2014-04-21 17:58:49 [INFO] [0;33;22m/thunder: [0;37;1mEnable/disable thunder.[m
+2014-04-21 17:58:49 [INFO] [0;33;22m/time: [0;37;1mDisplay/Change the world time. Defaults to current world.[m
+2014-04-21 17:58:49 [INFO] [0;33;22m/timings: [0;37;1mRecords timings for all plugin events[m
+2014-04-21 17:58:49 [INFO] [0;33;22m/toggledownfall: [0;37;1mToggles rain on/off on a given world[m
+2014-04-21 17:58:49 [INFO] [0;33;22m/togglejail: [0;37;1mJails/Unjails a player, TPs them to the jail specified.[m
+2014-04-21 17:58:49 [INFO] [0;33;22m/top: [0;37;1mTeleport to the highest block at your current position.[m
+2014-04-21 17:58:49 [INFO] [0;33;22m/tp: [0;37;1mTeleport to a player.[m
+2014-04-21 17:58:49 [INFO] [0;33;22m/tpa: [0;37;1mRequest to teleport to the specified player.[m
+2014-04-21 17:58:49 [INFO] [0;33;22m/tpaall: [0;37;1mRequests all players online to teleport to you.[m
+2014-04-21 17:58:49 [INFO] [0;33;22m/tpaccept: [0;37;1mAccepts a teleport request.[m
+2014-04-21 17:58:49 [INFO] [0;33;22m/tpahere: [0;37;1mRequest that the specified player teleport to you.[m
+2014-04-21 17:58:49 [INFO] [0;33;22m/tpall: [0;37;1mTeleport all online players to another player.[m
+2014-04-21 17:58:49 [INFO] [0;33;22m/tpdeny: [0;37;1mReject a teleport request.[m
+2014-04-21 17:58:49 [INFO] [0;33;22m/tphere: [0;37;1mTeleport a player to you.[m
+2014-04-21 17:58:49 [INFO] [0;33;22m/tpo: [0;37;1mTeleport override for tptoggle.[m
+2014-04-21 17:58:50 [INFO] [0;33;22m/tpohere: [0;37;1mTeleport here override for tptoggle.[m
+2014-04-21 17:58:50 [INFO] [0;33;22m/tppos: [0;37;1mTeleport to coordinates.[m
+2014-04-21 17:58:50 [INFO] [0;33;22m/tptoggle: [0;37;1mBlocks all forms of teleportation.[m
+2014-04-21 17:58:50 [INFO] [0;33;22m/tree: [0;37;1mSpawn a tree where you are looking.[m
+2014-04-21 17:58:50 [INFO] [0;33;22m/unban: [0;37;1mUnbans the specified player.[m
+2014-04-21 17:58:50 [INFO] [0;33;22m/unbanip: [0;37;1mUnbans the specified IP address.[m
+2014-04-21 17:58:50 [INFO] [0;33;22m/unlimited: [0;37;1mAllows the unlimited placing of items.[m
+2014-04-21 17:58:50 [INFO] [0;33;22m/vanish: [0;37;1mHide yourself from other players.[m
+2014-04-21 17:58:50 [INFO] [0;33;22m/version: [0;37;1mGets the version of this server including any plugins in use[m
+2014-04-21 17:58:50 [INFO] [0;33;22m/warp: [0;37;1mList all warps or warp to the specified location.[m
+2014-04-21 17:58:50 [INFO] [0;33;22m/weather: [0;37;1mSets the weather.[m
+2014-04-21 17:58:50 [INFO] [0;33;22m/whitelist: [0;37;1mManages the list of players allowed to use this server[m
+2014-04-21 17:58:50 [INFO] [0;33;22m/whois: [0;37;1mDetermine the username behind a nickname.[m
+2014-04-21 17:58:50 [INFO] [0;33;22m/workbench: [0;37;1mOpens up a workbench.[m
+2014-04-21 17:58:50 [INFO] [0;33;22m/world: [0;37;1mSwitch between worlds.[m
+2014-04-21 17:58:50 [INFO] [0;33;22m/worth: [0;37;1mCalculates the worth of items in hand or as specified.[m
+2014-04-21 18:00:31 [INFO] Please provide a player![m
+2014-04-21 18:00:35 [INFO] CONSOLE: Set [0;31;22mguard1[m's spawnpoint to 1007.5, 4.0009999999999994, -73.5[m
+2014-04-21 18:00:47 [INFO] CONSOLE: Set [0;31;22mguard1[m's spawnpoint to 1104, 4, 140[m
+2014-04-21 18:00:59 [INFO] CONSOLE: Set [0;31;22mguard2[m's spawnpoint to 1104, 4, 134[m
+2014-04-21 18:01:06 [INFO] [m<[0;31;22mguard2[m> guard2 have 12[m
+2014-04-21 18:01:06 [INFO] [m<[0;31;22mguard2[m> Inventorio[m
+2014-04-21 18:01:06 [INFO] [m<[0;31;22mguard2[m> guard2 have 4[m
+2014-04-21 18:01:06 [INFO] [m<[0;31;22mguard2[m> Inventorio[m
+2014-04-21 18:01:07 [INFO] guard2 was slain by RitjiiiMaster
+2014-04-21 18:01:07 [INFO] [m<[0;31;22mguard2[m> guard2 have 0[m
+2014-04-21 18:01:07 [INFO] [m<[0;31;22mguard2[m> Inventorio[m
+2014-04-21 18:01:08 [INFO] [m<[0;31;22mguard2[m> guard2 have 20[m
+2014-04-21 18:01:08 [INFO] [m<[0;31;22mguard2[m> Inventorio[m
+2014-04-21 18:01:08 [INFO] [m<[0;31;22mguard1[m> guard1 have 12[m
+2014-04-21 18:01:08 [INFO] [m<[0;31;22mguard1[m> Inventorio[m
+2014-04-21 18:01:12 [INFO] [m<[0;31;22mguard1[m> guard1 have 4[m
+2014-04-21 18:01:12 [INFO] [m<[0;31;22mguard1[m> Inventorio[m
+2014-04-21 18:01:12 [INFO] guard1 was slain by RitjiiiMaster
+2014-04-21 18:01:12 [INFO] [m<[0;31;22mguard1[m> guard1 have 0[m
+2014-04-21 18:01:12 [INFO] [m<[0;31;22mguard1[m> Inventorio[m
+2014-04-21 18:01:12 [INFO] [m<[0;31;22mguard1[m> guard1 have 20[m
+2014-04-21 18:01:12 [INFO] [m<[0;31;22mguard1[m> Inventorio[m
+2014-04-21 18:01:12 [INFO] [m<[0;31;22mguard1[m> guard1 have 20[m
+2014-04-21 18:01:12 [INFO] [m<[0;31;22mguard1[m> Inventorio[m
+2014-04-21 18:01:55 [INFO] Unknown command. Type "help" for help.[m
+2014-04-21 18:01:57 [INFO] CONSOLE issued server command: /help 
+2014-04-21 18:01:57 [INFO] Para ver ajuda pelo console, digite ?.[m
+2014-04-21 18:02:00 [INFO] RitjiiiMaster lost connection: disconnect.quitting
+2014-04-21 18:02:00 [INFO] Connection reset
+2014-04-21 18:02:00 [INFO] ¤eRitjiiiMaster left the game.
+2014-04-21 18:02:03 [INFO] RitjiiiMaster[/127.0.0.1:51455] logged in with entity id 1088160 at ([world] 597.0449325729061, 11.142151311863577, 128.20189522936658)
+2014-04-21 18:02:09 [INFO] [0;33;1m--------- [0;37;1mHelp: Index [0;33;1m---------------------------[m
+2014-04-21 18:02:09 [INFO] [0;37;22mUse /help [n] to get page n of help.[m
+2014-04-21 18:02:09 [INFO] [0;33;22mAliases: [0;37;1mLists command aliases[m
+2014-04-21 18:02:09 [INFO] [0;33;22mBukkit: [0;37;1mAll commands for Bukkit[m
+2014-04-21 18:02:09 [INFO] [0;33;22mEssentials: [0;37;1mAll commands for Essentials[m
+2014-04-21 18:02:09 [INFO] [0;33;22mSpectate: [0;37;1mAll commands for Spectate[m
+2014-04-21 18:02:09 [INFO] [0;33;22m/afk: [0;37;1mMarks you as away-from-keyboard.[m
+2014-04-21 18:02:09 [INFO] [0;33;22m/antioch: [0;37;1mA little surprise for operators.[m
+2014-04-21 18:02:09 [INFO] [0;33;22m/back: [0;37;1mTeleports you to your location prior to tp/spawn/warp.[m
+2014-04-21 18:02:09 [INFO] [0;33;22m/backup: [0;37;1mRuns the backup if configured.[m
+2014-04-21 18:02:09 [INFO] [0;33;22m/balance: [0;37;1mStates the current balance of a player.[m
+2014-04-21 18:02:09 [INFO] [0;33;22m/balancetop: [0;37;1mGets the top balance values.[m
+2014-04-21 18:02:09 [INFO] [0;33;22m/ban: [0;37;1mBans a player.[m
+2014-04-21 18:02:09 [INFO] [0;33;22m/ban-ip: [0;37;1mPrevents the specified IP address from using this server[m
+2014-04-21 18:02:09 [INFO] [0;33;22m/banip: [0;37;1mBans an IP address.[m
+2014-04-21 18:02:09 [INFO] [0;33;22m/banlist: [0;37;1mView all players banned from this server[m
+2014-04-21 18:02:09 [INFO] [0;33;22m/bigtree: [0;37;1mSpawn a big tree where you are looking.[m
+2014-04-21 18:02:09 [INFO] [0;33;22m/book: [0;37;1mAllows reopening and editing of sealed books.[m
+2014-04-21 18:02:09 [INFO] [0;33;22m/break: [0;37;1mBreaks the block you are looking at.[m
+2014-04-21 18:02:09 [INFO] [0;33;22m/broadcast: [0;37;1mBroadcasts a message to the entire server.[m
+2014-04-21 18:02:09 [INFO] [0;33;22m/burn: [0;37;1mSet a player on fire.[m
+2014-04-21 18:02:09 [INFO] [0;33;22m/clearinventory: [0;37;1mClear all items in your inventory.[m
+2014-04-21 18:02:09 [INFO] [0;33;22m/compass: [0;37;1mDescribes your current bearing.[m
+2014-04-21 18:02:09 [INFO] [0;33;22m/control: [0;37;1mLets you control another user[m
+2014-04-21 18:02:09 [INFO] [0;33;22m/customtext: [0;37;1mAllows you to create custom text commands.[m
+2014-04-21 18:02:09 [INFO] [0;33;22m/defaultgamemode: [0;37;1mSet the default gamemode[m
+2014-04-21 18:02:09 [INFO] [0;33;22m/delhome: [0;37;1mRemoves a home.[m
+2014-04-21 18:02:09 [INFO] [0;33;22m/deljail: [0;37;1mRemoves a jail.[m
+2014-04-21 18:02:09 [INFO] [0;33;22m/delwarp: [0;37;1mDeletes the specified warp.[m
+2014-04-21 18:02:09 [INFO] [0;33;22m/deop: [0;37;1mTakes the specified player's operator status[m
+2014-04-21 18:02:09 [INFO] [0;33;22m/depth: [0;37;1mStates current depth, relative to sea level.[m
+2014-04-21 18:02:09 [INFO] [0;33;22m/difficulty: [0;37;1mSets the game difficulty[m
+2014-04-21 18:02:09 [INFO] [0;33;22m/eco: [0;37;1mManages the server economy.[m
+2014-04-21 18:02:09 [INFO] [0;33;22m/effect: [0;37;1mAdds/Removes effects on players[m
+2014-04-21 18:02:09 [INFO] [0;33;22m/enchant: [0;37;1mEnchants the item the user is holding.[m
+2014-04-21 18:02:09 [INFO] [0;33;22m/enderchest: [0;37;1mLets you see inside an enderchest.[m
+2014-04-21 18:02:09 [INFO] [0;33;22m/essentials: [0;37;1mReloads essentials.[m
+2014-04-21 18:02:09 [INFO] [0;33;22m/exp: [0;37;1mGive, set or look at a players exp.[m
+2014-04-21 18:02:09 [INFO] [0;33;22m/ext: [0;37;1mExtinguish players.[m
+2014-04-21 18:02:09 [INFO] [0;33;22m/feed: [0;37;1mSatisfy the hunger.[m
+2014-04-21 18:02:09 [INFO] [0;33;22m/fireball: [0;37;1mThrow a fireball.[m
+2014-04-21 18:02:09 [INFO] [0;33;22m/firework: [0;37;1mAllows you to modify a stack of fireworks.[m
+2014-04-21 18:02:09 [INFO] [0;33;22m/fly: [0;37;1mTake off, and soar![m
+2014-04-21 18:02:09 [INFO] [0;33;22m/gamemode: [0;37;1mChange player gamemode.[m
+2014-04-21 18:02:09 [INFO] [0;33;22m/gamerule: [0;37;1mSets a server's game rules[m
+2014-04-21 18:02:09 [INFO] [0;33;22m/gc: [0;37;1mReports memory, uptime and tick info.[m
+2014-04-21 18:02:09 [INFO] [0;33;22m/getpos: [0;37;1mGet your current coordinates or those of a player.[m
+2014-04-21 18:02:09 [INFO] [0;33;22m/give: [0;37;1mGive a player an item.[m
+2014-04-21 18:02:09 [INFO] [0;33;22m/god: [0;37;1mEnables your godly powers.[m
+2014-04-21 18:02:09 [INFO] [0;33;22m/hat: [0;37;1mGet some cool new headgear.[m
+2014-04-21 18:02:09 [INFO] [0;33;22m/heal: [0;37;1mHeals you or the given player.[m
+2014-04-21 18:02:09 [INFO] [0;33;22m/help: [0;37;1mViews a list of available commands.[m
+2014-04-21 18:02:09 [INFO] [0;33;22m/helpop: [0;37;1mMessage online admins.[m
+2014-04-21 18:02:09 [INFO] [0;33;22m/home: [0;37;1mTeleport to your home.[m
+2014-04-21 18:02:09 [INFO] [0;33;22m/ignore: [0;37;1mIgnore other players.[m
+2014-04-21 18:02:09 [INFO] [0;33;22m/info: [0;37;1mShows information set by the server owner.[m
+2014-04-21 18:02:09 [INFO] [0;33;22m/invsee: [0;37;1mSee the inventory of other players.[m
+2014-04-21 18:02:09 [INFO] [0;33;22m/item: [0;37;1mSpawn an item.[m
+2014-04-21 18:02:09 [INFO] [0;33;22m/itemdb: [0;37;1mSearches for an item.[m
+2014-04-21 18:02:09 [INFO] [0;33;22m/jails: [0;37;1mList all jails.[m
+2014-04-21 18:02:09 [INFO] [0;33;22m/jump: [0;37;1mJumps to the nearest block in the line of sight.[m
+2014-04-21 18:02:09 [INFO] [0;33;22m/kick: [0;37;1mKicks a specified player with a reason.[m
+2014-04-21 18:02:09 [INFO] [0;33;22m/kickall: [0;37;1mKicks all players off the server except the issuer.[m
+2014-04-21 18:02:09 [INFO] [0;33;22m/kill: [0;37;1mKills specified player.[m
+2014-04-21 18:02:09 [INFO] [0;33;22m/killall: [0;37;1mKill all mobs in a world.[m
+2014-04-21 18:02:09 [INFO] [0;33;22m/kit: [0;37;1mObtains the specified kit or views all available kits.[m
+2014-04-21 18:02:09 [INFO] [0;33;22m/kittycannon: [0;37;1mThrow an exploding kitten at your opponent.[m
+2014-04-21 18:02:09 [INFO] [0;33;22m/lightning: [0;37;1mThe power of Thor. Strike at cursor or player.[m
+2014-04-21 18:02:09 [INFO] [0;33;22m/list: [0;37;1mList all online players.[m
+2014-04-21 18:02:09 [INFO] [0;33;22m/mail: [0;37;1mManages inter-player, intra-server mail.[m
+2014-04-21 18:02:09 [INFO] [0;33;22m/me: [0;37;1mDescribes an action in the context of the player.[m
+2014-04-21 18:02:09 [INFO] [0;33;22m/more: [0;37;1mFills the item stack in hand to maximum size.[m
+2014-04-21 18:02:09 [INFO] [0;33;22m/motd: [0;37;1mViews the Message Of The Day.[m
+2014-04-21 18:02:09 [INFO] [0;33;22m/msg: [0;37;1mSends a private message to the specified player.[m
+2014-04-21 18:02:09 [INFO] [0;33;22m/mute: [0;37;1mMutes or unmutes a player.[m
+2014-04-21 18:02:09 [INFO] [0;33;22m/near: [0;37;1mLists the players near by or around a player.[m
+2014-04-21 18:02:09 [INFO] [0;33;22m/nick: [0;37;1mChange your nickname or that of another player.[m
+2014-04-21 18:02:09 [INFO] [0;33;22m/nuke: [0;37;1mMay death rain upon them.[m
+2014-04-21 18:02:09 [INFO] [0;33;22m/op: [0;37;1mGives the specified player operator status[m
+2014-04-21 18:02:09 [INFO] [0;33;22m/pardon-ip: [0;37;1mAllows the specified IP address to use this server[m
+2014-04-21 18:02:09 [INFO] [0;33;22m/pay: [0;37;1mPays another player from your balance.[m
+2014-04-21 18:02:09 [INFO] [0;33;22m/ping: [0;37;1mPong![m
+2014-04-21 18:02:09 [INFO] [0;33;22m/playsound: [0;37;1mPlays a sound to a given player[m
+2014-04-21 18:02:09 [INFO] [0;33;22m/plugins: [0;37;1mGets a list of plugins running on the server[m
+2014-04-21 18:02:09 [INFO] [0;33;22m/potion: [0;37;1mAdds custom potion effects to a potion.[m
+2014-04-21 18:02:09 [INFO] [0;33;22m/powertool: [0;37;1mAssigns a command to the item in hand.[m
+2014-04-21 18:02:09 [INFO] [0;33;22m/powertooltoggle: [0;37;1mEnables or disables all current powertools.[m
+2014-04-21 18:02:09 [INFO] [0;33;22m/ptime: [0;37;1mAdjust player's client time. Add @ prefix to fix.[m
+2014-04-21 18:02:09 [INFO] [0;33;22m/pweather: [0;37;1mAdjust a player's weather[m
+2014-04-21 18:02:09 [INFO] [0;33;22m/r: [0;37;1mQuickly reply to the last player to message you.[m
+2014-04-21 18:02:09 [INFO] [0;33;22m/realname: [0;37;1mDisplays the username of a user based on nick.[m
+2014-04-21 18:02:09 [INFO] [0;33;22m/recipe: [0;37;1mDisplays how to craft items.[m
+2014-04-21 18:02:09 [INFO] [0;33;22m/reload: [0;37;1mReloads the server configuration and plugins[m
+2014-04-21 18:02:09 [INFO] [0;33;22m/remove: [0;37;1mRemoves entities in your world.[m
+2014-04-21 18:02:09 [INFO] [0;33;22m/repair: [0;37;1mRepairs the durability of one or all items.[m
+2014-04-21 18:02:09 [INFO] [0;33;22m/rules: [0;37;1mViews the server rules.[m
+2014-04-21 18:02:09 [INFO] [0;33;22m/save-all: [0;37;1mSaves the server to disk[m
+2014-04-21 18:02:09 [INFO] [0;33;22m/save-off: [0;37;1mDisables server autosaving[m
+2014-04-21 18:02:09 [INFO] [0;33;22m/save-on: [0;37;1mEnables server autosaving[m
+2014-04-21 18:02:09 [INFO] [0;33;22m/say: [0;37;1mBroadcasts the given message as the console[m
+2014-04-21 18:02:09 [INFO] [0;33;22m/scoreboard: [0;37;1mScoreboard control[m
+2014-04-21 18:02:09 [INFO] [0;33;22m/seed: [0;37;1mShows the world seed[m
+2014-04-21 18:02:09 [INFO] [0;33;22m/seen: [0;37;1mShows the last logout time of a player.[m
+2014-04-21 18:02:09 [INFO] [0;33;22m/sell: [0;37;1mSells the item currently in your hand.[m
+2014-04-21 18:02:09 [INFO] [0;33;22m/sethome: [0;37;1mSet your home to your current location.[m
+2014-04-21 18:02:09 [INFO] [0;33;22m/setjail: [0;37;1mCreates a jail where you specified named [jailname].[m
+2014-04-21 18:02:09 [INFO] [0;33;22m/setwarp: [0;37;1mCreates a new warp.[m
+2014-04-21 18:02:09 [INFO] [0;33;22m/setworth: [0;37;1mSet the sell value of an item.[m
+2014-04-21 18:02:09 [INFO] [0;33;22m/socialspy: [0;37;1mToggles if you can see msg/mail commands in chat.[m
+2014-04-21 18:02:09 [INFO] [0;33;22m/spawner: [0;37;1mChange the mob type of a spawner.[m
+2014-04-21 18:02:09 [INFO] [0;33;22m/spawnmob: [0;37;1mSpawns a mob.[m
+2014-04-21 18:02:09 [INFO] [0;33;22m/spawnpoint: [0;37;1mSets a player's spawn point[m
+2014-04-21 18:02:09 [INFO] [0;33;22m/spectate: [0;37;1mLets you spectate another user[m
+2014-04-21 18:02:09 [INFO] [0;33;22m/speed: [0;37;1mChange your speed limits.[m
+2014-04-21 18:02:09 [INFO] [0;33;22m/spreadplayers: [0;37;1mSpreads players around a point[m
+2014-04-21 18:02:09 [INFO] [0;33;22m/stop: [0;37;1mStops the server with optional reason[m
+2014-04-21 18:02:09 [INFO] [0;33;22m/sudo: [0;37;1mMake another user perform a command.[m
+2014-04-21 18:02:09 [INFO] [0;33;22m/suicide: [0;37;1mCauses you to perish.[m
+2014-04-21 18:02:09 [INFO] [0;33;22m/tempban: [0;37;1mTemporary ban a user.[m
+2014-04-21 18:02:09 [INFO] [0;33;22m/testfor: [0;37;1mTests whether a specifed player is online[m
+2014-04-21 18:02:09 [INFO] [0;33;22m/thunder: [0;37;1mEnable/disable thunder.[m
+2014-04-21 18:02:09 [INFO] [0;33;22m/time: [0;37;1mDisplay/Change the world time. Defaults to current world.[m
+2014-04-21 18:02:09 [INFO] [0;33;22m/timings: [0;37;1mRecords timings for all plugin events[m
+2014-04-21 18:02:09 [INFO] [0;33;22m/toggledownfall: [0;37;1mToggles rain on/off on a given world[m
+2014-04-21 18:02:09 [INFO] [0;33;22m/togglejail: [0;37;1mJails/Unjails a player, TPs them to the jail specified.[m
+2014-04-21 18:02:09 [INFO] [0;33;22m/top: [0;37;1mTeleport to the highest block at your current position.[m
+2014-04-21 18:02:09 [INFO] [0;33;22m/tp: [0;37;1mTeleport to a player.[m
+2014-04-21 18:02:09 [INFO] [0;33;22m/tpa: [0;37;1mRequest to teleport to the specified player.[m
+2014-04-21 18:02:09 [INFO] [0;33;22m/tpaall: [0;37;1mRequests all players online to teleport to you.[m
+2014-04-21 18:02:09 [INFO] [0;33;22m/tpaccept: [0;37;1mAccepts a teleport request.[m
+2014-04-21 18:02:09 [INFO] [0;33;22m/tpahere: [0;37;1mRequest that the specified player teleport to you.[m
+2014-04-21 18:02:09 [INFO] [0;33;22m/tpall: [0;37;1mTeleport all online players to another player.[m
+2014-04-21 18:02:09 [INFO] [0;33;22m/tpdeny: [0;37;1mReject a teleport request.[m
+2014-04-21 18:02:09 [INFO] [0;33;22m/tphere: [0;37;1mTeleport a player to you.[m
+2014-04-21 18:02:09 [INFO] [0;33;22m/tpo: [0;37;1mTeleport override for tptoggle.[m
+2014-04-21 18:02:09 [INFO] [0;33;22m/tpohere: [0;37;1mTeleport here override for tptoggle.[m
+2014-04-21 18:02:09 [INFO] [0;33;22m/tppos: [0;37;1mTeleport to coordinates.[m
+2014-04-21 18:02:09 [INFO] [0;33;22m/tptoggle: [0;37;1mBlocks all forms of teleportation.[m
+2014-04-21 18:02:09 [INFO] [0;33;22m/tree: [0;37;1mSpawn a tree where you are looking.[m
+2014-04-21 18:02:09 [INFO] [0;33;22m/unban: [0;37;1mUnbans the specified player.[m
+2014-04-21 18:02:09 [INFO] [0;33;22m/unbanip: [0;37;1mUnbans the specified IP address.[m
+2014-04-21 18:02:09 [INFO] [0;33;22m/unlimited: [0;37;1mAllows the unlimited placing of items.[m
+2014-04-21 18:02:09 [INFO] [0;33;22m/vanish: [0;37;1mHide yourself from other players.[m
+2014-04-21 18:02:09 [INFO] [0;33;22m/version: [0;37;1mGets the version of this server including any plugins in use[m
+2014-04-21 18:02:09 [INFO] [0;33;22m/warp: [0;37;1mList all warps or warp to the specified location.[m
+2014-04-21 18:02:09 [INFO] [0;33;22m/weather: [0;37;1mSets the weather.[m
+2014-04-21 18:02:09 [INFO] [0;33;22m/whitelist: [0;37;1mManages the list of players allowed to use this server[m
+2014-04-21 18:02:09 [INFO] [0;33;22m/whois: [0;37;1mDetermine the username behind a nickname.[m
+2014-04-21 18:02:09 [INFO] [0;33;22m/workbench: [0;37;1mOpens up a workbench.[m
+2014-04-21 18:02:09 [INFO] [0;33;22m/world: [0;37;1mSwitch between worlds.[m
+2014-04-21 18:02:09 [INFO] [0;33;22m/worth: [0;37;1mCalculates the worth of items in hand or as specified.[m
+2014-04-21 18:02:37 [INFO] CONSOLE issued server command: /tp 
+2014-04-21 18:02:37 [INFO] Teleport to a player.[m
+2014-04-21 18:02:37 [INFO] /tp <player> [otherplayer][m
+2014-04-21 18:02:55 [INFO] CONSOLE issued server command: /tp RitjiiiMaster guard1
+2014-04-21 18:02:55 [INFO] [0;33;22mTeleportando...[m
+2014-04-21 18:03:15 [INFO] [m<[0;31;22mguard2[m> guard2 have 17[m
+2014-04-21 18:03:15 [INFO] [m<[0;31;22mguard2[m> Inventorio[m
+2014-04-21 18:03:17 [INFO] [m<[0;31;22mguard2[m> guard2 have 9[m
+2014-04-21 18:03:17 [INFO] [m<[0;31;22mguard2[m> Inventorio[m
+2014-04-21 18:03:18 [INFO] [m<[0;31;22mguard2[m> guard2 have 1[m
+2014-04-21 18:03:18 [INFO] [m<[0;31;22mguard2[m> Inventorio[m
+2014-04-21 18:03:18 [INFO] guard2 was slain by RitjiiiMaster
+2014-04-21 18:03:18 [INFO] [m<[0;31;22mguard2[m> guard2 have 0[m
+2014-04-21 18:03:18 [INFO] [m<[0;31;22mguard2[m> Inventorio[m
+2014-04-21 18:03:18 [INFO] [m<[0;31;22mguard2[m> guard2 have 20[m
+2014-04-21 18:03:18 [INFO] [m<[0;31;22mguard2[m> Inventorio[m
+2014-04-21 18:03:24 [INFO] [m<[0;31;22mguard1[m> guard1 have 12[m
+2014-04-21 18:03:25 [INFO] [m<[0;31;22mguard1[m> Inventorio slimeball x 4[m
+2014-04-21 18:03:25 [INFO] [m<[0;31;22mguard1[m> guard1 have 4[m
+2014-04-21 18:03:25 [INFO] [m<[0;31;22mguard1[m> Inventorio slimeball x 4[m
+2014-04-21 18:03:26 [INFO] guard1 was slain by RitjiiiMaster
+2014-04-21 18:03:26 [INFO] [m<[0;31;22mguard1[m> guard1 have 0[m
+2014-04-21 18:03:26 [INFO] [m<[0;31;22mguard1[m> Inventorio[m
+2014-04-21 18:03:26 [INFO] [m<[0;31;22mguard1[m> guard1 have 20[m
+2014-04-21 18:03:26 [INFO] [m<[0;31;22mguard1[m> Inventorio[m
+2014-04-21 18:03:29 [INFO] [m<[0;31;22mguard1[m> guard1 have 18[m
+2014-04-21 18:03:29 [INFO] [m<[0;31;22mguard1[m> Inventorio slimeball x 2[m
+2014-04-21 18:03:31 [INFO] [m<[0;31;22mguard2[m> guard2 have 12[m
+2014-04-21 18:03:31 [INFO] [m<[0;31;22mguard2[m> Inventorio[m
+2014-04-21 18:03:32 [INFO] [m<[0;31;22mguard2[m> guard2 have 4[m
+2014-04-21 18:03:32 [INFO] [m<[0;31;22mguard2[m> Inventorio[m
+2014-04-21 18:03:33 [INFO] guard2 was slain by RitjiiiMaster
+2014-04-21 18:03:33 [INFO] [m<[0;31;22mguard1[m> guard1 have 19[m
+2014-04-21 18:03:33 [INFO] [m<[0;31;22mguard1[m> Inventorio slimeball x 2[m
+2014-04-21 18:03:33 [INFO] [m<[0;31;22mguard2[m> guard2 have 0[m
+2014-04-21 18:03:33 [INFO] [m<[0;31;22mguard2[m> Inventorio[m
+2014-04-21 18:03:33 [INFO] [m<[0;31;22mguard2[m> guard2 have 20[m
+2014-04-21 18:03:33 [INFO] [m<[0;31;22mguard2[m> Inventorio[m
+2014-04-21 18:03:34 [INFO] [m<[0;31;22mguard1[m> guard1 have 17[m
+2014-04-21 18:03:34 [INFO] [m<[0;31;22mguard1[m> Inventorio slimeball x 2[m
+2014-04-21 18:03:36 [INFO] [m<[0;31;22mguard1[m> guard1 have 15[m
+2014-04-21 18:03:36 [INFO] [m<[0;31;22mguard1[m> Inventorio slimeball x 2[m
+2014-04-21 18:03:36 [INFO] [m<[0;31;22mguard1[m> guard1 have 13[m
+2014-04-21 18:03:36 [INFO] [m<[0;31;22mguard1[m> Inventorio slimeball x 2[m
+2014-04-21 18:03:37 [INFO] [m<[0;31;22mguard1[m> guard1 have 14[m
+2014-04-21 18:03:37 [INFO] [m<[0;31;22mguard1[m> Inventorio slimeball x 2[m
+2014-04-21 18:03:37 [INFO] [m<[0;31;22mguard1[m> guard1 have 12[m
+2014-04-21 18:03:37 [INFO] [m<[0;31;22mguard1[m> Inventorio slimeball x 2[m
+2014-04-21 18:03:38 [INFO] [m<[0;31;22mguard1[m> guard1 have 10[m
+2014-04-21 18:03:38 [INFO] [m<[0;31;22mguard1[m> Inventorio slimeball x 2[m
+2014-04-21 18:03:39 [INFO] [m<[0;31;22mguard1[m> guard1 have 8[m
+2014-04-21 18:03:39 [INFO] [m<[0;31;22mguard1[m> Inventorio slimeball x 2[m
+2014-04-21 18:03:39 [INFO] [m<[0;31;22mguard1[m> guard1 have 6[m
+2014-04-21 18:03:39 [INFO] [m<[0;31;22mguard1[m> Inventorio slimeball x 2[m
+2014-04-21 18:03:40 [INFO] [m<[0;31;22mguard1[m> guard1 have 4[m
+2014-04-21 18:03:40 [INFO] [m<[0;31;22mguard1[m> Inventorio slimeball x 2[m
+2014-04-21 18:03:41 [INFO] [m<[0;31;22mguard1[m> guard1 have 2[m
+2014-04-21 18:03:41 [INFO] [m<[0;31;22mguard1[m> Inventorio slimeball x 2[m
+2014-04-21 18:03:41 [INFO] [m<[0;31;22mguard1[m> guard1 have 3[m
+2014-04-21 18:03:41 [INFO] [m<[0;31;22mguard1[m> Inventorio slimeball x 2[m
+2014-04-21 18:03:43 [INFO] [m<[0;31;22mguard1[m> guard1 have 1[m
+2014-04-21 18:03:43 [INFO] [m<[0;31;22mguard1[m> Inventorio slimeball x 2[m
+2014-04-21 18:03:44 [INFO] guard1 was slain by Slime
+2014-04-21 18:03:44 [INFO] [m<[0;31;22mguard1[m> guard1 have 0[m
+2014-04-21 18:03:44 [INFO] [m<[0;31;22mguard1[m> Inventorio slimeball x 2[m
+2014-04-21 18:03:44 [INFO] [m<[0;31;22mguard1[m> guard1 have 20[m
+2014-04-21 18:03:44 [INFO] [m<[0;31;22mguard1[m> Inventorio[m
+2014-04-21 18:03:44 [INFO] [m<[0;31;22mguard1[m> guard1 have 20[m
+2014-04-21 18:03:44 [INFO] [m<[0;31;22mguard1[m> Inventorio[m
+2014-04-21 18:03:45 [INFO] [m<[0;31;22mguard1[m> guard1 have 18[m
+2014-04-21 18:03:46 [INFO] [m<[0;31;22mguard1[m> Inventorio slimeball x 2[m
+2014-04-21 18:03:46 [INFO] [m<[0;31;22mguard1[m> guard1 have 16[m
+2014-04-21 18:03:46 [INFO] [m<[0;31;22mguard1[m> Inventorio slimeball x 2[m
+2014-04-21 18:03:47 [INFO] [m<[0;31;22mguard1[m> guard1 have 14[m
+2014-04-21 18:03:47 [INFO] [m<[0;31;22mguard1[m> Inventorio slimeball x 2[m
+2014-04-21 18:03:49 [INFO] [m<[0;31;22mguard1[m> guard1 have 12[m
+2014-04-21 18:03:49 [INFO] [m<[0;31;22mguard1[m> Inventorio slimeball x 2[m
+2014-04-21 18:03:49 [INFO] [m<[0;31;22mguard1[m> guard1 have 13[m
+2014-04-21 18:03:49 [INFO] [m<[0;31;22mguard1[m> Inventorio slimeball x 2[m
+2014-04-21 18:03:50 [INFO] [m<[0;31;22mguard1[m> guard1 have 11[m
+2014-04-21 18:03:50 [INFO] [m<[0;31;22mguard1[m> Inventorio slimeball x 2[m
+2014-04-21 18:03:50 [INFO] [m<[0;31;22mguard1[m> guard1 have 9[m
+2014-04-21 18:03:50 [INFO] [m<[0;31;22mguard1[m> Inventorio slimeball x 2[m
+2014-04-21 18:03:52 [INFO] [m<[0;31;22mguard1[m> guard1 have 7[m
+2014-04-21 18:03:52 [INFO] [m<[0;31;22mguard1[m> Inventorio slimeball x 2[m
+2014-04-21 18:03:53 [INFO] [m<[0;31;22mguard1[m> guard1 have 5[m
+2014-04-21 18:03:53 [INFO] [m<[0;31;22mguard1[m> Inventorio slimeball x 2[m
+2014-04-21 18:03:54 [INFO] [m<[0;31;22mguard1[m> guard1 have 6[m
+2014-04-21 18:03:54 [INFO] [m<[0;31;22mguard1[m> Inventorio slimeball x 2[m
+2014-04-21 18:03:56 [INFO] [m<[0;31;22mguard1[m> guard1 have 4[m
+2014-04-21 18:03:56 [INFO] [m<[0;31;22mguard1[m> Inventorio slimeball x 2[m
+2014-04-21 18:03:58 [INFO] [m<[0;31;22mguard1[m> guard1 have 5[m
+2014-04-21 18:03:58 [INFO] [m<[0;31;22mguard1[m> Inventorio slimeball x 2[m
+2014-04-21 18:04:02 [INFO] [m<[0;31;22mguard1[m> guard1 have 6[m
+2014-04-21 18:04:02 [INFO] [m<[0;31;22mguard1[m> Inventorio slimeball x 2[m
+2014-04-21 18:04:06 [INFO] [m<[0;31;22mguard1[m> guard1 have 7[m
+2014-04-21 18:04:06 [INFO] [m<[0;31;22mguard1[m> Inventorio slimeball x 2[m
+2014-04-21 18:04:08 [INFO] [m<[0;31;22mguard1[m> guard1 have 6[m
+2014-04-21 18:04:08 [INFO] [m<[0;31;22mguard1[m> Inventorio slimeball x 2, swordDiamond x 1[m
+2014-04-21 18:04:10 [INFO] [m<[0;31;22mguard1[m> guard1 have 7[m
+2014-04-21 18:04:10 [INFO] [m<[0;31;22mguard1[m> Inventorio slimeball x 2, swordDiamond x 1[m
+2014-04-21 18:04:13 [INFO] guard1 was slain by RitjiiiMaster
+2014-04-21 18:04:13 [INFO] [m<[0;31;22mguard1[m> guard1 have 0[m
+2014-04-21 18:04:13 [INFO] [m<[0;31;22mguard1[m> Inventorio[m
+2014-04-21 18:04:13 [INFO] [m<[0;31;22mguard1[m> guard1 have 20[m
+2014-04-21 18:04:13 [INFO] [m<[0;31;22mguard1[m> Inventorio[m
+2014-04-21 18:04:13 [INFO] [m<[0;31;22mguard1[m> guard1 have 20[m
+2014-04-21 18:04:13 [INFO] [m<[0;31;22mguard1[m> Inventorio[m
+2014-04-21 18:04:21 [INFO] [m<[0;31;22mguard2[m> guard2 have 12[m
+2014-04-21 18:04:21 [INFO] [m<[0;31;22mguard2[m> Inventorio slimeball x 1, swordDiamond x 1[m
+2014-04-21 18:04:22 [INFO] [m<[0;31;22mguard2[m> guard2 have 4[m
+2014-04-21 18:04:22 [INFO] [m<[0;31;22mguard2[m> Inventorio slimeball x 1, swordDiamond x 1[m
+2014-04-21 18:04:22 [INFO] guard2 was slain by RitjiiiMaster
+2014-04-21 18:04:22 [INFO] [m<[0;31;22mguard2[m> guard2 have 0[m
+2014-04-21 18:04:22 [INFO] [m<[0;31;22mguard2[m> Inventorio[m
+2014-04-21 18:04:22 [INFO] [m<[0;31;22mguard2[m> guard2 have 20[m
+2014-04-21 18:04:22 [INFO] [m<[0;31;22mguard2[m> Inventorio[m
+2014-04-21 18:04:22 [INFO] [m<[0;31;22mguard2[m> guard2 have 20[m
+2014-04-21 18:04:22 [INFO] [m<[0;31;22mguard2[m> Inventorio[m
+2014-04-21 18:04:29 [INFO] [m<[0;31;22mguard2[m> guard2 have 12[m
+2014-04-21 18:04:29 [INFO] [m<[0;31;22mguard2[m> Inventorio slimeball x 1[m
+2014-04-21 18:04:30 [INFO] [m<[0;31;22mguard2[m> guard2 have 4[m
+2014-04-21 18:04:30 [INFO] [m<[0;31;22mguard2[m> Inventorio slimeball x 1[m
+2014-04-21 18:04:30 [INFO] guard2 was slain by RitjiiiMaster
+2014-04-21 18:04:30 [INFO] [m<[0;31;22mguard2[m> guard2 have 0[m
+2014-04-21 18:04:30 [INFO] [m<[0;31;22mguard2[m> Inventorio[m
+2014-04-21 18:04:30 [INFO] [m<[0;31;22mguard2[m> guard2 have 20[m
+2014-04-21 18:04:30 [INFO] [m<[0;31;22mguard2[m> Inventorio[m
+2014-04-21 18:04:35 [INFO] [m<[0;31;22mguard1[m> guard1 have 12[m
+2014-04-21 18:04:35 [INFO] [m<[0;31;22mguard1[m> Inventorio slimeball x 2, swordDiamond x 1[m
+2014-04-21 18:04:36 [INFO] [m<[0;31;22mguard1[m> guard1 have 4[m
+2014-04-21 18:04:36 [INFO] [m<[0;31;22mguard1[m> Inventorio slimeball x 2, swordDiamond x 1[m
+2014-04-21 18:04:36 [INFO] guard1 was slain by RitjiiiMaster
+2014-04-21 18:04:36 [INFO] [m<[0;31;22mguard1[m> guard1 have 0[m
+2014-04-21 18:04:36 [INFO] [m<[0;31;22mguard1[m> Inventorio[m
+2014-04-21 18:04:37 [INFO] [m<[0;31;22mguard1[m> guard1 have 20[m
+2014-04-21 18:04:37 [INFO] [m<[0;31;22mguard1[m> Inventorio[m
+2014-04-21 18:04:37 [INFO] [m<[0;31;22mguard1[m> guard1 have 20[m
+2014-04-21 18:04:37 [INFO] [m<[0;31;22mguard1[m> Inventorio[m
+2014-04-21 18:04:41 [INFO] [m<[0;31;22mguard1[m> guard1 have 19[m
+2014-04-21 18:04:41 [INFO] [m<[0;31;22mguard1[m> Inventorio slimeball x 2, swordDiamond x 1[m
+2014-04-21 18:04:42 [INFO] [m<[0;31;22mguard1[m> guard1 have 11[m
+2014-04-21 18:04:42 [INFO] [m<[0;31;22mguard1[m> Inventorio slimeball x 2, swordDiamond x 1, swordDiamond x 1[m
+2014-04-21 18:04:42 [INFO] [m<[0;31;22mguard1[m> guard1 have 3[m
+2014-04-21 18:04:42 [INFO] [m<[0;31;22mguard1[m> Inventorio slimeball x 2, swordDiamond x 1, swordDiamond x 1[m
+2014-04-21 18:04:43 [INFO] guard1 was slain by RitjiiiMaster
+2014-04-21 18:04:43 [INFO] [m<[0;31;22mguard1[m> guard1 have 0[m
+2014-04-21 18:04:43 [INFO] [m<[0;31;22mguard1[m> Inventorio[m
+2014-04-21 18:04:43 [INFO] [m<[0;31;22mguard1[m> guard1 have 20[m
+2014-04-21 18:04:43 [INFO] [m<[0;31;22mguard1[m> Inventorio[m
+2014-04-21 18:04:48 [INFO] [m<[0;31;22mguard1[m> guard1 have 12[m
+2014-04-21 18:04:48 [INFO] [m<[0;31;22mguard1[m> Inventorio slimeball x 2, swordDiamond x 1, swordDiamond x 1[m
+2014-04-21 18:04:48 [INFO] [m<[0;31;22mguard1[m> guard1 have 4[m
+2014-04-21 18:04:48 [INFO] [m<[0;31;22mguard1[m> Inventorio slimeball x 2, swordDiamond x 1, swordDiamond x 1[m
+2014-04-21 18:04:49 [INFO] guard1 was slain by RitjiiiMaster
+2014-04-21 18:04:49 [INFO] [m<[0;31;22mguard1[m> guard1 have 0[m
+2014-04-21 18:04:49 [INFO] [m<[0;31;22mguard1[m> Inventorio[m
+2014-04-21 18:04:49 [INFO] [m<[0;31;22mguard1[m> guard1 have 20[m
+2014-04-21 18:04:49 [INFO] [m<[0;31;22mguard1[m> Inventorio[m
+2014-04-21 18:04:49 [INFO] [m<[0;31;22mguard1[m> guard1 have 20[m
+2014-04-21 18:04:49 [INFO] [m<[0;31;22mguard1[m> Inventorio[m
+2014-04-21 18:04:57 [INFO] CONSOLE issued server command: /time set 1000
+2014-04-21 18:04:57 [INFO] [0;33;22mO tempo foi definido para[0;31;1m [0;31;1m07:00[0;33;22m ou [0;31;1m7:00 AM[0;33;22m ou [0;31;1m1000ticks[0;33;22m. [0;33;22mem: [0;31;1mworld, world_nether, world_the_end[0;33;22m.[m
+2014-04-21 18:05:07 [INFO] Connection reset
+2014-04-21 18:05:07 [INFO] RitjiiiMaster lost connection: disconnect.quitting
+2014-04-21 18:05:07 [INFO] ¤eRitjiiiMaster left the game.
+2014-04-21 18:05:09 [INFO] RitjiiiMaster[/127.0.0.1:51471] logged in with entity id 1383895 at ([world] 1105.8144207556752, 4.0009999999999994, 138.88621844954926)
+2014-04-21 18:05:13 [INFO] [m<[0;31;22mguard2[m> guard2 have 18[m
+2014-04-21 18:05:13 [INFO] [m<[0;31;22mguard2[m> Inventorio slimeball x 1[m
+2014-04-21 18:05:13 [INFO] [m<[0;31;22mguard1[m> guard1 have 12[m
+2014-04-21 18:05:13 [INFO] [m<[0;31;22mguard1[m> Inventorio slimeball x 2, swordDiamond x 1, swordDiamond x 1[m
+2014-04-21 18:05:13 [INFO] [m<[0;31;22mguard2[m> guard2 have 15[m
+2014-04-21 18:05:13 [INFO] [m<[0;31;22mguard2[m> Inventorio slimeball x 1[m
+2014-04-21 18:05:14 [INFO] [m<[0;31;22mguard2[m> guard2 have 12[m
+2014-04-21 18:05:14 [INFO] [m<[0;31;22mguard2[m> Inventorio slimeball x 1[m
+2014-04-21 18:05:14 [INFO] [m<[0;31;22mguard2[m> guard2 have 9[m
+2014-04-21 18:05:14 [INFO] [m<[0;31;22mguard2[m> Inventorio slimeball x 1[m
+2014-04-21 18:05:15 [INFO] [m<[0;31;22mguard2[m> guard2 have 6[m
+2014-04-21 18:05:15 [INFO] [m<[0;31;22mguard2[m> Inventorio slimeball x 1[m
+2014-04-21 18:05:15 [INFO] [m<[0;31;22mguard1[m> guard1 have 4[m
+2014-04-21 18:05:15 [INFO] [m<[0;31;22mguard1[m> Inventorio slimeball x 2, swordDiamond x 1, swordDiamond x 1[m
+2014-04-21 18:05:15 [INFO] [m<[0;31;22mguard2[m> guard2 have 3[m
+2014-04-21 18:05:15 [INFO] [m<[0;31;22mguard2[m> Inventorio slimeball x 1[m
+2014-04-21 18:05:16 [INFO] guard2 was slain by Slime
+2014-04-21 18:05:16 [INFO] [m<[0;31;22mguard2[m> guard2 have 0[m
+2014-04-21 18:05:16 [INFO] [m<[0;31;22mguard2[m> Inventorio slimeball x 1[m
+2014-04-21 18:05:16 [INFO] [m<[0;31;22mguard2[m> guard2 have 20[m
+2014-04-21 18:05:16 [INFO] [m<[0;31;22mguard2[m> Inventorio[m
+2014-04-21 18:05:16 [INFO] guard1 was slain by RitjiiiMaster
+2014-04-21 18:05:16 [INFO] [m<[0;31;22mguard1[m> guard1 have 0[m
+2014-04-21 18:05:16 [INFO] [m<[0;31;22mguard1[m> Inventorio[m
+2014-04-21 18:05:16 [INFO] [m<[0;31;22mguard1[m> guard1 have 20[m
+2014-04-21 18:05:16 [INFO] [m<[0;31;22mguard1[m> Inventorio[m
+2014-04-21 18:05:17 [INFO] [m<[0;31;22mguard2[m> guard2 have 18[m
+2014-04-21 18:05:17 [INFO] [m<[0;31;22mguard2[m> Inventorio slimeball x 1[m
+2014-04-21 18:05:18 [INFO] [m<[0;31;22mguard2[m> guard2 have 17[m
+2014-04-21 18:05:18 [INFO] [m<[0;31;22mguard2[m> Inventorio slimeball x 1[m
+2014-04-21 18:05:18 [INFO] [m<[0;31;22mguard2[m> guard2 have 14[m
+2014-04-21 18:05:18 [INFO] [m<[0;31;22mguard2[m> Inventorio slimeball x 1[m
+2014-04-21 18:05:18 [INFO] [m<[0;31;22mguard2[m> guard2 have 11[m
+2014-04-21 18:05:18 [INFO] [m<[0;31;22mguard2[m> Inventorio slimeball x 1[m
+2014-04-21 18:05:20 [INFO] [m<[0;31;22mguard2[m> guard2 have 9[m
+2014-04-21 18:05:20 [INFO] [m<[0;31;22mguard2[m> Inventorio slimeball x 1[m
+2014-04-21 18:05:20 [INFO] [m<[0;31;22mguard2[m> guard2 have 6[m
+2014-04-21 18:05:20 [INFO] [m<[0;31;22mguard2[m> Inventorio slimeball x 1[m
+2014-04-21 18:05:21 [INFO] [m<[0;31;22mguard2[m> guard2 have 3[m
+2014-04-21 18:05:21 [INFO] [m<[0;31;22mguard2[m> Inventorio slimeball x 1[m
+2014-04-21 18:05:21 [INFO] [m<[0;31;22mguard2[m> guard2 have 4[m
+2014-04-21 18:05:21 [INFO] [m<[0;31;22mguard2[m> Inventorio slimeball x 1[m
+2014-04-21 18:05:21 [INFO] [m<[0;31;22mguard2[m> guard2 have 1[m
+2014-04-21 18:05:21 [INFO] [m<[0;31;22mguard2[m> Inventorio slimeball x 1[m
+2014-04-21 18:05:22 [INFO] guard2 was slain by Slime
+2014-04-21 18:05:22 [INFO] [m<[0;31;22mguard2[m> guard2 have 0[m
+2014-04-21 18:05:22 [INFO] [m<[0;31;22mguard2[m> Inventorio slimeball x 1[m
+2014-04-21 18:05:22 [INFO] [m<[0;31;22mguard2[m> guard2 have 20[m
+2014-04-21 18:05:22 [INFO] [m<[0;31;22mguard2[m> Inventorio[m
+2014-04-21 18:05:22 [INFO] [m<[0;31;22mguard2[m> guard2 have 20[m
+2014-04-21 18:05:22 [INFO] [m<[0;31;22mguard2[m> Inventorio[m
+2014-04-21 18:05:22 [INFO] [m<[0;31;22mguard2[m> guard2 have 17[m
+2014-04-21 18:05:22 [INFO] [m<[0;31;22mguard2[m> Inventorio slimeball x 1[m
+2014-04-21 18:05:23 [INFO] [m<[0;31;22mguard2[m> guard2 have 15[m
+2014-04-21 18:05:23 [INFO] [m<[0;31;22mguard2[m> Inventorio slimeball x 1[m
+2014-04-21 18:05:23 [INFO] [m<[0;31;22mguard2[m> guard2 have 14[m
+2014-04-21 18:05:23 [INFO] [m<[0;31;22mguard2[m> Inventorio slimeball x 1[m
+2014-04-21 18:05:24 [INFO] [m<[0;31;22mguard2[m> guard2 have 12[m
+2014-04-21 18:05:24 [INFO] [m<[0;31;22mguard2[m> Inventorio slimeball x 1[m
+2014-04-21 18:05:24 [INFO] [m<[0;31;22mguard2[m> guard2 have 11[m
+2014-04-21 18:05:24 [INFO] [m<[0;31;22mguard2[m> Inventorio slimeball x 1[m
+2014-04-21 18:05:27 [INFO] [m<[0;31;22mguard2[m> guard2 have 12[m
+2014-04-21 18:05:27 [INFO] [m<[0;31;22mguard2[m> Inventorio slimeball x 1[m
+2014-04-21 18:05:27 [INFO] [m<[0;31;22mguard2[m> guard2 have 10[m
+2014-04-21 18:05:27 [INFO] [m<[0;31;22mguard2[m> Inventorio slimeball x 1[m
+2014-04-21 18:05:28 [INFO] [m<[0;31;22mguard2[m> guard2 have 7[m
+2014-04-21 18:05:28 [INFO] [m<[0;31;22mguard2[m> Inventorio slimeball x 1[m
+2014-04-21 18:05:28 [INFO] [m<[0;31;22mguard2[m> guard2 have 4[m
+2014-04-21 18:05:28 [INFO] [m<[0;31;22mguard2[m> Inventorio slimeball x 1[m
+2014-04-21 18:05:29 [INFO] [m<[0;31;22mguard2[m> guard2 have 1[m
+2014-04-21 18:05:29 [INFO] [m<[0;31;22mguard2[m> Inventorio slimeball x 1[m
+2014-04-21 18:05:29 [INFO] guard2 was slain by Slime
+2014-04-21 18:05:29 [INFO] [m<[0;31;22mguard2[m> guard2 have 0[m
+2014-04-21 18:05:29 [INFO] [m<[0;31;22mguard2[m> Inventorio slimeball x 1[m
+2014-04-21 18:05:29 [INFO] [m<[0;31;22mguard2[m> guard2 have 20[m
+2014-04-21 18:05:29 [INFO] [m<[0;31;22mguard2[m> Inventorio[m
+2014-04-21 18:05:30 [INFO] [m<[0;31;22mguard2[m> guard2 have 17[m
+2014-04-21 18:05:30 [INFO] [m<[0;31;22mguard2[m> Inventorio slimeball x 1[m
+2014-04-21 18:05:30 [INFO] [m<[0;31;22mguard2[m> guard2 have 14[m
+2014-04-21 18:05:30 [INFO] [m<[0;31;22mguard2[m> Inventorio slimeball x 1[m
+2014-04-21 18:05:31 [INFO] [m<[0;31;22mguard2[m> guard2 have 11[m
+2014-04-21 18:05:31 [INFO] [m<[0;31;22mguard2[m> Inventorio slimeball x 2[m
+2014-04-21 18:05:31 [INFO] [m<[0;31;22mguard2[m> guard2 have 8[m
+2014-04-21 18:05:31 [INFO] [m<[0;31;22mguard2[m> Inventorio slimeball x 2[m
+2014-04-21 18:05:32 [INFO] [m<[0;31;22mguard2[m> guard2 have 5[m
+2014-04-21 18:05:32 [INFO] [m<[0;31;22mguard2[m> Inventorio slimeball x 2[m
+2014-04-21 18:05:32 [INFO] [m<[0;31;22mguard2[m> guard2 have 2[m
+2014-04-21 18:05:32 [INFO] [m<[0;31;22mguard2[m> Inventorio slimeball x 2[m
+2014-04-21 18:05:33 [INFO] guard2 was slain by Slime
+2014-04-21 18:05:33 [INFO] [m<[0;31;22mguard2[m> guard2 have 0[m
+2014-04-21 18:05:33 [INFO] [m<[0;31;22mguard2[m> Inventorio slimeball x 2[m
+2014-04-21 18:05:33 [INFO] [m<[0;31;22mguard2[m> guard2 have 20[m
+2014-04-21 18:05:33 [INFO] [m<[0;31;22mguard2[m> Inventorio[m
+2014-04-21 18:05:34 [INFO] [m<[0;31;22mguard2[m> guard2 have 17[m
+2014-04-21 18:05:34 [INFO] [m<[0;31;22mguard2[m> Inventorio slimeball x 2[m
+2014-04-21 18:05:34 [INFO] [m<[0;31;22mguard2[m> guard2 have 14[m
+2014-04-21 18:05:34 [INFO] [m<[0;31;22mguard2[m> Inventorio slimeball x 2[m
+2014-04-21 18:05:35 [INFO] [m<[0;31;22mguard2[m> guard2 have 11[m
+2014-04-21 18:05:35 [INFO] [m<[0;31;22mguard2[m> Inventorio slimeball x 2[m
+2014-04-21 18:05:36 [INFO] [m<[0;31;22mguard2[m> guard2 have 8[m
+2014-04-21 18:05:36 [INFO] [m<[0;31;22mguard2[m> Inventorio slimeball x 2[m
+2014-04-21 18:05:36 [INFO] [m<[0;31;22mguard2[m> guard2 have 5[m
+2014-04-21 18:05:36 [INFO] [m<[0;31;22mguard2[m> Inventorio slimeball x 2[m
+2014-04-21 18:05:37 [INFO] [m<[0;31;22mguard2[m> guard2 have 2[m
+2014-04-21 18:05:37 [INFO] [m<[0;31;22mguard2[m> Inventorio slimeball x 3[m
+2014-04-21 18:05:37 [INFO] guard2 was slain by Slime
+2014-04-21 18:05:37 [INFO] [m<[0;31;22mguard2[m> guard2 have 0[m
+2014-04-21 18:05:37 [INFO] [m<[0;31;22mguard2[m> Inventorio slimeball x 3[m
+2014-04-21 18:05:37 [INFO] [m<[0;31;22mguard2[m> guard2 have 20[m
+2014-04-21 18:05:37 [INFO] [m<[0;31;22mguard2[m> Inventorio[m
+2014-04-21 18:05:38 [INFO] [m<[0;31;22mguard2[m> guard2 have 17[m
+2014-04-21 18:05:38 [INFO] [m<[0;31;22mguard2[m> Inventorio slimeball x 3[m
+2014-04-21 18:05:38 [INFO] [m<[0;31;22mguard2[m> guard2 have 14[m
+2014-04-21 18:05:38 [INFO] [m<[0;31;22mguard2[m> Inventorio slimeball x 3[m
+2014-04-21 18:05:39 [INFO] [m<[0;31;22mguard2[m> guard2 have 11[m
+2014-04-21 18:05:39 [INFO] [m<[0;31;22mguard2[m> Inventorio slimeball x 4[m
+2014-04-21 18:05:39 [INFO] [m<[0;31;22mguard2[m> guard2 have 9[m
+2014-04-21 18:05:39 [INFO] [m<[0;31;22mguard2[m> Inventorio slimeball x 4[m
+2014-04-21 18:05:40 [INFO] [m<[0;31;22mguard2[m> guard2 have 6[m
+2014-04-21 18:05:40 [INFO] [m<[0;31;22mguard2[m> Inventorio slimeball x 6[m
+2014-04-21 18:05:41 [INFO] [m<[0;31;22mguard2[m> guard2 have 3[m
+2014-04-21 18:05:41 [INFO] [m<[0;31;22mguard2[m> Inventorio slimeball x 6[m
+2014-04-21 18:05:41 [INFO] guard2 was slain by Slime
+2014-04-21 18:05:41 [INFO] [m<[0;31;22mguard2[m> guard2 have 0[m
+2014-04-21 18:05:41 [INFO] [m<[0;31;22mguard2[m> Inventorio slimeball x 6[m
+2014-04-21 18:05:41 [INFO] [m<[0;31;22mguard2[m> guard2 have 20[m
+2014-04-21 18:05:41 [INFO] [m<[0;31;22mguard2[m> Inventorio[m
+2014-04-21 18:05:42 [INFO] [m<[0;31;22mguard2[m> guard2 have 17[m
+2014-04-21 18:05:42 [INFO] [m<[0;31;22mguard2[m> Inventorio slimeball x 6[m
+2014-04-21 18:05:42 [INFO] [m<[0;31;22mguard2[m> guard2 have 14[m
+2014-04-21 18:05:42 [INFO] [m<[0;31;22mguard2[m> Inventorio slimeball x 6[m
+2014-04-21 18:05:43 [INFO] [m<[0;31;22mguard2[m> guard2 have 11[m
+2014-04-21 18:05:43 [INFO] [m<[0;31;22mguard2[m> Inventorio slimeball x 6[m
+2014-04-21 18:05:43 [INFO] [m<[0;31;22mguard2[m> guard2 have 8[m
+2014-04-21 18:05:43 [INFO] [m<[0;31;22mguard2[m> Inventorio slimeball x 6[m
+2014-04-21 18:05:44 [INFO] [m<[0;31;22mguard2[m> guard2 have 5[m
+2014-04-21 18:05:44 [INFO] [m<[0;31;22mguard2[m> Inventorio slimeball x 6[m
+2014-04-21 18:05:44 [INFO] [m<[0;31;22mguard2[m> guard2 have 2[m
+2014-04-21 18:05:44 [INFO] [m<[0;31;22mguard2[m> Inventorio slimeball x 6[m
+2014-04-21 18:05:45 [INFO] guard2 was slain by Slime
+2014-04-21 18:05:45 [INFO] [m<[0;31;22mguard2[m> guard2 have 0[m
+2014-04-21 18:05:45 [INFO] [m<[0;31;22mguard2[m> Inventorio slimeball x 8[m
+2014-04-21 18:05:45 [INFO] [m<[0;31;22mguard2[m> guard2 have 20[m
+2014-04-21 18:05:45 [INFO] [m<[0;31;22mguard2[m> Inventorio[m
+2014-04-21 18:05:46 [INFO] [m<[0;31;22mguard2[m> guard2 have 17[m
+2014-04-21 18:05:46 [INFO] [m<[0;31;22mguard2[m> Inventorio slimeball x 9[m
+2014-04-21 18:05:48 [INFO] [m<[0;31;22mguard2[m> guard2 have 14[m
+2014-04-21 18:05:48 [INFO] [m<[0;31;22mguard2[m> Inventorio slimeball x 9[m
+2014-04-21 18:05:48 [INFO] [m<[0;31;22mguard2[m> guard2 have 11[m
+2014-04-21 18:05:48 [INFO] [m<[0;31;22mguard2[m> Inventorio slimeball x 9[m
+2014-04-21 18:05:49 [INFO] [m<[0;31;22mguard2[m> guard2 have 8[m
+2014-04-21 18:05:49 [INFO] [m<[0;31;22mguard2[m> Inventorio slimeball x 11[m
+2014-04-21 18:05:49 [INFO] [m<[0;31;22mguard2[m> guard2 have 5[m
+2014-04-21 18:05:49 [INFO] [m<[0;31;22mguard2[m> Inventorio slimeball x 11[m
+2014-04-21 18:05:50 [INFO] [m<[0;31;22mguard2[m> guard2 have 2[m
+2014-04-21 18:05:50 [INFO] [m<[0;31;22mguard2[m> Inventorio slimeball x 11[m
+2014-04-21 18:05:50 [INFO] [m<[0;31;22mguard2[m> guard2 have 3[m
+2014-04-21 18:05:50 [INFO] [m<[0;31;22mguard2[m> Inventorio slimeball x 11[m
+2014-04-21 18:05:50 [INFO] guard2 was slain by Slime
+2014-04-21 18:05:50 [INFO] [m<[0;31;22mguard2[m> guard2 have 0[m
+2014-04-21 18:05:50 [INFO] [m<[0;31;22mguard2[m> Inventorio slimeball x 11[m
+2014-04-21 18:05:50 [INFO] [m<[0;31;22mguard2[m> guard2 have 20[m
+2014-04-21 18:05:50 [INFO] [m<[0;31;22mguard2[m> Inventorio[m
+2014-04-21 18:05:50 [INFO] [m<[0;31;22mguard2[m> guard2 have 20[m
+2014-04-21 18:05:50 [INFO] [m<[0;31;22mguard2[m> Inventorio[m
+2014-04-21 18:05:51 [INFO] [m<[0;31;22mguard2[m> guard2 have 17[m
+2014-04-21 18:05:51 [INFO] [m<[0;31;22mguard2[m> Inventorio slimeball x 11[m
+2014-04-21 18:05:52 [INFO] [m<[0;31;22mguard2[m> guard2 have 14[m
+2014-04-21 18:05:52 [INFO] [m<[0;31;22mguard2[m> Inventorio slimeball x 11[m
+2014-04-21 18:05:52 [INFO] [m<[0;31;22mguard2[m> guard2 have 11[m
+2014-04-21 18:05:52 [INFO] [m<[0;31;22mguard2[m> Inventorio slimeball x 11[m
+2014-04-21 18:05:53 [INFO] [m<[0;31;22mguard2[m> guard2 have 8[m
+2014-04-21 18:05:53 [INFO] [m<[0;31;22mguard2[m> Inventorio slimeball x 11[m
+2014-04-21 18:05:53 [INFO] [m<[0;31;22mguard2[m> guard2 have 5[m
+2014-04-21 18:05:54 [INFO] [m<[0;31;22mguard2[m> Inventorio slimeball x 11[m
+2014-04-21 18:05:54 [INFO] [m<[0;31;22mguard2[m> guard2 have 2[m
+2014-04-21 18:05:54 [INFO] [m<[0;31;22mguard2[m> Inventorio slimeball x 11[m
+2014-04-21 18:05:55 [INFO] guard2 was slain by Slime
+2014-04-21 18:05:55 [INFO] [m<[0;31;22mguard2[m> guard2 have 0[m
+2014-04-21 18:05:55 [INFO] [m<[0;31;22mguard2[m> Inventorio slimeball x 11[m
+2014-04-21 18:05:55 [INFO] [m<[0;31;22mguard2[m> guard2 have 20[m
+2014-04-21 18:05:55 [INFO] [m<[0;31;22mguard2[m> Inventorio[m
+2014-04-21 18:05:55 [INFO] [m<[0;31;22mguard2[m> guard2 have 17[m
+2014-04-21 18:05:55 [INFO] [m<[0;31;22mguard2[m> Inventorio slimeball x 11[m
+2014-04-21 18:05:56 [INFO] [m<[0;31;22mguard2[m> guard2 have 14[m
+2014-04-21 18:05:56 [INFO] [m<[0;31;22mguard2[m> Inventorio slimeball x 11[m
+2014-04-21 18:05:56 [INFO] [m<[0;31;22mguard2[m> guard2 have 11[m
+2014-04-21 18:05:56 [INFO] [m<[0;31;22mguard2[m> Inventorio slimeball x 11[m
+2014-04-21 18:05:57 [INFO] [m<[0;31;22mguard2[m> guard2 have 8[m
+2014-04-21 18:05:57 [INFO] [m<[0;31;22mguard2[m> Inventorio slimeball x 11[m
+2014-04-21 18:05:58 [INFO] [m<[0;31;22mguard2[m> guard2 have 5[m
+2014-04-21 18:05:58 [INFO] [m<[0;31;22mguard2[m> Inventorio slimeball x 11[m
+2014-04-21 18:05:58 [INFO] [m<[0;31;22mguard2[m> guard2 have 2[m
+2014-04-21 18:05:58 [INFO] [m<[0;31;22mguard2[m> Inventorio slimeball x 11[m
+2014-04-21 18:05:59 [INFO] guard2 was slain by Slime
+2014-04-21 18:05:59 [INFO] [m<[0;31;22mguard2[m> guard2 have 0[m
+2014-04-21 18:05:59 [INFO] [m<[0;31;22mguard2[m> Inventorio slimeball x 11[m
+2014-04-21 18:05:59 [INFO] [m<[0;31;22mguard2[m> guard2 have 20[m
+2014-04-21 18:05:59 [INFO] [m<[0;31;22mguard2[m> Inventorio[m
+2014-04-21 18:05:59 [INFO] [m<[0;31;22mguard2[m> guard2 have 17[m
+2014-04-21 18:05:59 [INFO] [m<[0;31;22mguard2[m> Inventorio slimeball x 11[m
+2014-04-21 18:06:00 [INFO] [m<[0;31;22mguard2[m> guard2 have 14[m
+2014-04-21 18:06:00 [INFO] [m<[0;31;22mguard2[m> Inventorio slimeball x 11[m
+2014-04-21 18:06:00 [INFO] [m<[0;31;22mguard2[m> guard2 have 11[m
+2014-04-21 18:06:00 [INFO] [m<[0;31;22mguard2[m> Inventorio slimeball x 11[m
+2014-04-21 18:06:01 [INFO] [m<[0;31;22mguard2[m> guard2 have 8[m
+2014-04-21 18:06:01 [INFO] [m<[0;31;22mguard2[m> Inventorio slimeball x 11[m
+2014-04-21 18:06:01 [INFO] [m<[0;31;22mguard2[m> guard2 have 5[m
+2014-04-21 18:06:01 [INFO] [m<[0;31;22mguard2[m> Inventorio slimeball x 15[m
+2014-04-21 18:06:02 [INFO] [m<[0;31;22mguard2[m> guard2 have 2[m
+2014-04-21 18:06:02 [INFO] [m<[0;31;22mguard2[m> Inventorio slimeball x 15[m
+2014-04-21 18:06:03 [INFO] guard2 was slain by Slime
+2014-04-21 18:06:03 [INFO] [m<[0;31;22mguard2[m> guard2 have 0[m
+2014-04-21 18:06:03 [INFO] [m<[0;31;22mguard2[m> Inventorio slimeball x 15[m
+2014-04-21 18:06:03 [INFO] [m<[0;31;22mguard2[m> guard2 have 20[m
+2014-04-21 18:06:03 [INFO] [m<[0;31;22mguard2[m> Inventorio[m
+2014-04-21 18:06:03 [INFO] [m<[0;31;22mguard2[m> guard2 have 17[m
+2014-04-21 18:06:03 [INFO] [m<[0;31;22mguard2[m> Inventorio slimeball x 15[m
+2014-04-21 18:06:04 [INFO] [m<[0;31;22mguard2[m> guard2 have 14[m
+2014-04-21 18:06:04 [INFO] [m<[0;31;22mguard2[m> Inventorio slimeball x 15[m
+2014-04-21 18:06:05 [INFO] [m<[0;31;22mguard2[m> guard2 have 11[m
+2014-04-21 18:06:05 [INFO] [m<[0;31;22mguard2[m> Inventorio slimeball x 15[m
+2014-04-21 18:06:05 [INFO] [m<[0;31;22mguard2[m> guard2 have 8[m
+2014-04-21 18:06:05 [INFO] [m<[0;31;22mguard2[m> Inventorio slimeball x 15[m
+2014-04-21 18:06:05 [INFO] [m<[0;31;22mguard2[m> guard2 have 5[m
+2014-04-21 18:06:06 [INFO] [m<[0;31;22mguard2[m> Inventorio slimeball x 15[m
+2014-04-21 18:06:06 [INFO] [m<[0;31;22mguard2[m> guard2 have 2[m
+2014-04-21 18:06:06 [INFO] [m<[0;31;22mguard2[m> Inventorio slimeball x 15[m
+2014-04-21 18:06:07 [INFO] guard2 was slain by Slime
+2014-04-21 18:06:07 [INFO] [m<[0;31;22mguard2[m> guard2 have 0[m
+2014-04-21 18:06:07 [INFO] [m<[0;31;22mguard2[m> Inventorio slimeball x 15[m
+2014-04-21 18:06:07 [INFO] [m<[0;31;22mguard2[m> guard2 have 20[m
+2014-04-21 18:06:07 [INFO] [m<[0;31;22mguard2[m> Inventorio[m
+2014-04-21 18:06:07 [INFO] [m<[0;31;22mguard2[m> guard2 have 17[m
+2014-04-21 18:06:07 [INFO] [m<[0;31;22mguard2[m> Inventorio slimeball x 15[m
+2014-04-21 18:06:08 [INFO] [m<[0;31;22mguard2[m> guard2 have 14[m
+2014-04-21 18:06:08 [INFO] [m<[0;31;22mguard2[m> Inventorio slimeball x 15[m
+2014-04-21 18:06:08 [INFO] [m<[0;31;22mguard2[m> guard2 have 11[m
+2014-04-21 18:06:08 [INFO] [m<[0;31;22mguard2[m> Inventorio slimeball x 15[m
+2014-04-21 18:06:09 [INFO] [m<[0;31;22mguard2[m> guard2 have 8[m
+2014-04-21 18:06:09 [INFO] [m<[0;31;22mguard2[m> Inventorio slimeball x 15[m
+2014-04-21 18:06:10 [INFO] [m<[0;31;22mguard2[m> guard2 have 5[m
+2014-04-21 18:06:10 [INFO] [m<[0;31;22mguard2[m> Inventorio slimeball x 15[m
+2014-04-21 18:06:10 [INFO] [m<[0;31;22mguard2[m> guard2 have 2[m
+2014-04-21 18:06:10 [INFO] [m<[0;31;22mguard2[m> Inventorio slimeball x 15[m
+2014-04-21 18:06:11 [INFO] guard2 was slain by Slime
+2014-04-21 18:06:11 [INFO] [m<[0;31;22mguard2[m> guard2 have 0[m
+2014-04-21 18:06:11 [INFO] [m<[0;31;22mguard2[m> Inventorio slimeball x 15[m
+2014-04-21 18:06:11 [INFO] [m<[0;31;22mguard2[m> guard2 have 20[m
+2014-04-21 18:06:11 [INFO] [m<[0;31;22mguard2[m> Inventorio[m
+2014-04-21 18:06:11 [INFO] [m<[0;31;22mguard2[m> guard2 have 17[m
+2014-04-21 18:06:11 [INFO] [m<[0;31;22mguard2[m> Inventorio slimeball x 15[m
+2014-04-21 18:06:12 [INFO] [m<[0;31;22mguard2[m> guard2 have 14[m
+2014-04-21 18:06:12 [INFO] [m<[0;31;22mguard2[m> Inventorio slimeball x 15[m
+2014-04-21 18:06:13 [INFO] [m<[0;31;22mguard2[m> guard2 have 11[m
+2014-04-21 18:06:13 [INFO] [m<[0;31;22mguard2[m> Inventorio slimeball x 15[m
+2014-04-21 18:06:13 [INFO] [m<[0;31;22mguard2[m> guard2 have 8[m
+2014-04-21 18:06:13 [INFO] [m<[0;31;22mguard2[m> Inventorio slimeball x 15[m
+2014-04-21 18:06:15 [INFO] [m<[0;31;22mguard2[m> guard2 have 5[m
+2014-04-21 18:06:15 [INFO] [m<[0;31;22mguard2[m> Inventorio slimeball x 15[m
+2014-04-21 18:06:15 [INFO] [m<[0;31;22mguard2[m> guard2 have 6[m
+2014-04-21 18:06:15 [INFO] [m<[0;31;22mguard2[m> Inventorio slimeball x 15[m
+2014-04-21 18:06:15 [INFO] [m<[0;31;22mguard2[m> guard2 have 3[m
+2014-04-21 18:06:15 [INFO] [m<[0;31;22mguard2[m> Inventorio slimeball x 15[m
+2014-04-21 18:06:16 [INFO] guard2 was slain by Slime
+2014-04-21 18:06:16 [INFO] [m<[0;31;22mguard2[m> guard2 have 0[m
+2014-04-21 18:06:16 [INFO] [m<[0;31;22mguard2[m> Inventorio slimeball x 15[m
+2014-04-21 18:06:16 [INFO] [m<[0;31;22mguard2[m> guard2 have 20[m
+2014-04-21 18:06:16 [INFO] [m<[0;31;22mguard2[m> Inventorio[m
+2014-04-21 18:06:16 [INFO] [m<[0;31;22mguard2[m> guard2 have 20[m
+2014-04-21 18:06:16 [INFO] [m<[0;31;22mguard2[m> Inventorio[m
+2014-04-21 18:06:16 [INFO] [m<[0;31;22mguard2[m> guard2 have 17[m
+2014-04-21 18:06:16 [INFO] [m<[0;31;22mguard2[m> Inventorio slimeball x 15[m
+2014-04-21 18:06:17 [INFO] [m<[0;31;22mguard2[m> guard2 have 14[m
+2014-04-21 18:06:17 [INFO] [m<[0;31;22mguard2[m> Inventorio slimeball x 15[m
+2014-04-21 18:06:17 [INFO] [m<[0;31;22mguard2[m> guard2 have 11[m
+2014-04-21 18:06:17 [INFO] [m<[0;31;22mguard2[m> Inventorio slimeball x 15[m
+2014-04-21 18:06:18 [INFO] [m<[0;31;22mguard2[m> guard2 have 8[m
+2014-04-21 18:06:18 [INFO] [m<[0;31;22mguard2[m> Inventorio slimeball x 15[m
+2014-04-21 18:06:18 [INFO] [m<[0;31;22mguard2[m> guard2 have 5[m
+2014-04-21 18:06:18 [INFO] [m<[0;31;22mguard2[m> Inventorio slimeball x 15[m
+2014-04-21 18:06:19 [INFO] [m<[0;31;22mguard2[m> guard2 have 2[m
+2014-04-21 18:06:19 [INFO] [m<[0;31;22mguard2[m> Inventorio slimeball x 15[m
+2014-04-21 18:06:19 [INFO] guard2 was slain by Slime
+2014-04-21 18:06:19 [INFO] [m<[0;31;22mguard2[m> guard2 have 0[m
+2014-04-21 18:06:19 [INFO] [m<[0;31;22mguard2[m> Inventorio slimeball x 15[m
+2014-04-21 18:06:20 [INFO] [m<[0;31;22mguard2[m> guard2 have 20[m
+2014-04-21 18:06:20 [INFO] [m<[0;31;22mguard2[m> Inventorio[m
+2014-04-21 18:06:20 [INFO] [m<[0;31;22mguard2[m> guard2 have 17[m
+2014-04-21 18:06:20 [INFO] [m<[0;31;22mguard2[m> Inventorio slimeball x 15[m
+2014-04-21 18:06:20 [INFO] [m<[0;31;22mguard2[m> guard2 have 14[m
+2014-04-21 18:06:20 [INFO] [m<[0;31;22mguard2[m> Inventorio slimeball x 15[m
+2014-04-21 18:06:21 [INFO] [m<[0;31;22mguard2[m> guard2 have 11[m
+2014-04-21 18:06:21 [INFO] [m<[0;31;22mguard2[m> Inventorio slimeball x 15[m
+2014-04-21 18:06:21 [INFO] [m<[0;31;22mguard2[m> guard2 have 8[m
+2014-04-21 18:06:21 [INFO] [m<[0;31;22mguard2[m> Inventorio slimeball x 15[m
+2014-04-21 18:06:21 [INFO] Connection reset
+2014-04-21 18:06:21 [INFO] guard1 lost connection: disconnect.endOfStream
+2014-04-21 18:06:22 [INFO] ¤eguard1 left the game.
+2014-04-21 18:06:22 [INFO] guard2 lost connection: disconnect.genericReason
+2014-04-21 18:06:22 [INFO] ¤eguard2 left the game.
+2014-04-21 18:08:14 [INFO] guard2[/127.0.0.1:51507] logged in with entity id 1441565 at ([world] 1104.5, 4.0009999999999994, 134.5)
+2014-04-21 18:08:14 [INFO] guard1[/127.0.0.1:51508] logged in with entity id 1441566 at ([world] 1104.5, 4.0009999999999994, 140.5)
+2014-04-21 18:08:14 [INFO] [m<[0;31;22mguard2[m> guard2 have 8[m
+2014-04-21 18:08:14 [INFO] [m<[0;31;22mguard2[m> Inventorio slimeball x 15[m
+2014-04-21 18:08:14 [INFO] [m<[0;31;22mguard1[m> guard1 have 20[m
+2014-04-21 18:08:14 [INFO] [m<[0;31;22mguard1[m> Inventorio slimeball x 2, swordDiamond x 1, swordDiamond x 1[m
+2014-04-21 18:08:14 [INFO] [m<[0;31;22mguard1[m> equipped Diamond Sword[m
+2014-04-21 18:08:16 [INFO] [m<[0;31;22mguard2[m> guard2 have 9[m
+2014-04-21 18:08:17 [INFO] [m<[0;31;22mguard2[m> Inventorio slimeball x 15[m
+2014-04-21 18:08:21 [INFO] [m<[0;31;22mguard2[m> guard2 have 10[m
+2014-04-21 18:08:21 [INFO] [m<[0;31;22mguard2[m> Inventorio slimeball x 15[m
+2014-04-21 18:08:22 [INFO] [m<[0;31;22mguard2[m> guard2 have 2[m
+2014-04-21 18:08:22 [INFO] [m<[0;31;22mguard2[m> Inventorio slimeball x 15[m
+2014-04-21 18:08:25 [INFO] [m<[0;31;22mguard2[m> guard2 have 3[m
+2014-04-21 18:08:25 [INFO] [m<[0;31;22mguard2[m> Inventorio slimeball x 15[m
+2014-04-21 18:08:25 [INFO] guard2 was slain by RitjiiiMaster
+2014-04-21 18:08:25 [INFO] [m<[0;31;22mguard2[m> guard2 have 0[m
+2014-04-21 18:08:25 [INFO] [m<[0;31;22mguard2[m> Inventorio slimeball x 15[m
+2014-04-21 18:08:25 [INFO] [m<[0;31;22mguard2[m> guard2 have 20[m
+2014-04-21 18:08:25 [INFO] [m<[0;31;22mguard2[m> Inventorio[m
+2014-04-21 18:08:39 [INFO] [m<[0;31;22mguard2[m> guard2 have 19[m
+2014-04-21 18:08:39 [INFO] [m<[0;31;22mguard2[m> Inventorio swordDiamond x 1[m
+2014-04-21 18:08:43 [INFO] [m<[0;31;22mguard2[m> guard2 have 20[m
+2014-04-21 18:08:43 [INFO] [m<[0;31;22mguard2[m> Inventorio swordDiamond x 1[m
+2014-04-21 18:09:29 [INFO] guard2 lost connection: disconnect.endOfStream
+2014-04-21 18:09:30 [INFO] ¤eguard2 left the game.
+2014-04-21 18:09:30 [INFO] guard1 lost connection: disconnect.endOfStream
+2014-04-21 18:09:30 [INFO] ¤eguard1 left the game.
+2014-04-21 18:09:57 [INFO] CONSOLE: Set [0;31;22mRitjiiiMaster[m's spawnpoint to 1120.0754950180944, 4.0009999999999994, 135.09004136627502[m
+2014-04-21 18:10:03 [INFO] Can't find player Ritjii[m
+2014-04-21 18:10:14 [INFO] ritjii[/127.0.0.1:51524] logged in with entity id 1570575 at ([world] 1008.8045608408896, 4.0009999999999994, -75.22924089340508)
+2014-04-21 18:10:14 [INFO] [m<[0;31;22mritjii[m> I have 2 health and 20 food[m
+2014-04-21 18:10:14 [INFO] [m<[0;31;22mritjii[m> Inventorioslimeball x 2[m
+2014-04-21 18:10:14 [INFO] [m<[0;31;22mritjii[m> I have 3 health and 20 food[m
+2014-04-21 18:10:14 [INFO] [m<[0;31;22mritjii[m> Inventorioslimeball x 2[m
+2014-04-21 18:10:17 [INFO] CONSOLE: Set [0;31;22mritjii[m's spawnpoint to 1016.7730939900473, 4.0009999999999994, -75.56286755610343[m
+2014-04-21 18:10:18 [INFO] [m<[0;31;22mritjii[m> I have 4 health and 20 food[m
+2014-04-21 18:10:18 [INFO] [m<[0;31;22mritjii[m> Inventorioslimeball x 2[m
+2014-04-21 18:10:21 [INFO] ritjii lost connection: disconnect.endOfStream
+2014-04-21 18:10:21 [INFO] ¤eritjii left the game.
+2014-04-21 18:10:24 [INFO] ritjii[/127.0.0.1:51525] logged in with entity id 1591481 at ([world] 1019.981452314917, 4.0009999999999994, -86.75219754156106)
+2014-04-21 18:10:24 [INFO] [m<[0;31;22mritjii[m> I have 4 health and 20 food[m
+2014-04-21 18:10:24 [INFO] [m<[0;31;22mritjii[m> Inventorioslimeball x 2[m
+2014-04-21 18:10:26 [INFO] [m<[0;31;22mritjii[m> I have 5 health and 20 food[m
+2014-04-21 18:10:26 [INFO] [m<[0;31;22mritjii[m> Inventorioslimeball x 2[m
+2014-04-21 18:10:30 [INFO] [m<[0;31;22mritjii[m> I have 6 health and 20 food[m
+2014-04-21 18:10:30 [INFO] [m<[0;31;22mritjii[m> Inventorioslimeball x 2[m
+2014-04-21 18:10:34 [INFO] [m<[0;31;22mritjii[m> I have 7 health and 20 food[m
+2014-04-21 18:10:34 [INFO] [m<[0;31;22mritjii[m> Inventorioslimeball x 2[m
+2014-04-21 18:10:38 [INFO] [m<[0;31;22mritjii[m> I have 8 health and 20 food[m
+2014-04-21 18:10:38 [INFO] [m<[0;31;22mritjii[m> Inventorioslimeball x 2[m
+2014-04-21 18:10:42 [INFO] [m<[0;31;22mritjii[m> I have 9 health and 20 food[m
+2014-04-21 18:10:42 [INFO] [m<[0;31;22mritjii[m> Inventorioslimeball x 2[m
+2014-04-21 18:10:46 [INFO] [m<[0;31;22mritjii[m> I have 10 health and 20 food[m
+2014-04-21 18:10:46 [INFO] [m<[0;31;22mritjii[m> Inventorioslimeball x 2[m
+2014-04-21 18:10:50 [INFO] [m<[0;31;22mritjii[m> I have 11 health and 20 food[m
+2014-04-21 18:10:50 [INFO] [m<[0;31;22mritjii[m> Inventorioslimeball x 2[m
+2014-04-21 18:10:54 [INFO] [m<[0;31;22mritjii[m> I have 12 health and 20 food[m
+2014-04-21 18:10:54 [INFO] [m<[0;31;22mritjii[m> Inventorioslimeball x 2[m
+2014-04-21 18:10:58 [INFO] [m<[0;31;22mritjii[m> I have 13 health and 20 food[m
+2014-04-21 18:10:58 [INFO] [m<[0;31;22mritjii[m> Inventorioslimeball x 2[m
+2014-04-21 18:11:02 [INFO] [m<[0;31;22mritjii[m> I have 5 health and 20 food[m
+2014-04-21 18:11:02 [INFO] [m<[0;31;22mritjii[m> Inventorioslimeball x 2[m
+2014-04-21 18:11:03 [INFO] ritjii was slain by RitjiiiMaster
+2014-04-21 18:11:03 [INFO] [m<[0;31;22mritjii[m> I have 0 health and 20 food[m
+2014-04-21 18:11:03 [INFO] [m<[0;31;22mritjii[m> Inventorioslimeball x 2[m
+2014-04-21 18:11:03 [INFO] [m<[0;31;22mritjii[m> I have 20 health and 20 food[m
+2014-04-21 18:11:03 [INFO] [m<[0;31;22mritjii[m> Inventorio[m
+2014-04-21 18:11:03 [INFO] [m<[0;31;22mritjii[m> I have 20 health and 20 food[m
+2014-04-21 18:11:03 [INFO] [m<[0;31;22mritjii[m> Inventorio[m
+2014-04-21 18:11:08 [INFO] [m<[0;31;22mritjii[m> I have 12 health and 20 food[m
+2014-04-21 18:11:08 [INFO] [m<[0;31;22mritjii[m> Inventorio[m
+2014-04-21 18:11:10 [INFO] [m<[0;31;22mritjii[m> I have 4 health and 20 food[m
+2014-04-21 18:11:10 [INFO] [m<[0;31;22mritjii[m> Inventorio[m
+2014-04-21 18:11:12 [INFO] [m<[0;31;22mritjii[m> I have 5 health and 20 food[m
+2014-04-21 18:11:12 [INFO] [m<[0;31;22mritjii[m> Inventorio[m
+2014-04-21 18:11:15 [INFO] ritjii was slain by RitjiiiMaster
+2014-04-21 18:11:15 [INFO] [m<[0;31;22mritjii[m> I have 0 health and 20 food[m
+2014-04-21 18:11:15 [INFO] [m<[0;31;22mritjii[m> Inventorio[m
+2014-04-21 18:11:15 [INFO] [m<[0;31;22mritjii[m> I have 20 health and 20 food[m
+2014-04-21 18:11:15 [INFO] [m<[0;31;22mritjii[m> Inventorio[m
+2014-04-21 18:11:15 [INFO] [m<[0;31;22mritjii[m> I have 20 health and 20 food[m
+2014-04-21 18:11:15 [INFO] [m<[0;31;22mritjii[m> Inventorio[m
+2014-04-21 18:11:48 [INFO] CONSOLE: Set [0;31;22mritjii[m's spawnpoint to 1009.807425746816, 4.0009999999999994, -71.57539172385451[m
+2014-04-21 18:12:16 [INFO] CONSOLE: Set [0;31;22mritjii[m's spawnpoint to 1113, 4, 135[m
+2014-04-21 18:12:18 [INFO] [m<[0;31;22mritjii[m> I have 17 health and 20 food[m
+2014-04-21 18:12:18 [INFO] [m<[0;31;22mritjii[m> Inventorio[m
+2014-04-21 18:12:18 [INFO] [m<[0;31;22mritjii[m> I have 14 health and 20 food[m
+2014-04-21 18:12:18 [INFO] [m<[0;31;22mritjii[m> Inventorio[m
+2014-04-21 18:12:19 [INFO] [m<[0;31;22mritjii[m> I have 11 health and 20 food[m
+2014-04-21 18:12:19 [INFO] [m<[0;31;22mritjii[m> Inventorio[m
+2014-04-21 18:12:22 [INFO] [m<[0;31;22mritjii[m> I have 12 health and 20 food[m
+2014-04-21 18:12:22 [INFO] [m<[0;31;22mritjii[m> Inventorio[m
+2014-04-21 18:12:22 [INFO] [m<[0;31;22mritjii[m> I have 9 health and 20 food[m
+2014-04-21 18:12:22 [INFO] [m<[0;31;22mritjii[m> Inventorio[m
+2014-04-21 18:12:25 [INFO] [m<[0;31;22mritjii[m> I have 6 health and 20 food[m
+2014-04-21 18:12:25 [INFO] [m<[0;31;22mritjii[m> Inventorio[m
+2014-04-21 18:12:26 [INFO] [m<[0;31;22mritjii[m> I have 7 health and 20 food[m
+2014-04-21 18:12:26 [INFO] [m<[0;31;22mritjii[m> Inventorio[m
+2014-04-21 18:12:26 [INFO] [m<[0;31;22mritjii[m> I have 4 health and 20 food[m
+2014-04-21 18:12:26 [INFO] [m<[0;31;22mritjii[m> Inventorio[m
+2014-04-21 18:12:27 [INFO] [m<[0;31;22mritjii[m> I have 1 health and 20 food[m
+2014-04-21 18:12:27 [INFO] [m<[0;31;22mritjii[m> Inventorio[m
+2014-04-21 18:12:28 [INFO] ritjii was slain by Slime
+2014-04-21 18:12:28 [INFO] [m<[0;31;22mritjii[m> I have 0 health and 20 food[m
+2014-04-21 18:12:28 [INFO] [m<[0;31;22mritjii[m> Inventorio[m
+2014-04-21 18:12:28 [INFO] [m<[0;31;22mritjii[m> I have 20 health and 20 food[m
+2014-04-21 18:12:28 [INFO] [m<[0;31;22mritjii[m> Inventorio[m
+2014-04-21 18:12:28 [INFO] [m<[0;31;22mritjii[m> I have 20 health and 20 food[m
+2014-04-21 18:12:28 [INFO] [m<[0;31;22mritjii[m> Inventorio[m
+2014-04-21 18:13:08 [INFO] [m<[0;31;22mritjii[m> I have 17 health and 20 food[m
+2014-04-21 18:13:08 [INFO] [m<[0;31;22mritjii[m> Inventorio[m
+2014-04-21 18:13:09 [INFO] [m<[0;31;22mritjii[m> I have 14 health and 20 food[m
+2014-04-21 18:13:09 [INFO] [m<[0;31;22mritjii[m> Inventorio[m
+2014-04-21 18:13:10 [INFO] [m<[0;31;22mritjii[m> I have 11 health and 20 food[m
+2014-04-21 18:13:10 [INFO] [m<[0;31;22mritjii[m> Inventorio[m
+2014-04-21 18:13:11 [INFO] [m<[0;31;22mritjii[m> I have 8 health and 20 food[m
+2014-04-21 18:13:11 [INFO] [m<[0;31;22mritjii[m> Inventorio[m
+2014-04-21 18:13:12 [INFO] [m<[0;31;22mritjii[m> I have 9 health and 20 food[m
+2014-04-21 18:13:12 [INFO] [m<[0;31;22mritjii[m> Inventorio[m
+2014-04-21 18:13:12 [INFO] [m<[0;31;22mritjii[m> I have 6 health and 20 food[m
+2014-04-21 18:13:12 [INFO] [m<[0;31;22mritjii[m> Inventorio[m
+2014-04-21 18:13:13 [INFO] [m<[0;31;22mritjii[m> I have 3 health and 20 food[m
+2014-04-21 18:13:13 [INFO] [m<[0;31;22mritjii[m> Inventorio[m
+2014-04-21 18:13:15 [INFO] ritjii was slain by Slime
+2014-04-21 18:13:15 [INFO] [m<[0;31;22mritjii[m> I have 0 health and 20 food[m
+2014-04-21 18:13:15 [INFO] [m<[0;31;22mritjii[m> Inventorio[m
+2014-04-21 18:13:15 [INFO] [m<[0;31;22mritjii[m> I have 20 health and 20 food[m
+2014-04-21 18:13:15 [INFO] [m<[0;31;22mritjii[m> Inventorio[m
+2014-04-21 18:13:15 [INFO] [m<[0;31;22mritjii[m> I have 20 health and 20 food[m
+2014-04-21 18:13:15 [INFO] [m<[0;31;22mritjii[m> Inventorio[m
+2014-04-21 18:13:16 [INFO] [m<[0;31;22mritjii[m> I have 17 health and 20 food[m
+2014-04-21 18:13:16 [INFO] [m<[0;31;22mritjii[m> Inventorio[m
+2014-04-21 18:13:18 [INFO] [m<[0;31;22mritjii[m> I have 14 health and 20 food[m
+2014-04-21 18:13:18 [INFO] [m<[0;31;22mritjii[m> Inventorio[m
+2014-04-21 18:13:19 [INFO] [m<[0;31;22mritjii[m> I have 11 health and 20 food[m
+2014-04-21 18:13:19 [INFO] [m<[0;31;22mritjii[m> Inventorio[m
+2014-04-21 18:13:19 [INFO] CONSOLE: Set [0;31;22mRitjiiiMaster[m's spawnpoint to 1113, 4, 135[m
+2014-04-21 18:13:20 [INFO] [m<[0;31;22mritjii[m> I have 12 health and 20 food[m
+2014-04-21 18:13:20 [INFO] [m<[0;31;22mritjii[m> Inventorio[m
+2014-04-21 18:13:21 [INFO] [m<[0;31;22mritjii[m> I have 9 health and 20 food[m
+2014-04-21 18:13:21 [INFO] [m<[0;31;22mritjii[m> Inventorio[m
+2014-04-21 18:13:22 [INFO] [m<[0;31;22mritjii[m> I have 6 health and 20 food[m
+2014-04-21 18:13:22 [INFO] [m<[0;31;22mritjii[m> Inventorio[m
+2014-04-21 18:13:24 [INFO] [m<[0;31;22mritjii[m> I have 3 health and 20 food[m
+2014-04-21 18:13:24 [INFO] [m<[0;31;22mritjii[m> Inventorio[m
+2014-04-21 18:13:24 [INFO] ritjii was slain by Slime
+2014-04-21 18:13:24 [INFO] [m<[0;31;22mritjii[m> I have 0 health and 20 food[m
+2014-04-21 18:13:24 [INFO] [m<[0;31;22mritjii[m> Inventorio[m
+2014-04-21 18:13:24 [INFO] [m<[0;31;22mritjii[m> I have 20 health and 20 food[m
+2014-04-21 18:13:24 [INFO] [m<[0;31;22mritjii[m> Inventorio[m
+2014-04-21 18:13:24 [INFO] [m<[0;31;22mritjii[m> I have 20 health and 20 food[m
+2014-04-21 18:13:24 [INFO] [m<[0;31;22mritjii[m> Inventorio[m
+2014-04-21 18:13:26 [INFO] [m<[0;31;22mritjii[m> I have 17 health and 20 food[m
+2014-04-21 18:13:26 [INFO] [m<[0;31;22mritjii[m> Inventorio[m
+2014-04-21 18:13:27 [INFO] [m<[0;31;22mritjii[m> I have 14 health and 20 food[m
+2014-04-21 18:13:27 [INFO] [m<[0;31;22mritjii[m> Inventorio[m
+2014-04-21 18:13:29 [INFO] [m<[0;31;22mritjii[m> I have 12 health and 20 food[m
+2014-04-21 18:13:29 [INFO] [m<[0;31;22mritjii[m> Inventorio[m
+2014-04-21 18:13:29 [INFO] [m<[0;31;22mritjii[m> I have 11 health and 20 food[m
+2014-04-21 18:13:29 [INFO] [m<[0;31;22mritjii[m> Inventorio[m
+2014-04-21 18:13:30 [INFO] [m<[0;31;22mritjii[m> I have 8 health and 20 food[m
+2014-04-21 18:13:30 [INFO] [m<[0;31;22mritjii[m> Inventorio[m
+2014-04-21 18:13:30 [INFO] [m<[0;31;22mritjii[m> I have 9 health and 20 food[m
+2014-04-21 18:13:30 [INFO] [m<[0;31;22mritjii[m> Inventorio[m
+2014-04-21 18:13:31 [INFO] [m<[0;31;22mritjii[m> I have 6 health and 20 food[m
+2014-04-21 18:13:31 [INFO] [m<[0;31;22mritjii[m> Inventorio[m
+2014-04-21 18:13:32 [INFO] [m<[0;31;22mritjii[m> I have 3 health and 20 food[m
+2014-04-21 18:13:32 [INFO] [m<[0;31;22mritjii[m> Inventorio[m
+2014-04-21 18:13:34 [INFO] [m<[0;31;22mritjii[m> I have 4 health and 20 food[m
+2014-04-21 18:13:34 [INFO] [m<[0;31;22mritjii[m> Inventorio[m
+2014-04-21 18:13:36 [INFO] Connection reset
+2014-04-21 18:13:36 [INFO] RitjiiiMaster lost connection: disconnect.quitting
+2014-04-21 18:13:36 [INFO] ¤eRitjiiiMaster left the game.
+2014-04-21 18:13:36 [INFO] [m<[0;31;22mritjii[m> I have 2 health and 20 food[m
+2014-04-21 18:13:36 [INFO] [m<[0;31;22mritjii[m> Inventorio[m
+2014-04-21 18:13:38 [INFO] [m<[0;31;22mritjii[m> I have 3 health and 20 food[m
+2014-04-21 18:13:38 [INFO] [m<[0;31;22mritjii[m> Inventorioslimeball x 2[m
+2014-04-21 18:13:38 [INFO] [m<[0;31;22mritjii[m> I have 1 health and 20 food[m
+2014-04-21 18:13:38 [INFO] [m<[0;31;22mritjii[m> Inventorioslimeball x 2[m
+2014-04-21 18:13:39 [INFO] ritjii was slain by Slime
+2014-04-21 18:13:39 [INFO] [m<[0;31;22mritjii[m> I have 0 health and 20 food[m
+2014-04-21 18:13:39 [INFO] [m<[0;31;22mritjii[m> Inventorioslimeball x 2[m
+2014-04-21 18:13:39 [INFO] [m<[0;31;22mritjii[m> I have 20 health and 20 food[m
+2014-04-21 18:13:39 [INFO] [m<[0;31;22mritjii[m> Inventorio[m
+2014-04-21 18:13:39 [INFO] [m<[0;31;22mritjii[m> I have 20 health and 20 food[m
+2014-04-21 18:13:39 [INFO] [m<[0;31;22mritjii[m> Inventorio[m
+2014-04-21 18:13:40 [INFO] [m<[0;31;22mritjii[m> I have 18 health and 20 food[m
+2014-04-21 18:13:40 [INFO] [m<[0;31;22mritjii[m> Inventorio[m
+2014-04-21 18:13:41 [INFO] [m<[0;31;22mritjii[m> I have 16 health and 20 food[m
+2014-04-21 18:13:41 [INFO] [m<[0;31;22mritjii[m> Inventorio[m
+2014-04-21 18:13:44 [INFO] [m<[0;31;22mritjii[m> I have 14 health and 20 food[m
+2014-04-21 18:13:44 [INFO] [m<[0;31;22mritjii[m> Inventorio[m
+2014-04-21 18:13:44 [INFO] [m<[0;31;22mritjii[m> I have 15 health and 20 food[m
+2014-04-21 18:13:44 [INFO] [m<[0;31;22mritjii[m> Inventorio[m
+2014-04-21 18:13:44 [INFO] [m<[0;31;22mritjii[m> I have 13 health and 20 food[m
+2014-04-21 18:13:44 [INFO] [m<[0;31;22mritjii[m> Inventorio[m
+2014-04-21 18:13:45 [INFO] [m<[0;31;22mritjii[m> I have 11 health and 20 food[m
+2014-04-21 18:13:45 [INFO] [m<[0;31;22mritjii[m> Inventorio[m
+2014-04-21 18:13:46 [INFO] [m<[0;31;22mritjii[m> I have 9 health and 20 food[m
+2014-04-21 18:13:46 [INFO] [m<[0;31;22mritjii[m> Inventorio[m
+2014-04-21 18:13:48 [INFO] [m<[0;31;22mritjii[m> I have 10 health and 20 food[m
+2014-04-21 18:13:48 [INFO] [m<[0;31;22mritjii[m> Inventorio[m
+2014-04-21 18:13:48 [INFO] [m<[0;31;22mritjii[m> I have 8 health and 20 food[m
+2014-04-21 18:13:48 [INFO] [m<[0;31;22mritjii[m> Inventorio[m
+2014-04-21 18:13:49 [INFO] Stopping server
+2014-04-21 18:14:02 [INFO] Starting minecraft server version 1.6.4
+2014-04-21 18:14:02 [INFO] Loading properties
+2014-04-21 18:14:02 [INFO] Default game type: SURVIVAL
+2014-04-21 18:14:02 [INFO] Generating keypair
+2014-04-21 18:14:03 [INFO] Starting Minecraft server on *:25565
+2014-04-21 18:14:04 [INFO] This server is running CraftBukkit version git-Bukkit-1.6.2-R1.0-2-g317b76b-b2882jnks (MC: 1.6.4) (Implementing API version 1.6.4-R0.1-SNAPSHOT)
+2014-04-21 18:14:05 [INFO] [Spectate] Loading Spectate v2.0
+2014-04-21 18:14:05 [INFO] [Essentials] Loading Essentials v2.12.1
+2014-04-21 18:14:05 [INFO] [EssentialsChat] Loading EssentialsChat v2.12.1
+2014-04-21 18:14:05 [INFO] [EssentialsAntiBuild] Loading EssentialsAntiBuild v2.12.1
+2014-04-21 18:14:05 [WARNING] **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+2014-04-21 18:14:05 [WARNING] The server will make no attempt to authenticate usernames. Beware.
+2014-04-21 18:14:05 [WARNING] While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+2014-04-21 18:14:05 [WARNING] To change this, set "online-mode" to "true" in the server.properties file.
+2014-04-21 18:14:05 [INFO] Preparing level "world"
+2014-04-21 18:14:05 [INFO] Preparing start region for level 0 (Seed: 4539697792417860999)
+2014-04-21 18:14:06 [INFO] Preparing spawn area: 31%
+2014-04-21 18:14:07 [WARNING] ----- Bukkit Auto Updater -----
+2014-04-21 18:14:07 [WARNING] Your version of CraftBukkit is out of date. Version 1.6.4-R2.0 (build #2918) was released on Wed Oct 30 23:39:40 WET 2013.
+2014-04-21 18:14:07 [WARNING] Details: /downloads/craftbukkit/view/02389_1.6.4-R2.0/
+2014-04-21 18:14:07 [WARNING] Download: /downloads/craftbukkit/get/02389_1.6.4-R2.0/craftbukkit.jar
+2014-04-21 18:14:07 [WARNING] ----- ------------------- -----
+2014-04-21 18:14:07 [INFO] Preparing start region for level 1 (Seed: 1772451141926695947)
+2014-04-21 18:14:08 [INFO] Preparing start region for level 2 (Seed: 1772451141926695947)
+2014-04-21 18:14:08 [INFO] [Spectate] Enabling Spectate v2.0
+2014-04-21 18:14:08 [INFO] [Essentials] Enabling Essentials v2.12.1
+2014-04-21 18:14:09 [INFO] Essentials: Using config file enhanced permissions.
+2014-04-21 18:14:09 [INFO] Permissions listed in as player-commands will be given to all users.
+2014-04-21 18:14:09 [INFO] [EssentialsChat] Enabling EssentialsChat v2.12.1
+2014-04-21 18:14:09 [INFO] [EssentialsAntiBuild] Enabling EssentialsAntiBuild v2.12.1
+2014-04-21 18:14:09 [INFO] Server permissions file permissions.yml is empty, ignoring it
+2014-04-21 18:14:09 [INFO] Done (4,276s)! For help, type "help" or "?"
+2014-04-21 18:15:41 [INFO] RitjiiiMaster[/127.0.0.1:51556] logged in with entity id 71 at ([world] 1099.1965151389256, 14.403821427577844, 205.7154970895803)
+2014-04-21 18:15:52 [INFO] CONSOLE issued server command: /time set 1000
+2014-04-21 18:15:52 [INFO] [0;33;22mO tempo foi definido para[0;31;1m [0;31;1m07:00[0;33;22m ou [0;31;1m7:00 AM[0;33;22m ou [0;31;1m1000ticks[0;33;22m. [0;33;22mem: [0;31;1mworld, world_nether, world_the_end[0;33;22m.[m
+2014-04-21 18:17:26 [INFO] guard1[/127.0.0.1:51563] logged in with entity id 225865 at ([world] 1104.5, 4.0009999999999994, 140.5)
+2014-04-21 18:17:26 [INFO] guard2[/127.0.0.1:51564] logged in with entity id 226065 at ([world] 1104.5, 4.0009999999999994, 134.5)
+2014-04-21 18:17:26 [INFO] [m<[0;31;22mguard1[m> guard1 have 20[m
+2014-04-21 18:17:26 [INFO] [m<[0;31;22mguard1[m> Inventorio slimeball x 2, swordDiamond x 1, swordDiamond x 1[m
+2014-04-21 18:17:26 [INFO] [m<[0;31;22mguard1[m> equipped Diamond Sword[m
+2014-04-21 18:17:26 [INFO] [m<[0;31;22mguard2[m> guard2 have 20[m
+2014-04-21 18:17:26 [INFO] [m<[0;31;22mguard2[m> Inventorio swordDiamond x 1, slimeball x 1[m
+2014-04-21 18:17:26 [INFO] [m<[0;31;22mguard2[m> equipped Diamond Sword[m
+2014-04-21 18:17:32 [INFO] RitjiiiMaster lost connection: disconnect.quitting
+2014-04-21 18:17:32 [INFO] Connection reset
+2014-04-21 18:17:32 [INFO] ¤eRitjiiiMaster left the game.
+2014-04-21 18:17:48 [INFO] RitjiiiMaster[/127.0.0.1:51566] logged in with entity id 284540 at ([world] 1128.1012606463316, 4.0, 152.16362583030565)
+2014-04-21 18:17:51 [INFO] guard1 lost connection: disconnect.endOfStream
+2014-04-21 18:17:51 [INFO] ¤eguard1 left the game.
+2014-04-21 18:17:51 [INFO] guard2 lost connection: disconnect.endOfStream
+2014-04-21 18:17:51 [INFO] ¤eguard2 left the game.
+2014-04-21 18:17:54 [INFO] guardStor1[/127.0.0.1:51567] logged in with entity id 301358 at ([world] 1006.5, 4.0, -71.5)
+2014-04-21 18:17:54 [INFO] guardStor2[/127.0.0.1:51568] logged in with entity id 301359 at ([world] 1014.5, 4.0, -70.5)
+2014-04-21 18:17:54 [INFO] Criando configuraÌ¤ao vazia: /Users/anarita/Desktop/aasma/proj/server/plugins/Essentials/userdata/guardstor1.yml
+2014-04-21 18:17:54 [INFO] [m<guardStor1[m> guard1 have 20[m
+2014-04-21 18:17:54 [INFO] [m<guardStor1[m> Inventorio[m
+2014-04-21 18:17:54 [INFO] Criando configuraÌ¤ao vazia: /Users/anarita/Desktop/aasma/proj/server/plugins/Essentials/userdata/guardstor2.yml
+2014-04-21 18:17:54 [INFO] [m<guardStor2[m> guard2 have 20[m
+2014-04-21 18:17:54 [INFO] [m<guardStor2[m> Inventorio[m
+2014-04-21 18:18:58 [INFO] guardStor1 lost connection: disconnect.endOfStream
+2014-04-21 18:18:58 [INFO] ¤eguardStor1 left the game.
+2014-04-21 18:18:58 [INFO] guardStor2 lost connection: disconnect.endOfStream
+2014-04-21 18:18:58 [INFO] ¤eguardStor2 left the game.
+2014-04-21 18:19:00 [INFO] guardStor1[/127.0.0.1:51571] logged in with entity id 491016 at ([world] 1006.5, 4.0009999999999994, -71.5)
+2014-04-21 18:19:00 [INFO] guardStor2[/127.0.0.1:51572] logged in with entity id 491017 at ([world] 1014.5, 4.0009999999999994, -70.5)
+2014-04-21 18:19:00 [INFO] [m<guardStor1[m> guardStor1 have 20[m
+2014-04-21 18:19:00 [INFO] [m<guardStor1[m> Inventorio[m
+2014-04-21 18:19:00 [INFO] [m<guardStor2[m> guardStor2 have 20[m
+2014-04-21 18:19:00 [INFO] [m<guardStor2[m> Inventorio[m
+2014-04-21 18:19:46 [INFO] guardStor1 lost connection: disconnect.endOfStream
+2014-04-21 18:19:46 [INFO] ¤eguardStor1 left the game.
+2014-04-21 18:19:46 [INFO] guardStor2 lost connection: disconnect.endOfStream
+2014-04-21 18:19:46 [INFO] ¤eguardStor2 left the game.
+2014-04-21 18:19:51 [INFO] [0;33;1m--------- [0;37;1mHelp: Index [0;33;1m---------------------------[m
+2014-04-21 18:19:51 [INFO] [0;37;22mUse /help [n] to get page n of help.[m
+2014-04-21 18:19:51 [INFO] [0;33;22mAliases: [0;37;1mLists command aliases[m
+2014-04-21 18:19:51 [INFO] [0;33;22mBukkit: [0;37;1mAll commands for Bukkit[m
+2014-04-21 18:19:51 [INFO] [0;33;22mEssentials: [0;37;1mAll commands for Essentials[m
+2014-04-21 18:19:51 [INFO] [0;33;22mSpectate: [0;37;1mAll commands for Spectate[m
+2014-04-21 18:19:51 [INFO] [0;33;22m/afk: [0;37;1mMarks you as away-from-keyboard.[m
+2014-04-21 18:19:51 [INFO] [0;33;22m/antioch: [0;37;1mA little surprise for operators.[m
+2014-04-21 18:19:51 [INFO] [0;33;22m/back: [0;37;1mTeleports you to your location prior to tp/spawn/warp.[m
+2014-04-21 18:19:51 [INFO] [0;33;22m/backup: [0;37;1mRuns the backup if configured.[m
+2014-04-21 18:19:51 [INFO] [0;33;22m/balance: [0;37;1mStates the current balance of a player.[m
+2014-04-21 18:19:51 [INFO] [0;33;22m/balancetop: [0;37;1mGets the top balance values.[m
+2014-04-21 18:19:51 [INFO] [0;33;22m/ban: [0;37;1mBans a player.[m
+2014-04-21 18:19:51 [INFO] [0;33;22m/ban-ip: [0;37;1mPrevents the specified IP address from using this server[m
+2014-04-21 18:19:51 [INFO] [0;33;22m/banip: [0;37;1mBans an IP address.[m
+2014-04-21 18:19:51 [INFO] [0;33;22m/banlist: [0;37;1mView all players banned from this server[m
+2014-04-21 18:19:51 [INFO] [0;33;22m/bigtree: [0;37;1mSpawn a big tree where you are looking.[m
+2014-04-21 18:19:51 [INFO] [0;33;22m/book: [0;37;1mAllows reopening and editing of sealed books.[m
+2014-04-21 18:19:51 [INFO] [0;33;22m/break: [0;37;1mBreaks the block you are looking at.[m
+2014-04-21 18:19:51 [INFO] [0;33;22m/broadcast: [0;37;1mBroadcasts a message to the entire server.[m
+2014-04-21 18:19:51 [INFO] [0;33;22m/burn: [0;37;1mSet a player on fire.[m
+2014-04-21 18:19:51 [INFO] [0;33;22m/clearinventory: [0;37;1mClear all items in your inventory.[m
+2014-04-21 18:19:51 [INFO] [0;33;22m/compass: [0;37;1mDescribes your current bearing.[m
+2014-04-21 18:19:51 [INFO] [0;33;22m/control: [0;37;1mLets you control another user[m
+2014-04-21 18:19:51 [INFO] [0;33;22m/customtext: [0;37;1mAllows you to create custom text commands.[m
+2014-04-21 18:19:51 [INFO] [0;33;22m/defaultgamemode: [0;37;1mSet the default gamemode[m
+2014-04-21 18:19:51 [INFO] [0;33;22m/delhome: [0;37;1mRemoves a home.[m
+2014-04-21 18:19:51 [INFO] [0;33;22m/deljail: [0;37;1mRemoves a jail.[m
+2014-04-21 18:19:51 [INFO] [0;33;22m/delwarp: [0;37;1mDeletes the specified warp.[m
+2014-04-21 18:19:51 [INFO] [0;33;22m/deop: [0;37;1mTakes the specified player's operator status[m
+2014-04-21 18:19:51 [INFO] [0;33;22m/depth: [0;37;1mStates current depth, relative to sea level.[m
+2014-04-21 18:19:51 [INFO] [0;33;22m/difficulty: [0;37;1mSets the game difficulty[m
+2014-04-21 18:19:51 [INFO] [0;33;22m/eco: [0;37;1mManages the server economy.[m
+2014-04-21 18:19:51 [INFO] [0;33;22m/effect: [0;37;1mAdds/Removes effects on players[m
+2014-04-21 18:19:51 [INFO] [0;33;22m/enchant: [0;37;1mEnchants the item the user is holding.[m
+2014-04-21 18:19:51 [INFO] [0;33;22m/enderchest: [0;37;1mLets you see inside an enderchest.[m
+2014-04-21 18:19:51 [INFO] [0;33;22m/essentials: [0;37;1mReloads essentials.[m
+2014-04-21 18:19:51 [INFO] [0;33;22m/exp: [0;37;1mGive, set or look at a players exp.[m
+2014-04-21 18:19:51 [INFO] [0;33;22m/ext: [0;37;1mExtinguish players.[m
+2014-04-21 18:19:51 [INFO] [0;33;22m/feed: [0;37;1mSatisfy the hunger.[m
+2014-04-21 18:19:51 [INFO] [0;33;22m/fireball: [0;37;1mThrow a fireball.[m
+2014-04-21 18:19:51 [INFO] [0;33;22m/firework: [0;37;1mAllows you to modify a stack of fireworks.[m
+2014-04-21 18:19:51 [INFO] [0;33;22m/fly: [0;37;1mTake off, and soar![m
+2014-04-21 18:19:51 [INFO] [0;33;22m/gamemode: [0;37;1mChange player gamemode.[m
+2014-04-21 18:19:51 [INFO] [0;33;22m/gamerule: [0;37;1mSets a server's game rules[m
+2014-04-21 18:19:51 [INFO] [0;33;22m/gc: [0;37;1mReports memory, uptime and tick info.[m
+2014-04-21 18:19:51 [INFO] [0;33;22m/getpos: [0;37;1mGet your current coordinates or those of a player.[m
+2014-04-21 18:19:51 [INFO] [0;33;22m/give: [0;37;1mGive a player an item.[m
+2014-04-21 18:19:51 [INFO] [0;33;22m/god: [0;37;1mEnables your godly powers.[m
+2014-04-21 18:19:51 [INFO] [0;33;22m/hat: [0;37;1mGet some cool new headgear.[m
+2014-04-21 18:19:51 [INFO] [0;33;22m/heal: [0;37;1mHeals you or the given player.[m
+2014-04-21 18:19:51 [INFO] [0;33;22m/help: [0;37;1mViews a list of available commands.[m
+2014-04-21 18:19:51 [INFO] [0;33;22m/helpop: [0;37;1mMessage online admins.[m
+2014-04-21 18:19:51 [INFO] [0;33;22m/home: [0;37;1mTeleport to your home.[m
+2014-04-21 18:19:51 [INFO] [0;33;22m/ignore: [0;37;1mIgnore other players.[m
+2014-04-21 18:19:51 [INFO] [0;33;22m/info: [0;37;1mShows information set by the server owner.[m
+2014-04-21 18:19:51 [INFO] [0;33;22m/invsee: [0;37;1mSee the inventory of other players.[m
+2014-04-21 18:19:51 [INFO] [0;33;22m/item: [0;37;1mSpawn an item.[m
+2014-04-21 18:19:51 [INFO] [0;33;22m/itemdb: [0;37;1mSearches for an item.[m
+2014-04-21 18:19:51 [INFO] [0;33;22m/jails: [0;37;1mList all jails.[m
+2014-04-21 18:19:51 [INFO] [0;33;22m/jump: [0;37;1mJumps to the nearest block in the line of sight.[m
+2014-04-21 18:19:51 [INFO] [0;33;22m/kick: [0;37;1mKicks a specified player with a reason.[m
+2014-04-21 18:19:51 [INFO] [0;33;22m/kickall: [0;37;1mKicks all players off the server except the issuer.[m
+2014-04-21 18:19:51 [INFO] [0;33;22m/kill: [0;37;1mKills specified player.[m
+2014-04-21 18:19:51 [INFO] [0;33;22m/killall: [0;37;1mKill all mobs in a world.[m
+2014-04-21 18:19:51 [INFO] [0;33;22m/kit: [0;37;1mObtains the specified kit or views all available kits.[m
+2014-04-21 18:19:51 [INFO] [0;33;22m/kittycannon: [0;37;1mThrow an exploding kitten at your opponent.[m
+2014-04-21 18:19:51 [INFO] [0;33;22m/lightning: [0;37;1mThe power of Thor. Strike at cursor or player.[m
+2014-04-21 18:19:51 [INFO] [0;33;22m/list: [0;37;1mList all online players.[m
+2014-04-21 18:19:51 [INFO] [0;33;22m/mail: [0;37;1mManages inter-player, intra-server mail.[m
+2014-04-21 18:19:51 [INFO] [0;33;22m/me: [0;37;1mDescribes an action in the context of the player.[m
+2014-04-21 18:19:51 [INFO] [0;33;22m/more: [0;37;1mFills the item stack in hand to maximum size.[m
+2014-04-21 18:19:51 [INFO] [0;33;22m/motd: [0;37;1mViews the Message Of The Day.[m
+2014-04-21 18:19:51 [INFO] [0;33;22m/msg: [0;37;1mSends a private message to the specified player.[m
+2014-04-21 18:19:51 [INFO] [0;33;22m/mute: [0;37;1mMutes or unmutes a player.[m
+2014-04-21 18:19:51 [INFO] [0;33;22m/near: [0;37;1mLists the players near by or around a player.[m
+2014-04-21 18:19:51 [INFO] [0;33;22m/nick: [0;37;1mChange your nickname or that of another player.[m
+2014-04-21 18:19:51 [INFO] [0;33;22m/nuke: [0;37;1mMay death rain upon them.[m
+2014-04-21 18:19:51 [INFO] [0;33;22m/op: [0;37;1mGives the specified player operator status[m
+2014-04-21 18:19:51 [INFO] [0;33;22m/pardon-ip: [0;37;1mAllows the specified IP address to use this server[m
+2014-04-21 18:19:51 [INFO] [0;33;22m/pay: [0;37;1mPays another player from your balance.[m
+2014-04-21 18:19:51 [INFO] [0;33;22m/ping: [0;37;1mPong![m
+2014-04-21 18:19:51 [INFO] [0;33;22m/playsound: [0;37;1mPlays a sound to a given player[m
+2014-04-21 18:19:51 [INFO] [0;33;22m/plugins: [0;37;1mGets a list of plugins running on the server[m
+2014-04-21 18:19:51 [INFO] [0;33;22m/potion: [0;37;1mAdds custom potion effects to a potion.[m
+2014-04-21 18:19:51 [INFO] [0;33;22m/powertool: [0;37;1mAssigns a command to the item in hand.[m
+2014-04-21 18:19:51 [INFO] [0;33;22m/powertooltoggle: [0;37;1mEnables or disables all current powertools.[m
+2014-04-21 18:19:51 [INFO] [0;33;22m/ptime: [0;37;1mAdjust player's client time. Add @ prefix to fix.[m
+2014-04-21 18:19:51 [INFO] [0;33;22m/pweather: [0;37;1mAdjust a player's weather[m
+2014-04-21 18:19:51 [INFO] [0;33;22m/r: [0;37;1mQuickly reply to the last player to message you.[m
+2014-04-21 18:19:51 [INFO] [0;33;22m/realname: [0;37;1mDisplays the username of a user based on nick.[m
+2014-04-21 18:19:51 [INFO] [0;33;22m/recipe: [0;37;1mDisplays how to craft items.[m
+2014-04-21 18:19:51 [INFO] [0;33;22m/reload: [0;37;1mReloads the server configuration and plugins[m
+2014-04-21 18:19:51 [INFO] [0;33;22m/remove: [0;37;1mRemoves entities in your world.[m
+2014-04-21 18:19:51 [INFO] [0;33;22m/repair: [0;37;1mRepairs the durability of one or all items.[m
+2014-04-21 18:19:51 [INFO] [0;33;22m/rules: [0;37;1mViews the server rules.[m
+2014-04-21 18:19:51 [INFO] [0;33;22m/save-all: [0;37;1mSaves the server to disk[m
+2014-04-21 18:19:51 [INFO] [0;33;22m/save-off: [0;37;1mDisables server autosaving[m
+2014-04-21 18:19:51 [INFO] [0;33;22m/save-on: [0;37;1mEnables server autosaving[m
+2014-04-21 18:19:51 [INFO] [0;33;22m/say: [0;37;1mBroadcasts the given message as the console[m
+2014-04-21 18:19:51 [INFO] [0;33;22m/scoreboard: [0;37;1mScoreboard control[m
+2014-04-21 18:19:51 [INFO] [0;33;22m/seed: [0;37;1mShows the world seed[m
+2014-04-21 18:19:51 [INFO] [0;33;22m/seen: [0;37;1mShows the last logout time of a player.[m
+2014-04-21 18:19:51 [INFO] [0;33;22m/sell: [0;37;1mSells the item currently in your hand.[m
+2014-04-21 18:19:51 [INFO] [0;33;22m/sethome: [0;37;1mSet your home to your current location.[m
+2014-04-21 18:19:51 [INFO] [0;33;22m/setjail: [0;37;1mCreates a jail where you specified named [jailname].[m
+2014-04-21 18:19:51 [INFO] [0;33;22m/setwarp: [0;37;1mCreates a new warp.[m
+2014-04-21 18:19:51 [INFO] [0;33;22m/setworth: [0;37;1mSet the sell value of an item.[m
+2014-04-21 18:19:51 [INFO] [0;33;22m/socialspy: [0;37;1mToggles if you can see msg/mail commands in chat.[m
+2014-04-21 18:19:51 [INFO] [0;33;22m/spawner: [0;37;1mChange the mob type of a spawner.[m
+2014-04-21 18:19:51 [INFO] [0;33;22m/spawnmob: [0;37;1mSpawns a mob.[m
+2014-04-21 18:19:51 [INFO] [0;33;22m/spawnpoint: [0;37;1mSets a player's spawn point[m
+2014-04-21 18:19:51 [INFO] [0;33;22m/spectate: [0;37;1mLets you spectate another user[m
+2014-04-21 18:19:51 [INFO] [0;33;22m/speed: [0;37;1mChange your speed limits.[m
+2014-04-21 18:19:51 [INFO] [0;33;22m/spreadplayers: [0;37;1mSpreads players around a point[m
+2014-04-21 18:19:51 [INFO] [0;33;22m/stop: [0;37;1mStops the server with optional reason[m
+2014-04-21 18:19:51 [INFO] [0;33;22m/sudo: [0;37;1mMake another user perform a command.[m
+2014-04-21 18:19:51 [INFO] [0;33;22m/suicide: [0;37;1mCauses you to perish.[m
+2014-04-21 18:19:51 [INFO] [0;33;22m/tempban: [0;37;1mTemporary ban a user.[m
+2014-04-21 18:19:51 [INFO] [0;33;22m/testfor: [0;37;1mTests whether a specifed player is online[m
+2014-04-21 18:19:51 [INFO] [0;33;22m/thunder: [0;37;1mEnable/disable thunder.[m
+2014-04-21 18:19:51 [INFO] [0;33;22m/time: [0;37;1mDisplay/Change the world time. Defaults to current world.[m
+2014-04-21 18:19:51 [INFO] [0;33;22m/timings: [0;37;1mRecords timings for all plugin events[m
+2014-04-21 18:19:51 [INFO] [0;33;22m/toggledownfall: [0;37;1mToggles rain on/off on a given world[m
+2014-04-21 18:19:51 [INFO] [0;33;22m/togglejail: [0;37;1mJails/Unjails a player, TPs them to the jail specified.[m
+2014-04-21 18:19:51 [INFO] [0;33;22m/top: [0;37;1mTeleport to the highest block at your current position.[m
+2014-04-21 18:19:51 [INFO] [0;33;22m/tp: [0;37;1mTeleport to a player.[m
+2014-04-21 18:19:51 [INFO] [0;33;22m/tpa: [0;37;1mRequest to teleport to the specified player.[m
+2014-04-21 18:19:51 [INFO] [0;33;22m/tpaall: [0;37;1mRequests all players online to teleport to you.[m
+2014-04-21 18:19:51 [INFO] [0;33;22m/tpaccept: [0;37;1mAccepts a teleport request.[m
+2014-04-21 18:19:51 [INFO] [0;33;22m/tpahere: [0;37;1mRequest that the specified player teleport to you.[m
+2014-04-21 18:19:51 [INFO] [0;33;22m/tpall: [0;37;1mTeleport all online players to another player.[m
+2014-04-21 18:19:51 [INFO] [0;33;22m/tpdeny: [0;37;1mReject a teleport request.[m
+2014-04-21 18:19:51 [INFO] [0;33;22m/tphere: [0;37;1mTeleport a player to you.[m
+2014-04-21 18:19:51 [INFO] [0;33;22m/tpo: [0;37;1mTeleport override for tptoggle.[m
+2014-04-21 18:19:51 [INFO] [0;33;22m/tpohere: [0;37;1mTeleport here override for tptoggle.[m
+2014-04-21 18:19:51 [INFO] [0;33;22m/tppos: [0;37;1mTeleport to coordinates.[m
+2014-04-21 18:19:51 [INFO] [0;33;22m/tptoggle: [0;37;1mBlocks all forms of teleportation.[m
+2014-04-21 18:19:51 [INFO] [0;33;22m/tree: [0;37;1mSpawn a tree where you are looking.[m
+2014-04-21 18:19:51 [INFO] [0;33;22m/unban: [0;37;1mUnbans the specified player.[m
+2014-04-21 18:19:51 [INFO] [0;33;22m/unbanip: [0;37;1mUnbans the specified IP address.[m
+2014-04-21 18:19:51 [INFO] [0;33;22m/unlimited: [0;37;1mAllows the unlimited placing of items.[m
+2014-04-21 18:19:51 [INFO] [0;33;22m/vanish: [0;37;1mHide yourself from other players.[m
+2014-04-21 18:19:51 [INFO] [0;33;22m/version: [0;37;1mGets the version of this server including any plugins in use[m
+2014-04-21 18:19:51 [INFO] [0;33;22m/warp: [0;37;1mList all warps or warp to the specified location.[m
+2014-04-21 18:19:51 [INFO] [0;33;22m/weather: [0;37;1mSets the weather.[m
+2014-04-21 18:19:51 [INFO] [0;33;22m/whitelist: [0;37;1mManages the list of players allowed to use this server[m
+2014-04-21 18:19:51 [INFO] [0;33;22m/whois: [0;37;1mDetermine the username behind a nickname.[m
+2014-04-21 18:19:51 [INFO] [0;33;22m/workbench: [0;37;1mOpens up a workbench.[m
+2014-04-21 18:19:51 [INFO] [0;33;22m/world: [0;37;1mSwitch between worlds.[m
+2014-04-21 18:19:51 [INFO] [0;33;22m/worth: [0;37;1mCalculates the worth of items in hand or as specified.[m
+2014-04-21 18:20:26 [INFO] guardStor1[/127.0.0.1:51582] logged in with entity id 705240 at ([world] 1006.5, 4.0009999999999994, -71.5)
+2014-04-21 18:20:26 [INFO] guardStor2[/127.0.0.1:51583] logged in with entity id 705241 at ([world] 1014.5, 4.0009999999999994, -70.5)
+2014-04-21 18:20:26 [INFO] [m<guardStor1[m> guardStor1 have 20[m
+2014-04-21 18:20:26 [INFO] [m<guardStor1[m> Inventorio[m
+2014-04-21 18:20:26 [INFO] [m<guardStor2[m> guardStor2 have 20[m
+2014-04-21 18:20:26 [INFO] [m<guardStor2[m> Inventorio[m
+2014-04-21 18:20:30 [INFO] CONSOLE: Set guardStor1[m's spawnpoint to 1128, 4, 152[m
+2014-04-21 18:20:40 [INFO] CONSOLE: Set guardStor2[m's spawnpoint to 1124, 4, 152[m
+2014-04-21 18:21:01 [INFO] [m<guardStor2[m> guardStor2 have 12[m
+2014-04-21 18:21:02 [INFO] [m<guardStor2[m> Inventorio[m
+2014-04-21 18:21:03 [INFO] [m<guardStor2[m> guardStor2 have 4[m
+2014-04-21 18:21:03 [INFO] [m<guardStor2[m> Inventorio[m
+2014-04-21 18:21:03 [INFO] guardStor2 was slain by RitjiiiMaster
+2014-04-21 18:21:03 [INFO] [m<guardStor2[m> guardStor2 have 0[m
+2014-04-21 18:21:03 [INFO] [m<guardStor2[m> Inventorio[m
+2014-04-21 18:21:03 [INFO] [m<guardStor2[m> guardStor2 have 20[m
+2014-04-21 18:21:03 [INFO] [m<guardStor2[m> Inventorio[m
+2014-04-21 18:21:05 [INFO] [m<guardStor1[m> guardStor1 have 12[m
+2014-04-21 18:21:05 [INFO] [m<guardStor1[m> Inventorio[m
+2014-04-21 18:21:06 [INFO] [m<guardStor1[m> guardStor1 have 4[m
+2014-04-21 18:21:06 [INFO] [m<guardStor1[m> Inventorio[m
+2014-04-21 18:21:07 [INFO] guardStor1 was slain by RitjiiiMaster
+2014-04-21 18:21:07 [INFO] [m<guardStor1[m> guardStor1 have 0[m
+2014-04-21 18:21:07 [INFO] [m<guardStor1[m> Inventorio[m
+2014-04-21 18:21:07 [INFO] [m<guardStor1[m> guardStor1 have 20[m
+2014-04-21 18:21:07 [INFO] [m<guardStor1[m> Inventorio[m
+2014-04-21 18:21:07 [INFO] [m<guardStor1[m> guardStor1 have 20[m
+2014-04-21 18:21:07 [INFO] [m<guardStor1[m> Inventorio[m
+2014-04-21 18:22:58 [INFO] guard1[/127.0.0.1:51598] logged in with entity id 1125180 at ([world] 1104.5, 4.0009999999999994, 140.5)
+2014-04-21 18:22:58 [INFO] guard2[/127.0.0.1:51599] logged in with entity id 1125348 at ([world] 1104.5, 4.0009999999999994, 134.5)
+2014-04-21 18:22:58 [INFO] [m<[0;31;22mguard1[m> guard1 have 20[m
+2014-04-21 18:22:58 [INFO] [m<[0;31;22mguard1[m> Inventorio slimeball x 3, swordDiamond x 1, swordDiamond x 1[m
+2014-04-21 18:22:58 [INFO] [m<[0;31;22mguard1[m> equipped Diamond Sword[m
+2014-04-21 18:22:58 [INFO] [m<[0;31;22mguard2[m> guard2 have 20[m
+2014-04-21 18:22:58 [INFO] [m<[0;31;22mguard2[m> Inventorio swordDiamond x 1, slimeball x 1[m
+2014-04-21 18:22:58 [INFO] [m<[0;31;22mguard2[m> equipped Diamond Sword[m
+2014-04-21 18:22:59 [INFO] Connection reset
+2014-04-21 18:22:59 [INFO] RitjiiiMaster lost connection: disconnect.quitting
+2014-04-21 18:22:59 [INFO] ¤eRitjiiiMaster left the game.
+2014-04-21 18:23:01 [INFO] RitjiiiMaster[/127.0.0.1:51601] logged in with entity id 1127084 at ([world] 1077.261895916257, 4.0, 149.5062546654512)
+2014-04-21 18:23:31 [INFO] ritjii[/127.0.0.1:51602] logged in with entity id 1172746 at ([world] 1114.8025393321727, 4.0009999999999994, 136.0994719717933)
+2014-04-21 18:23:31 [INFO] [m<[0;31;22mritjii[m> I have 6 health and 20 food[m
+2014-04-21 18:23:31 [INFO] [m<[0;31;22mritjii[m> Inventorioslimeball x 2[m
+2014-04-21 18:23:34 [INFO] [m<[0;31;22mritjii[m> I have 7 health and 20 food[m
+2014-04-21 18:23:34 [INFO] [m<[0;31;22mritjii[m> Inventorioslimeball x 2[m
+2014-04-21 18:23:35 [INFO] ritjii was slain by RitjiiiMaster
+2014-04-21 18:23:35 [INFO] [m<[0;31;22mritjii[m> I have 0 health and 20 food[m
+2014-04-21 18:23:35 [INFO] [m<[0;31;22mritjii[m> Inventorioslimeball x 2[m
+2014-04-21 18:23:35 [INFO] [m<[0;31;22mritjii[m> I have 20 health and 20 food[m
+2014-04-21 18:23:35 [INFO] [m<[0;31;22mritjii[m> Inventorio[m
+2014-04-21 18:23:35 [INFO] [m<[0;31;22mritjii[m> I have 20 health and 20 food[m
+2014-04-21 18:23:35 [INFO] [m<[0;31;22mritjii[m> Inventorio[m
+2014-04-21 18:24:41 [INFO] ritjii lost connection: disconnect.endOfStream
+2014-04-21 18:24:41 [INFO] ¤eritjii left the game.
+2014-04-21 18:24:44 [INFO] guard1 lost connection: disconnect.endOfStream
+2014-04-21 18:24:44 [INFO] ¤eguard1 left the game.
+2014-04-21 18:24:44 [INFO] guard2 lost connection: disconnect.endOfStream
+2014-04-21 18:24:45 [INFO] ¤eguard2 left the game.
+2014-04-21 18:24:46 [INFO] guardStor1 lost connection: disconnect.endOfStream
+2014-04-21 18:24:47 [INFO] ¤eguardStor1 left the game.
+2014-04-21 18:24:47 [INFO] guardStor2 lost connection: disconnect.endOfStream
+2014-04-21 18:24:47 [INFO] ¤eguardStor2 left the game.
+2014-04-21 18:25:57 [INFO] RitjiiiMaster lost connection: disconnect.quitting
+2014-04-21 18:25:57 [INFO] Connection reset
+2014-04-21 18:25:57 [INFO] ¤eRitjiiiMaster left the game.

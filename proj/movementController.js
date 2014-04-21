@@ -96,11 +96,11 @@ var randomIntInc = function (low, high) {
 }
 
 
-var treeNeighbor  = function (pos){
+var materialNeighbor  = function (pos, material){
 	var neighbors = [];
 	unit.forEach(function (vec) {
 		var v = new vec3(vec.x, bot.entity.height, vec.z);
-		if (!isEmpty(pos.plus(v)) && bot.blockAt(pos.plus(v)) && bot.blockAt(pos.plus(v)).material === 'wood')
+		if (!isEmpty(pos.plus(v)) && bot.blockAt(pos.plus(v)) && bot.blockAt(pos.plus(v)).material === material)
 			neighbors.push(pos.plus(v));
 	});
 	return neighbors;
@@ -140,6 +140,22 @@ var nearestEntity =  function (type) {
   return best;
 }
 
+var itemByName = function (name, bot) {
+  return bot.inventory.items().filter(function(item) {
+    return item.name === name;
+  })[0];
+}
+
+var typeMaterialNeighbor  = function (pos, type){
+	var neighbors = [];
+	unit.forEach(function (vec) {
+		var v = new vec3(vec.x, bot.entity.height, vec.z);
+		if (!isEmpty(pos.plus(v)) && bot.blockAt(pos.plus(v)) && bot.blockAt(pos.plus(v)).name === type)
+			neighbors.push(pos.plus(v));
+	});
+	return neighbors;
+}
+
 
 exports.unit = unit;
 exports.isYawValid = isYawValid;
@@ -153,6 +169,8 @@ exports.isBlockingElement = isBlockingElement;
 exports.boundingBox = boundingBox;
 exports.randomIntInc = randomIntInc;
 exports.setBot = setBot;
-exports.treeNeighbor = treeNeighbor;
+exports.materialNeighbor = materialNeighbor;
 exports.treePossiblePositions =treePossiblePositions;
 exports.nearestEntity= nearestEntity;
+exports.itemByName = itemByName;
+exports.typeMaterialNeighbor = typeMaterialNeighbor;
