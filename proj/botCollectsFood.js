@@ -5,8 +5,7 @@ var vec3 = mineflayer.vec3;
 
 var steps = 0;
 var bot = mineflayer.createBot({
-  username: "ritjii",
-  'spawnPoint': vec3 (1149, 4, 26),
+  username: "foodBot",
 });
 
 //passes to the movementController info about the bot
@@ -15,29 +14,12 @@ mvc.setBot(bot);
 bot.on('spawn', function(){
 	bot.setControlState('forward', true);
 });
-//flag que indica se está a fazer digging ou nao
-var digging = false;
 
-//when the bot moves it is cheked if there is something, around him, that it is to be digged
+//when the bot moves it is cheked if there is any mob to kill, around him
 bot.on('entityMoved', function () {
-	if(digging)
-		return;
+	
 	var botposition = bot.entity.position;
 
-	var tree = mvc.materialNeighbor(botposition, 'wood');
-	if(tree.length >0){
-		 digging = true;
-		 bot.setControlState('forward', false);
-		 tree.forEach(function (a) {
-		 	var digBlocks = mvc.treePossiblePositions(a);
-		 	digBlocks.forEach (function  (b) {
-		 		if(bot.canDigBlock(b)){
-			 	 	bot.dig(b,onDiggingCompleted);
-			 	 	bot.chat("diging");
-		 		}
-		 	});
-		 });	 
-	}
 
 	//toss the inventory around the storage
 	var storage = mvc.typeMaterialNeighbor(botposition, 'bedrock');
@@ -77,12 +59,13 @@ bot.on('entityMoved', function () {
 		bot.setControlState('forward',true);
 	 	steps = 19;
 	 }
+
 });
 
 
 //Indicates the heath and the inventory of the bot
 bot.on('health', function() {
-  bot.chat("ritjii have " + bot.health + " health and " + bot.food + " food");
+  bot.chat("fooBot have " + bot.health + " health and " + bot.food + " food");
   listInventory();
 });
 
@@ -100,29 +83,4 @@ function itemStr(item) {
   }
 }
 
-//auxiliar function to the operation dig
-function onDiggingCompleted(err,b) {
-    bot.chat("finished digging ");
-}
 
-//auxiliar function to the operation dig
-bot.on('diggingCompleted', function(block){
-	bot.chat("chegamos ao complete");
-	digging = false;
-	bot.setControlState('forward', true);
-});
-
-//auxiliar function to the operation dig
-bot.on('diggingAborted', function(block){
-	bot.chat("ABORTEI!" + block);
-});
-
-
-//When the bot was hurt attacks the entity closest to the bot
-bot.on('entityHurt', function (ent) {
-	var enemy = mvc.nearestEntity();
-	if(enemy){
-		bot.lookAt(enemy.position);
-		bot.attack(enemy);
-	}
-});

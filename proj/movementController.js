@@ -100,8 +100,11 @@ var materialNeighbor  = function (pos, material){
 	var neighbors = [];
 	unit.forEach(function (vec) {
 		var v = new vec3(vec.x, bot.entity.height, vec.z);
-		if (!isEmpty(pos.plus(v)) && bot.blockAt(pos.plus(v)) && bot.blockAt(pos.plus(v)).material === material)
-			neighbors.push(pos.plus(v));
+		if (!isEmpty(pos.plus(v)) && bot.blockAt(pos.plus(v)) && bot.blockAt(pos.plus(v)).material === material) {
+			if(!((1112 <= pos.plus(v).x <= 1189) && (60 <= pos.plus(v).z <= 166))){
+				neighbors.push(pos.plus(v));
+			}
+		}
 	});
 	return neighbors;
 }
@@ -112,10 +115,9 @@ var treePossiblePositions = function (pos) {
 	var v2 = vec3 (pos.x,pos.y - 1,pos.z);
 	var v3 = vec3 (pos.x,pos.y + 1,pos.z);
 
-	vec.push(bot.blockAt(v1));
-	vec.push(bot.blockAt(v2));
-	vec.push(bot.blockAt(v3));
-	
+		vec.push(bot.blockAt(v1));
+		vec.push(bot.blockAt(v2));
+		vec.push(bot.blockAt(v3));
 	return vec;
 }
 
