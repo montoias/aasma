@@ -99,10 +99,10 @@ var randomIntInc = function (low, high) {
 var materialNeighbor  = function (pos, material){
 	var neighbors = [];
 	unit.forEach(function (vec) {
-		var v = new vec3(vec.x, bot.entity.height, vec.z);
-		if (!isEmpty(pos.plus(v)) && bot.blockAt(pos.plus(v)) && bot.blockAt(pos.plus(v)).material === material) {
-			if(!((1112 <= pos.plus(v).x <= 1189) && (60 <= pos.plus(v).z <= 166))){
-				neighbors.push(pos.plus(v));
+		var w = new vec3(vec.x, vec.y, vec.z);
+		if (!isEmpty(pos.plus(w)) && bot.blockAt(pos.plus(w)) && bot.blockAt(pos.plus(w)).material === material) {
+			 if(!(((1112 <= pos.plus(w).x) && (pos.plus(w).x <= 1189)) && ((60 <= pos.plus(w).z) && (pos.plus(w).z <= 166)))){
+				neighbors.push(pos.plus(w));
 			}
 		}
 	});
@@ -112,7 +112,7 @@ var materialNeighbor  = function (pos, material){
 var treePossiblePositions = function (pos) {
 	var vec = []
 	var v1 = vec3 (pos.x,pos.y,pos.z);
-	var v2 = vec3 (pos.x,pos.y - 1,pos.z);
+	var v2 = vec3 (pos.x,pos.y +2,pos.z);
 	var v3 = vec3 (pos.x,pos.y + 1,pos.z);
 
 		vec.push(bot.blockAt(v1));
@@ -141,6 +141,29 @@ var nearestEntity =  function (type) {
   }
   return best;
 }
+
+//function that sees if there are passiveEntities around the bot, if it is the closest is return.
+var nearestPassiveEntities =  function () {
+  var id, entity, dist;
+  var best = null;
+  var bestDistance = 5;
+ // console.log("entidades! do ", bot.username , bot.entities);
+  for (id in bot.entities) {
+    entity = bot.entities[id];
+    if (entity === bot.entity) continue;
+    if (entity.type !== 'mob') continue;
+    if(entity.mobType === 'pig' || entity.mobType === 'sheep' || entity.mobType === 'cow' || entity.mobType === 'chicken' 
+    	|| entity.mobType === 'mooshroom'){
+    		dist = bot.entity.position.distanceTo(entity.position);
+		    if (dist < bestDistance) {
+		      best = entity;
+		      bestDistance = dist;
+		    }
+  	}
+  }
+  return best;
+}
+
 
 var itemByName = function (name, bot) {
   return bot.inventory.items().filter(function(item) {
@@ -176,3 +199,4 @@ exports.treePossiblePositions =treePossiblePositions;
 exports.nearestEntity= nearestEntity;
 exports.itemByName = itemByName;
 exports.typeMaterialNeighbor = typeMaterialNeighbor;
+exports.nearestPassiveEntities = nearestPassiveEntities;

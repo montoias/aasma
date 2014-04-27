@@ -26,6 +26,7 @@ bot.on('entityMoved', function () {
 
 	var tree = mvc.materialNeighbor(botposition, 'wood');
 	if(tree.length >0){
+		console.log("treeee");
 		 digging = true;
 		 bot.setControlState('forward', false);
 		 tree.forEach(function (a) {
@@ -36,13 +37,14 @@ bot.on('entityMoved', function () {
 			 	 	bot.chat("diging");
 		 		}
 		 	});
-		 });	 
+		 });	 	
+		return;
 	}
 
 	//toss the inventory around the storage
 	var storage = mvc.typeMaterialNeighbor(botposition, 'bedrock');
 	if(storage.length > 0) {
-			var inventory = bot.inventory.items();
+		var inventory = bot.inventory.items();
 		if(inventory.length > 0) { 
 			inventory.forEach(function (a) {
 				bot.tossStack(a, function(err) {
@@ -121,6 +123,9 @@ bot.on('diggingAborted', function(block){
 //When the bot was hurt attacks the entity closest to the bot
 bot.on('entityHurt', function (ent) {
 	var enemy = mvc.nearestEntity();
+	if(bot.health <= 5){
+		bot.chat("Please help me! Me ser Ritjii");
+	}
 	if(enemy){
 		bot.lookAt(enemy.position);
 		bot.attack(enemy);

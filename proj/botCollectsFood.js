@@ -3,9 +3,11 @@ var EventEmitter = require('events').EventEmitter
 var mvc = require('./movementController');
 var vec3 = mineflayer.vec3;
 
+
 var steps = 0;
 var bot = mineflayer.createBot({
   username: "foodBot",
+  'spawnPoint': vec3 (1127, 4, 45),
 });
 
 //passes to the movementController info about the bot
@@ -19,7 +21,6 @@ bot.on('spawn', function(){
 bot.on('entityMoved', function () {
 	
 	var botposition = bot.entity.position;
-
 
 	//toss the inventory around the storage
 	var storage = mvc.typeMaterialNeighbor(botposition, 'bedrock');
@@ -36,6 +37,13 @@ bot.on('entityMoved', function () {
 	        	});
 			});
 		}
+	}
+
+	//see if there are any passiveEntite to be killed, if there is the bot kills it.
+	var enemy = mvc.nearestPassiveEntities();
+		if(enemy){
+			bot.lookAt(enemy.position);
+			bot.attack(enemy);
 	}
 
 	//see the free positions around the bot and moves forward, after walking 20 steps moves to other (random) direction
@@ -83,4 +91,6 @@ function itemStr(item) {
   }
 }
 
-
+bot.on('entityHurt', function (ent) {
+	bot.chat("Please help me! Me ser foodBot");
+});
