@@ -12,7 +12,8 @@ Kind of bots created:
 Lumberjacker
 ============
 
-Sensores: 
+Sensores 
+========
 
   spawn
     
@@ -95,7 +96,55 @@ Actuadores:
 - clearControlStates (reset states)
 - tossStack
     
+=======
+Hunter:
+=======
+
+To be described
     
+===========
+City Guards
+===========
+
+Each guard launches a process every 1 second to check if there is any Entity trying to pass through them.
+
+========
+Sensores
+========
+
+Spawn
+	
+	this sensor acts upon the spawn of the entity
+
+Health
+
+	this sensor acts upon health decrease and increase. Will be used further with deliberative process.
+
+nearestEntity
+	
+	this sensor will return the nearest entity in a 5 range radius.
+
+itemByName
+ 	
+ 	this sensor will check if a guard has a specific item.
+
+==========
+Actuadores
+==========
+- lookAt :: Position
+- attack  :: Entity
+- equip :: Item, bodyPosition 
+- chat :: String
+- spawnPoint :: Position
+- yaw :: Degree
+
+==============
+Storage Guards
+==============
+
+They are equal with the city guards for now, but will change in the deliberative process.
+
+
 =====
 Setup
 =====
