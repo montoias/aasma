@@ -1,3 +1,6 @@
+
+![alt tag](https://raw.github.com/montoias/aasma/master/minecraft.png)
+
 ====================
 Kind of bots created:
 ====================
