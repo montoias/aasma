@@ -1,5 +1,8 @@
+=========
+Minecraft Reactive
+=========
 
-![alt tag](https://raw.github.com/montoias/aasma/master/minecraft.png)
+![alt tag](https://raw.githubusercontent.com/montoias/aasma/master/minecraft.png?token=1915774__eyJzY29wZSI6IlJhd0Jsb2I6bW9udG9pYXMvYWFzbWEvbWFzdGVyL21pbmVjcmFmdC5wbmciLCJleHBpcmVzIjoxMzk5MjU0OTQ2fQ%3D%3D--6bee8a2715ea6d2f5c2ea9e2434a5ea0e5a85fd0)
 
 ====================
 Kind of bots created:
