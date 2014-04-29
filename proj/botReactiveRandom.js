@@ -15,6 +15,7 @@ mvc.setBot(bot);
 bot.on('spawn', function(){
 	bot.setControlState('forward', true);
 });
+
 //flag que indica se está a fazer digging ou nao
 var digging = false;
 
@@ -26,7 +27,6 @@ bot.on('entityMoved', function () {
 
 	var tree = mvc.materialNeighbor(botposition, 'wood');
 	if(tree.length >0){
-		console.log("treeee");
 		 digging = true;
 		 bot.setControlState('forward', false);
 		 tree.forEach(function (a) {
@@ -47,11 +47,16 @@ bot.on('entityMoved', function () {
 		var inventory = bot.inventory.items();
 		if(inventory.length > 0) { 
 			inventory.forEach(function (a) {
-				bot.tossStack(a, function(err) {
+				var item = mvc.itemByName(a.name);
+			    console.log(bot.inventory);
+				console.log("a.name " + a.name);
+				console.log("O ITEM " + item.type);
+				bot.toss(item.type, null, 1, function(err) {
 					if (err) {
-			          bot.chat("unable to toss " + a.name);
+			          bot.chat("unable to toss " + item.name);
 			        } else {
-			          bot.chat("tossed " + a.name);
+			          bot.chat("tossed " + item.name);
+			          mvc.listInventory();
 			        }
 	        	});
 			});
@@ -84,50 +89,41 @@ bot.on('entityMoved', function () {
 
 //Indicates the heath and the inventory of the bot
 bot.on('health', function() {
-  bot.chat("ritjii have " + bot.health + " health and " + bot.food + " food");
-  listInventory();
+  bot.chat(bot.entity.username + " have " + bot.health + " health and " + bot.food + " food");
+  mvc.listInventory();
 });
-
-//function that lists the bot's inventory
-function listInventory() {
-  bot.chat("Inventorio" + bot.inventory.items().map(itemStr).join(", "));
-}
-
-//function that ounts every item that it exits at the bot's inventory 
-function itemStr(item) {
-  if (item) {
-    return item.name + " x " + item.count;
-  } else {
-    return "(nothing)";
-  }
-}
 
 //auxiliar function to the operation dig
 function onDiggingCompleted(err,b) {
-    bot.chat("finished digging ");
+    bot.chat("finished digging");
 }
 
 //auxiliar function to the operation dig
 bot.on('diggingCompleted', function(block){
-	bot.chat("chegamos ao complete");
 	digging = false;
 	bot.setControlState('forward', true);
 });
 
 //auxiliar function to the operation dig
 bot.on('diggingAborted', function(block){
-	bot.chat("ABORTEI!" + block);
+	bot.chat("aborted digging" + block);
 });
 
 
 //When the bot was hurt attacks the entity closest to the bot
 bot.on('entityHurt', function (ent) {
-	var enemy = mvc.nearestEntity();
-	if(bot.health <= 5){
-		bot.chat("Please help me! Me ser Ritjii");
+	if(ent.type != 'mob' && (ent.username === bot.entity.username)) {
+		var enemy = mvc.nearestEntity();
+		if(bot.health <= 5){
+			bot.chat("Please help me! Me ser " + bot.entity.username);
+		}
+		if(enemy){
+			bot.lookAt(enemy.position);
+			bot.attack(enemy);
+		}
 	}
-	if(enemy){
-		bot.lookAt(enemy.position);
-		bot.attack(enemy);
-	}
+});
+
+bot.on('entityEat', function(entity) {
+  bot.chat(entity.username + ": OM NOM NOM NOMONOM. that's what you sound like.");
 });

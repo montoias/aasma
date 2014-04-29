@@ -14,8 +14,16 @@ var bot = mineflayer.createBot({
 mvc.setBot(bot);
 
 bot.on('spawn', function(){
+	bot.chat("RENASCIIIIIIIIIIIIIIIIIIII");
 	bot.setControlState('forward', true);
 });
+
+bot.on('respawn', function(){
+	bot.chat("RENASCIIIIIIIIIIIIIIIIIIII222222222222222222222222");
+	bot.setControlState('forward', true);
+});
+
+
 
 //when the bot moves it is cheked if there is any mob to kill, around him
 bot.on('entityMoved', function () {
@@ -33,6 +41,7 @@ bot.on('entityMoved', function () {
 			          bot.chat("unable to toss " + a.name);
 			        } else {
 			          bot.chat("tossed " + a.name);
+			          mvc.listInventory();
 			        }
 	        	});
 			});
@@ -44,14 +53,14 @@ bot.on('entityMoved', function () {
 		if(enemy){
 			bot.lookAt(enemy.position);
 			bot.attack(enemy);
-	}
+		}
 
 	//see the free positions around the bot and moves forward, after walking 20 steps moves to other (random) direction
 	var neighbors = mvc.freeNeighbors(botposition);
 
 	steps ++;
 
-	if(neighbors.length > 0 && steps == 20){
+	if(neighbors.length > 0 && steps === 20){
 		var random = mvc.randomIntInc(0,(neighbors.length - 1));
 		var elem = neighbors[random];
 
@@ -59,7 +68,7 @@ bot.on('entityMoved', function () {
 	 	var lookAtPoint = vec3(botposition.x + elem.x, lookAtY, botposition.z + elem.z);
 	 	bot.lookAt(lookAtPoint);
 	 	steps = 0;
-	 } else if (steps == 20) {
+	 } else if (steps === 20) {
 	 	steps = 0;
 	 } else if(!mvc.isYawValid(bot.entity.yaw,botposition)){
 	 	bot.setControlState('jump',true);
@@ -73,24 +82,20 @@ bot.on('entityMoved', function () {
 
 //Indicates the heath and the inventory of the bot
 bot.on('health', function() {
-  bot.chat("fooBot have " + bot.health + " health and " + bot.food + " food");
-  listInventory();
+  bot.chat(bot.entity.username + " have " + bot.health + " health and " + bot.food + " food");
+  mvc.listInventory();
 });
 
-//function that lists the bot's inventory
-function listInventory() {
-  bot.chat("Inventorio" + bot.inventory.items().map(itemStr).join(", "));
-}
-
-//function that ounts every item that it exits at the bot's inventory 
-function itemStr(item) {
-  if (item) {
-    return item.name + " x " + item.count;
-  } else {
-    return "(nothing)";
-  }
-}
-
 bot.on('entityHurt', function (ent) {
-	bot.chat("Please help me! Me ser foodBot");
+	if(ent.type != 'mob' && (ent.username === bot.entity.username)){
+		bot.chat("Please help me! Me ser " + bot.entity.username);
+	}
+});
+
+bot.on('entityEat', function(entity) {
+  bot.chat(entity.username + ": OM NOM NOM NOMONOM. that's what you sound like.");
+});
+
+bot.on('death', function() {
+  bot.chat(bot.entity.username + "DIED");
 });

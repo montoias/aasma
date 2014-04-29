@@ -38,33 +38,8 @@ var cronJob = cron.job("* * * * * *", function(){
 
 cronJob.start();
 
-
-function listInventory1() {
-  bot1.chat("Inventorio " + bot1.inventory.items().map(itemStr).join(", "));
-}
-
-function listInventory2() {
-  bot2.chat("Inventorio " + bot2.inventory.items().map(itemStr).join(", "));
-}
-
-//function that counts every item that it exits at the bot's inventory 
-function itemStr(item) {
-  if (item) {
-    return item.name + " x " + item.count;
-  } else {
-    return "(nothing)";
-  }
-}
-
-
-function itemByName (name, bot) {
-  return bot.inventory.items().filter(function(item) {
-    return item.name === name;
- }) [0];
-}
-
 bot1.on('spawn', function(){
-	var item = itemByName("swordDiamond", bot1);
+	var item = mvc1.itemByName("swordDiamond");
 	if(item != null){
 		bot1.equip(item, 'hand', function(err) {
 			if (err) {
@@ -79,7 +54,7 @@ bot1.on('spawn', function(){
 
 
 bot2.on('spawn', function(){
-	var item = itemByName("swordDiamond", bot2);
+	var item = mvc2.itemByName("swordDiamond");
 	if(item != null){
 		bot2.equip(item, 'hand', function(err) {
 			if (err) {
@@ -95,11 +70,11 @@ bot2.on('spawn', function(){
 
 bot1.on('health', function() {
   bot1.chat("guardStor1 have " + bot1.health);
-    listInventory1();
+    mvc1.listInventory();
 
 });
 
 bot2.on('health', function() {
   bot2.chat("guardStor2 have " + bot2.health);
-    listInventory2();
+    mvc2.listInventory();
 });

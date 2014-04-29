@@ -122,7 +122,7 @@ var treePossiblePositions = function (pos) {
 }
 
 
-//function that sees if there is olher entities around the bot, if it is the closest is return.
+//function that sees if there are any entities around the bot, if it is the closest is return.
 var nearestEntity =  function (type) {
   var id, entity, dist;
   var best = null;
@@ -165,7 +165,7 @@ var nearestPassiveEntities =  function () {
 }
 
 
-var itemByName = function (name, bot) {
+var itemByName = function (name) {
   return bot.inventory.items().filter(function(item) {
     return item.name === name;
   })[0];
@@ -179,6 +179,20 @@ var typeMaterialNeighbor  = function (pos, type){
 			neighbors.push(pos.plus(v));
 	});
 	return neighbors;
+}
+
+//function that lists the bot's inventory
+var listInventory = function () {
+  bot.chat(bot.entity.username + " Inventorio " + bot.inventory.items().map(itemStr).join(", "));
+}
+
+//function that ounts every item that it exits at the bot's inventory 
+var itemStr = function (item) {
+  if (item) {
+    return item.name + " x " + item.count;
+  } else {
+    return "(nothing)";
+  }
 }
 
 
@@ -200,3 +214,5 @@ exports.nearestEntity= nearestEntity;
 exports.itemByName = itemByName;
 exports.typeMaterialNeighbor = typeMaterialNeighbor;
 exports.nearestPassiveEntities = nearestPassiveEntities;
+exports.listInventory = listInventory;
+exports.itemStr = itemStr;
