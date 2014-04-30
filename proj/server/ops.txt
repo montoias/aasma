@@ -1,6 +1,7 @@
 montoias
 guard1
 guard2
+foodbot
 ritjii
 bia
 ritjiiimaster
