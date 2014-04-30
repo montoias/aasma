@@ -14,16 +14,10 @@ var bot = mineflayer.createBot({
 mvc.setBot(bot);
 
 bot.on('spawn', function(){
-	bot.chat("RENASCIIIIIIIIIIIIIIIIIIII");
 	bot.setControlState('forward', true);
 });
 
-bot.on('respawn', function(){
-	bot.chat("RENASCIIIIIIIIIIIIIIIIIIII222222222222222222222222");
-	bot.setControlState('forward', true);
-});
-
-
+var beforeToss = true;
 
 //when the bot moves it is cheked if there is any mob to kill, around him
 bot.on('entityMoved', function () {
@@ -31,20 +25,11 @@ bot.on('entityMoved', function () {
 	var botposition = bot.entity.position;
 
 	//toss the inventory around the storage
-	var storage = mvc.typeMaterialNeighbor(botposition, 'bedrock');
-	if(storage.length > 0) {
-			var inventory = bot.inventory.items();
-		if(inventory.length > 0) { 
-			inventory.forEach(function (a) {
-				bot.tossStack(a, function(err) {
-					if (err) {
-			          bot.chat("unable to toss " + a.name);
-			        } else {
-			          bot.chat("tossed " + a.name);
-			          mvc.listInventory();
-			        }
-	        	});
-			});
+	if(mvc.isStorage(botposition)){
+		var inventory = bot.inventory.items();
+		if((inventory.length > 0) && (beforeToss === true)) { 
+			mvc.tossInventory(inventory);
+			beforeToss = false;
 		}
 	}
 
@@ -79,6 +64,13 @@ bot.on('entityMoved', function () {
 
 });
 
+
+//Indicates when an entity(collector) collects some object(collected)
+bot.on('playerCollect', function(collector, collected){
+	if(collector.username === bot.entity.username){
+		beforeToss = true;
+	}
+});
 
 //Indicates the heath and the inventory of the bot
 bot.on('health', function() {
