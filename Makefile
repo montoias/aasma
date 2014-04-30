@@ -5,5 +5,5 @@ npm:
 	rm -rf mineflayer; \
 	git clone https://github.com/andrewrk/mineflayer; \
 	cd mineflayer; \
-	git checkout -b 3fa3141dc54f2e74b4bce291511ab6b67c1e11f2; \
+	git reset --hard 3fa3141dc54f2e74b4bce291511ab6b67c1e11f2; \
 	npm install; \
