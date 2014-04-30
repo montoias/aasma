@@ -19,6 +19,17 @@ bot.on('spawn', function(){
 //flag que indica se está a fazer digging ou nao
 var digging = false;
 
+
+// bot.on('chat', function(username, message) {
+// 	var i, item;
+// 	if (/^toss /.test(message)) {
+//  		var inventory = bot.inventory.items();
+// 		if(inventory.length > 0) {
+// 			mvc.tossInventory(inventory);	
+// 		}
+//     }
+// });
+
 //when the bot moves it is cheked if there is something, around him, that it is to be digged
 bot.on('entityMoved', function () {
 	if(digging)
@@ -42,26 +53,15 @@ bot.on('entityMoved', function () {
 	}
 
 	//toss the inventory around the storage
-	var storage = mvc.typeMaterialNeighbor(botposition, 'bedrock');
-	if(storage.length > 0) {
+	if(mvc.isStorage(botposition)){
+		console.log("esta na storage");
 		var inventory = bot.inventory.items();
 		if(inventory.length > 0) { 
-			inventory.forEach(function (a) {
-				var item = mvc.itemByName(a.name);
-			    console.log(bot.inventory);
-				console.log("a.name " + a.name);
-				console.log("O ITEM " + item.type);
-				bot.toss(item.type, null, 1, function(err) {
-					if (err) {
-			          bot.chat("unable to toss " + item.name);
-			        } else {
-			          bot.chat("tossed " + item.name);
-			          mvc.listInventory();
-			        }
-	        	});
-			});
+			console.log("inventory cheio")
+			mvc.tossInventory(inventory);
 		}
 	}
+	
 
 	//see the free positions around the bot and moves forward, after walking 20 steps moves to other (random) direction
 	var neighbors = mvc.freeNeighbors(botposition);

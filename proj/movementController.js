@@ -196,6 +196,26 @@ var itemStr = function (item) {
 }
 
 
+var tossInventory = function (list) {
+	if(list.length == 0) {
+		return;
+	}
+	var item = list.pop();		
+	bot.tossStack(item, function(err) {
+		if (err) {
+			bot.chat("unable to toss " + item.name);
+		} else {      
+			bot.chat("tossed " + item.name);
+		}
+		tossInventory(list);
+	});	
+}
+
+
+var isStorage = function (pos){
+	return ((pos.x <= 1123) && (pos.x >= 1119) && (pos.z <= 66) && (pos.z >= 61))
+}
+
 exports.unit = unit;
 exports.isYawValid = isYawValid;
 exports.isValidDirection = isValidDirection;
@@ -216,3 +236,5 @@ exports.typeMaterialNeighbor = typeMaterialNeighbor;
 exports.nearestPassiveEntities = nearestPassiveEntities;
 exports.listInventory = listInventory;
 exports.itemStr = itemStr;
+exports.tossInventory = tossInventory;
+exports.isStorage = isStorage;
