@@ -216,6 +216,14 @@ var isStorage = function (pos){
 	return ((pos.x <= 1123) && (pos.x >= 1119) && (pos.z <= 66) && (pos.z >= 61))
 }
 
+
+var eatableItem = {
+	'beefRaw': true, 
+	'porkchopRaw': true, 
+	'spiderEye': true, 
+	'chickenRaw' :true
+};
+
 exports.unit = unit;
 exports.isYawValid = isYawValid;
 exports.isValidDirection = isValidDirection;
@@ -238,3 +246,4 @@ exports.listInventory = listInventory;
 exports.itemStr = itemStr;
 exports.tossInventory = tossInventory;
 exports.isStorage = isStorage;
+exports.eatableItem = eatableItem;

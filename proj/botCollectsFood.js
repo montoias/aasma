@@ -18,6 +18,7 @@ bot.on('spawn', function(){
 });
 
 var beforeToss = true;
+var eating = false;
 
 //when the bot moves it is cheked if there is any mob to kill, around him
 bot.on('entityMoved', function () {
@@ -61,7 +62,6 @@ bot.on('entityMoved', function () {
 		bot.setControlState('forward',true);
 	 	steps = 19;
 	 }
-
 });
 
 
@@ -72,11 +72,37 @@ bot.on('playerCollect', function(collector, collected){
 	}
 });
 
+
 //Indicates the heath and the inventory of the bot
 bot.on('health', function() {
-  bot.chat(bot.entity.username + " have " + bot.health + " health and " + bot.food + " food");
-  mvc.listInventory();
+	bot.chat(bot.entity.username + " have " + bot.health + " health and " + bot.food + " food");	
+	mvc.listInventory();
+	if(!eating){
+		eat();
+	}
 });
+
+
+function eat () {
+	if(bot.food < 20){
+		eating = true;
+	  	var foods = bot.inventory.items().filter(function(item){
+	  		return mvc.eatableItem[item.name];
+	  	})
+	  	var food = foods[0]; 
+	  	if(!food){
+	  		eating=false;
+	  	}else{
+	  		bot.equip(food, 'hand',  function(err) {
+			if (err) {
+				bot.chat("unable to equip " + food.name);
+			} else {
+				bot.chat("equipped " + food.name);
+				bot.activateItem();
+			}})
+	 	}
+	} else eating =false;
+}
 
 bot.on('entityHurt', function (ent) {
 	if(ent.type != 'mob' && (ent.username === bot.entity.username)){
@@ -84,8 +110,11 @@ bot.on('entityHurt', function (ent) {
 	}
 });
 
-bot.on('entityEat', function(entity) {
-  bot.chat(entity.username + ": OM NOM NOM NOMONOM. that's what you sound like.");
+bot.on('entityEat', function(ent) {
+	if(ent.type != 'mob' && (ent.username === bot.entity.username)){
+  		bot.chat(ent.username + ": OM NOM NOM NOMONOM. that's what you sound like.");
+  		setTimeout(function () {bot.deactivateItem();eat();}, 3000);
+  	}
 });
 
 bot.on('death', function() {
