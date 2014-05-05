@@ -1,12 +1,19 @@
 var mineflayer = require('mineflayer');
 var vec3 = mineflayer.vec3;
 var navigatePlugin = require('mineflayer-navigate')(mineflayer);
+var scaffoldPlugin = require('mineflayer-scaffold')(mineflayer);
+
 var mvc = require('./movementController');
 
 var bot = mineflayer.createBot({ username: "master", });
-var freeHouses = [];
+var buildingBlocks = [];
+var windowsPositions = [];
+var actualBlock;
 
 mvc.setBot(bot);
+// install the plugin
+navigatePlugin(bot);
+scaffoldPlugin(bot);
 
 // block types allowed to be used as scaffolding
 var scaffoldBlockTypes = {
@@ -18,8 +25,6 @@ var scaffoldBlockTypes = {
   87: true, // netherrack
 };
 
-// install the plugin
-navigatePlugin(bot);
 
 // optional configuration
 bot.navigate.blocksToAvoid[132] = true; // avoid tripwire
@@ -33,29 +38,16 @@ var x = parseInt(process.argv[3])
 var z = parseInt(process.argv[4])
 
 bot.on('spawn', function(){
-
-});
-
-bot.navigate.on('cannotFind', function (closestPath) {
-  bot.chat("unable to find path. getting as close as possible");
-  bot.navigate.walk(closestPath, function(reason){
-      console.log(reason);
-  if(reason==='arrived')
-      buildBlock();      
-  });
 });
 
 bot.navigate.on('arrived', function () {
-    console.log("cheguei", freeHouses.length)
-    if(freeHouses.length > 0) {   
-      buildBlock();   
-    }
+    console.log("cheguei", buildingBlocks.length)
+    
 });
 
 function buildBlock () {
-      build(); 
-      console.log("builded")
-      setTimeout(function(){buildHouse()}, 1000);
+  console.log("cheguei")
+      build(buildHouse); 
 }
 
 bot.navigate.on('interrupted', function() {
@@ -70,14 +62,18 @@ bot.on('chat', function(username, message) {
     bot.navigate.to(target.position);
   } else if (message === 'stop') {
     bot.navigate.stop();
-  } else if (message === 'dig') {
-    dig()
+  } else if (message.split(" ")[0] === 'dig') {
+    var split = message.split(" ")
+    var b = vec3(parseInt(split[1]),parseInt(split[2]),parseInt(split[3]));
+    moveTo(b);
+
   } else if (message === 'build') {
-    build()
+    build(buildHouse)
   } else if (message === 'positions') {
-    console.log(getBuildingPositions())
-    freeHouses = getBuildingPositions()
-    buildHouse()
+    buildingBlocks = getBuildingPositions();
+    windowsPositions = getWindowsPositions();
+    buildHouse();
+
   } else if (message === 'show') {
     console.log  ( bot.heldItem)
     equipBuildingBlock();
@@ -87,25 +83,63 @@ bot.on('chat', function(username, message) {
   else if (message.split(" ")[0] === 'move') {
       var split = message.split(" ")
       var dest = vec3(parseInt(split[1]),parseInt(split[2]),parseInt(split[3]))
-      console.log(dest)
       bot.navigate.to(dest)
   }
   
   
 });
 
+function getWindowsPositions (argument) {
 
-function buildHouse(){
- if(freeHouses.length === 0)
-    return;
+  var botx = bot.entity.position.floored().x,
+      boty = bot.entity.position.floored().y,
+      botz = bot.entity.position.floored().z,
+      xHalf = Math.floor(x / 2),
+      zHalf = Math.floor(z / 2);
 
- var next = freeHouses.pop();
- console.log(next);
- console.log('before');
- bot.navigate.to(next, {timeout: 1});
- console.log('after');
+  var windows = []
+  windows.push(vec3(botx, boty + 1, botz - zHalf))
+  windows.push(vec3(botx, boty + 1, botz + zHalf))
+  windows.push(vec3(botx - xHalf, boty + 1, botz))
+  windows.push(vec3(botx + xHalf, boty + 1, botz))
+  windows.push(vec3(botx + xHalf, boty, botz))
+  console.log(windows.length)
+  return windows
 }
 
+function buildHouse(){
+ if(buildingBlocks.length === 0) {
+    console.log("terminei construir as paredes")
+    moveToAll(windowsPositions)
+    return;
+ }
+
+ actualBlock = buildingBlocks.pop();
+ moveTo (actualBlock, buildBlock);
+
+}
+
+function moveToAll () {
+  if(windowsPositions.length === 0)
+      return
+  moveTo(windowsPositions.pop(), moveToAll);
+}
+
+function moveTo (dest, callback) {
+   bot.scaffold.to(dest, function(err) {
+      if (err) {
+        if(bot.canDigBlock(bot.blockAt(dest))){
+          bot.dig(bot.blockAt(dest),onDiggingCompleted);
+          setTimeout(function () { callback();}, bot.digTime(bot.blockAt(dest)));
+          console.log("diging");
+        }
+        console.log("didn't make it: " ,err.code, dest);
+      } else {
+        bot.chat("made it!");
+        callback();   
+      }
+    });
+}
 
 function getBuildingPositions () {
 
@@ -116,8 +150,8 @@ function getBuildingPositions () {
       xHalf = Math.floor(x / 2),
       zHalf = Math.floor(z / 2);
 
-  console.log("x")
-  for (i = botx - xHalf; i <= botx + xHalf; i++) {
+  // outside wall
+  for (i = botx - xHalf + 1; i < botx + xHalf; i++) {
     for (j = botz - zHalf; j <= botz + zHalf; j += 2 * zHalf){
       for (k = boty + 2; k >= boty; k--) {
         result.push(vec3(i,k ,j))
@@ -125,43 +159,23 @@ function getBuildingPositions () {
     }
   }
 
-  console.log("z")
-  for (i = botz - zHalf; i <= botz + zHalf; i++) {
+  for (i = botz - zHalf + 1; i < botz + zHalf; i++) {
    for (j = botx - xHalf; j <= botx + xHalf; j += 2 * xHalf){
       for (k = boty + 2; k >=  boty; k--) {
         result.push(vec3(j,k,i))
       }
     }
   }
-
+ ///
+  
   return result
 
 }
 
 
-function dig() {
-  if (bot.targetDigBlock) {
-    bot.chat("already digging " + bot.targetDigBlock.name);
-  } else {
-    var target = bot.blockAt(bot.entity.position.offset(0, -1,  0));
-    if (target && bot.canDigBlock(target)) {
-      bot.chat("starting to dig " + target.name);
-      bot.dig(target, onDiggingCompleted);
-    } else {
-      bot.chat("cannot dig");
-    }
-  }
+function build(callback) {
 
-  function onDiggingCompleted() {
-    bot.chat("finished digging " + target.name);
-  }
-}
-
-
-
-function build() {
-
-  if(!equipBuildingBlock()) return;
+  if(!equipBuildingBlock() || buildingBlocks === 0) return;
 
   bot.clearControlStates();
 
@@ -175,10 +189,11 @@ function build() {
       if (bot.entity.position.y > jumpY) {
         bot.placeBlock(targetBlock, vec3(0, 1, 0));
         bot.setControlState('jump', false);
+        callback();
         bot.removeListener('move', placeIfHighEnough);
       }
     }
-  }, 500);
+  }, 1000);
 }
 
 
@@ -211,3 +226,10 @@ bot.on('health', function() {
   bot.chat(bot.entity.username + " have " + bot.health + " health and " + bot.food + " food");
   mvc.listInventory();
 });
+
+
+//auxiliar function to the operation dig
+function onDiggingCompleted(err,b) {
+    bot.chat("finished digging");
+}
+      
