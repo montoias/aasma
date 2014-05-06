@@ -6,8 +6,10 @@ var scaffoldPlugin = require('mineflayer-scaffold')(mineflayer);
 var mvc = require('./movementController');
 
 var bot = mineflayer.createBot({ username: "master", });
+var housePosition;
 var buildingBlocks = [];
 var windowsPositions = [];
+var roofPositions = [];
 var actualBlock;
 
 mvc.setBot(bot);
@@ -69,7 +71,10 @@ bot.on('chat', function(username, message) {
 
   } else if (message === 'build') {
     build(buildHouse)
+  } else if (message === 'roof') {
+//    buildRoof();
   } else if (message === 'positions') {
+    housePosition = bot.entity.position;
     buildingBlocks = getBuildingPositions();
     windowsPositions = getWindowsPositions();
     buildHouse();
@@ -109,8 +114,8 @@ function getWindowsPositions (argument) {
 
 function buildHouse(){
  if(buildingBlocks.length === 0) {
-    console.log("terminei construir as paredes")
-    moveToAll(windowsPositions)
+    console.log("terminei construir as paredes");
+    moveToAll(windowsPositions);
     return;
  }
 
@@ -120,10 +125,22 @@ function buildHouse(){
 }
 
 function moveToAll () {
-  if(windowsPositions.length === 0)
-      return
+  if(windowsPositions.length === 0) {
+     // buildRoofEach();
+      return;
+  }
   moveTo(windowsPositions.pop(), moveToAll);
 }
+
+// function buildRoofEach (){
+//   if(roofPositions.length === 0) {
+//     console.log("roof constructed")
+//     return 
+//   }
+
+//   buildRoof(roofPositions.pop(), buildRoofEach);
+
+// }
 
 function moveTo (dest, callback) {
    bot.scaffold.to(dest, function(err) {
@@ -167,6 +184,11 @@ function getBuildingPositions () {
     }
   }
  ///
+ // for (i = botz - zHalf + 1; i < botz + zHalf; i++) {
+ //   for (j = botx - xHalf + 1; j < botx + xHalf;j++){
+ //        roofPositions.push(vec3(j, boty + 2, i))
+ //    }
+ //  }
   
   return result
 
@@ -195,6 +217,24 @@ function build(callback) {
     }
   }, 1000);
 }
+
+
+// function buildRoof(pos, callback) {
+
+//   if(!equipBuildingBlock()) return;
+
+//   bot.clearControlStates();
+
+//   bot.lookAt(pos);
+
+//   setTimeout(function () {
+//     console.log("placing block")
+
+//     var targetBlock = bot.blockAt(pos);
+//     bot.placeBlock(targetBlock, vec3(0, 1, 0));
+//     callback();
+//   }, 1000);
+// }
 
 
 
