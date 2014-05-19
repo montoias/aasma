@@ -7,8 +7,9 @@
   "license": "BSD",
   "dependencies": {
     "mineflayer": "~0.1.1",
-    "mineflayer-navigate": "*",
+    "mineflayer-navigate": "0.0.9",
     "mineflayer-voxel": "*", 
-    "cron": "*"
+    "cron": "*",
+    "mineflayer-scaffold" : "*"
   }
 }
