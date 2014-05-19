@@ -2,17 +2,36 @@ var mineflayer = require('mineflayer');
 var vec3 = mineflayer.vec3;
 var navigatePlugin = require('mineflayer-navigate')(mineflayer);
 var scaffoldPlugin = require('mineflayer-scaffold')(mineflayer);
+var ee = require('event-emitter');
 
+var emitter = ee({}), listener;
 var mvc = require('./movementController');
+var chest = require('./chestOperations.js');
 
 var bot = mineflayer.createBot({ username: "master", });
-var housePosition;
+var housePosition = null;
 var buildingBlocks = [];
 var windowsPositions = [];
-var roofPositions = [];
-var actualBlock;
+var actualBlock = null;
+
+var FeelingEnum = {
+    HAPPY : 1,
+    SAD : 2,
+    VERYSAD : 3
+}
+
+var Modes = {
+  NOTHING: 0,
+  BUILDING: 1,
+  WAITINGBLOCKS: 2
+}
+
+var currentMode = Modes.NOTHING;
+var currentLevel = FeelingEnum.HAPPY;
 
 mvc.setBot(bot);
+chest.setBot(bot);
+
 // install the plugin
 navigatePlugin(bot);
 scaffoldPlugin(bot);
@@ -31,132 +50,11 @@ var scaffoldBlockTypes = {
 // optional configuration
 bot.navigate.blocksToAvoid[132] = true; // avoid tripwire
 bot.navigate.blocksToAvoid[59] = false; // ok to trample crops
-bot.navigate.on('pathFound', function (path) {
-  bot.chat("found path. I can get there in " + path.length + " moves.");
-});
 
 var type = process.argv[2]
 var x = parseInt(process.argv[3])
 var z = parseInt(process.argv[4])
 
-bot.on('spawn', function(){
-});
-
-bot.navigate.on('arrived', function () {
-    console.log("cheguei", buildingBlocks.length)
-    
-});
-
-function buildBlock () {
-  console.log("cheguei")
-      build(buildHouse); 
-}
-
-bot.navigate.on('interrupted', function() {
-  bot.chat("stopping");
-});
-
-bot.on('chat', function(username, message) {
-  // navigate to whoever talks
-  if (username === bot.username) return;
-  var target = bot.players[username].entity;
-  if (message === 'come') {
-    bot.navigate.to(target.position);
-  } else if (message === 'stop') {
-    bot.navigate.stop();
-  } else if (message.split(" ")[0] === 'dig') {
-    var split = message.split(" ")
-    var b = vec3(parseInt(split[1]),parseInt(split[2]),parseInt(split[3]));
-    moveTo(b);
-
-  } else if (message === 'build') {
-    build(buildHouse)
-  } else if (message === 'roof') {
-//    buildRoof();
-  } else if (message === 'positions') {
-    housePosition = bot.entity.position;
-    buildingBlocks = getBuildingPositions();
-    windowsPositions = getWindowsPositions();
-    buildHouse();
-
-  } else if (message === 'show') {
-    console.log  ( bot.heldItem)
-    equipBuildingBlock();
-    console.log  ( bot.heldItem)
-
-  }
-  else if (message.split(" ")[0] === 'move') {
-      var split = message.split(" ")
-      var dest = vec3(parseInt(split[1]),parseInt(split[2]),parseInt(split[3]))
-      bot.navigate.to(dest)
-  }
-  
-  
-});
-
-function getWindowsPositions (argument) {
-
-  var botx = bot.entity.position.floored().x,
-      boty = bot.entity.position.floored().y,
-      botz = bot.entity.position.floored().z,
-      xHalf = Math.floor(x / 2),
-      zHalf = Math.floor(z / 2);
-
-  var windows = []
-  windows.push(vec3(botx, boty + 1, botz - zHalf))
-  windows.push(vec3(botx, boty + 1, botz + zHalf))
-  windows.push(vec3(botx - xHalf, boty + 1, botz))
-  windows.push(vec3(botx + xHalf, boty + 1, botz))
-  windows.push(vec3(botx + xHalf, boty, botz))
-  console.log(windows.length)
-  return windows
-}
-
-function buildHouse(){
- if(buildingBlocks.length === 0) {
-    console.log("terminei construir as paredes");
-    moveToAll(windowsPositions);
-    return;
- }
-
- actualBlock = buildingBlocks.pop();
- moveTo (actualBlock, buildBlock);
-
-}
-
-function moveToAll () {
-  if(windowsPositions.length === 0) {
-     // buildRoofEach();
-      return;
-  }
-  moveTo(windowsPositions.pop(), moveToAll);
-}
-
-// function buildRoofEach (){
-//   if(roofPositions.length === 0) {
-//     console.log("roof constructed")
-//     return 
-//   }
-
-//   buildRoof(roofPositions.pop(), buildRoofEach);
-
-// }
-
-function moveTo (dest, callback) {
-   bot.scaffold.to(dest, function(err) {
-      if (err) {
-        if(bot.canDigBlock(bot.blockAt(dest))){
-          bot.dig(bot.blockAt(dest),onDiggingCompleted);
-          setTimeout(function () { callback();}, bot.digTime(bot.blockAt(dest)));
-          console.log("diging");
-        }
-        console.log("didn't make it: " ,err.code, dest);
-      } else {
-        bot.chat("made it!");
-        callback();   
-      }
-    });
-}
 
 function getBuildingPositions () {
 
@@ -183,24 +81,111 @@ function getBuildingPositions () {
       }
     }
   }
- ///
- // for (i = botz - zHalf + 1; i < botz + zHalf; i++) {
- //   for (j = botx - xHalf + 1; j < botx + xHalf;j++){
- //        roofPositions.push(vec3(j, boty + 2, i))
- //    }
- //  }
-  
   return result
-
 }
 
 
-function build(callback) {
+function getWindowsPositions (argument) {
 
-  if(!equipBuildingBlock() || buildingBlocks === 0) return;
+  var botx = bot.entity.position.floored().x,
+      boty = bot.entity.position.floored().y,
+      botz = bot.entity.position.floored().z,
+      xHalf = Math.floor(x / 2),
+      zHalf = Math.floor(z / 2);
 
+  var windows = []
+  windows.push(vec3(botx, boty + 1, botz - zHalf))
+  windows.push(vec3(botx, boty + 1, botz + zHalf))
+  windows.push(vec3(botx - xHalf, boty + 1, botz))
+  windows.push(vec3(botx + xHalf, boty + 1, botz))
+  windows.push(vec3(botx + xHalf, boty, botz))
+  return windows
+}
+
+
+
+bot.on('chat', function(username, message) {
+  // navigate to whoever talks
+  if (username === bot.username) return;
+  var target = bot.players[username].entity;
+  if (message === 'come') {
+    moveTo(target.position);
+  } else if (message === 'stop') {
+    bot.navigate.stop();
+  } else if (message === 'continue') {
+    emitter.emit('wallElemConst'); //continue build house
+  } else if (message === 'house') {
+    currentMode = Modes.BUILDING;
+    housePosition = bot.entity.position;
+    buildingBlocks = getBuildingPositions();
+    windowsPositions = getWindowsPositions();
+    emitter.emit('wallElemConst')
+  } else if (message === 'show') {
+    if(equipableItem())
+    equipBlock(equipableItem());
+  } else if (message === 'chest') {
+    chest.moveToAndOpen(chest.chestPosition().offset(0,0,1));
+  } else if (message === 'recvblocks'){
+    if(currentMode === Modes.WAITINGBLOCKS) {
+      console.log("Thank you my dear friend", target.username)
+      emitter.emit("noEquipableItem");
+    }
+  }
+});
+
+
+function moveTo (pos) {
+  bot.scaffold.to(pos, function(err) {
+      if (err) {
+        console.log("didn't make it: " ,err.code, pos, "trying again");
+        moveTo(pos);
+      } else {
+        bot.chat("made it!");
+      }
+    });
+}
+
+
+emitter.on('buildWall', function (callback) {
+   bot.scaffold.to(actualBlock, function(err) {
+      if (err) {
+        console.log("didn't make it: " ,err.code, actualBlock);
+      } else {
+        bot.chat("made it!");
+        callback();
+      }
+   });
+});
+
+function digDoorsAndWindows () {
+  if(windowsPositions.length === 0) {
+     emitter.emit('houseCompleted')
+     return;
+  }
+  
+  emitter.emit('digWindows' , windowsPositions.pop());
+
+}
+
+emitter.on('digWindows', function (block) {
+   bot.scaffold.to(block, function(err) {
+      if (err) {
+        if(bot.canDigBlock(bot.blockAt(block))){
+          bot.dig(bot.blockAt(block),onDiggingCompleted);
+          setTimeout(function () { digDoorsAndWindows()}, bot.digTime(bot.blockAt(block)));
+          console.log("diging");
+        }
+        console.log("didn't make it: " , err.code, block);
+      } else {
+        bot.chat("made it!");
+      }
+   });
+});
+
+
+
+function build() {
   bot.clearControlStates();
-
   setTimeout(function () {
     bot.setControlState('jump', true);
     var targetBlock = bot.blockAt(bot.entity.position.offset(0, -1, 0));
@@ -211,65 +196,92 @@ function build(callback) {
       if (bot.entity.position.y > jumpY) {
         bot.placeBlock(targetBlock, vec3(0, 1, 0));
         bot.setControlState('jump', false);
-        callback();
+        setTimeout(function () {buildingBlocks.pop();emitter.emit('wallElemConst')}, 1000);
         bot.removeListener('move', placeIfHighEnough);
       }
     }
   }, 1000);
 }
 
+emitter.on('wallElemConst', function () {
+ 
+ if(buildingBlocks.length === 0) {
+    emitter.emit("wallsCompleted")
+    return;
+ }
+ actualBlock = buildingBlocks[buildingBlocks.length - 1];
 
-// function buildRoof(pos, callback) {
+ if (isEquipBuildBlock()) {
+  emitter.emit("buildWall" , build);  
+ } else {
+  var item = equipableItem();
+  if(item === null){
+    currentMode = Modes.WAITINGBLOCKS;
+    emitter.emit('noEquipableItem');
+  } else {
+    equipBlock(item);
+  }
+ } 
+ 
+});
 
-//   if(!equipBuildingBlock()) return;
+emitter.on('wallsCompleted', function () {
+  digDoorsAndWindows();
+  console.log("wallsCompleted")
+})
 
-//   bot.clearControlStates();
+emitter.on('noEquipableItem', function  () {
+  console.log("ME NEEDS ( Construction ) BLOCKSSSS")
+    chest.moveToAndOpen(chest.chestPosition().offset(0,0,1));
+})
 
-//   bot.lookAt(pos);
+emitter.on('houseCompleted', function () {
+  currentMode = Modes.NOTHING;
+  console.log('house constructed')
+})
 
-//   setTimeout(function () {
-//     console.log("placing block")
+bot.on('withdrawComplete', function () {
+  emitter.emit('wallElemConst'); //continue build house
+  console.log('Lets do some building');
+  currentMode = Modes.Building;
+})
 
-//     var targetBlock = bot.blockAt(pos);
-//     bot.placeBlock(targetBlock, vec3(0, 1, 0));
-//     callback();
-//   }, 1000);
-// }
+function isEquipBuildBlock() {
+  if(bot.heldItem && scaffoldBlockTypes[bot.heldItem.type]) return true; return false;
+}
 
-
-
-function equipBuildingBlock() {
-    if (bot.heldItem && scaffoldBlockTypes[bot.heldItem.type]) return true;
+function equipableItem () {
     var scaffoldingItems = bot.inventory.items().filter(function(item) {
       return scaffoldBlockTypes[item.type];
     });
-    console.log(scaffoldingItems)
-    var item = scaffoldingItems[0];
-    if (!item) {
-      console.log("no items to build")
-      return false;
-    }
+    if(scaffoldingItems.length > 0)
+      return scaffoldingItems[0];
+    else
+      return null;
+}
 
-    bot.equip(scaffoldingItems[0], 'hand', function(err) {
+function equipBlock (block) {
+
+    bot.equip(block, 'hand', function(err) {
       if (err) {
-        console.log('error')
-        return false;
+        console.log('could not equip that item on the hand')
       } else {
-        console.log('item equiped', scaffoldingItems[0])
+        console.log('item equiped', block, actualBlock)
+        if(actualBlock != null){
+      setTimeout(function () {emitter.emit("buildWall" , build);}, 500);  
+    }
       }
     });
-    return true;
 }
 
 //Indicates the heath and the inventory of the bot
 bot.on('health', function() {
-  bot.chat(bot.entity.username + " have " + bot.health + " health and " + bot.food + " food");
+  bot.chat(bot.entity.username + " have " + bot.health + " health and " + bot.food + " food" + " mode " + currentMode);
   mvc.listInventory();
 });
-
 
 //auxiliar function to the operation dig
 function onDiggingCompleted(err,b) {
     bot.chat("finished digging");
 }
-      
+
