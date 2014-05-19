@@ -8,4 +8,8 @@ var bot = mineflayer.createBot({
   'spawnPoint': vec3 (1121, 4, 89),
 });
 
+bot.on('chat', function(username, message) {
+
+}
+
 

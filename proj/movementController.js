@@ -95,18 +95,27 @@ var randomIntInc = function (low, high) {
     return Math.floor(Math.random() * (high - low + 1) + low);
 }
 
-
+//function that sees if there are a certain material in the four positions around the bot.
 var materialNeighbor  = function (pos, material){
 	var neighbors = [];
 	unit.forEach(function (vec) {
 		var w = new vec3(vec.x, vec.y, vec.z);
 		if (!isEmpty(pos.plus(w)) && bot.blockAt(pos.plus(w)) && bot.blockAt(pos.plus(w)).material === material) {
-			 if(!(((1112 <= pos.plus(w).x) && (pos.plus(w).x <= 1189)) && ((60 <= pos.plus(w).z) && (pos.plus(w).z <= 166)))){
+			 if(isHomeZone(pos) === false) {
 				neighbors.push(pos.plus(w));
 			}
 		}
 	});
 	return neighbors;
+}
+
+var isHomeZone = function (pos){
+	unit.forEach(function (vec){
+		var w = new vec3(vec.x, vec.y, vec.z);
+		if(((1112 <= pos.plus(w).x) && (pos.plus(w).x <= 1189)) && ((60 <= pos.plus(w).z) && (pos.plus(w).z <= 166))) {
+			return true;
+		}
+	});
 }
 
 var treePossiblePositions = function (pos) {
@@ -120,7 +129,6 @@ var treePossiblePositions = function (pos) {
 		vec.push(bot.blockAt(v3));
 	return vec;
 }
-
 
 //function that sees if there are any entities around the bot, if it is the closest is return.
 var nearestEntity =  function (type) {
@@ -247,3 +255,4 @@ exports.itemStr = itemStr;
 exports.tossInventory = tossInventory;
 exports.isStorage = isStorage;
 exports.eatableItem = eatableItem;
+exports.isHomeZone = isHomeZone;

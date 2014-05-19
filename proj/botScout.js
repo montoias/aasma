@@ -1,6 +1,9 @@
 var mineflayer = require('mineflayer');
 var EventEmitter = require('events').EventEmitter
 var mvc = require('./movementController');
+var msg = require('./communications');
+var navigatePlugin = require('mineflayer-navigate')(mineflayer);
+var scaffoldPlugin = require('mineflayer-scaffold')(mineflayer);
 var vec3 = mineflayer.vec3;
 
 
@@ -12,52 +15,92 @@ var bot = mineflayer.createBot({
 //passes to the movementController info about the bot
 mvc.setBot(bot);
 
+// install the plugin
+navigatePlugin(bot);
+scaffoldPlugin(bot);
+
 bot.on('spawn', function(){
-	bot.setControlState('forward', true);
+	//bot.setControlState('forward', true);
 });
 
-var steps = 0;
 
-//when the bot moves it is cheked if there is something, around him, that it is to be digged
-bot.on('entityMoved', function () {
-	if(digging)
-		return;
+var treePositions = 
+[
+	vec3(1132, 4, 227),	
+	vec3(1087, 4, 138),
+	vec3(1140, 4, 23),
+]
 
+var animalsPositions = 
+[	
+	vec3(1142, 4, 56),
+	vec3(1115, 4, 21),
+
+]
+
+bot.on('chat', function(username, message) {
+	if (username === bot.username) return;
+	if (message === msg.ScoutLJMsg[0]) {
+		bot.chat (msg.ScoutLJMsg[1]);
+		iterateTree();
+	} else if (message === msg.ScoutFoodMsg[0]) {
+		bot.chat (msg.ScoutFoodMsg[1]);
+		iterateAnimals();
+	}
+});
+
+
+////////////////////////////////////////////// ATTENDING LUMBER JACKER/////////////////////////////////////////////////////////
+function iterateTree (){
+	var pos = treePositions.pop();
+	moveTo(pos, checkWood);
+}
+
+function checkWood () {
 	var botposition = bot.entity.position;
-
-	//see the free positions around the bot and moves forward, after walking 20 steps moves to other (random) direction
-	var neighbors = mvc.freeNeighbors(botposition);
-
-	steps ++;
-
-	if(neighbors.length > 0 && steps === 50){
-		var random = mvc.randomIntInc(0,(neighbors.length - 1));
-		var elem = neighbors[random];
-
-		var lookAtY = botposition.y + bot.entity.height;
-	 	var lookAtPoint = vec3(botposition.x + elem.x, lookAtY, botposition.z + elem.z);
-	 	bot.lookAt(lookAtPoint);
-	 	steps = 0;
-	 } else if (steps === 50) {
-	 	steps = 0;
-	 } else if(!mvc.isYawValid(bot.entity.yaw,botposition)){
-	 	bot.setControlState('jump',true);
-		bot.clearControlStates();
-		bot.setControlState('forward',true);
-	 	steps = 49;
-	 }
-
-	var tree = mvc.materialNeighbor(botposition, 'wood');
-	if(tree.length >0){
-		bot.chat("Trees at " + botposition);
+	var wood = mvc.materialNeighbor(botposition, 'wood');
+	if(!wood) {
+		iterateTree();
+		console.log ("cant find any wood");
+	} else {
+		bot.chat (msg.ScoutLJMsg[2] + botposition);
 	}
+}
 
-	var enemy = mvc.nearestPassiveEntities();
-	if(enemy){
-		bot.chat("Animals to be killed at " + botposition);
+
+////////////////////////////////////////////// ATTENDING COLLECTS FOOD////////////////////////////////////////////////////////
+
+function iterateAnimals (){
+	var pos = animalsPositions.pop();
+	moveTo(pos, checkAnimal);
+}
+
+function checkAnimal () {
+	var botposition = bot.entity.position;
+	var animal = mvc.nearestPassiveEntities();
+	console.log("BOT position " + botposition);
+	console.log("ANIMAL          " + animal);
+	if(!animal) {
+		iterateAnimals();
+		console.log ("cant find any animal");
+	} else {
+		bot.chat (msg.ScoutFoodMsg[2] + botposition);
 	}
-});
+}
 
+//////////////////////////////////////////////////////////////
+
+function moveTo (pos, func) {
+	bot.scaffold.to(pos, function(err) {
+		if (err) {
+			console.log("didn't make it: " ,err.code, pos, "trying again");
+			moveTo(pos, func);
+		} else {
+			bot.chat("made it!");
+			func();
+		}
+	});
+}
 
 bot.on('health', function() {
   bot.chat(bot.entity.username + " have " + bot.health + " health and " + bot.food + " food");
