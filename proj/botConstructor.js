@@ -13,6 +13,22 @@ var housePosition = null;
 var buildingBlocks = [];
 var windowsPositions = [];
 var actualBlock = null;
+var pendingHouses = [];
+var housesCompleted = ["undefined"];
+var housePositions = 
+  [ vec3(1186,4,57),
+    vec3(1186,4,67),
+    vec3(1186,4,77),
+    vec3(1186,4,87),
+    vec3(1186,4,97),
+    vec3(1186,4,107),
+    vec3(1186,4,117),
+    vec3(1186,4,127),
+    vec3(1186,4,137),
+    vec3(1186,4,147),
+    vec3(1186,4,157),
+    vec3(1186,4,167)
+  ];
 
 var FeelingEnum = {
     HAPPY : 1,
@@ -56,11 +72,11 @@ var x = parseInt(process.argv[3])
 var z = parseInt(process.argv[4])
 
 
-function getBuildingPositions () {
+function getBuildingPositions (pos) {
 
-  var botx = bot.entity.position.floored().x,
-      boty = bot.entity.position.floored().y,
-      botz = bot.entity.position.floored().z,
+  var botx = pos.floored().x,
+      boty = pos.floored().y,
+      botz = pos.floored().z,
       result = [],
       xHalf = Math.floor(x / 2),
       zHalf = Math.floor(z / 2);
@@ -85,11 +101,11 @@ function getBuildingPositions () {
 }
 
 
-function getWindowsPositions (argument) {
+function getWindowsPositions (pos) {
 
-  var botx = bot.entity.position.floored().x,
-      boty = bot.entity.position.floored().y,
-      botz = bot.entity.position.floored().z,
+  var botx = pos.floored().x,
+      boty = pos.floored().y,
+      botz = pos.floored().z,
       xHalf = Math.floor(x / 2),
       zHalf = Math.floor(z / 2);
 
@@ -116,9 +132,8 @@ bot.on('chat', function(username, message) {
     emitter.emit('wallElemConst'); //continue build house
   } else if (message === 'house') {
     currentMode = Modes.BUILDING;
-    housePosition = bot.entity.position;
-    buildingBlocks = getBuildingPositions();
-    windowsPositions = getWindowsPositions();
+    buildingBlocks = getBuildingPositions(bot.entity);
+    windowsPositions = getWindowsPositions(bot.entity);
     emitter.emit('wallElemConst')
   } else if (message === 'show') {
     if(equipableItem())
@@ -135,6 +150,7 @@ bot.on('chat', function(username, message) {
 
 
 function moveTo (pos) {
+  console.log(pos)
   bot.scaffold.to(pos, function(err) {
       if (err) {
         console.log("didn't make it: " ,err.code, pos, "trying again");
@@ -162,7 +178,6 @@ function digDoorsAndWindows () {
      emitter.emit('houseCompleted')
      return;
   }
-  
   emitter.emit('digWindows' , windowsPositions.pop());
 
 }
@@ -174,14 +189,14 @@ emitter.on('digWindows', function (block) {
           bot.dig(bot.blockAt(block),onDiggingCompleted);
           setTimeout(function () { digDoorsAndWindows()}, bot.digTime(bot.blockAt(block)));
           console.log("diging");
+        } else {
+          console.log("didn't make it: " , err.code, block);
         }
-        console.log("didn't make it: " , err.code, block);
       } else {
         bot.chat("made it!");
       }
    });
 });
-
 
 
 function build() {
@@ -238,6 +253,9 @@ emitter.on('noEquipableItem', function  () {
 emitter.on('houseCompleted', function () {
   currentMode = Modes.NOTHING;
   console.log('house constructed')
+  if(pendingHouses.length >= 0) {
+    bot.emit('constructHouse');
+  }
 })
 
 bot.on('withdrawComplete', function () {
@@ -268,7 +286,7 @@ function equipBlock (block) {
       } else {
         console.log('item equiped', block, actualBlock)
         if(actualBlock != null){
-      setTimeout(function () {emitter.emit("buildWall" , build);}, 500);  
+      setTimeout(function () {emitter.emit("buildWall" , build);}, 1000);  
     }
       }
     });
@@ -285,3 +303,37 @@ function onDiggingCompleted(err,b) {
     bot.chat("finished digging");
 }
 
+bot.on("entitySpawn", function (entity) {
+    if(entity.type === 'player' && entity.username != bot.entity.username && hasKey(housesCompleted,entity.username) === false){
+      addToMap(pendingHouses, entity.username);
+      addToMap(housesCompleted, entity.username); //used to know which players have been visited
+
+      if(currentMode === Modes.NOTHING) {
+        console.log(entity.username)
+        bot.emit('constructHouse')
+      }
+    }
+});
+
+function addToMap(map, key){
+  if(!hasKey(map,key))
+    map.push(key);
+}
+
+function hasKey(map,key){
+  return map.indexOf(key) === -1 ? false : true;
+}
+
+bot.on('constructHouse', function () {
+      var e = pendingHouses.pop();
+      var pos = housePositions.pop();
+      if(pos && e && bot.blockAt(pos)) {
+        console.log("lets build a house to", e, "at", pos)
+        bot.chat("Lets create a home to" + e + " " + pos);
+        currentMode = Modes.BUILDING;
+        housePosition = pos;
+        buildingBlocks = getBuildingPositions(pos);
+        windowsPositions = getWindowsPositions(pos);
+        emitter.emit('wallElemConst')
+      }
+});
