@@ -11,5 +11,6 @@
     "mineflayer-voxel": "*", 
     "cron": "*",
     "mineflayer-scaffold" : "*"
+    "event-emitter" : "*"
   }
 }
