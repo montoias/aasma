@@ -146,7 +146,7 @@ var nearestEntity =  function (type) {
 var nearestPassiveEntities =  function () {
   var id, entity, dist;
   var best = null;
-  var bestDistance = 5;
+  var bestDistance = 3;
  // console.log("entidades! do ", bot.username , bot.entities);
   for (id in bot.entities) {
     entity = bot.entities[id];

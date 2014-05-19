@@ -1,4 +1,5 @@
 montoias
+scout
 guard1
 guard2
 foodbot
