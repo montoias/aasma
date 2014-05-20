@@ -10,7 +10,7 @@
     "mineflayer-navigate": "0.0.9",
     "mineflayer-voxel": "*", 
     "cron": "*",
-    "mineflayer-scaffold" : "*"
+    "mineflayer-scaffold" : "*",
     "event-emitter" : "*"
   }
 }
