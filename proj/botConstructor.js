@@ -59,9 +59,9 @@ var scaffoldBlockTypes = {
   3:  true, // dirt
   4:  true, // cobblestone
   7:  true, // bedrock
+  17: true, //
   87: true, // netherrack
 };
-
 
 // optional configuration
 bot.navigate.blocksToAvoid[132] = true; // avoid tripwire
@@ -110,12 +110,13 @@ function getWindowsPositions (pos) {
       zHalf = Math.floor(z / 2);
 
   var windows = []
-  windows.push(vec3(botx, boty + 1, botz - zHalf))
-  windows.push(vec3(botx, boty + 1, botz + zHalf))
-  windows.push(vec3(botx - xHalf, boty + 1, botz))
-  windows.push(vec3(botx + xHalf, boty + 1, botz))
-  windows.push(vec3(botx + xHalf, boty, botz))
-  return windows
+  windows.push([ vec3(botx, boty + 1, botz - zHalf), vec3(botx, boty, botz - zHalf).offset(0,0,+1) ])
+  windows.push([ vec3(botx, boty + 1, botz + zHalf), vec3(botx, boty, botz + zHalf).offset(0,0,-1) ])
+  windows.push([ vec3(botx - xHalf, boty + 1, botz), vec3(botx - xHalf, boty, botz).offset(+1,0,0) ])
+  windows.push([ vec3(botx + xHalf, boty + 1, botz), vec3(botx + xHalf, boty, botz).offset(-1,0,0) ])
+  windows.push([ vec3(botx + xHalf, boty, botz), vec3(botx + xHalf, boty, botz).offset(-1,0,0)])
+  return windows;
+
 }
 
 
@@ -154,7 +155,6 @@ function moveTo (pos) {
   bot.scaffold.to(pos, function(err) {
       if (err) {
         console.log("didn't make it: " ,err.code, pos, "trying again");
-        moveTo(pos);
       } else {
         bot.chat("made it!");
       }
@@ -166,6 +166,7 @@ emitter.on('buildWall', function (callback) {
    bot.scaffold.to(actualBlock, function(err) {
       if (err) {
         console.log("didn't make it: " ,err.code, actualBlock);
+        callback();
       } else {
         bot.chat("made it!");
         callback();
@@ -183,17 +184,17 @@ function digDoorsAndWindows () {
 }
 
 emitter.on('digWindows', function (block) {
-   bot.scaffold.to(block, function(err) {
+  var pos = block[0];
+  var dest = block[1];
+   bot.scaffold.to(dest, function(err) {
       if (err) {
-        if(bot.canDigBlock(bot.blockAt(block))){
-          bot.dig(bot.blockAt(block),onDiggingCompleted);
-          setTimeout(function () { digDoorsAndWindows()}, bot.digTime(bot.blockAt(block)));
-          console.log("diging");
-        } else {
-          console.log("didn't make it: " , err.code, block);
-        }
+          console.log("didn't make it: " , err.code, dest);
       } else {
-        bot.chat("made it!");
+        if(bot.canDigBlock(bot.blockAt(pos))){
+          bot.dig(bot.blockAt(pos),onDiggingCompleted);
+          setTimeout(function () { digDoorsAndWindows()}, bot.digTime(bot.blockAt(pos)));
+          console.log("diging");
+        }
       }
    });
 });
