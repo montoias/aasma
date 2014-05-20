@@ -25,7 +25,7 @@ var ConstructorBotsMsgs = []
 var ScoutCookerMsg = 
 [
 	'Can you order some food and wood for me so i can cook? I am waiting',
-	'Yes, yes! I am already doing it'
+	'Yes, yes! I am already doing it',
 	'Thank you. This is great. I am going start cooking right now!',
 ]
 
