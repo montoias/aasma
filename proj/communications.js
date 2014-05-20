@@ -6,6 +6,8 @@ var ScoutLJMsg =
 	'Of course! Let me check',
 	'Yes! There are trees at ',
 	'Thank you! You are my angel', 
+	'I need you to collect wood',
+
 ]
 
 var ScoutFoodMsg = 
@@ -14,15 +16,24 @@ var ScoutFoodMsg =
 	'Of course! Let me check',
 	'Yes! There are animals at ',
 	'Thank you! You are my angel', 
+	'I need to get some food'
 ]
 
 var ConstructorBotsMsgs = []
 
 
+var ScoutCookerMsg = 
+[
+	'Can you order some food and wood for me so i can cook? I am waiting',
+	'Yes, yes! I am already doing it'
+	'Thank you. This is great. I am going start cooking right now!',
+]
 
-
-
-
+var CookerBotsMsg = 
+[
+	'Luch is ready! Now, you can come to eat',
+	'Thank you! This is delicious!',
+]
 
 
 exports.ScoutLJMsg = ScoutLJMsg;
