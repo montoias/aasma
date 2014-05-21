@@ -173,5 +173,5 @@ Client
 -------
   1. First unzip deps/Nodus.zip into Library/Application\ Support/minecraft/versions
 
-  2. Start client using java -jar Minecraft\ Craked.jar
+  2. Start client using java -jar Minecraft\ Cracked.jar
   2.1 In first login choose 'edit profile' and after in the versions choose nodus!

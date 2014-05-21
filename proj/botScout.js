@@ -40,7 +40,12 @@ var animalsPositions =
 
 bot.on('chat', function(username, message) {
 	if (username === bot.username) return;
-	if (message === msg.ScoutLJMsg[0]) {
+	if(message === msg.ScoutCookerMsg[0]){
+		bot.chat(msg.ScoutCookerMsg[1]);
+		bot.chat(msg.ScoutLJMsg[4]);
+		bot.chat(msg.ScoutFoodMsg[4]);
+	}
+	else if (message === msg.ScoutLJMsg[0]) {
 		bot.chat (msg.ScoutLJMsg[1]);
 		iterateTree();
 	} else if (message === msg.ScoutFoodMsg[0]) {
