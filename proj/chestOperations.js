@@ -20,6 +20,7 @@ var buildingTypes = {
   3:  true, // dirt
   4:  true, // cobblestone
   7:  true, // bedrock
+  17: true, //
   87: true, // netherrack
 };
 
