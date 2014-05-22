@@ -44,6 +44,6 @@ var CookerBotsMsg =
 
 exports.ScoutLJMsg = ScoutLJMsg;
 exports.ScoutFoodMsg = ScoutFoodMsg;
-exports.ConstructorBotsMsgs = ConstructorBotsMsgs;
+exports.ConstructorScoutMsgs = ConstructorScoutMsgs;
 exports.ScoutCookerMsg = ScoutCookerMsg;
 exports.CookerBotsMsg = CookerBotsMsg;

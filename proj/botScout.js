@@ -23,12 +23,16 @@ bot.on('spawn', function(){
 	//bot.setControlState('forward', true);
 });
 
-	// vec3(1140, 4, 23),
-	// vec3(1087, 4, 138),	
-	// vec3(1132, 4, 227),
+
 var treePositions = 
 [
 	vec3(1140, 4, 23),
+	vec3(1163, 4, 68),
+	vec3(1174, 4, 26),
+	vec3(1191, 4, 26),
+	vec3(1192, 4, 43),
+	vec3(1134, 4, 33),
+	vec3(1169, 4, 37),
 	vec3(1087, 4, 138),	
 	vec3(1132, 4, 227),
 ]
@@ -37,7 +41,8 @@ var animalsPositions =
 [	
 	vec3(1142, 4, 56),
 	vec3(1115, 4, 21),
-
+	vec3(1110, 4, 51),
+	vec3(1122, 4, 58),
 ]
 
 bot.on('chat', function(username, message) {
@@ -53,8 +58,9 @@ bot.on('chat', function(username, message) {
 	} else if (message === msg.ScoutFoodMsg[0]) {
 		bot.chat (msg.ScoutFoodMsg[1]);
 		iterateAnimals(0);
-	} else if (message === 'come')
-		moveTo(vec3(1140, 4, 23))
+	} else if (message === 'go'){
+		moveTo(vec3(1163, 4, 68))
+	}
 });
 
 
@@ -63,15 +69,13 @@ function iterateTree (index) {
 	if(index === treePositions.length){
 		return;
 	}
-	console.log("Entrei", treePositions[index]);
 	moveTo(treePositions[index], checkWood, index);
 }
 
 function checkWood (index) {
 	var botposition = bot.entity.position;
-	var wood = mvc.materialNeighbor(botposition, 'wood');
-	console.log(wood)
-	if(wood.length === 0) {
+	var wood = mvc.findingWood(botposition);
+	if(wood === undefined) {
 		console.log ("cant find any wood");
 		iterateTree(++index);
 	} else {
@@ -83,19 +87,15 @@ function checkWood (index) {
 ////////////////////////////////////////////// ATTENDING COLLECTS FOOD////////////////////////////////////////////////////////
 
 function iterateAnimals (index){
-	console.log("EPA",index);
 	if(index === animalsPositions.length){
 		return;
 	}
-	console.log("Entrei", animalsPositions[index]);
 	moveTo(animalsPositions[index], checkAnimal, index);
 }
 
 function checkAnimal (index) {
 	var botposition = bot.entity.position;
 	var animal = mvc.nearestPassiveEntities();
-	console.log("BOT position " + botposition);
-	console.log("ANIMAL          " + animal);
 	if(!animal) {
 		iterateAnimals(++index);
 		console.log ("cant find any animal");
@@ -109,7 +109,6 @@ function moveTo (pos, func, index) {
 	bot.scaffold.to(pos, function(err) {
 		if (err) {
 			console.log("didn't make it: " ,err.code, pos, "trying again");
-			//iterateTree();
 		} else {
 			console.log("made it!");
 			setTimeout( function () {func(index);}, 1000);
