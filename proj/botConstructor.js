@@ -140,7 +140,7 @@ bot.on('chat', function(username, message) {
     if(equipableItem())
     equipBlock(equipableItem());
   } else if (message === 'chest') {
-    chest.moveToAndOpen(chest.chestPosition().offset(0,0,1));
+    chest.moveToAndOpen('wood');
   } else if (message === 'recvblocks'){
     if(currentMode === Modes.WAITINGBLOCKS) {
       console.log("Thank you my dear friend", target.username)
@@ -248,7 +248,7 @@ emitter.on('wallsCompleted', function () {
 
 emitter.on('noEquipableItem', function  () {
   console.log("ME NEEDS ( Construction ) BLOCKSSSS")
-    chest.moveToAndOpen(chest.chestPosition().offset(0,0,1));
+    chest.moveToAndOpen('wood');
 })
 
 emitter.on('houseCompleted', function () {
@@ -338,3 +338,22 @@ bot.on('constructHouse', function () {
         emitter.emit('wallElemConst')
       }
 });
+
+// block types allowed to be used as scaffolding
+var buildingTypes = {
+  1:  true, // stone
+  2:  true, // grass
+  3:  true, // dirt
+  4:  true, // cobblestone
+  7:  true, // bedrock
+  17: true, //
+  87: true, // netherrack
+};
+
+var maxItems = 60;
+
+bot.on("chestOpen", function  (c, type) {
+  console.log(type);
+  setTimeout(function () { chest.enoughBlocksToWithdraw(c, buildingTypes, maxItems)} , 1000);
+});
+

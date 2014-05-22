@@ -14,6 +14,8 @@ var bot = mineflayer.createBot({
 //passes to the movementController info about the bot
 mvc.setBot(bot);
 
+var steps = 0;
+
 // install the plugin
 navigatePlugin(bot);
 scaffoldPlugin(bot);
@@ -38,10 +40,87 @@ function moveTo (pos) {
 			moveTo(pos);
 		} else {
 			bot.chat("made it!");
+			moveRandom();
 		}
 	});
 }
 
 function moveRandom () {
-	
+	bot.setControlState('forward', true);
+
+	var botposition = bot.entity.position;
+
+	var tree = mvc.materialNeighbor(botposition, 'wood');
+	if(tree.length >0){
+		bot.setControlState('forward', false);
+		iterateTree(tree)
+		return;
+	}
+
+	var neighbors = mvc.freeNeighbors(botposition);
+
+	steps ++;
+
+	if(neighbors.length > 0 && steps == 20){
+		var random = mvc.randomIntInc(0,(neighbors.length - 1));
+		var elem = neighbors[random];
+
+		var lookAtY = botposition.y + bot.entity.height;
+	 	var lookAtPoint = vec3(botposition.x + elem.x, lookAtY, botposition.z + elem.z);
+	 	bot.lookAt(lookAtPoint);
+	 	steps = 0;
+	 } else if (steps == 20) {
+	 	steps = 0;
+	 } else if(!mvc.isYawValid(bot.entity.yaw,botposition)){
+	 	bot.setControlState('jump',true);
+		bot.clearControlStates();
+		bot.setControlState('forward',true);
+	 	steps = 19;
+	 }
+	 setTimeout(function (){ moveRandom()}, 50);
 }
+
+function iterateTree (a) {
+	if (a === undefined || a.length === 0){
+		moveRandom();
+		return;
+	}
+	var digBlocks = mvc.treePossiblePositions(a.pop());
+	iterateBlocks(digBlocks,a);
+}
+
+function iterateBlocks (b,a) {
+	if(b.length === 0){
+		iterateTree(a);
+		return;
+	}
+
+	var block = b.pop();
+	if(block && bot.canDigBlock(block)){
+		bot.dig(block,onDiggingCompleted);
+		bot.chat("diging");
+		setTimeout(function () {bot.emit("digComplete", b)}, bot.digTime(block));
+		return;
+	}
+	bot.emit("digComplete", b)
+}
+
+bot.on("digComplete", function (b) {
+	iterateBlocks(b)
+});
+
+//auxiliar function to the operation dig
+function onDiggingCompleted(err) {
+    bot.chat("finished digging");
+}
+
+//auxiliar function to the operation dig
+bot.on('diggingCompleted', function(block){
+	console.log("chegou ao completed");
+	// bot.setControlState('forward', true);
+});
+
+//auxiliar function to the operation dig
+bot.on('diggingAborted', function(block){
+	bot.chat("aborted digging" + block);
+});
