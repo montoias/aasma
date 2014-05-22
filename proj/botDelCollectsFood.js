@@ -41,18 +41,17 @@ bot.on('chat', function(username, message) {
 	} else if ( msg.ScoutFoodMsg[2] === getMsgFromMsg(message) && Modes.WAITING){
     moveTo(getVecFromMessage(message));
   } else if (message === 'deposit'){
-    chest.moveToAndOpen('food');
+  //  chest.moveToAndOpen('food');
+    bot.emit("enoughToDeposit", chest.itemSize(chest.getItemsByType(mvc.eatableItem)));
+    //chest.moveToAndOpen('food');
   }
 })
+
 
 bot.on("chestOpen", function  (c, type) {
    setTimeout(function () { chest.deposit(c, mvc.eatableItem)} , 1000);
 });
 
-function askResources(){
-  bot.chat(msg.ScoutFoodMsg[0]);
-  currentMode = Modes.WAITING;
-}
 
 function moveTo (pos) {
   console.log(pos)
@@ -62,17 +61,28 @@ function moveTo (pos) {
         console.log("didn't make it: " ,err.code, pos, "trying again");
       } else {
         bot.chat("made it!");
-        bot.setControlState('forward',true);
-        bot.emit('killingTime');
+        setTimeout( function () {
+            bot.setControlState('forward',true);
+            bot.emit('killingTime');
+        }, 1000);
       }
     });
 }
 
+bot.on("enoughToDeposit", function (val) {
+  console.log("I have", val)
+  chest.moveToAndOpen('food');
+})
 
 var steps = 0;
 bot.on('killingTime', function () {
 
   var botposition = bot.entity.position;
+
+  if(chest.itemSize(chest.getItemsByType(mvc.eatableItem)) >= 10){
+    bot.emit("enoughToDeposit", chest.itemSize(chest.getItemsByType(mvc.eatableItem)));
+    return;
+  }
 
   //see if there are any passiveEntite to be killed, if there is the bot kills it.
   var enemy = mvc.nearestPassiveEntities();
