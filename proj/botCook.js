@@ -87,12 +87,23 @@ function bake() {
 
 bot.on('chestOpen', function(chest, kind) {
 	if(kind == 'wood') {
-		if(chest.count(wood) > 0) {
-			chest.withdraw(wood, null, chest.count(wood), function(err) {
-				chest.close();
-				bot.emit('gotWood');
-			});
-		}
+		console.log("WOOD");
+		// if(chest.count(wood) > 0) {
+		// 	chest.withdraw(wood, null, chest.count(wood), function(err) {
+		// 		chest.close();
+		// 		bot.emit('gotWood');
+		// 	});
+		// }
+	}
+
+	if(kind == 'food') {
+		//if(chest.count(food) > 0) {
+			console.log("FOOD " + chest.count(food));
+		// 	chest.withdraw(wood, null, chest.count(wood), function(err) {
+		// 		chest.close();
+		// 		bot.emit('gotWood');
+		// 	});
+		//}
 	}
 
 	else if(cooking) {
