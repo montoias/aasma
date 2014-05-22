@@ -130,6 +130,15 @@ function getItemsByType (type) {
 	});
 	return items;
 }
+
+function getItemsByName (name) {
+	var items = bot.inventory.items().filter(function(item){
+			//console.log(item)
+	  		return item.name === name;
+	});
+	return items;
+}
+
 function itemSize (items) {
 	var res = 0;
 	items.forEach(function (item) {
@@ -146,3 +155,4 @@ exports.moveToAndOpen = moveToAndOpen;
 exports.deposit = deposit;
 exports.getItemsByType = getItemsByType;
 exports.itemSize = itemSize;
+exports.getItemsByName = getItemsByName;
