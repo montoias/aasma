@@ -110,12 +110,26 @@ var materialNeighbor  = function (pos, material){
 }
 
 var isHomeZone = function (pos){
-	unit.forEach(function (vec){
-		var w = new vec3(vec.x, vec.y, vec.z);
+	for (var i = 0; i < (unit.length-1); i++){
+		var w = new vec3(i.x, i.y, i.z);
 		if(((1112 <= pos.plus(w).x) && (pos.plus(w).x <= 1189)) && ((60 <= pos.plus(w).z) && (pos.plus(w).z <= 166))) {
 			return true;
 		}
-	});
+		return false;
+	}
+}
+
+
+function findingWood() {
+	  var cursor = mineflayer.vec3();
+	  for(cursor.x = bot.entity.position.x - 4; cursor.x < bot.entity.position.x + 4; cursor.x++) {
+		    for(cursor.y = bot.entity.position.y - 4; cursor.y < bot.entity.position.y + 4; cursor.y++) {
+			      for(cursor.z = bot.entity.position.z - 4; cursor.z < bot.entity.position.z + 4; cursor.z++) {
+				        var block = bot.blockAt(cursor);
+				        if (block.material === 'wood') return block;
+			      }
+		    }
+	  }
 }
 
 var treePossiblePositions = function (pos) {
