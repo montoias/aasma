@@ -29,7 +29,8 @@ var ConstructorScoutMsgs =
 
 var ScoutCookerMsg = 
 [
-	'Can you order some food and wood for me so i can cook, please?',
+	'Can you get me some food so I can cook, please?',
+	'Can you get me some wood so I can cook, please?',
 	'Yes, yes! I am already doing it',
 	'Thank you, I am waiting',
 	'Thank you. This is great. I am going start cooking right now!',
@@ -37,7 +38,7 @@ var ScoutCookerMsg =
 
 var CookerBotsMsg = 
 [
-	'Luch is ready! Now, you can come to eat',
+	'Lunch is ready! Now, you can come to eat',
 	'Thank you! This is delicious!',
 ]
 
