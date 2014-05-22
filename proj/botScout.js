@@ -29,9 +29,8 @@ bot.on('spawn', function(){
 var treePositions = 
 [
 	vec3(1140, 4, 23),
-	vec3(1145, 4, 50),	
-	vec3(1150, 4, 45),
-
+	vec3(1087, 4, 138),	
+	vec3(1132, 4, 227),
 ]
 
 var animalsPositions = 
@@ -50,75 +49,74 @@ bot.on('chat', function(username, message) {
 	}
 	else if (message === msg.ScoutLJMsg[0]) {
 		bot.chat (msg.ScoutLJMsg[1]);
-		bot.emit("iterateTree");
+		iterateTree(0);
 	} else if (message === msg.ScoutFoodMsg[0]) {
 		bot.chat (msg.ScoutFoodMsg[1]);
-		iterateAnimals();
+		iterateAnimals(0);
 	} else if (message === 'come')
 		moveTo(vec3(1140, 4, 23))
 });
 
 
-var index = 0;
 ////////////////////////////////////////////// ATTENDING LUMBER JACKER/////////////////////////////////////////////////////////
-bot.on ("iterateTree", function () {
+function iterateTree (index) {
 	if(index === treePositions.length){
-		console.log(treePositions)
 		return;
 	}
 	console.log("Entrei", treePositions[index]);
-	moveTo(treePositions[index++]);
-});
-
-function checkWood () {}
-
-
-////////////////////////////////////////////// ATTENDING COLLECTS FOOD////////////////////////////////////////////////////////
-
-// function iterateAnimals (){
-// 	var pos = animalsPositions.pop();
-// 	moveTo(pos, checkAnimal);
-// }
-
-// function checkAnimal () {
-// 	var botposition = bot.entity.position;
-// 	var animal = mvc.nearestPassiveEntities();
-// 	console.log("BOT position " + botposition);
-// 	console.log("ANIMAL          " + animal);
-// 	if(!animal) {
-// 		iterateAnimals();
-// 		console.log ("cant find any animal");
-// 	} else {
-// 		bot.chat (msg.ScoutFoodMsg[2] + botposition);
-// 	}
-// }
-
-
-function moveTo (pos) {
-	bot.scaffold.to(pos, function(err) {
-		if (err) {
-			console.log("didn't make it: " ,err.code, pos, "trying again");
-			bot.emit("iterateTree")
-
-		} else {
-			console.log("made it!");
-			bot.emit("treeArrived");
-		}
-	});
+	moveTo(treePositions[index], checkWood, index);
 }
 
-bot.on("treeArrived", function () {
+function checkWood (index) {
 	var botposition = bot.entity.position;
 	var wood = mvc.materialNeighbor(botposition, 'wood');
 	console.log(wood)
 	if(wood.length === 0) {
 		console.log ("cant find any wood");
-		bot.emit("iterateTree")
+		iterateTree(++index);
 	} else {
 		bot.chat (msg.ScoutLJMsg[2] + botposition);
 	}
+}
 
-})
+
+////////////////////////////////////////////// ATTENDING COLLECTS FOOD////////////////////////////////////////////////////////
+
+function iterateAnimals (index){
+	console.log("EPA",index);
+	if(index === animalsPositions.length){
+		return;
+	}
+	console.log("Entrei", animalsPositions[index]);
+	moveTo(animalsPositions[index], checkAnimal, index);
+}
+
+function checkAnimal (index) {
+	var botposition = bot.entity.position;
+	var animal = mvc.nearestPassiveEntities();
+	console.log("BOT position " + botposition);
+	console.log("ANIMAL          " + animal);
+	if(!animal) {
+		iterateAnimals(++index);
+		console.log ("cant find any animal");
+	} else {
+		bot.chat (msg.ScoutFoodMsg[2] + botposition);
+	}
+}
+
+
+function moveTo (pos, func, index) {
+	bot.scaffold.to(pos, function(err) {
+		if (err) {
+			console.log("didn't make it: " ,err.code, pos, "trying again");
+			//iterateTree();
+		} else {
+			console.log("made it!");
+			setTimeout( function () {func(index);}, 1000);
+		}
+	});
+}
+
 
 
 
