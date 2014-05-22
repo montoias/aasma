@@ -53,28 +53,33 @@ function withdraw (chest, max) {
 	});
 }
 
-function deposit (chest, itemType) {
-	if(max <= 0) {
+function depositAux (chest, items) {
+
+	if(items.length === 0 ) {
 		console.log("Deposited all items");
 		chest.close();
 		setTimeout(function () {bot.emit("DepositComplete");}, 1000);
 		return;
 	}
 
-	var items = chest.items().filter(function(item) {
-	    return itemType[item.type];
-	});
-
-	var item = items[0]
-	chest.deposit(item.type, null, item.amount, function(err) {
+	var item = items.pop();
+	var amount = item.count;
+	chest.deposit(item.type, null, amount, function(err) {
 		if (err) {
-		  bot.chat("unable to deposit " + item.count + " " + item.name);
+		  bot.chat("unable to deposit " + amount + " " + item.name);
 		} else {
-		  console.log("deposited ",item.amount, item.name)
-		  bot.chat("deposited " + item.amount + " " + item.name);
-		  setTimeout(function () {deposit(chest, itemType)}, 1000);
+		  console.log("deposited ", amount, item.name)
+		  bot.chat("deposited " + amount + " " + item.name);
+		  setTimeout( function  () {depositAux(chest, items) }, 2000);
 		}
 	});
+}
+
+function deposit (chest, itemType) {
+	var items = bot.inventory.items().filter(function(item){
+	  		return itemType[item.name];
+	})
+	depositAux(chest, items);
 }
 
 function enoughBlocksToWithdraw (chest, type, maxItems) {
@@ -95,14 +100,14 @@ function enoughBlocksToWithdraw (chest, type, maxItems) {
 }
 
 //chest TYPE -> (POSICAO DO BOT, POSICAO DA CAIXA)
-var chest = { 'food' : [vec3(1120,4,67),vec3(1119,4,67)],
+var chestArray = { 'food' : [vec3(1120,4,67),vec3(1119,4,67)],
 	   		  'wood' : [vec3(1122,4,67),vec3(1123,4,67)], 
 			  'other1' : [vec3(1122,4,66),vec3(1122,4,65)], 
 			  'other2' : [vec3(1120,4,66),vec3(1120,4,65)]
 			};
 
 function moveToAndOpen (type) {
-	var res = chest[type];
+	var res = chestArray[type];
  	
 	bot.scaffold.to(res[0], function(err) {
       if (err) {
@@ -111,11 +116,20 @@ function moveToAndOpen (type) {
         bot.chat("made it!");
         console.log("open chest")
         c = bot.openChest(bot.blockAt(res[1]));
-     	bot.emit("chestOpen",c, type);
-    }
+        c.on("open", function () {
+        	bot.emit("chestOpen",c, type);
+        });
+      }
     });
 }
 
+
+function getItemsByType (type) {
+	var items = bot.inventory.items().filter(function(item){
+	  		return type[item.name];
+	});
+	return items;
+}
 function itemSize (items) {
 	var res = 0;
 	items.forEach(function (item) {
@@ -129,3 +143,6 @@ exports.chestPosition = chestPosition;
 exports.setBot = setBot;
 exports.enoughBlocksToWithdraw = enoughBlocksToWithdraw;
 exports.moveToAndOpen = moveToAndOpen;
+exports.deposit = deposit;
+exports.getItemsByType = getItemsByType;
+exports.itemSize = itemSize;
