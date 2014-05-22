@@ -119,16 +119,15 @@ var isHomeZone = function (pos){
 	}
 }
 
-
-function findingWood() {
+//checks if there is any wood in a radious of 6, if there are returns the position of the first place seen with wood
+var findingWood = function (botposition) {
 	  var cursor = mineflayer.vec3();
-	  for(cursor.x = bot.entity.position.x - 4; cursor.x < bot.entity.position.x + 4; cursor.x++) {
-		    for(cursor.y = bot.entity.position.y - 4; cursor.y < bot.entity.position.y + 4; cursor.y++) {
-			      for(cursor.z = bot.entity.position.z - 4; cursor.z < bot.entity.position.z + 4; cursor.z++) {
-				        var block = bot.blockAt(cursor);
-				        if (block.material === 'wood') return block;
-			      }
-		    }
+	cursor.y = 4;
+	  for(cursor.x = botposition.x - 6; cursor.x < botposition.x + 6; cursor.x++) {
+		      for(cursor.z = botposition.z - 6; cursor.z < botposition.z + 6; cursor.z++) {
+			        var block = bot.blockAt(cursor);
+			        if (block != undefined && block.material === 'wood') return cursor;
+		      }
 	  }
 }
 
@@ -270,3 +269,4 @@ exports.tossInventory = tossInventory;
 exports.isStorage = isStorage;
 exports.eatableItem = eatableItem;
 exports.isHomeZone = isHomeZone;
+exports.findingWood = findingWood;

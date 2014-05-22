@@ -18,13 +18,20 @@ var ScoutFoodMsg =
 	'I need you to get some food'
 ]
 
-var ConstructorBotsMsgs = []
+var ConstructorScoutMsgs = 
+[
+	'Can you order some materials so i can continue building, please?',
+	'Yes, yes! I am already doing it',
+	'Thank you, I am waiting',
+	'Thank you. This is great. I am going to continue building now!',
+]
 
 
 var ScoutCookerMsg = 
 [
-	'Can you order some food and wood for me so i can cook? I am waiting',
+	'Can you order some food and wood for me so i can cook, please?',
 	'Yes, yes! I am already doing it',
+	'Thank you, I am waiting',
 	'Thank you. This is great. I am going start cooking right now!',
 ]
 
