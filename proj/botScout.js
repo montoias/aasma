@@ -23,12 +23,15 @@ bot.on('spawn', function(){
 	//bot.setControlState('forward', true);
 });
 
-
+	// vec3(1140, 4, 23),
+	// vec3(1087, 4, 138),	
+	// vec3(1132, 4, 227),
 var treePositions = 
 [
-	vec3(1132, 4, 227),	
-	vec3(1087, 4, 138),
 	vec3(1140, 4, 23),
+	vec3(1145, 4, 50),	
+	vec3(1150, 4, 45),
+
 ]
 
 var animalsPositions = 
@@ -47,65 +50,79 @@ bot.on('chat', function(username, message) {
 	}
 	else if (message === msg.ScoutLJMsg[0]) {
 		bot.chat (msg.ScoutLJMsg[1]);
-		iterateTree();
+		bot.emit("iterateTree");
 	} else if (message === msg.ScoutFoodMsg[0]) {
 		bot.chat (msg.ScoutFoodMsg[1]);
 		iterateAnimals();
-	}
+	} else if (message === 'come')
+		moveTo(vec3(1140, 4, 23))
 });
 
 
+var index = 0;
 ////////////////////////////////////////////// ATTENDING LUMBER JACKER/////////////////////////////////////////////////////////
-function iterateTree (){
-	var pos = treePositions.pop();
-	moveTo(pos, checkWood);
-}
-
-function checkWood () {
-	var botposition = bot.entity.position;
-	var wood = mvc.materialNeighbor(botposition, 'wood');
-	if(!wood) {
-		iterateTree();
-		console.log ("cant find any wood");
-	} else {
-		bot.chat (msg.ScoutLJMsg[2] + botposition);
+bot.on ("iterateTree", function () {
+	if(index === treePositions.length){
+		console.log(treePositions)
+		return;
 	}
-}
+	console.log("Entrei", treePositions[index]);
+	moveTo(treePositions[index++]);
+});
+
+function checkWood () {}
 
 
 ////////////////////////////////////////////// ATTENDING COLLECTS FOOD////////////////////////////////////////////////////////
 
-function iterateAnimals (){
-	var pos = animalsPositions.pop();
-	moveTo(pos, checkAnimal);
-}
+// function iterateAnimals (){
+// 	var pos = animalsPositions.pop();
+// 	moveTo(pos, checkAnimal);
+// }
 
-function checkAnimal () {
-	var botposition = bot.entity.position;
-	var animal = mvc.nearestPassiveEntities();
-	console.log("BOT position " + botposition);
-	console.log("ANIMAL          " + animal);
-	if(!animal) {
-		iterateAnimals();
-		console.log ("cant find any animal");
-	} else {
-		bot.chat (msg.ScoutFoodMsg[2] + botposition);
-	}
-}
+// function checkAnimal () {
+// 	var botposition = bot.entity.position;
+// 	var animal = mvc.nearestPassiveEntities();
+// 	console.log("BOT position " + botposition);
+// 	console.log("ANIMAL          " + animal);
+// 	if(!animal) {
+// 		iterateAnimals();
+// 		console.log ("cant find any animal");
+// 	} else {
+// 		bot.chat (msg.ScoutFoodMsg[2] + botposition);
+// 	}
+// }
 
-//////////////////////////////////////////////////////////////
 
-function moveTo (pos, func) {
+function moveTo (pos) {
 	bot.scaffold.to(pos, function(err) {
 		if (err) {
 			console.log("didn't make it: " ,err.code, pos, "trying again");
-			moveTo(pos, func);
+			bot.emit("iterateTree")
+
 		} else {
-			bot.chat("made it!");
-			func();
+			console.log("made it!");
+			bot.emit("treeArrived");
 		}
 	});
 }
+
+bot.on("treeArrived", function () {
+	var botposition = bot.entity.position;
+	var wood = mvc.materialNeighbor(botposition, 'wood');
+	console.log(wood)
+	if(wood.length === 0) {
+		console.log ("cant find any wood");
+		bot.emit("iterateTree")
+	} else {
+		bot.chat (msg.ScoutLJMsg[2] + botposition);
+	}
+
+})
+
+
+
+//////////////////////////////////////////////////////////////
 
 bot.on('health', function() {
   bot.chat(bot.entity.username + " have " + bot.health + " health and " + bot.food + " food");
