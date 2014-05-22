@@ -116,11 +116,20 @@ function moveToAndOpen (type) {
         bot.chat("made it!");
         console.log("open chest")
         c = bot.openChest(bot.blockAt(res[1]));
-     	bot.emit("chestOpen",c, type);
-    }
+        c.on("open", function () {
+        	bot.emit("chestOpen",c, type);
+        });
+      }
     });
 }
 
+
+function getItemsByType (type) {
+	var items = bot.inventory.items().filter(function(item){
+	  		return type[item.name];
+	});
+	return items;
+}
 function itemSize (items) {
 	var res = 0;
 	items.forEach(function (item) {
@@ -135,3 +144,5 @@ exports.setBot = setBot;
 exports.enoughBlocksToWithdraw = enoughBlocksToWithdraw;
 exports.moveToAndOpen = moveToAndOpen;
 exports.deposit = deposit;
+exports.getItemsByType = getItemsByType;
+exports.itemSize = itemSize;
