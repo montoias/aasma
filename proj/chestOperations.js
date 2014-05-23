@@ -54,6 +54,30 @@ function withdraw (chest, max) {
 	});
 }
 
+function withdrawFood (chest, max) {
+	if(max <= 0) {
+		console.log("got all items I needed - withdrawFood");
+		chest.close();
+		setTimeout(function () {bot.emit("withdrawCompleteFood");}, 1000);
+		return;
+	}
+
+	var item = chest.items()[0];
+	if(!item) {
+		bot.emit('notEnoughFood');
+	}
+	var amount = Math.min(item.count, max);
+	chest.withdraw(item.type, null, amount, function(err) {
+		if (err) {
+		  bot.chat("unable to withdraw " + item.count + " " + item.name);
+		} else {
+		  console.log("withdrew",amount, item.name)
+		  bot.chat("withdrew " + amount + " " + item.name);
+		  setTimeout(function () {withdrawFood(chest, max - amount)}, 1000);
+		}
+	});
+}
+
 function depositAux (chest, items) {
 
 	if(items.length === 0 ) {
@@ -180,3 +204,4 @@ exports.itemSize = itemSize;
 exports.getItemsByName = getItemsByName;
 exports.moveToOpenAndSize = moveToOpenAndSize;
 exports.depositAux = depositAux;
+exports.withdrawFood = withdrawFood;
