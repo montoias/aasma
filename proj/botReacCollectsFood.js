@@ -1,6 +1,8 @@
 var mineflayer = require('mineflayer');
 var EventEmitter = require('events').EventEmitter
 var mvc = require('./movementController');
+var msg = require('./communications');
+
 var vec3 = mineflayer.vec3;
 
 
@@ -106,8 +108,15 @@ function eat () {
 }
 
 bot.on('entityHurt', function (ent) {
-	if(ent.type != 'mob' && (ent.username === bot.entity.username)){
-		bot.chat("Please help me! Me ser " + bot.entity.username);
+	if(ent.type != 'mob' && (ent.username === bot.entity.username)) {
+		var enemy = mvc.nearestEntity();
+		if(bot.health <= 5){
+			bot.chat(msg.guardsHelp[0] + bot.entity.position);
+		}
+		if(enemy){
+			bot.lookAt(enemy.position);
+			bot.attack(enemy);
+		}
 	}
 });
 
@@ -116,8 +125,4 @@ bot.on('entityEat', function(ent) {
   		bot.chat(ent.username + ": OM NOM NOM NOMONOM. that's what you sound like.");
   		setTimeout(function () {bot.deactivateItem();eat();}, 3000);
   	}
-});
-
-bot.on('death', function() {
-  bot.chat(bot.entity.username + "DIED");
 });
