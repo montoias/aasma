@@ -9,7 +9,12 @@ var mvc = require('./movementController');
 var chest = require('./chestOperations.js');
 var msg = require('./communications');
 
-var bot = mineflayer.createBot({ username: "bob", 'spawnpoint': vec3 (1121, 4, 91)});
+var spawnpoint = vec3 (1121, 4, 91);
+var bot = mineflayer.createBot(
+    { username: "bob",
+     'spawnpoint': spawnpoint
+    });
+
 var housePosition = null;
 var buildingBlocks = [];
 var windowsPositions = [];
@@ -45,6 +50,9 @@ var Modes = {
 
 var currentMode = Modes.NOTHING;
 var currentLevel = FeelingEnum.HAPPY;
+
+var reactive = false;
+var executePreviousFunction = null;
 
 mvc.setBot(bot);
 chest.setBot(bot);
@@ -131,7 +139,7 @@ bot.on('chat', function(username, message) {
   } else if (message === 'stop') {
     bot.navigate.stop();
   } else if (message === 'continue') {
-    emitter.emit('wallElemConst'); //continue build house
+    wallElemConst(); //continue build house
   } else if (message === 'house') {
     currentMode = Modes.BUILDING;
     buildingBlocks = getBuildingPositions(bot.entity);
@@ -148,7 +156,7 @@ bot.on('chat', function(username, message) {
     if(currentMode === Modes.WAITINGBLOCKS) {
       bot.chat(msg.ConstructorScoutMsgs[3]);
       //console.log("Thank you my dear friend", target.username)
-      emitter.emit("noEquipableItem");
+      noEquipableItem();
     }
   }
 });
@@ -166,17 +174,6 @@ function moveTo (pos) {
 }
 
 
-emitter.on('buildWall', function (callback) {
-   bot.scaffold.to(actualBlock, function(err) {
-      if (err) {
-        console.log("didn't make it: " ,err.code, actualBlock);
-        callback();
-      } else {
-        bot.chat("made it!");
-        callback();
-      }
-   });
-});
 
 function digDoorsAndWindows () {
   if(windowsPositions.length === 0) {
@@ -216,44 +213,68 @@ function build() {
       if (bot.entity.position.y > jumpY) {
         bot.placeBlock(targetBlock, vec3(0, 1, 0));
         bot.setControlState('jump', false);
-        setTimeout(function () {buildingBlocks.pop();emitter.emit('wallElemConst')}, 1000);
+        setTimeout(function () {buildingBlocks.pop();wallElemConst()}, 1000);
         bot.removeListener('move', placeIfHighEnough);
       }
     }
   }, 1000);
 }
 
-emitter.on('wallElemConst', function () {
- 
- if(buildingBlocks.length === 0) {
-    emitter.emit("wallsCompleted")
-    return;
- }
- actualBlock = buildingBlocks[buildingBlocks.length - 1];
-
- if (isEquipBuildBlock()) {
-  emitter.emit("buildWall" , build);  
- } else {
-  var item = equipableItem();
-  if(item === null){
-    currentMode = Modes.WAITINGBLOCKS;
-    emitter.emit('noEquipableItem');
-  } else {
-    equipBlock(item);
+function executeReactive(func) {
+  console.log(func)
+  while ( reactive ) {
+    console.log("waiting reactive component to end");
   }
- } 
+  func();
+
+}
+
+function wallElemConst () {
  
-});
+   if(buildingBlocks.length === 0) {
+      wallsCompleted();
+      return;
+   }
 
-emitter.on('wallsCompleted', function () {
-  digDoorsAndWindows();
+   actualBlock = buildingBlocks[buildingBlocks.length - 1];
+
+   if (isEquipBuildBlock()) {
+    executeReactive(buildWall);
+  //  emitter.emit("buildWall" , build);  
+   } else {
+    var item = equipableItem();
+    if(item === null){
+      currentMode = Modes.WAITINGBLOCKS;
+      executeReactive(noEquipableItem);
+    //  emitter.emit('noEquipableItem');
+    } else {
+      equipBlock(item);
+    }
+   } 
+ 
+}
+
+function buildWall () {
+   bot.scaffold.to(actualBlock, function(err) {
+      if (err) {
+        console.log("didn't make it: " ,err.code, actualBlock);
+        executeReactive(build);
+      } else {
+        bot.chat("made it!");
+        executeReactive(build);
+      }
+   });
+}
+
+function wallsCompleted () {
+  executeReactive(digDoorsAndWindows);
   console.log("wallsCompleted")
-})
+}
 
-emitter.on('noEquipableItem', function  () {
+function noEquipableItem () {
   console.log("ME NEEDS ( Construction ) BLOCKSSSS")
-    chest.moveToAndOpen('wood');
-})
+  chest.moveToAndOpen('wood');
+}
 
 emitter.on('houseCompleted', function () {
   currentMode = Modes.NOTHING;
@@ -264,9 +285,10 @@ emitter.on('houseCompleted', function () {
 })
 
 bot.on('withdrawComplete', function () {
-  emitter.emit('wallElemConst'); //continue build house
+  wallElemConst(); //continue build house
   console.log('Lets do some building');
   currentMode = Modes.Building;
+  console.log("walls Construction")
 })
 
 function isEquipBuildBlock() {
@@ -291,7 +313,7 @@ function equipBlock (block) {
       } else {
         console.log('item equiped', block, actualBlock)
         if(actualBlock != null){
-          setTimeout(function () {emitter.emit("buildWall" , build);}, 1000);  
+          setTimeout(function () { buildWall() ;}, 1000);  
         }
       }
     });
@@ -340,7 +362,7 @@ bot.on('constructHouse', function () {
         housePosition = pos;
         buildingBlocks = getBuildingPositions(pos);
         windowsPositions = getWindowsPositions(pos);
-        emitter.emit('wallElemConst')
+        wallElemConst()
       }
 });
 
@@ -359,6 +381,34 @@ var maxItems = 60;
 
 bot.on("chestOpen", function  (c, type) {
   console.log(type);
-  setTimeout(function () { chest.enoughBlocksToWithdraw(c, buildingTypes, maxItems)} , 1000);
+  setTimeout(function () { 
+    chest.enoughBlocksToWithdraw(c, buildingTypes, maxItems);
+  } , 1000);
 });
 
+
+//When the bot was hurt attacks the entity closest to the bot
+bot.on('entityHurt', function (ent) {
+  if(ent.type != 'mob' && (ent.username === bot.entity.username) && reactive === false) {
+    console.log("entrei")
+    reactive = true;
+
+    var enemy = mvc.nearestEnemy();
+    if(bot.health <= 5){
+      bot.chat("Please help me! Me ser " + bot.entity.username);
+    }
+    if(enemy){
+        console.log("going to attack", enemy.type)
+        bot.lookAt(enemy.position);
+        bot.attack(enemy);
+    }
+
+    if(executePreviousFunction !== null){
+      console.log("stoped", executePreviousFunction, "to attack", enemy.type)
+      bot.emit(executePreviousFunction);
+    }
+
+    setTimeout(function (argument) {reactive = false; console.log("sai")},1000);
+
+  }
+});
