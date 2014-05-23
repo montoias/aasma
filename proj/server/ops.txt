@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 scout
 bob
 foodbotdel
@@ -7,22 +6,12 @@ guardstor2
 guardstor1
 paulo
 ritjiiimaster
-=======
->>>>>>> f318cb75bda30817da20d383bfaf59393bd65147
 montoias
 guard1
-scout
 guard2
 foodbot
-<<<<<<< HEAD
 guardkiller1
 guardkiller2
 guardkitchen2
 guardkitchen1
-=======
-foodbotdel
-ritjii
 bia
-ritjiiimaster
-bob
->>>>>>> f318cb75bda30817da20d383bfaf59393bd65147
