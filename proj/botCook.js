@@ -202,6 +202,10 @@ bot.on('foodReady', function() {
 	oper.moveToAndOpen('kitchen1');
 });
 
+bot.on('death', function() {
+	setTimeout(deliberate, 1000);
+});
+
 
 function goBackToKitchen () {
   bot.scaffold.to(vec3 (1140, 4, 66), function(err) {
