@@ -163,6 +163,25 @@ var nearestEntity =  function (type) {
   return best;
 }
 
+//function that sees if there are any entities around the bot, if it is the closest is return.
+var nearestEnemy =  function (type) {
+  var id, entity, dist;
+  var best = null;
+  var bestDistance = null;
+ // console.log("entidades! do ", bot.username , bot.entities);
+  for (id in bot.entities) {
+    entity = bot.entities[id];
+    if (type && entity.type !== type) continue;
+    if (entity === bot.entity) continue;
+    dist = bot.entity.position.distanceTo(entity.position);
+    if (! best || dist < bestDistance) {
+      best = entity;
+      bestDistance = dist;
+    }
+  }
+  return best;
+}
+
 //function that sees if there are passiveEntities around the bot, if it is the closest is return.
 var nearestPassiveEntities =  function () {
   var id, entity, dist;
@@ -270,3 +289,4 @@ exports.isStorage = isStorage;
 exports.eatableItem = eatableItem;
 exports.isHomeZone = isHomeZone;
 exports.findingWood = findingWood;
+exports.nearestEnemy = nearestEnemy;
