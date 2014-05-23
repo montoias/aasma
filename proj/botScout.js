@@ -47,10 +47,14 @@ var animalsPositions =
 
 bot.on('chat', function(username, message) {
 	if (username === bot.username) return;
-	if(message === msg.ScoutCookerMsg[0]){
-		bot.chat(msg.ScoutCookerMsg[1]);
+	if(message === msg.ScoutCookerMsg[0] || message === msg.ScoutCookerMsg[1]){
+		bot.chat(msg.ScoutCookerMsg[2]);
 		bot.chat(msg.ScoutLJMsg[4]);
 		bot.chat(msg.ScoutFoodMsg[4]);
+	}
+	else if (message === msg.ConstructorScoutMsgs[0]){
+		bot.chat(msg.ScoutCookerMsg[2]);
+		bot.chat(msg.ScoutLJMsg[4]);
 	}
 	else if (message === msg.ScoutLJMsg[0]) {
 		bot.chat (msg.ScoutLJMsg[1]);

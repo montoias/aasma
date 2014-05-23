@@ -7,6 +7,7 @@ var ScoutLJMsg =
 	'Yes! There are trees at ',
 	'Thank you! You are my angel', 
 	'I need you to collect wood',
+	'I deposited wood in the chest',
 ]
 
 var ScoutFoodMsg = 
@@ -23,7 +24,7 @@ var ConstructorScoutMsgs =
 	'Can you order some materials so i can continue building, please?',
 	'Yes, yes! I am already doing it',
 	'Thank you, I am waiting',
-	'Thank you. This is great. I am going to continue building now!',
+	'This is great. I am going to continue building now!',
 ]
 
 
