@@ -101,12 +101,13 @@ function enoughBlocksToWithdraw (chest, type, maxItems) {
 
 //chest TYPE -> (POSICAO DO BOT, POSICAO DA CAIXA)
 var chestArray = { 'food' : [vec3(1120,4,67),vec3(1119,4,67)],
-	   		  'wood' : [vec3(1122,4,67),vec3(1123,4,67)], 
+	   		  'wood' : [vec3(1121,4,67),vec3(1123,4,67)], 
 			  'other1' : [vec3(1122,4,66),vec3(1122,4,65)], 
 			  'other2' : [vec3(1120,4,66),vec3(1120,4,65)]
 			};
 
 function moveToAndOpen (type) {
+	console.log(chestArray[type])
 	var res = chestArray[type];
  	
 	bot.scaffold.to(res[0], function(err) {
@@ -124,7 +125,7 @@ function moveToAndOpen (type) {
 }
 
 
-function moveToOpenAndSize (type) {
+function moveToOpenAndSize (type, mapTypes) {
 	var res = chestArray[type];
  	
 	bot.scaffold.to(res[0], function(err) {
@@ -134,7 +135,8 @@ function moveToOpenAndSize (type) {
         bot.chat("made it!");
         console.log("open chest")
         c = bot.openChest(bot.blockAt(res[1]));
-        bot.emit(type + "Chest", itemSize(getItemsByType(type)));
+
+        setTimeout ( function() { bot.emit(type + "Chest", c)}, 2000);
       }
     });
 }
@@ -172,3 +174,5 @@ exports.deposit = deposit;
 exports.getItemsByType = getItemsByType;
 exports.itemSize = itemSize;
 exports.getItemsByName = getItemsByName;
+exports.moveToOpenAndSize = moveToOpenAndSize;
+exports.depositAux = depositAux;
