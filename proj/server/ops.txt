@@ -1,8 +1,9 @@
 montoias
-scout
 guard1
+scout
 guard2
 foodbot
+foodbotdel
 ritjii
 bia
 ritjiiimaster
