@@ -14,6 +14,10 @@ execChild('node botStorGuard.js guard2 1104 4 134');
 execChild('node botStorGuard.js guardKitchen1 1131 4 67');
 execChild('node botStorGuard.js guardKitchen2 1131 4 64');
 
+// killers guards
+execChild('node botkillers.js guardKiller1 1123 4 76');
+execChild('node botkillers.js guardKiller2 1119 4 76');
+
 function execChild(process){
 	exec(process,
 	  function (error, stdout, stderr) {

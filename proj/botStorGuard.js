@@ -1,6 +1,7 @@
 var mineflayer = require('mineflayer');
 var EventEmitter = require('events').EventEmitter
 var mvc = require('./movementController');
+var msg = require('./communications');
 var vec3 = mineflayer.vec3;
 var cron = require('cron');
 
@@ -34,14 +35,17 @@ bot.on('spawn', function(){
 	if(item != null){
 		bot.equip(item, 'hand', function(err) {
 			if (err) {
-			  bot.chat("unable to equip " + "Diamond Sword");
+			  bot.chat("unable to equip " + item.name);
 			  console.error(err.stack);
 			} else {
-			  bot.chat("equipped " + "Diamond Sword");
+			  bot.chat("equipped " + item.name);
 			}
 		})
 	}
 });
+
+
+
 
 
 bot.on('health', function() {

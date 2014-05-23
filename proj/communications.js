@@ -43,9 +43,14 @@ var CookerBotsMsg =
 	'Thank you! This is delicious!',
 ]
 
+var guardsHelp = 
+[
+	'I new help! Please someone come to '
+]
 
 exports.ScoutLJMsg = ScoutLJMsg;
 exports.ScoutFoodMsg = ScoutFoodMsg;
 exports.ConstructorScoutMsgs = ConstructorScoutMsgs;
 exports.ScoutCookerMsg = ScoutCookerMsg;
 exports.CookerBotsMsg = CookerBotsMsg;
+exports.guardsHelp = guardsHelp;
