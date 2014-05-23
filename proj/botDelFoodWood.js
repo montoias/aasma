@@ -252,14 +252,32 @@ var steps = 0;
 function executePlanFood(){
   console.log("food")
   steps = 0;
-  moveToFood(spawnPoint);
+  bot.chat(msg.ScoutFoodMsg[0]);
+  currentMode = Modes.WAITING;
+
+  bot.on('chat', function(username, message) {
+    if (username === bot.username) return;
+    if ( msg.ScoutFoodMsg[2] === getMsgFromMsg(message) && isWaiting()){
+      console.log(getVecFromMessage(message))
+      moveToFood(getVecFromMessage(message));
+    } 
+  });
+
 }
 
 function executePlanWood(){
   console.log("wood")
   steps = 0;
-  moveToWood(vec3(1140, 4, 23));
+  bot.chat(msg.ScoutLJMsg[0]);
 }
+
+bot.on('chat', function(username, message) {
+  if (username === bot.username) return;
+  if ( msg.ScoutLJMsg[2] === getMsgFromMsg(message)){
+    setTimeout(function () {moveToWood(getVecFromMessage(message));}, 1000);
+  } 
+});
+
 
 function executePlanEat(){
   console.log("eat")
@@ -553,7 +571,8 @@ function moveToWood (pos) {
   bot.scaffold.to(pos, function(err) {
     if (err) {
       console.log("didn't make it moveToWood: " ,err.code, pos, "trying again");
-      moveToWood(pos);
+      setTimeout( moveRandom, 2000);
+
     } else {
       bot.chat("made it!");
       setTimeout( moveRandom, 1000);
@@ -623,7 +642,7 @@ function iterateBlocks (b,a) {
   if(block && bot.canDigBlock(block)){
     bot.dig(block,onDiggingCompleted);
     bot.chat("diging");
-    setTimeout(function () {bot.emit("digComplete", b)}, bot.digTime(block));
+    setTimeout(function () {bot.emit("digComplete", b)}, bot.digTime(block) + 1000);
     return;
   }
   bot.emit("digComplete", b)

@@ -221,10 +221,11 @@ function build() {
 }
 
 function executeReactive(func) {
-  console.log(func)
-  while ( reactive ) {
-    console.log("waiting reactive component to end");
+  if ( reactive ) {
+    setTimeout(function (argument) {executeReactive(func);});
+    return;
   }
+  console.log(func)
   func();
 
 }

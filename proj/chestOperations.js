@@ -65,6 +65,7 @@ function withdrawFood (chest, max) {
 	var item = chest.items()[0];
 	if(!item) {
 		bot.emit('notEnoughFood');
+		return;
 	}
 	var amount = Math.min(item.count, max);
 	chest.withdraw(item.type, null, amount, function(err) {
