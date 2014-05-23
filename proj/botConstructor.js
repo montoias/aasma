@@ -7,8 +7,9 @@ var ee = require('event-emitter');
 var emitter = ee({}), listener;
 var mvc = require('./movementController');
 var chest = require('./chestOperations.js');
+var msg = require('./communications');
 
-var bot = mineflayer.createBot({ username: "master", });
+var bot = mineflayer.createBot({ username: "bob", 'spawnpoint': vec3 (1121, 4, 91)});
 var housePosition = null;
 var buildingBlocks = [];
 var windowsPositions = [];
@@ -141,9 +142,12 @@ bot.on('chat', function(username, message) {
     equipBlock(equipableItem());
   } else if (message === 'chest') {
     chest.moveToAndOpen('wood');
-  } else if (message === 'recvblocks'){
+  } else if (message === msg.ConstructorScoutMsgs[1]) {
+    bot.chat(msg.ConstructorScoutMsgs[2]);
+  } else if (message === msg.ScoutLJMsg[5]){
     if(currentMode === Modes.WAITINGBLOCKS) {
-      console.log("Thank you my dear friend", target.username)
+      bot.chat(msg.ConstructorScoutMsgs[3]);
+      //console.log("Thank you my dear friend", target.username)
       emitter.emit("noEquipableItem");
     }
   }
@@ -287,8 +291,8 @@ function equipBlock (block) {
       } else {
         console.log('item equiped', block, actualBlock)
         if(actualBlock != null){
-      setTimeout(function () {emitter.emit("buildWall" , build);}, 1000);  
-    }
+          setTimeout(function () {emitter.emit("buildWall" , build);}, 1000);  
+        }
       }
     });
 }
@@ -305,6 +309,7 @@ function onDiggingCompleted(err,b) {
 }
 
 bot.on("entitySpawn", function (entity) {
+    if(entity.username === bot.entity.username) return; // eu so discard
     if(entity.type === 'player' && entity.username != bot.entity.username && hasKey(housesCompleted,entity.username) === false){
       addToMap(pendingHouses, entity.username);
       addToMap(housesCompleted, entity.username); //used to know which players have been visited

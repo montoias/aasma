@@ -1,5 +1,6 @@
 var EventEmitter = require('events').EventEmitter;
 var mineflayer = require('mineflayer');
+var msg = require('./communications');
 var vec3 = mineflayer.vec3;
 var bot;
 var c = null;
@@ -93,7 +94,8 @@ function enoughBlocksToWithdraw (chest, type, maxItems) {
 		setTimeout(function () {withdraw(chest, maxItems);}, 1000)
 	} else {
 		console.log("I will wait for more blocks. there is only", amount);
-		bot.chat("needblocks")
+		bot.chat(msg.ConstructorScoutMsgs[0]);
+		//bot.chat("needblocks")
 		chest.close();
 		return;
 	}	
