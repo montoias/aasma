@@ -126,12 +126,37 @@ function moveToAndOpen (type) {
 }
 
 
+function moveToOpenAndSize (type) {
+	var res = chestArray[type];
+ 	
+	bot.scaffold.to(res[0], function(err) {
+      if (err) {
+        console.log("didn't make it: " ,err.code, res);
+      } else {
+        bot.chat("made it!");
+        console.log("open chest")
+        c = bot.openChest(bot.blockAt(res[1]));
+        bot.emit(type + "Chest", itemSize(getItemsByType(type)));
+      }
+    });
+}
+
+
 function getItemsByType (type) {
 	var items = bot.inventory.items().filter(function(item){
 	  		return type[item.name];
 	});
 	return items;
 }
+
+function getItemsByName (name) {
+	var items = bot.inventory.items().filter(function(item){
+			//console.log(item)
+	  		return item.name === name;
+	});
+	return items;
+}
+
 function itemSize (items) {
 	var res = 0;
 	items.forEach(function (item) {
@@ -148,3 +173,4 @@ exports.moveToAndOpen = moveToAndOpen;
 exports.deposit = deposit;
 exports.getItemsByType = getItemsByType;
 exports.itemSize = itemSize;
+exports.getItemsByName = getItemsByName;

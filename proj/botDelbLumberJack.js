@@ -2,6 +2,7 @@ var mineflayer = require('mineflayer');
 var EventEmitter = require('events').EventEmitter
 var mvc = require('./movementController');
 var msg = require('./communications');
+var chest = require('./chestOperations');
 var navigatePlugin = require('mineflayer-navigate')(mineflayer);
 var scaffoldPlugin = require('mineflayer-scaffold')(mineflayer);
 var vec3 = mineflayer.vec3;
@@ -13,6 +14,7 @@ var bot = mineflayer.createBot({
 
 //passes to the movementController info about the bot
 mvc.setBot(bot);
+chest.setBot(bot);
 
 var steps = 0;
 
@@ -28,6 +30,7 @@ bot.on('chat', function(username, message) {
 	else if(message.split('(')[0] === msg.ScoutLJMsg[2]){
 		var pos = message.split('(').pop().split(')')[0].split(',');
 		var position = vec3 (pos[0], pos[1], pos[2]);
+		bot.chat(msg.ScoutLJMsg[3]);
 		moveTo(position);
 	}
 });
@@ -116,11 +119,22 @@ function onDiggingCompleted(err) {
 
 //auxiliar function to the operation dig
 bot.on('diggingCompleted', function(block){
-	console.log("chegou ao completed");
-	// bot.setControlState('forward', true);
+	var woods = chest.getItemsByName('log'); 
+	var countItem = chest.itemSize(woods);
+	if(countItem >= 5){
+		//moveToChestandDrop
+	}
+
 });
 
 //auxiliar function to the operation dig
 bot.on('diggingAborted', function(block){
 	bot.chat("aborted digging" + block);
+});
+
+
+//Indicates the heath and the inventory of the bot
+bot.on('health', function() {
+  bot.chat(bot.entity.username + " have " + bot.health + " health and " + bot.food + " food");
+  mvc.listInventory();
 });
