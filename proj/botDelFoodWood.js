@@ -13,7 +13,7 @@ var vec3 = mineflayer.vec3;
 var spawnPoint = vec3 (1121, 4, 89);
 
 var bot = mineflayer.createBot({
-  username: "foodBotDel",
+  username: "bob",
   'spawnPoint': spawnPoint,
 });
 
