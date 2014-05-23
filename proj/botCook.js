@@ -7,9 +7,13 @@ var navigatePlugin = require('mineflayer-navigate')(mineflayer);
 var scaffoldPlugin = require('mineflayer-scaffold')(mineflayer);
 var ee = require('event-emitter');
 var emitter = ee({}), listener;
+var msg = require('./communications');
 
 var cooking = false;
 var baking = false;
+var selectedFood;
+var cookedFood;
+var actualIntention;
 
 var wood =  17;
 
@@ -28,18 +32,51 @@ var itemsToBake = [
   86 //pumpkin
 ];
 
-var fruit = [
+var fruits = [
   260, //apple
   391, //carrot
-  360, //melon
+  360 //melon
 ];
 
-var recipes = [
-  297, //bread
-  354, //cake
-  400  //pumpkin pie
-];
+var recipes = {
+	297: { //bread
+		296: 3
+	},
+	354: { //cake
+		296: 3,
+		353: 2,
+		344: 1,
+		335: 3
+	},
+	400: { //pumpkin pie
+		344: 1,
+		353: 1,
+		86: 1
+	},
+	320: { //pork
+		319: 1
+	},
+	366: { //chicken
+		365: 1
+	},
+	364: { //steak
+		363: 1
+	}
+};
 
+var recipesForIntention = {
+	'cookPorkchops': 320,
+	'cookChicken': 366,
+	'cookSteak': 364,
+	'bakeBread':297,
+	'bakeCake': 354,
+	'bakePie':400
+};
+
+var beliefs = {
+	'rain': false,
+	'time': 0,
+}
 
 var bot = mineflayer.createBot( {
   username: "avillez",
@@ -54,68 +91,68 @@ oper.setBot(bot);
 navigatePlugin(bot);
 scaffoldPlugin(bot);
 
-
-bot.on('spawn', function() {
-	//bot.setControlState('forward', true);
+bot.on('rain', function() {
+	beliefs['rain'] = !beliefs['rain'];
 });
 
 bot.on('time', function() {
-	if((bot.time.day > 12000 && bot.time.day < 15000) || (bot.time.day > 19000 && bot.time.day < 21000)) {
-		if(!cooking && !baking) {
-			cook();
+	beliefs['time'] = bot.time.day;
+});
 
-
-		}
-	}
-	else {
-		if(!baking && !cooking) {
-			bake();
-		}
-	}
+bot.on('spawn', function() {
+	setTimeout(deliberate, 1000);
 });
 
 function cook() {
-	cooking = true;
 	oper.moveToAndOpen('food');
-
-//cooking = false;
-}
-
-function bake() {
-	//baking = true;
 }
 
 bot.on('chestOpen', function(chest, kind) {
 	if(kind == 'wood') {
-		console.log("WOOD");
-		// if(chest.count(wood) > 0) {
-		// 	chest.withdraw(wood, null, chest.count(wood), function(err) {
-		// 		chest.close();
-		// 		bot.emit('gotWood');
-		// 	});
-		// }
+		if(chest.count(wood) > 0) {
+			chest.withdraw(wood, null, 1, function(err) {
+				chest.close();
+				bot.emit('gotWood');
+			});
+		}
+		else {
+			bot.chat(msg.ScoutCookerMsg[1]);
+			chest.close();
+			setTimeout(function() {oper.moveToAndOpen('wood')}, 10000);
+		}
+	}
+	else if(kind == 'kitchen1') {
+		chest.deposit(actualIntention == 'getFruit' ? selectedFood : recipesForIntention[actualIntention], null, 1, function() {
+			bot.chat(msg.CookerBotsMsg[0]);
+			chest.close();
+			deliberate();
+		});
 	}
 
-	if(kind == 'food') {
-		//if(chest.count(food) > 0) {
-			console.log("FOOD " + chest.count(food));
-		// 	chest.withdraw(wood, null, chest.count(wood), function(err) {
-		// 		chest.close();
-		// 		bot.emit('gotWood');
-		// 	});
-		//}
-	}
-
-	else if(cooking) {
-		for(item in itemsToCook) {
-			if(chest.count(item) > 0) {
-				chest.withdraw(item, null, chest.count(item), function(err) {
-					chest.close();
-					bot.emit('gotIngredients');
-				});
-				break;
+	else if(kind == 'food') {
+		if(actualIntention == 'getFruit') {
+			for(fruit in fruits) {
+				if(chest.count(fruits[fruit]) > 0) {
+					selectedFood = fruits[fruit];
+					chest.withdraw(fruits[fruit], null, 1, function(err) {
+						chest.close();
+						bot.emit('foodReady');
+					});
+					return;
+				}
 			}
-		}	
+		}
+		
+		else { 
+			if(hasIngredients(chest)) {
+				withdrawIngredients(chest);
+			}
+			else {
+				bot.chat(msg.ScoutCookerMsg[0]);
+				chest.close();
+				setTimeout(function() {oper.moveToAndOpen('food')}, 10000);
+			}
+		}
 	}
 });
 
@@ -124,21 +161,120 @@ bot.on('gotWood', function() {
 });
 
 bot.on('gotIngredients', function() {
-	if(cooking)
+	if(actualIntention == 'cookPorkchops' || actualIntention == 'cookChicken' || actualIntention == 'cookSteak')
 		oper.moveToAndOpen('wood');
-	else 
-		goBackToKitchen();
+	else goBackToKitchen();
 });
+
+bot.on('backToKitchen', function() {
+	if(actualIntention == 'cookPorkchops' || actualIntention == 'cookChicken' || actualIntention == 'cookSteak') {
+
+		f = bot.openFurnace(bot.blockAt(vec3(1138, 4, 65)));
+		f.on('open', function() {
+			f.putInput(recipesForIntention[actualIntention] - 1, null, 1, function() {
+				f.putFuel(wood, null, 1);
+			});
+		});
+		f.on('update', checkOutput);
+		function checkOutput() {
+			if(f.outputItem() != null) {
+				f.takeOutput(function(err, item) {
+					cookedFood = item.type;
+					f.close();
+					bot.emit('foodReady');
+				});
+				f.removeListener('update', checkOutput);
+			}
+		}
+	}
+	else {
+		bot.lookAt(vec3(1138, 4, 66));
+		setTimeout(function() {
+			bot.craft(bot.recipesFor(recipesForIntention[actualIntention], null, 1, bot.blockAt(vec3(1138, 4, 66)))[0], 1, bot.blockAt(vec3(1138, 4, 66)), function() {
+				setTimeout(function() {
+					bot.emit('foodReady');
+				}, 3000);
+			});
+		}, 1000);
+	}
+});
+
+bot.on('foodReady', function() {
+	oper.moveToAndOpen('kitchen1');
+});
+
 
 function goBackToKitchen () {
   bot.scaffold.to(vec3 (1140, 4, 66), function(err) {
-    if (err) {
-        console.log("didn't make it: " ,err.code, vec3 (1140, 4, 66), "trying again");
-    } 
-    else {
-        bot.chat("made it!");
-        bot.emit('backToKitchen');
+    bot.emit('backToKitchen');
+  });
+}
+
+function deliberate() {
+	var desires = options();
+	var intention = filter(desires);
+
+	console.log(intention);
+	execute(intention);
+}
+
+function options() {
+	var options = [];
+	var time = beliefs['time'];
+
+	if((time > 6000 && time < 9000) || (time > 13000 && time < 16000)) {
+		options.push('cookPorkchops');
+		options.push('cookChicken');
+		options.push('cookSteak');
 	}
-    });
+	else if(time > 18000 && time < 24000) {
+		options.push('bakeBread');
+	}
+	else if(beliefs['rain']) {
+		//options.push('bakeCake');
+		options.push('bakePie');
+	}
+	else
+		options.push('getFruit');
+
+	return options;
+}
+
+function filter(desires) {
+	return desires[Math.floor(Math.random() * desires.length)];
+}
+
+function execute(intention) {
+	actualIntention = intention;
+	oper.moveToAndOpen('food');
+}
+
+function hasIngredients(chest) {
+	var ingredients = recipes[recipesForIntention[actualIntention]];
+
+	for(var ingredient in ingredients) {
+		if(chest.count(ingredient) < ingredients[ingredient])
+			return false;
+	}
+	return true;
+}
+
+function withdrawIngredients(chest) {
+	var ingredients = recipes[recipesForIntention[actualIntention]];
+	console.log(ingredients);
+	var timeout = 1000;
+	for(var ingredient in ingredients) {
+		(function(ingredient) {
+			setTimeout(function() {
+				chest.withdraw(parseInt(ingredient), null, ingredients[ingredient]);
+			}, timeout);
+		})(ingredient);
+		timeout += 1000;
+	}
+
+	setTimeout(function() {
+		chest.close();
+		bot.emit("gotIngredients")
+	}, timeout);
 }
 
