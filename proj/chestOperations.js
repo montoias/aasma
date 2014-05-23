@@ -103,7 +103,9 @@ function enoughBlocksToWithdraw (chest, type, maxItems) {
 var chestArray = { 'food' : [vec3(1120,4,67),vec3(1119,4,67)],
 	   		  'wood' : [vec3(1122,4,67),vec3(1123,4,67)], 
 			  'other1' : [vec3(1122,4,66),vec3(1122,4,65)], 
-			  'other2' : [vec3(1120,4,66),vec3(1120,4,65)]
+			  'other2' : [vec3(1120,4,66),vec3(1120,4,65)],
+			  'kitchen1' : [vec3(1135,4,67),vec3(1135,4,68)],
+			  'kitchen2' : [vec3(1135,4,64),vec3(1135,4,63)]
 			};
 
 function moveToAndOpen (type) {
