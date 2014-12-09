@@ -12,7 +12,4 @@ Keep track of labs
       -> lab3
  
   Proj
-  
-  
-    
-t
+      -> bots for minecraft
